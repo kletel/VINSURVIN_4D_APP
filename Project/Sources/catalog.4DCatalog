@@ -633,7 +633,7 @@
 		<field name="typeCategorie" uuid="4F1D2772E4A74B80977C91C4F081470D" type="10" id="9"/>
 		<primary_key field_name="UUID" field_uuid="5BE100B1DA334C509FDE236152A21AB1"/>
 	</table>
-	<relation uuid="F2EABF984E554D30A39C3FCBF27528AC" name_Nto1="Ref_Pays_1_" name_1toN="Ref_Pays_1_" auto_load_Nto1="true" auto_load_1toN="true" state="1">
+	<relation uuid="F2EABF984E554D30A39C3FCBF27528AC" name_Nto1="Ref_Pays_1_" name_1toN="Ref_Pays_1_" auto_load_Nto1="true" auto_load_1toN="true" foreign_key="false" state="1">
 		<related_field kind="source">
 			<field_ref uuid="8AAFD9E2302A46E19204B56BFFBA6943" name="Ref_Pays">
 				<table_ref uuid="95C71106E5A94364B6D5171C608409D2" name="Region"/>
@@ -646,7 +646,7 @@
 		</related_field>
 		<relation_extra entry_create="true" choice_field="1"/>
 	</relation>
-	<relation uuid="E84F4A5907A74CDD9A9E3B294E900CDC" name_Nto1="Ref_Cave_2_" name_1toN="Ref_Cave_2_" auto_load_Nto1="true" auto_load_1toN="true" state="1">
+	<relation uuid="E84F4A5907A74CDD9A9E3B294E900CDC" name_Nto1="Ref_Cave_2_" name_1toN="Ref_Cave_2_" auto_load_Nto1="true" auto_load_1toN="true" foreign_key="false" state="1">
 		<related_field kind="source">
 			<field_ref uuid="872A788DECA14FC3AB43A985444B4FDD" name="Ref_Cave">
 				<table_ref uuid="15F2843BDE5F45389DDE3F15F3F5FA7E" name="Degustation"/>
@@ -659,7 +659,7 @@
 		</related_field>
 		<relation_extra entry_create="true" choice_field="1"/>
 	</relation>
-	<relation uuid="D67370F033A24BE2BBD2FF4363DD2125" name_Nto1="Lien_3" name_1toN="Lien_3_retour" state="1">
+	<relation uuid="D67370F033A24BE2BBD2FF4363DD2125" name_Nto1="Lien_3" name_1toN="Lien_3_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
 		<related_field kind="source">
 			<field_ref uuid="4D8D01A4ACB54F05B3ED620C26ED0FB6" name="UUID_">
 				<table_ref uuid="D171A7B3CAC542B3AA15B97108BF94D9" name="Utilisateur"/>
@@ -671,7 +671,7 @@
 			</field_ref>
 		</related_field>
 	</relation>
-	<relation uuid="9E9557BDBC524D80823A2B76CBC69C7F" name_Nto1="Lien_4" name_1toN="Lien_4_retour" state="1">
+	<relation uuid="9E9557BDBC524D80823A2B76CBC69C7F" name_Nto1="Lien_4" name_1toN="Lien_4_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
 		<related_field kind="source">
 			<field_ref uuid="3A4A2D0A441A47AB9FCF7C9565F8C6CE" name="UUID_Utilisateur">
 				<table_ref uuid="D7B5342F71D34604AE1CAE1B861ACF6A" name="Token"/>
@@ -683,7 +683,7 @@
 			</field_ref>
 		</related_field>
 	</relation>
-	<relation uuid="DE56D201FDBC476EB21D037AAB34017C" name_Nto1="Lien_5" name_1toN="Lien_5_retour" state="1">
+	<relation uuid="DE56D201FDBC476EB21D037AAB34017C" name_Nto1="Lien_5" name_1toN="Lien_5_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
 		<related_field kind="source">
 			<field_ref uuid="12A7FCDA504B47BEAAE585C90198FBAB" name="UUID_Oenologue">
 				<table_ref uuid="5B43A8DC3CC24BF5BF6180ABE7862E16" name="Images_Traitees"/>
@@ -695,7 +695,7 @@
 			</field_ref>
 		</related_field>
 	</relation>
-	<relation uuid="BD398001883048608EDF2188DE748A48" name_Nto1="Lien_6" name_1toN="Lien_6_retour" state="1">
+	<relation uuid="BD398001883048608EDF2188DE748A48" name_Nto1="Lien_6" name_1toN="Lien_6_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
 		<related_field kind="source">
 			<field_ref uuid="513D50061D11407AAD72EABFF1A37EE3" name="UUID_Oenologue">
 				<table_ref uuid="881891266749411496C8A6256EE3C9E7" name="Image_Traitees2"/>

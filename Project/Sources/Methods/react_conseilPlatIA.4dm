@@ -73,8 +73,9 @@ Case of
 				
 			: ($choice="cave")  //Prendre dans la cave
 				
-				$lstVin:=ds:C1482.Cave.all().toCollection("Nom,Appellation,Région,Reste_en_Cave")
-				$jsonVin:=JSON Stringify:C1217($lstVin)
+				$lstCaves:=ds:C1482.Cave.query("UUID_User=:1"; $uuidUser).orderBy("Nom asc").toCollection("Nom,Appellation,Région,Reste_en_Cave")
+				
+				$jsonVin:=JSON Stringify:C1217($lstCaves)
 				
 				$requete:="Vous êtes un caviste expert (30 ans d’expérience). Je vais manger "+$platsChoisi+".Analyse si c'est un vrai plat. À partir de mes choix des plats et cette liste des vins et nombre de bouteille "+"qui"+" reste dans la cave (si 0"+" ne"+" le pren"+"d pas) "+$jsonVin+" , conseil moi un vin par plat qui est le plus adapté à mes plats.Pas d'explication. Retourne moi le résultat en un tableau de JSON []  avec :plat(plat que j'ai donné), nom, couleur,appellation,region,vraiplat(met à false si plat n'est pas v"+"rai)."
 				
@@ -194,13 +195,13 @@ $json:=Replace string:C233($json; "\n"; ""; 99999)
 
 $result:=JSON Parse:C1218($json)
 
-$vraiplat:=$result[0].vraiplat
-If (Undefined:C82($vraiplat))
-	$vraiplat:=$result[3].vraiplat
-End if 
+/*$vraiplat:=$result[0].vraiplat
+If (Undefined($vraiplat))
+$vraiplat:=$result[3].vraiplat
+End if */
 
 C_OBJECT:C1216($responseObject)
-$responseObject:=New object:C1471("conseil"; $result; "uuid"; $uuidTable; "vraiPlat"; $vraiplat)
+$responseObject:=New object:C1471("conseil"; $result; "uuid"; $uuidTable)
 
 /*If ($typeCase#"conseilCave")
 $vraiplat:=$result[0].vraiplat
