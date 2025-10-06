@@ -1,0 +1,1283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="Vin sur Vin V20" uuid="2A2E3BD72FD1414DB7631E2EBE51AC78" collation_locale="fr">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Interface" uuid="D52D3DC5C8154FEE843609B14542BC25" id="1">
+		<field name="Rubrique1" uuid="4DC44CE8499F4C4887A38041462C6A56" type="10" limiting_length="255" never_null="true" id="1"/>
+		<field name="Serie" uuid="FAB453FDC9FE4CEBA8E27FF5EB9CAB76" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Nb_Util" uuid="0413E6D2E86F442FA4D886B0BF3336A9" type="4" never_null="true" id="3"/>
+		<field name="Texte_OK_" uuid="156EB681E8D04746BF34C9C10A4474C1" type="12" never_null="true" id="4"/>
+		<field name="Image_OK" uuid="353760E815FB493C87A6617FCCCF03F6" type="12" never_null="true" id="5"/>
+		<field name="StockInfo" uuid="209B8C6E3B9A4AECA38D0F25799FC240" type="18" never_null="true" id="6"/>
+		<field name="tablesisimported" uuid="42EB1069561B4534B403B03C73D49AA2" type="1" never_null="true" id="7"/>
+		<field name="cavedefaut" uuid="EBB1E07EEBDA48F1BEB518FE5B513A37" type="10" limiting_length="255" never_null="true" id="8"/>
+		<field name="vuedefaut" uuid="A983B53D28EF4050862F03ACC9C10F8B" type="3" never_null="true" id="9"/>
+		<field name="UUID_" uuid="76CB335D3CB642C789FDF87C64DB9B6F" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="11"/>
+		<primary_key field_name="UUID_" field_uuid="76CB335D3CB642C789FDF87C64DB9B6F"/>
+		<table_extra input_form="Kle_Alerte" output_form="Producteurs"/>
+	</table>
+	<table name="Cave" uuid="6F4F15D31EDA4134970B4E5B820EED30" id="2">
+		<field name="Nom" uuid="88A611C4B8A7420C801F0D75D7AD93E7" type="10" limiting_length="254" never_null="true" id="1">
+			<field_extra multi_line="false"/>
+		</field>
+		<field name="Appellation" uuid="639986E750294659B6D61E0F564CBE0B" type="10" limiting_length="80" never_null="true" id="2"/>
+		<field name="Producteur" uuid="58889AA3969B4353923B5C472F67DE05" type="10" never_null="true" id="3"/>
+		<field name="Type" uuid="E8DFAEA8AAAB47D2863DFE055FA0CB0A" type="10" limiting_length="50" never_null="true" id="4"/>
+		<field name="Région" uuid="382AD826E7B24DCD9BC06B68FC5B4707" type="10" limiting_length="40" never_null="true" id="5"/>
+		<field name="Millesime" uuid="347CDF2D1638498BB8E002213DDFC4DE" type="10" limiting_length="20" never_null="true" id="6"/>
+		<field name="Qte" uuid="969BCA263717431C89F6C783C885BB09" type="4" never_null="true" id="7"/>
+		<field name="Dont_Bue" uuid="17C0567DDDC74AE7A863D393841C32D8" type="4" never_null="true" id="8"/>
+		<field name="Apogee" uuid="998C9A2771C84D2CA66A40A9A7D703A1" type="6" never_null="true" id="9"/>
+		<field name="Date_Achat" uuid="BA6829DF96444FD28B2E5824537FD399" type="8" never_null="true" id="10"/>
+		<field name="Lieu_Achat" uuid="D68CA262F8274CBAB5EA2935AFA4B760" type="10" never_null="true" id="11"/>
+		<field name="Mise_en_bouteille" uuid="EFF437D242E1411A93BA2F8953E0303F" type="10" limiting_length="40" never_null="true" id="12"/>
+		<field name="Flacon" uuid="188D7841955145959D0E54789C6CA2E9" type="10" limiting_length="20" never_null="true" id="13"/>
+		<field name="Elevage" uuid="852EA398D3564DF584B058F48E851C29" type="10" limiting_length="20" never_null="true" id="14"/>
+		<field name="Note_sur_20" uuid="5F8D1E175BE94EB3BAA1CD92596291AD" type="3" never_null="true" id="15"/>
+		<field name="Prix_Achat" uuid="1094A38396504788B2303249BD8D84BD" type="6" never_null="true" id="16"/>
+		<field name="Valeur" uuid="5F12A476988E48FAAEDE209A8622FB2B" type="6" never_null="true" id="17"/>
+		<field name="Degustation" uuid="A3E23974A6A441DA94FC12732717972E" type="10" never_null="true" id="18"/>
+		<field name="Reste_en_Cave" uuid="20771C792EB6425E91CA7A72911014EB" type="3" never_null="true" id="19"/>
+		<field name="Prix_Achat_Euro" uuid="BD66A7BA8FB3414F9EC307481B5BCC65" type="6" never_null="true" id="20"/>
+		<field name="Valeure_Total_Euro" uuid="4AF45ED879A44B209AD319FCD6FA37BA" type="6" never_null="true" id="21"/>
+		<field name="Valeur_Total_Fr" uuid="D98DD555DA9A43ED83E5A90CAB90570C" type="6" never_null="true" id="22"/>
+		<field name="Valeur_Euro" uuid="99D42F9531E448EC81F5AE5B3EEB92C2" type="6" never_null="true" id="23"/>
+		<field name="Pays" uuid="C0F81D43804849A58012B05977EE3A8D" type="10" limiting_length="40" never_null="true" id="24"/>
+		<field name="Etiquette" uuid="A483C65B7125411AB487CA98A1449A2D" type="12" never_null="true" id="25">
+			<field_extra compressed="true"/>
+		</field>
+		<field name="Ref_Cave" uuid="CEDDF99A02C44614AFFBB3B8D7D9DC8F" type="4" never_null="true" id="26">
+			<field_extra visible="false"/>
+		</field>
+		<field name="Ref_Pays" uuid="900DCA97E8014BABB0526C0530A2786E" type="4" never_null="true" id="27">
+			<field_extra visible="false"/>
+		</field>
+		<field name="Ref_Region" uuid="B57D3AF833D540B38A7596555AA38DE7" type="4" never_null="true" id="28">
+			<field_extra visible="false"/>
+		</field>
+		<field name="Apogee_Max" uuid="E4493230807C4404A36C2A640EA4EAA6" type="6" never_null="true" id="29"/>
+		<field name="Temperature" uuid="0998B682A18D4367A2E3144BBE512441" type="6" never_null="true" id="30"/>
+		<field name="Alcool" uuid="499E3FE17E514788B7D7EA91B079218D" type="6" never_null="true" id="31"/>
+		<field name="Casier" uuid="83C74C26CEE24D8CAD6202D022D5AA6C" type="10" limiting_length="20" never_null="true" id="32"/>
+		<field name="Ref_Producteur" uuid="E58B04CAF5754610A1432D8AC6FCF536" type="4" never_null="true" id="33">
+			<field_extra visible="false"/>
+		</field>
+		<field name="Cepage" uuid="E960FDB453B44D5EB55AB36DA09EE743" type="10" never_null="true" id="34"/>
+		<field name="Remarques" uuid="A3ED333393E64A539D5194EB0BED2B92" type="10" never_null="true" id="35"/>
+		<field name="Vue" uuid="9D86495C4A6C4FBEB470EB74CF3C7324" type="10" limiting_length="80" never_null="true" id="36"/>
+		<field name="Nez" uuid="523D4AE17A214C03B87ECE887CC23C61" type="10" limiting_length="80" never_null="true" id="37"/>
+		<field name="Gout" uuid="A95D4195785A45CC9C504FDF667C4F01" type="10" limiting_length="80" never_null="true" id="38"/>
+		<field name="Global" uuid="F61A3C3840E1485D99546C62CA07D038" type="10" limiting_length="80" never_null="true" id="39"/>
+		<field name="Cave" uuid="7EF42B96452C4ABF889F9BD553530E23" type="10" limiting_length="40" never_null="true" id="40"/>
+		<field name="Coup_de_Coeur" uuid="B4DAA1B03BA7445EAAE4E2C28617DC19" type="1" never_null="true" id="41"/>
+		<field name="Plus_Value" uuid="7F93F561816A4F47BB70F2A2D7FEC991" type="6" never_null="true" id="42"/>
+		<field name="Plus_Value_Eur" uuid="0DEB5C41D8CF46B08D30CB056B76AD26" type="6" never_null="true" id="43"/>
+		<field name="A_Commander" uuid="88F26F9F7E0D4F47A0DECCB7F12A7192" type="1" never_null="true" id="44"/>
+		<field name="Carte_CH_x" uuid="2EB5DFC05E664BE2800135EA933A559B" type="18" never_null="true" id="45"/>
+		<field name="Etagere" uuid="FCE54D93E5614313BAB8AFB7889165F7" type="10" limiting_length="20" never_null="true" id="46"/>
+		<field name="Rang" uuid="52B3046A330B418CA0617A7FBB4DEE0D" type="10" limiting_length="20" never_null="true" id="47"/>
+		<field name="UUID" uuid="B5C7949FC11A4B88BD72029F22483C3D" type="10" limiting_length="255" never_null="true" id="48"/>
+		<field name="UUID_User" uuid="78A14448290E495D95998C7600AA7E9D" type="10" limiting_length="255" never_null="true" id="49"/>
+		<field name="Pos_Acid_X" uuid="4FCFD905BF364BE09990B99B23CA2B60" type="3" never_null="true" id="50"/>
+		<field name="Pos_Acid_Y" uuid="5EF6F49E9B1747FE8E67EBF71F8DB72A" type="3" never_null="true" id="51"/>
+		<field name="Pos_Tan_X" uuid="E79E7F12D7ED4CFA81A9554951A2B09F" type="3" never_null="true" id="52"/>
+		<field name="Pos_Tan_Y" uuid="05FB498A4D5B490BA9A8E0D93DF22FEE" type="3" never_null="true" id="53"/>
+		<field name="Couleur" uuid="B758A301FEBD4C738A57F670AB932A22" type="10" limiting_length="255" never_null="true" id="54"/>
+		<field name="Dénomination" uuid="EE389C110BE04A0C9805DF331161915E" type="10" limiting_length="255" never_null="true" id="55"/>
+		<field name="Mentions" uuid="1C46CFE80B214C75AB60C8FD6106A202" type="10" limiting_length="255" never_null="true" id="56"/>
+		<field name="Indication_Production" uuid="6DD29DF4945F49A3A752AE60E8603DF8" type="10" limiting_length="255" never_null="true" id="57"/>
+		<field name="Ouverture" uuid="B2601B448AFC41F3A585BFC46737E84B" type="10" limiting_length="255" never_null="true" id="58"/>
+		<field name="Intesnsite" uuid="E93BEACD908C4632A09040E08D92AD80" type="10" limiting_length="255" never_null="true" id="59"/>
+		<field name="Douceur" uuid="98AC622FE713496EA7BC3D7B30F2C668" type="10" limiting_length="255" id="60"/>
+		<field name="UUID_" uuid="C5FCFCF66B9548139B8899472A572C33" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="61"/>
+		<field name="Degustation_Nez" uuid="635C96D730624A42B8FD24C126C1671D" type="21" blob_switch_size="2147483647" id="62"/>
+		<field name="Degustation_Palais" uuid="0E3260F47B4D4CA3BAF2DD538FA466F9" type="21" blob_switch_size="2147483647" id="63"/>
+		<field name="Degustation_Vue" uuid="30AB421B29394798906BB6E592349466" type="21" blob_switch_size="2147483647" id="64"/>
+		<field name="Note_sur_100" uuid="984FC4B5C4DF47FBB96A0A158D619053" type="3" id="65"/>
+		<field name="Domaine" uuid="161E4342967D4468ACC7035382729871" type="10" limiting_length="255" id="66"/>
+		<field name="Favori" uuid="4B2C99DA7697431D9FC5B3BAB36EBBFC" type="1" never_null="true" id="67"/>
+		<field name="Sous_Region" uuid="E13230B8475348AB9DB44DE36836FF89" type="10" limiting_length="255" id="68"/>
+		<field name="Producteur_Adresse" uuid="930467D1881043E4B5483CBA2EB7D26A" type="10" limiting_length="255" id="69"/>
+		<field name="Association_Mets" uuid="3D869C866B4549C0AF67A4070D635C69" type="10" limiting_length="255" id="70"/>
+		<field name="RemarquesIA" uuid="CDBF5998889243B099FA048F7F2EF0F4" type="14" id="71" outside_blob="true"/>
+		<field name="TypeAlcool" uuid="1FCB0D9972474A35805A273F23A170B4" type="10" limiting_length="255" id="72"/>
+		<field name="base64_etiquette" uuid="AFBAE89B30414476AACF77CC9938163D" type="14" id="73" outside_blob="true"/>
+		<primary_key field_name="UUID_" field_uuid="C5FCFCF66B9548139B8899472A572C33"/>
+		<table_extra trigger_insert="true" trigger_update="true" input_form="Saisie" output_form="Impression2"/>
+	</table>
+	<table name="Appellation" uuid="5E6E797B183B488F9B51C3ABFF9B8632" id="3">
+		<field name="Appellation" uuid="4527B0FBFFDB42959B8346C9DE216AF5" type="10" limiting_length="80" unique="true" never_null="true" id="1"/>
+		<field name="Region" uuid="DDC8CFD849BE40EDBE1633A53C19BDD1" type="10" limiting_length="40" never_null="true" id="2"/>
+		<field name="Pays" uuid="189F14A0D7C44484A8D90ABD573A906E" type="10" limiting_length="40" never_null="true" id="3"/>
+		<field name="Commune" uuid="1761FA492ECB46F79E081DAAC9917DB2" type="10" limiting_length="40" never_null="true" id="4"/>
+		<field name="Region_detaillee" uuid="02F44612B9634FD99824A3C8C42F439A" type="10" limiting_length="40" never_null="true" id="5"/>
+		<field name="Ref_Pays" uuid="2C5D32930CB54890AEAC3EFBF625EF9A" type="4" never_null="true" id="6"/>
+		<field name="Ref_Region" uuid="060487DFD917422C8A3D05D7BF2C87F9" type="4" never_null="true" id="7"/>
+		<field name="Association" uuid="C1A0C1FA774048F7BBA4BEC754AC6006" type="10" limiting_length="80" never_null="true" id="8"/>
+		<field name="Nb" uuid="956AD39E59A945B9A7FF091D87E23284" type="4" never_null="true" id="9"/>
+		<field name="UUID_" uuid="0406BE116999469BB22A2A2B3959D25A" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="10"/>
+		<primary_key field_name="UUID_" field_uuid="0406BE116999469BB22A2A2B3959D25A"/>
+		<table_extra trigger_insert="true" trigger_update="true" trigger_delete="true" trigger_load="true" input_form="Formulaire1" output_form="Formulaire3"/>
+	</table>
+	<table name="Millésimes" uuid="121E219AE8A74059B9CCB97052DFC803" id="4">
+		<field name="Annee" uuid="56886819BB5047F38EC9756180C559D9" type="3" never_null="true" id="1"/>
+		<field name="Bordeau_Rouge" uuid="38200294545C467DBF0C8811B89623E4" type="10" limiting_length="30" never_null="true" id="2"/>
+		<field name="Bordeau_Blanc_Liquoreux" uuid="ABFEC5561F36471188536A7E92B44174" type="10" limiting_length="30" never_null="true" id="3"/>
+		<field name="Bordeau_Blanc_Sec" uuid="641336832A5C4DA7B129529178786EF1" type="10" limiting_length="30" never_null="true" id="4"/>
+		<field name="Bourgogne_Rouge" uuid="0DD5FB2524794F96B26DD1A83C8C693B" type="10" limiting_length="30" never_null="true" id="5"/>
+		<field name="Bourgogne_Blanc" uuid="DB92327FABF94366BB3879DE2CD6FA9C" type="10" limiting_length="30" never_null="true" id="6"/>
+		<field name="Champagne" uuid="069B8B7FDCC24B1684D0DD918D727C50" type="10" limiting_length="30" never_null="true" id="7"/>
+		<field name="Loire" uuid="CA766BE33E5C4B71AE2259FD7498B0D2" type="10" limiting_length="30" never_null="true" id="8"/>
+		<field name="Rhone" uuid="E22666EEF97242D0BDA27DD7880279CC" type="10" limiting_length="30" never_null="true" id="9"/>
+		<field name="Alsace" uuid="81C958964AA644508EE235286700AE6D" type="10" limiting_length="30" never_null="true" id="10"/>
+		<field name="Pays" uuid="1FFE28BE16B14D7FAC788539EC4EB8AA" type="10" limiting_length="40" never_null="true" id="11"/>
+		<field name="Ref_Pays" uuid="77758ED65C21469094B4979BBB2F2391" type="4" never_null="true" id="12"/>
+		<field name="UUID_" uuid="139FF1814C1A4D4481CF94740DFEBA1F" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="13"/>
+		<primary_key field_name="UUID_" field_uuid="139FF1814C1A4D4481CF94740DFEBA1F"/>
+		<table_extra input_form="Formulaire1" output_form="Sortie"/>
+	</table>
+	<table name="Vocabulaire" uuid="98FCF796B6C54851AAF1A7B2652F4AC0" id="5">
+		<field name="Nom" uuid="F0844740B5B24B9584CF52FFF1A1858D" type="10" limiting_length="40" never_null="true" id="1"/>
+		<field name="Texte" uuid="55EE3F016C6E44D78B037BAD62FF2786" type="10" never_null="true" id="2"/>
+		<field name="TexteDA" uuid="651887710DF042BFB3776550C37AA75A" type="10" never_null="true" id="3"/>
+		<field name="TexteAng" uuid="DEDB2157507C4835AB1966FE85D5A777" type="10" never_null="true" id="4"/>
+		<field name="TexteEsp" uuid="999D43F5F83547DA880ABF3EEE405C87" type="10" never_null="true" id="5"/>
+		<field name="TexteALL" uuid="C06D15DB992A451B86DBD94F2354A963" type="10" never_null="true" id="6"/>
+		<field name="Nom_Fr" uuid="7EFAD92750014B56B1C8BA57D3D0E318" type="10" limiting_length="80" never_null="true" id="7"/>
+		<field name="Nom_Da" uuid="77DDA01DA69E448994B375899643E9C9" type="10" limiting_length="80" never_null="true" id="8"/>
+		<field name="Nom_Ang" uuid="5DA6A50EB6C949688773A29AE9E32FE2" type="10" limiting_length="80" never_null="true" id="9"/>
+		<field name="Nom_Esp" uuid="FB55BA64FEA74A559274CB066C0152A1" type="10" limiting_length="80" never_null="true" id="10"/>
+		<field name="Nom_All" uuid="31F1A713818948E1809128BFB8D79266" type="10" limiting_length="80" never_null="true" id="11"/>
+		<field name="UUID_" uuid="2E03B8D2F63641DD83306544D2485CDC" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="12"/>
+		<primary_key field_name="UUID_" field_uuid="2E03B8D2F63641DD83306544D2485CDC"/>
+		<table_extra input_form="Entrée" output_form="Sortie"/>
+	</table>
+	<table name="Cépages" uuid="96CC5EC2961B45E2950320C3ECEC5491" id="6">
+		<field name="Vin" uuid="45BB5191E0E0426EB7C60726334D53CF" type="10" limiting_length="20" never_null="true" id="1"/>
+		<field name="Cepage" uuid="C3AE63CE089248A2833FBB9C2FD9BDA2" type="10" limiting_length="40" never_null="true" id="2"/>
+		<field name="Texte" uuid="ACB51ED60C244917B7BC5188ADE3C0B1" type="10" never_null="true" id="3"/>
+		<field name="Texte_OK_" uuid="E872DF56B4DE41AD85F2CD447F761C72" type="18" never_null="true" id="4"/>
+		<field name="TexteDA" uuid="A004A2BFE320436690874D8E93B9B163" type="10" never_null="true" id="5"/>
+		<field name="Texte_Ang" uuid="3A8AC5C25CB24E54A47A699F8A25E0CA" type="10" never_null="true" id="6"/>
+		<field name="Texte_Esp" uuid="1AC7858C7BB640ED9E1A2E17ACD6CDF4" type="10" never_null="true" id="7"/>
+		<field name="Texte_All" uuid="A35F81F784D74581A35F8053E23D795B" type="10" never_null="true" id="8"/>
+		<field name="Langue" uuid="E090E66BA34343CF94573942FC7BDA03" type="6" never_null="true" id="9"/>
+		<field name="UUID_" uuid="9C54530F93594DCC80BF027923C9C6AA" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="10"/>
+		<primary_key field_name="UUID_" field_uuid="9C54530F93594DCC80BF027923C9C6AA"/>
+		<table_extra input_form="Entrée" output_form="Sortie"/>
+	</table>
+	<table name="Association" uuid="35B14092A1A149E19F293869B179B749" id="7">
+		<field name="Categorie" uuid="F5010AB762A6453EB15B217A1E222E24" type="10" limiting_length="80" never_null="true" id="1"/>
+		<field name="Sous_Categorie" uuid="B16D245E4FAB4EB0937F51C041E28751" type="10" limiting_length="80" never_null="true" id="2"/>
+		<field name="Met" uuid="FAD95AAF566A4A9595168648745BA7AC" type="10" limiting_length="80" never_null="true" id="3"/>
+		<field name="Vin" uuid="1BE7B8ED69DE4231B1D95AA48766E4AE" type="10" limiting_length="80" never_null="true" id="4"/>
+		<field name="Langue" uuid="9AFF02194DC344E294A74A2A5D629FF0" type="10" limiting_length="20" never_null="true" id="5"/>
+		<field name="UUID_" uuid="99E9439478274A669BD2B4EB5704C9A1" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="6"/>
+		<primary_key field_name="UUID_" field_uuid="99E9439478274A669BD2B4EB5704C9A1"/>
+		<table_extra input_form="Saisie" output_form="Sortie"/>
+	</table>
+	<table name="Pays" uuid="9C022BADAD024F6A8D8BB2321A961215" id="8">
+		<field name="Ref_Pays" uuid="437BD807A7004F72921D1D403DC69718" type="4" never_null="true" id="1"/>
+		<field name="Carte" uuid="2C5014180B2448889B77F094238DC9D8" type="12" never_null="true" id="2">
+			<field_extra compressed="true"/>
+		</field>
+		<field name="Nom_Fr" uuid="417A2224C40345F4965CBCFF016D10E1" type="10" limiting_length="40" never_null="true" id="3"/>
+		<field name="Nom_Eng" uuid="04883234D0D2424587B3E88CCD5E93E9" type="10" limiting_length="40" never_null="true" id="4"/>
+		<field name="Nom_Espa" uuid="84D7C7C937B24A6FBCDCD23250CE7787" type="10" limiting_length="40" never_null="true" id="5"/>
+		<field name="Nom_Deuch" uuid="F560B69A557F4DCAB324524309167F99" type="10" limiting_length="40" never_null="true" id="6"/>
+		<field name="Nom_Jap" uuid="1AFB24D1422A4711BB0D0548DE604865" type="10" limiting_length="40" never_null="true" id="7"/>
+		<field name="Nom_Danois" uuid="169EB5B0868C4B52BEABAC9AC34516AF" type="10" limiting_length="40" never_null="true" id="8"/>
+		<field name="Nb_Bouteilles" uuid="180D2536A8454626A34CACB159569A04" type="6" never_null="true" id="9"/>
+		<field name="Nb_Vins" uuid="3CF2FF4080664581A9047DA37AF03E08" type="6" never_null="true" id="10"/>
+		<field name="Carte_Dk" uuid="4BF41C75013E4E59B7CD2F65C903C351" type="12" never_null="true" id="11">
+			<field_extra compressed="true"/>
+		</field>
+		<field name="Carte_En" uuid="C235005D43B84BDEB34749DF27530151" type="12" never_null="true" id="12">
+			<field_extra compressed="true"/>
+		</field>
+		<field name="Carte_Es" uuid="BDA49A54A6B143AE8F8E6DD876BB880B" type="12" never_null="true" id="13">
+			<field_extra compressed="true"/>
+		</field>
+		<field name="Carte_All" uuid="22DBAB826E2146D38D6C79A83DBBA29E" type="12" never_null="true" id="14">
+			<field_extra compressed="true"/>
+		</field>
+		<field name="UUID_" uuid="D1A91AF9A0CB4C27BB4B4970B115D97D" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="15"/>
+		<primary_key field_name="UUID_" field_uuid="D1A91AF9A0CB4C27BB4B4970B115D97D"/>
+		<table_extra trigger_insert="true" trigger_update="true" trigger_delete="true" trigger_load="true" input_form="Entrée" output_form="Sortie"/>
+	</table>
+	<table name="Region" uuid="95C71106E5A94364B6D5171C608409D2" id="9">
+		<field name="Ref_Region" uuid="FB5A2654C44E4E49B86CED11F24402EC" type="4" never_null="true" id="1"/>
+		<field name="Nom_Fr" uuid="68CD1DA90D2A4C6FA64FAF43DCA05ABC" type="10" limiting_length="40" never_null="true" id="2"/>
+		<field name="Nom_Eng" uuid="23342B4E2B2D456CA4B7359685AC02BE" type="10" limiting_length="40" never_null="true" id="3"/>
+		<field name="Nom_Espa" uuid="6F97F43D4E394E899FBD72645F9889AA" type="10" limiting_length="40" never_null="true" id="4"/>
+		<field name="Nom_Deuch" uuid="1CD2DC2099BE4886B337AEC1C9C54496" type="10" limiting_length="40" never_null="true" id="5"/>
+		<field name="Nom_Jap" uuid="5E9B7847F4234B37A80A8DF9BA58056F" type="10" limiting_length="40" never_null="true" id="6"/>
+		<field name="Nom_Danois" uuid="7F052D7FA05144A3ACD07BAC3AA15C87" type="10" limiting_length="40" never_null="true" id="7"/>
+		<field name="Nb_Bouteilles" uuid="5B275B89461D4E29A179F90B3270C6B5" type="4" never_null="true" id="8"/>
+		<field name="Nb_Vins" uuid="8D9FB1DCE9D946B9A4E2BD01F5AD7563" type="4" never_null="true" id="9"/>
+		<field name="Ref_Pays" uuid="8AAFD9E2302A46E19204B56BFFBA6943" type="4" never_null="true" id="10"/>
+		<field name="UUID_" uuid="89F36C45AE9C444B871EB732C3AA3896" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="11"/>
+		<field name="Longitude" uuid="07B68F7848884066B8174E8FFB17135F" type="6" id="12"/>
+		<field name="Latitude" uuid="87E3C8F0C3874FB285B26AAC47514A4B" type="6" id="13"/>
+		<field name="Lieu_geo" uuid="A504400596814514845A399E1F82A52E" type="10" limiting_length="255" id="14"/>
+		<primary_key field_name="UUID_" field_uuid="89F36C45AE9C444B871EB732C3AA3896"/>
+		<table_extra trigger_insert="true" trigger_update="true" trigger_delete="true" trigger_load="true" input_form="Entrée" output_form="Sortie"/>
+	</table>
+	<table name="Informations" uuid="B8D144F392BD4B759799367CFDD78C30" id="10">
+		<field name="Rubrique" uuid="2B6F7D178E74487CA521F7F106422E12" type="10" limiting_length="40" never_null="true" id="1"/>
+		<field name="Sous_Rubrique" uuid="367E3FA851AE4B909DB5530E5D01BEDB" type="10" limiting_length="40" never_null="true" id="2"/>
+		<field name="Ref_Fiche" uuid="0EFDB201FF9A4E15B1384D9769F0AAF1" type="4" never_null="true" id="3"/>
+		<field name="Texte_Info_Fr_" uuid="1520A39B56FC4CA99A180E24206B9AA1" type="18" never_null="true" id="4"/>
+		<field name="Titre_Info_Fr" uuid="A058392F4286409B96F010A405E91506" type="10" limiting_length="40" never_null="true" id="5"/>
+		<field name="Texte_Info_DA_" uuid="12F6A9BD76A5474B86F1EE1EC2B9BD74" type="18" never_null="true" id="6"/>
+		<field name="verif" uuid="F95AE9245B184465B480AB3AE90B740F" type="10" limiting_length="80" never_null="true" id="7"/>
+		<field name="RubriqueDA" uuid="9586CB7F11FA4816974D700C7B173935" type="10" limiting_length="80" never_null="true" id="8"/>
+		<field name="RubriqueEN" uuid="FF6643A9087049538E863B8DD2BB1539" type="10" limiting_length="80" never_null="true" id="9"/>
+		<field name="RubriqueES" uuid="F3C2AEFF88D643F3BA4CA213748CE56C" type="10" limiting_length="80" never_null="true" id="10"/>
+		<field name="RubriqueAL" uuid="DE40538C53CF41DF93AC2633A79847CA" type="10" limiting_length="80" never_null="true" id="11"/>
+		<field name="Sous_RubriqueDA" uuid="EB3F2B070E03472E974399B33B21719A" type="10" limiting_length="80" never_null="true" id="12"/>
+		<field name="Sous_RubriqueEN" uuid="2BB9A28AD31C44A89B4BA5287131A9B1" type="10" limiting_length="80" never_null="true" id="13"/>
+		<field name="Sous_RubriqueES" uuid="7D870779C326413EAF2ED2076A500F75" type="10" limiting_length="80" never_null="true" id="14"/>
+		<field name="Sous_RubriqueAL" uuid="96D4F364C9D7447AB588751F6DC425A3" type="10" limiting_length="80" never_null="true" id="15"/>
+		<field name="Titre_InfoDA" uuid="5F15E9700B0E4EFDA6F32A1473C30A96" type="10" limiting_length="80" never_null="true" id="16"/>
+		<field name="Titre_InfoEN" uuid="FBAAF7ED152C4A8682C4BD66D7ECF889" type="10" limiting_length="80" never_null="true" id="17"/>
+		<field name="Titre_InfoES" uuid="764FC3A18A4F465CA6DCA0411990051C" type="10" limiting_length="80" never_null="true" id="18"/>
+		<field name="Titre_InfoAL" uuid="9F13494B796C4F288DE771F7F5F5DF65" type="10" limiting_length="80" never_null="true" id="19"/>
+		<field name="Texte_Info_EN_" uuid="963C82C3E4EA41E988C27957460FF3A7" type="18" never_null="true" id="20"/>
+		<field name="Texte_Info_ES_" uuid="E269D1D2181448D99FB21703E78C57C4" type="18" never_null="true" id="21"/>
+		<field name="Texte_Info_AL_" uuid="046D82138C574F37ACCC4E8CF2103D0C" type="18" never_null="true" id="22"/>
+		<field name="Actif_FR" uuid="470BCDFCEE0643B1B2DE8DF2A739F6D4" type="1" never_null="true" id="23"/>
+		<field name="Actif_DA" uuid="59D9B0F7AFB04661A00AF9C95E8D1F10" type="1" never_null="true" id="24"/>
+		<field name="Actif_En" uuid="675E588C47C349F49039CD67038AC714" type="1" never_null="true" id="25"/>
+		<field name="Actif_Es" uuid="5A1869E393164BCEAC34CC0B29DB51B2" type="1" never_null="true" id="26"/>
+		<field name="Actif_AL" uuid="620B923FD8384E31B428D79999A9FD1D" type="1" never_null="true" id="27"/>
+		<field name="UUID_" uuid="77401EFFD036435888A03D1F7358EF27" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="28"/>
+		<field name="Texte_WP_FR" uuid="67E0451C5DA246ACBF9D7B189DEEFD0C" type="21" never_null="true" id="29"/>
+		<field name="Texte_WP_DA" uuid="24273EF60A4A4011A5840BB10BB6B9E7" type="21" never_null="true" id="30"/>
+		<field name="Texte_WP_EN" uuid="5C7C092160EB451E85105262972A163F" type="21" never_null="true" id="31"/>
+		<field name="Texte_WP_ES" uuid="A7340A5252F0424F8AF35C1B2E0BCAA2" type="21" never_null="true" id="32"/>
+		<field name="Texte_WP_AL" uuid="A15D990870B547D3964809A87FBDC0C9" type="21" never_null="true" id="33"/>
+		<primary_key field_name="UUID_" field_uuid="77401EFFD036435888A03D1F7358EF27"/>
+		<table_extra trigger_insert="true" trigger_update="true" trigger_delete="true" trigger_load="true" input_form="Entrée" output_form="Sortie"/>
+	</table>
+	<table name="Textes" uuid="FDED7801BF3449E4ADD8A41CBAF99B36" id="11">
+		<field name="Type_Enumération" uuid="5A0D00D3888A49349AC1A8D8C8BBFD4E" type="10" limiting_length="20" never_null="true" id="1"/>
+		<field name="Positions" uuid="41DCA1CB193049F7BA17E21503AAE582" type="6" never_null="true" id="2"/>
+		<field name="Texte_Fr" uuid="EEF99D42D33C4102B07D029DE5AAF156" type="10" limiting_length="80" never_null="true" id="3"/>
+		<field name="Texte_Danois" uuid="C5D41D53FCCB45B789B1263402FB928F" type="10" limiting_length="80" never_null="true" id="4"/>
+		<field name="Texte_Ang" uuid="082BD66B5D494F8EAA239A3F9EEF4CE9" type="10" limiting_length="80" never_null="true" id="5"/>
+		<field name="Texte_Espagnol" uuid="2B4B7B52BF2B4598A98C38995C21C891" type="10" limiting_length="80" never_null="true" id="6"/>
+		<field name="Texte_Allemand" uuid="1D3E9D8AA19347E5B70F292387CADB38" type="10" limiting_length="80" never_null="true" id="7"/>
+		<field name="UUID_" uuid="5DE54B6B598242648E4125849B5150A2" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="8"/>
+		<primary_key field_name="UUID_" field_uuid="5DE54B6B598242648E4125849B5150A2"/>
+		<table_extra input_form="Entrée" output_form="Sortie"/>
+	</table>
+	<table name="Degustation" uuid="15F2843BDE5F45389DDE3F15F3F5FA7E" id="12">
+		<field name="Ref_Degust" uuid="01444AD36C4F4D0DB11ABC1204E85B1B" type="4" never_null="true" id="1"/>
+		<field name="Date_Degust" uuid="E2A6036D76AE406085383098FC46DB2C" type="8" never_null="true" id="2"/>
+		<field name="Convives" uuid="7B49E0C6DF434FBA8AA0F1A1803A9329" type="10" never_null="true" id="3"/>
+		<field name="Occasion" uuid="464AE80AFE5F409A81DE61DF10AB8104" type="10" never_null="true" id="4"/>
+		<field name="Plats" uuid="C789DCE4D1AB4B79A7657528A7BF7788" type="10" never_null="true" id="5"/>
+		<field name="Remarques" uuid="B32F287C0AD84A28A6DDD5E837CA68E8" type="10" never_null="true" id="6"/>
+		<field name="Ref_Cave" uuid="872A788DECA14FC3AB43A985444B4FDD" type="4" never_null="true" id="7">
+			<field_extra visible="false"/>
+		</field>
+		<field name="Nb_Bouteille" uuid="0520A5C02623486785DFC31DA7012592" type="6" never_null="true" id="8"/>
+		<field name="UUID_" uuid="6F0E612DDB194552B731A90F7C9CEDC7" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="9"/>
+		<primary_key field_name="UUID_" field_uuid="6F0E612DDB194552B731A90F7C9CEDC7"/>
+		<table_extra trigger_insert="true" trigger_update="true" trigger_delete="true" input_form="Saisie_Cave" output_form="Sortie"/>
+	</table>
+	<table name="Producteur" uuid="FF59341C8C60479292805A7BF65624B6" id="13">
+		<field name="Ref_Producteur" uuid="03DE8764C10C4908AE25BD094B63A3E9" type="4" never_null="true" id="1"/>
+		<field name="Societe" uuid="146FEF77B1B840958E5D403D3C2D5453" type="10" limiting_length="40" never_null="true" id="2">
+			<field_extra mandatory="true"/>
+		</field>
+		<field name="Nom" uuid="199312642BC64795927523058116B30A" type="10" limiting_length="40" never_null="true" id="3"/>
+		<field name="Prenom" uuid="341EB72128F545F8AB4D5EC9FE35AE73" type="10" limiting_length="40" never_null="true" id="4"/>
+		<field name="Adresse" uuid="5A9A33068C214BBB8BF80A9027BD7DBE" type="10" never_null="true" id="5"/>
+		<field name="CP" uuid="CD18BDCC1294472E9371C2B6C8962325" type="10" limiting_length="20" never_null="true" id="6"/>
+		<field name="Ville" uuid="4BC902233C4545CF9F8A65BB40ACB6D5" type="10" limiting_length="40" never_null="true" id="7"/>
+		<field name="Pays" uuid="04C7A9D10C5145188A33949DBB138C03" type="10" limiting_length="30" never_null="true" id="8"/>
+		<field name="Tel" uuid="441BCCD254474B478E3B5D289D9A0704" type="10" limiting_length="30" never_null="true" id="9"/>
+		<field name="Fax" uuid="60BC9C9C97BA4F79B13E21A683A3BBBC" type="10" limiting_length="30" never_null="true" id="10"/>
+		<field name="Portable" uuid="AECB0A657191431A8856A8CC8D2FEE04" type="10" limiting_length="30" never_null="true" id="11"/>
+		<field name="Mail" uuid="09D96FFC278B4811AFA9DF0E6F2D716B" type="10" limiting_length="80" never_null="true" id="12"/>
+		<field name="Web" uuid="08215584F8284E44BD45DF13F92BD0E3" type="10" never_null="true" id="13"/>
+		<field name="Remarques" uuid="16C22728571646868E48D0E8464BB394" type="10" never_null="true" id="14"/>
+		<field name="UUID_" uuid="8E8710E1285B4C35B40838CB51FC2081" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="15"/>
+		<primary_key field_name="UUID_" field_uuid="8E8710E1285B4C35B40838CB51FC2081"/>
+		<table_extra trigger_insert="true" trigger_update="true" trigger_delete="true" trigger_load="true" input_form="Entrée" output_form="Sortie"/>
+	</table>
+	<table name="Titre_Millesime" uuid="E0707D915DD14DA0BDFF96B6DB62B6EF" id="14">
+		<field name="Pays" uuid="058A7D86D55146A288502867D49439EF" type="10" limiting_length="40" never_null="true" id="1"/>
+		<field name="Ref_Pays" uuid="F99D6592AA6741A288F20FF71CDCFFFC" type="4" never_null="true" id="2"/>
+		<field name="Langue" uuid="CCAEE3C2A67A4013824C16894626A577" type="10" limiting_length="20" never_null="true" id="3"/>
+		<field name="Titre1" uuid="E9275F34FFE2434A9AE752E253436ABD" type="10" limiting_length="30" never_null="true" id="4"/>
+		<field name="Titre2" uuid="854DF2FA9C1B4E0D8EBAC749F7304514" type="10" limiting_length="30" never_null="true" id="5"/>
+		<field name="Titre3" uuid="A9050BA2064E42FC8CB45ADD09000F20" type="10" limiting_length="20" never_null="true" id="6"/>
+		<field name="Titre4" uuid="EA218F51EE6542B2863659F5760ABC98" type="10" limiting_length="30" never_null="true" id="7"/>
+		<field name="Titre5" uuid="76D9D1D633FF485EA9977C1CF923F92F" type="10" limiting_length="30" never_null="true" id="8"/>
+		<field name="Titre6" uuid="72EB76F165474BF2A9602DD6CC423BFE" type="10" limiting_length="30" never_null="true" id="9"/>
+		<field name="Titre7" uuid="3B4E5EF78E00420FAF8EC99EE184141E" type="10" limiting_length="30" never_null="true" id="10"/>
+		<field name="Titre8" uuid="55024BEA30A84E68A05633B7B1308DD2" type="10" limiting_length="30" never_null="true" id="11"/>
+		<field name="Titre9" uuid="20B0007D54A84BDBBD04CE27D1C2E4C0" type="10" limiting_length="30" never_null="true" id="12"/>
+		<field name="Titre10" uuid="AC6F256A3D68497C913ACBA967E2A4AC" type="10" limiting_length="20" never_null="true" id="13"/>
+		<field name="UUID_" uuid="86BDFD833B794DC38B84D79C83221334" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="14"/>
+		<primary_key field_name="UUID_" field_uuid="86BDFD833B794DC38B84D79C83221334"/>
+		<table_extra input_form="Entrée" output_form="Sortie"/>
+	</table>
+	<table name="Sites" uuid="A17086F634A14486B978E371CA872450" id="15">
+		<field name="Rubrique" uuid="A6D1DC52C77A420C9BE9E94FD85F4A11" type="10" limiting_length="30" never_null="true" id="1"/>
+		<field name="Site" uuid="C5C51F18DD004088BF17C5463DB5B79D" type="10" limiting_length="80" never_null="true" id="2"/>
+		<field name="Texte" uuid="B1B4AD0CFA4F44DE9E055F5FEEF569A5" type="10" never_null="true" id="3"/>
+		<field name="_nonutilise" uuid="4C783C7A3EC44143870F3E839EED7DE9" type="10" never_null="true" id="4"/>
+		<field name="Langue" uuid="C6849884610F46D9847807494B177A13" type="10" limiting_length="20" never_null="true" id="5"/>
+		<field name="UUID_" uuid="410A4704AA984A33BD28FAFFDFEE01A0" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="6"/>
+		<primary_key field_name="UUID_" field_uuid="410A4704AA984A33BD28FAFFDFEE01A0"/>
+		<table_extra input_form="Entrée" output_form="Sortie"/>
+	</table>
+	<table name="Etiquettes" uuid="90049195A19E45EBB786FA2D2D2E46DF" id="16">
+		<field name="Nom" uuid="F7E4C95BFE47438F8AC2494B768492BE" type="10" limiting_length="80" never_null="true" id="1"/>
+		<field name="Type" uuid="90341C731D2445AC8126CF14574D230F" type="10" limiting_length="80" never_null="true" id="2"/>
+		<field name="Pays" uuid="B65FD1F182A94A07A16B62DCDA46C00D" type="10" limiting_length="80" never_null="true" id="3"/>
+		<field name="Region" uuid="88F12BD633E646E790073E80B0927A1B" type="10" limiting_length="80" never_null="true" id="4"/>
+		<field name="Appellation" uuid="01FEFD97557348C8BADBE387B94F2B1F" type="10" limiting_length="80" never_null="true" id="5"/>
+		<field name="Millesime" uuid="DF4ADD63CBB643948472DDDAF026EFC6" type="10" limiting_length="30" never_null="true" id="6"/>
+		<field name="Prix" uuid="91664ADA6953444B8D73020131580F73" type="6" never_null="true" id="7"/>
+		<field name="Appo_Min" uuid="EFFCAA1656964C72B86D8219D1550160" type="6" never_null="true" id="8"/>
+		<field name="Appo_Max" uuid="B7687DA548B8493FA0D680941CD65FA9" type="6" never_null="true" id="9"/>
+		<field name="Casier" uuid="996A35C8120D4D4DAB041EB8EE82045E" type="10" limiting_length="30" never_null="true" id="10"/>
+		<field name="UUID_" uuid="4A01B5D1474A4A42B99657525F4C604F" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="11"/>
+		<primary_key field_name="UUID_" field_uuid="4A01B5D1474A4A42B99657525F4C604F"/>
+		<table_extra input_form="Formulaire1" output_form="Formulaire1"/>
+	</table>
+	<table name="Utilisateur" uuid="D171A7B3CAC542B3AA15B97108BF94D9" id="17">
+		<field name="Nom" uuid="35BBF51D161045B08082EC24BD712DCC" type="10" limiting_length="80" never_null="true" id="1"/>
+		<field name="Prenom" uuid="F084950C786240A99202CCF5A419B1E8" type="10" limiting_length="80" never_null="true" id="2"/>
+		<field name="Societe" uuid="FAD4A57D41E14D25AB8D49BFBDA24612" type="10" limiting_length="80" never_null="true" id="3"/>
+		<field name="Adresse1" uuid="D19C765B810A4242BDAA0CA8CF31F8D9" type="10" limiting_length="80" never_null="true" id="4"/>
+		<field name="Adresse2" uuid="D0C299D3003C4C64AA9E341CAFBE8094" type="10" limiting_length="80" never_null="true" id="5"/>
+		<field name="Adresse3" uuid="ECCF3C09A9FB43A49FF270954C17EEED" type="10" limiting_length="80" never_null="true" id="6"/>
+		<field name="CodePostal" uuid="C002E45E4C1442DCAEAF6E52D626D750" type="10" limiting_length="20" never_null="true" id="7"/>
+		<field name="Etat" uuid="4311910E827147D78512745D46396071" type="10" limiting_length="80" never_null="true" id="8"/>
+		<field name="Pays" uuid="D990380913F748D4B9F4FB63FC4FE429" type="10" limiting_length="80" never_null="true" id="9"/>
+		<field name="EMail" uuid="B7D6BB38763046EF88DE66ED4427496B" type="10" limiting_length="80" never_null="true" id="10"/>
+		<field name="Ville" uuid="6C36DE960EF84C2EA232BA4F506B9965" type="10" limiting_length="80" never_null="true" id="11"/>
+		<field name="NumLicence" uuid="115C827B74FB49D38999141B3C3609BC" type="10" limiting_length="80" never_null="true" id="12"/>
+		<field name="CarteImprimée" uuid="67F0702B2B2540BE9D31CC426FBA463B" type="1" never_null="true" id="13"/>
+		<field name="UUID_User" uuid="2F772457823342C6AAE404711DD9B570" type="10" limiting_length="255" never_null="true" id="14"/>
+		<field name="MotDePasse" uuid="12F26043BB7E4813866F9BECC750EA6A" type="10" limiting_length="255" id="15"/>
+		<field name="UUID_" uuid="4D8D01A4ACB54F05B3ED620C26ED0FB6" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="16"/>
+		<field name="RemarqueProfile" uuid="6E68563D992A4FC5B102FBEF270E0EFC" type="10" limiting_length="255" id="17"/>
+		<field name="UUID_temporaire" uuid="99A98A874D93458190FC871B751225B5" type="10" limiting_length="255" id="18"/>
+		<field name="DateExpiration" uuid="CCD0859ADCD347A88F016A8AE1B94F14" type="8" id="19"/>
+		<field name="HeureExpiration" uuid="4770CF5C69094D718D4E3C0740E9B683" type="9" id="20"/>
+		<primary_key field_name="UUID_" field_uuid="4D8D01A4ACB54F05B3ED620C26ED0FB6"/>
+		<table_extra trigger_insert="true" trigger_update="true" input_form="Saisie" output_form="Saisie"/>
+	</table>
+	<table name="Modele_Carte" uuid="7B9ADC42D0604139987B1FAAD53AF6AE" id="18">
+		<field name="_Ref" uuid="A190B7F7AE5F46F9BFECBF0DC24F56AA" type="4" never_null="true" id="1"/>
+		<field name="Localisation" uuid="D30A83F6C965423D894B13C512E2EC3B" type="10" limiting_length="30" never_null="true" id="2"/>
+		<field name="Carte_" uuid="5FE615EF9FD743E2BFA3C3F1D1280684" type="18" never_null="true" id="3"/>
+		<field name="UUID_" uuid="DCA9F524E50A428DBE5FC059F3FDB389" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="4"/>
+		<primary_key field_name="UUID_" field_uuid="DCA9F524E50A428DBE5FC059F3FDB389"/>
+		<table_extra input_form="Entrée" output_form="Sortie"/>
+	</table>
+	<table name="Localisation_Carte" uuid="4150A5FAC35D49EF95B3030F716A2BB3" id="19">
+		<field name="_Ref" uuid="B32FC8F88C774D91B27ED5F979919268" type="4" never_null="true" id="1">
+			<field_extra visible="false"/>
+		</field>
+		<field name="Localisation" uuid="CADB33E1EC8B4EC28C41B901EE3CE79B" type="10" limiting_length="30" never_null="true" id="2"/>
+		<field name="Carte2_" uuid="95D3FF83ADCD417884BEB619E1F04AA3" type="18" never_null="true" id="3"/>
+		<field name="_ref_Origine_Carte" uuid="97529479E4BD436390FA2FDA0A2F17FB" type="4" never_null="true" id="4"/>
+		<field name="UUID_" uuid="4A7EAB16BBB649AEBB29A011881BC535" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="5"/>
+		<primary_key field_name="UUID_" field_uuid="4A7EAB16BBB649AEBB29A011881BC535"/>
+		<table_extra input_form="Entrée" output_form="Sortie"/>
+	</table>
+	<table name="Import" uuid="D9A31FBC29144AE2AF6CA72BA69B1DBA" id="20">
+		<field name="URL" uuid="651C5DB718D641DFB36B45978EB820B7" type="10" never_null="true" id="1"/>
+		<field name="Contenue" uuid="5AD38C1D596A4BAA93479808F291E394" type="10" never_null="true" id="2"/>
+		<field name="Image" uuid="BAFBBFC4161E420BA480A81B2A925891" type="12" id="3"/>
+		<field name="NomImage" uuid="686D5C20D7FB41EEB886B934D1FC9DFA" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="Pos" uuid="3B0D559F7A164E7EA8A49FBCC44FE376" type="5" never_null="true" id="5"/>
+		<field name="_Nom" uuid="17F3C47F321142038E43CCD2B4681039" type="10" limiting_length="255" never_null="true" id="6"/>
+		<field name="_Millesime" uuid="D9D1260784E94055986E6DC6DBE4451C" type="10" limiting_length="255" never_null="true" id="7"/>
+		<field name="_Couleur" uuid="2B9338ADE19D4370B204724D09DC8821" type="10" limiting_length="255" never_null="true" id="8"/>
+		<field name="_Origine1" uuid="988767194BCC40D882721070B9998E4C" type="10" limiting_length="255" never_null="true" id="9"/>
+		<field name="_Origine2" uuid="72B310B9B4E047F4AF1C10F342A4C7BE" type="10" limiting_length="255" never_null="true" id="10"/>
+		<field name="_Origine3" uuid="3D768D01E152484DBECED41E8ECE8B28" type="10" limiting_length="255" never_null="true" id="11"/>
+		<field name="_Origine4" uuid="3FE20B93C2734DEBA25D280B1D28A766" type="10" limiting_length="255" never_null="true" id="12"/>
+		<field name="_Origine5" uuid="E2C8965FD0504BECB6CEC35E339545DC" type="10" limiting_length="255" never_null="true" id="13"/>
+		<field name="_Notre Avis" uuid="23268A1420E34C87A3C6F7323C4AF6D1" type="10" never_null="true" id="14"/>
+		<field name="_Description" uuid="93B15598F8F04F989B075B3BFE0EBE59" type="10" never_null="true" id="15"/>
+		<field name="_Service" uuid="AEAC74DEE54A4DC0878D6FCF9D8AA144" type="10" limiting_length="255" never_null="true" id="16"/>
+		<field name="_Notes" uuid="ED03FCBEC9BA41BB8ABF29F938FE9B5F" type="10" never_null="true" id="17"/>
+		<field name="Poubelle" uuid="886FEA427BC24ED7B3DEC0198D383205" type="1" never_null="true" id="18"/>
+		<field name="OK_On_garde" uuid="4202690F2F854EB7A9B83CAAF58BBF71" type="1" never_null="true" id="19"/>
+		<field name="Accord" uuid="28E2DDCA3C5F460DB1822DCFDCC10175" type="10" never_null="true" id="20"/>
+		<field name="UUID_" uuid="F9F177D941E44CECA271D9AC37ABFCB0" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="21"/>
+		<primary_key field_name="UUID_" field_uuid="F9F177D941E44CECA271D9AC37ABFCB0"/>
+		<table_extra input_form="Entrée" output_form="Sortie"/>
+	</table>
+	<table name="Odeur_Aromes" uuid="74DE43BE3A6140AAA1E11B6525627528" id="21">
+		<field name="Nom" uuid="EB7BE88AC6C144938181836A1C21A18E" type="10" limiting_length="80" id="1"/>
+		<field name="Titre" uuid="CFC27B829D4C40F6B0B026FFF882FAF9" type="10" limiting_length="80" id="2"/>
+		<field name="_Ref" uuid="A4043119B3C946C498F70E75BAF910F9" type="5" autosequence="true" id="3"/>
+		<field name="UUID_" uuid="DF2542A6CCC54423876B45740FDFDAA2" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="4"/>
+		<primary_key field_name="UUID_" field_uuid="DF2542A6CCC54423876B45740FDFDAA2"/>
+		<table_extra trigger_insert="true" trigger_update="true" trigger_delete="true" input_form="Entrée" output_form="Sortie"/>
+	</table>
+	<table name="Termes" uuid="E04CE6CEF5BF4412A5499B2A8736FD19" id="22">
+		<field name="ID_Termes" uuid="C5715CA52CB54D69B5FF7A3C495CECC6" type="4" never_null="true" id="1"/>
+		<field name="TS_creation" uuid="236BAE38A59E4716BD8217FCCA848F82" type="4" never_null="true" id="2"/>
+		<field name="TS_modif" uuid="D1E57EE8519D4CB4B0C9714791DB53C3" type="4" never_null="true" id="3"/>
+		<field name="N_Update1" uuid="2ECB819A3A224BF8A24D11E8091F7E9F" type="4" never_null="true" id="4"/>
+		<field name="N_Update2" uuid="3F9AB10DC85E4772863F11ECBAF05205" type="4" never_null="true" id="5"/>
+		<field name="B_Log" uuid="2AF9918FB6AE482AA4DA9BB8E5EDA827" type="18" never_null="true" id="6"/>
+		<field name="ID_x1" uuid="E68C0C2923F64D34899FE301FBA7A2FE" type="4" never_null="true" id="7"/>
+		<field name="Valeur_Numerique" uuid="85923D7BF3EF4ED5A4461C1C0BEB2BBC" type="4" never_null="true" id="8"/>
+		<field name="Categorie" uuid="3DA40623874F49A8938F0B06E1D64663" type="4" never_null="true" id="9"/>
+		<field name="Termes_Langue1" uuid="53871D0A6A974CE382AE78CEDCB86AFA" type="10" limiting_length="255" never_null="true" id="10"/>
+		<field name="Termes_Langue2" uuid="6D14AB8BDC2044708F79149BF96A9B25" type="10" limiting_length="255" never_null="true" id="11"/>
+		<field name="Termes_Langue3" uuid="0185D475358C4CC08C181019F5A870EC" type="10" limiting_length="255" never_null="true" id="12"/>
+		<field name="Termes_Langue4" uuid="D80AF009D9F74BD68CF4DCACC14D65A7" type="10" limiting_length="255" never_null="true" id="13"/>
+		<field name="Termes_Langue5" uuid="B0573E3CD0C841BF9503DAF3A97907AD" type="10" limiting_length="255" never_null="true" id="14"/>
+		<field name="Termes_Langue6" uuid="05696B40D5BE4F3C89F45F80E526DECD" type="10" limiting_length="255" never_null="true" id="15"/>
+		<field name="Termes_Langue7" uuid="40A908C398D641349095787337ADEF2E" type="10" limiting_length="255" never_null="true" id="16"/>
+		<field name="Termes_Langue8" uuid="1BD7635FFAEB4767B17E10393A5A8568" type="10" limiting_length="255" never_null="true" id="17"/>
+		<field name="Termes_Langue9" uuid="93953FB739F14426B54C594298D9F58E" type="10" limiting_length="255" never_null="true" id="18"/>
+		<field name="Termes_Langue10" uuid="E9769E7D0CDA40628D3309A9BF25394C" type="10" limiting_length="255" never_null="true" id="19"/>
+		<field name="Commentaires" uuid="7F0A5DBF6DFD459496BA2FE9846603D6" type="10" never_null="true" id="20"/>
+		<field name="UUID_" uuid="2B553D921A154B69965A9B30B99C2F4A" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="21"/>
+		<primary_key field_name="UUID_" field_uuid="2B553D921A154B69965A9B30B99C2F4A"/>
+		<table_extra input_form="UD_Saisie" output_form="Sortie"/>
+	</table>
+	<table name="Numerotation" uuid="A439569DC7244B2196204B60278CE3E3" id="23">
+		<field name="CompteurCourant" uuid="614BE93E3B49454D868231F27572275F" type="4" never_null="true" id="1"/>
+		<field name="CompteurUpdate" uuid="2B0A6E8B4FA34D1E92D0DE33CE6C7219" type="4" never_null="true" id="2"/>
+		<field name="NomTable" uuid="89211D6851764B4FBD7C5334424A2623" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="NrTable" uuid="B633332A7E834292B4BEC7C4BBE7B1E4" type="4" never_null="true" id="4"/>
+		<field name="UUID_" uuid="F8008014FE0E48D2BB11756DB4D1E606" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="5"/>
+		<primary_key field_name="UUID_" field_uuid="F8008014FE0E48D2BB11756DB4D1E606"/>
+		<table_extra input_form="Entrée" output_form="Sortie"/>
+	</table>
+	<table name="KSF_CRYPTO_KEYS" uuid="7049C6EE48D24F9EBB676DC20E221398" id="24" prevent_journaling="true">
+		<field name="privatekey" uuid="D8629725532B468F8E20867A02AA6E57" type="10" id="1"/>
+		<field name="UUID" uuid="B3E5C6254AE14AEFA0A9657CB103D93F" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="2"/>
+		<field name="publickey" uuid="D3C1C341E13A4459836ACAFAE19F93E2" type="10" id="3"/>
+		<field name="nom" uuid="622DB7366F2545848B7F3ADFC6425083" type="10" limiting_length="255" id="4"/>
+		<primary_key field_name="UUID" field_uuid="B3E5C6254AE14AEFA0A9657CB103D93F"/>
+	</table>
+	<table name="Analyse_IA" uuid="A7D1FA1BE5D74935AB46AD11D5651C64" id="25" prevent_journaling="true">
+		<field name="b64" uuid="97BFDCA065824B5CB175F3CFEC00B351" type="10" id="1"/>
+		<field name="UUID_" uuid="5531497C59E2496A9FE3463E886FECE9" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="2"/>
+		<field name="requete" uuid="C82FFC7021F942368AF6CA2DF690ED71" type="10" id="3"/>
+		<field name="reponse" uuid="941BB5D87C3B42D1BF312C6D035A310E" type="10" id="4"/>
+		<field name="image" uuid="B932CA6C280A4E099D4F7F483213B35F" type="12" id="5"/>
+		<field name="blobImage" uuid="595E6157ACBF437A91D1667CC79DC5AE" type="18" id="6"/>
+		<field name="reponseFormate" uuid="10BB08F621BF49D4BB97300BA254C1EB" type="10" id="7"/>
+		<field name="reponseEnvoye" uuid="3442166D52934A0BA7A106F0CFE52E9E" type="10" id="8"/>
+		<field name="date" uuid="2C543B94B4CB4B3A8173B7CE27998694" type="8" id="9"/>
+		<field name="heure" uuid="37C3D488B3584048A618C7C1D7DC1C5F" type="9" id="10"/>
+		<field name="ingredientsMet" uuid="3265A3D79FC14666A2BF7D15E113BBD6" type="10" limiting_length="255" id="11"/>
+		<field name="prixMet" uuid="30D1B448E31F40F39CFF1ABDC6001FD3" type="10" limiting_length="255" id="12"/>
+		<field name="recetteMet" uuid="DB5C92789C0F4848B2CF4765235A4857" type="10" limiting_length="255" id="13"/>
+		<field name="tempsPrepaMet" uuid="55BBD0CF557C43F5BB0ED9408AA39EF6" type="10" limiting_length="255" id="14"/>
+		<field name="nomVin" uuid="C78A438962244419A6D8F0C7FF75038D" type="10" limiting_length="255" id="15"/>
+		<field name="nomMet" uuid="EC526130839448C88169B77134D4DA51" type="10" limiting_length="255" id="16">
+			<field_extra multi_line="false"/>
+		</field>
+		<field name="UUID_Recette" uuid="066839B5231B4D2EBF1DA6AAE3A2189E" type="10" store_as_UUID="true" id="17"/>
+		<primary_key field_name="UUID_" field_uuid="5531497C59E2496A9FE3463E886FECE9"/>
+	</table>
+	<table name="(ResetPassToken)" uuid="17A75F0DE0E8445D8E4853A68C98F099" id="26" hide_in_REST="true" prevent_journaling="true">
+		<field name="token" uuid="EB010354B78240479C4266563C8C9117" type="10" id="1"/>
+		<field name="UUID" uuid="BD27FDA74DDF4D9B9859ED574B4375D3" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="2">
+			<field_extra multi_line="false"/>
+		</field>
+		<field name="userUUID" uuid="496481477D324E7FA33FB0C390CF28EB" type="10" limiting_length="255" id="3"/>
+		<field name="tokenHash" uuid="F8C47D59FFC442D1B0D19AE053101F10" type="10" id="4"/>
+		<field name="dateExpiration" uuid="CC624B189FBA432D996725497D251799" type="8" id="5"/>
+		<field name="used" uuid="48E423C8CDDF48D98978C95F3F4B306D" type="1" id="6"/>
+		<primary_key field_name="UUID" field_uuid="BD27FDA74DDF4D9B9859ED574B4375D3"/>
+		<table_extra trashed="true"/>
+	</table>
+	<table name="Enum" uuid="BD89CF4E677A434B877FFEB4A1505073" id="27" prevent_journaling="true">
+		<field name="Valeur_Enum" uuid="7DD3CD029A0149DCAE1F10E0FD4AC51E" type="21" blob_switch_size="2147483647" id="1">
+			<field_extra multi_line="false"/>
+		</field>
+		<field name="UUID_" uuid="370F9BAAAD5D44D8B2FF662B1770164D" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="2">
+			<field_extra multi_line="false"/>
+		</field>
+		<field name="titre" uuid="D89B6771E1684EBA864C9A940C58403D" type="10" limiting_length="255" id="3"/>
+		<field name="langue" uuid="E8CB6A6A367C4B12A7F268357BDB2030" type="10" limiting_length="255" id="4"/>
+		<primary_key field_name="UUID_" field_uuid="370F9BAAAD5D44D8B2FF662B1770164D"/>
+	</table>
+	<table name="Recette" uuid="8EF9956EB91147BEB1E1702FB15B55A1" id="28" prevent_journaling="true">
+		<field name="requete" uuid="F997169F6274439A86A873898CDF0B18" type="10" limiting_length="255" id="1"/>
+		<field name="UUID_" uuid="6C49AB6E6C0B4628A8585CB08DB642CE" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="2">
+			<field_extra multi_line="false"/>
+		</field>
+		<field name="ingredientsMet" uuid="50B05717BC2A44529E9BC705DECF2594" type="10" id="3"/>
+		<field name="prixMet" uuid="8812ABE25A9B4EBE99CC01C6F76844B7" type="10" limiting_length="255" id="4"/>
+		<field name="recetteMet" uuid="31D742C5D09249978256A2D2D0736AC1" type="10" limiting_length="255" id="5"/>
+		<field name="tempsPrepaMet" uuid="F3AE809B023D44309CB4C90FCD4D8387" type="10" limiting_length="255" id="6"/>
+		<field name="nomVin" uuid="404554C61254472CAB08347B698B7BF6" type="10" limiting_length="255" id="7"/>
+		<field name="nomMet" uuid="0843EE2A28974BAA9C1D2CF38C4BFF9B" type="10" limiting_length="255" id="8"/>
+		<field name="dateModif" uuid="52678E9D701D47F4BCDAA6C77427B966" type="8" id="9"/>
+		<field name="heureModif" uuid="B84DAAE77A954BD083DEA7C453C75976" type="9" id="10">
+			<field_extra multi_line="false"/>
+		</field>
+		<field name="reponseIA" uuid="859002751E6044BB80A1265DE8435635" type="10" id="11"/>
+		<field name="indicationMet" uuid="EE0576FF9E3C4471878293EAF1C15A9A" type="10" id="12"/>
+		<field name="instructionMet" uuid="83015EAEC0934707862D95D16E130708" type="10" id="13"/>
+		<field name="nomPlat" uuid="6B1518CB4C1D469B90D8EB21D1D40A83" type="10" limiting_length="255" id="14"/>
+		<field name="imageUrl" uuid="3415208B40F9482AA4E0503E8F03BEF5" type="10" id="15"/>
+		<field name="difficulte" uuid="9AA589A7D4F94DE882A82DD213B28CF0" type="10" limiting_length="255" id="16"/>
+		<field name="imageBlob" uuid="3BA0B6C69DF147A091DECF956CE1DFF9" type="18" id="17" outside_blob="true">
+			<field_extra multi_line="false"/>
+		</field>
+		<field name="imageBase64" uuid="1AB87CB9BBB04239BF7EAE2951DA510E" type="14" text_switch_size="64" id="18" outside_blob="true"/>
+		<field name="nomFichier" uuid="8CFEE9B5B0214F4B9F7F64914E557277" type="10" limiting_length="255" id="19"/>
+		<field name="instructionDetail" uuid="6B5B798A76F54D24BBB5332B2D47CD19" type="10" id="20"/>
+		<primary_key field_name="UUID_" field_uuid="6C49AB6E6C0B4628A8585CB08DB642CE"/>
+	</table>
+	<table name="Vin_Association" uuid="34BE07ED9AF44F839D886283077642D3" id="29" prevent_journaling="true">
+		<field name="UUID_Cave" uuid="ACE20851D6394A22AD9BAE2F96958DA7" type="10" limiting_length="255" id="1"/>
+		<field name="UUID_Utilisateur" uuid="E93F07B17530483BB128CE6E67F3588C" type="10" limiting_length="255" id="2"/>
+		<field name="nomVin" uuid="3E80B43C0CCE44D39729500AA8B987B3" type="10" limiting_length="255" id="3"/>
+		<field name="nomMet" uuid="06B6605ED3AD4C94B2852F4DB981732F" type="10" limiting_length="255" id="4"/>
+		<field name="UUID_Recette" uuid="6534780A9B8F455AA1B6CA330014B90A" type="10" limiting_length="255" id="5"/>
+		<field name="UUID_" uuid="0A1D37AB7EF94ED5B75BE5D75750D6AF" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="6">
+			<field_extra multi_line="false"/>
+		</field>
+		<primary_key field_name="UUID_" field_uuid="0A1D37AB7EF94ED5B75BE5D75750D6AF"/>
+	</table>
+	<table name="Recette_Utilisateur" uuid="D094368DEF8C4F188BA3FEECAE18B646" id="30" prevent_journaling="true">
+		<field name="Enregistrer" uuid="E5F6BE3DE180477BAA4892B0E2F2FF72" type="1" id="1"/>
+		<field name="UUID_" uuid="8BEC99215CC34645B26B2B6ABE0985EA" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="2"/>
+		<field name="UUID_Utilisateur" uuid="B81A0241E0E049518EB9FB80E3AD4F01" type="10" limiting_length="255" id="3"/>
+		<field name="UUID_Recette" uuid="56D5CAED14E84627BE40C4FC368C8F49" type="10" limiting_length="255" id="4"/>
+		<field name="Favori" uuid="D1B1030E53B64F588524F866F221A5A2" type="1" id="5"/>
+		<field name="imageBase64" uuid="0EA59A8CC40C4DBDBCDCB89BFC26F0A3" type="10" id="6"/>
+		<primary_key field_name="UUID_" field_uuid="8BEC99215CC34645B26B2B6ABE0985EA"/>
+	</table>
+	<table name="Mon_Oenologue" uuid="0DEE00510F6B4F55A04F0BBC0573DD05" id="31" prevent_journaling="true">
+		<field name="UUID" uuid="1E36D9EF08A44C6E94475941D9F9874B" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1">
+			<field_extra multi_line="false"/>
+		</field>
+		<field name="Crea_Date" uuid="497C42B134ED4EE198E40673D3A780D7" type="8" id="2"/>
+		<field name="Crea_Heure" uuid="7556CD7D9C8E4DAA9ACC2A7B307831DD" type="9" id="3">
+			<field_extra multi_line="false"/>
+		</field>
+		<field name="UUID_Utilisateur" uuid="72DC305902BD48FCBC003C2C1D9E89A0" type="10" store_as_UUID="true" id="4"/>
+		<field name="Cave" uuid="F18EFDF88CD74BF5AA2D06C10E517260" type="21" blob_switch_size="2147483647" id="5"/>
+		<field name="Plats" uuid="45762DC42DD747448463980739C4DAAF" type="21" blob_switch_size="2147483647" id="6"/>
+		<field name="Conseil" uuid="4997AD943DF94F6FB127212529A03C41" type="10" id="7"/>
+		<field name="Prompt" uuid="3F710745626B4F2BBF39DC02EE556D3F" type="10" id="8"/>
+		<field name="Temps_Analyse" uuid="CF552F36779949B9ACCC585B8731520B" type="4" id="9"/>
+		<primary_key field_name="UUID" field_uuid="1E36D9EF08A44C6E94475941D9F9874B"/>
+		<table_extra output_form="Liste" input_form="Saisie"/>
+	</table>
+	<table name="Prompt" uuid="D70EC09EA58A44AF953248F4AE42A7B2" id="32">
+		<field name="UUID" uuid="BD75D2B8CC5C4AA6BDE5162D81A61FE4" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="Libelle" uuid="F15B5DCE56D64533A4E7E7F96F6AD129" type="10" limiting_length="255" id="2">
+			<field_extra multi_line="false"/>
+		</field>
+		<field name="Langue" uuid="CB2035D00590434EABB03A395704F938" type="10" limiting_length="255" id="3"/>
+		<field name="Prompt" uuid="8CFAB1DFA99F475B81CA1C0EEF811409" type="10" id="4"/>
+		<primary_key field_name="UUID" field_uuid="BD75D2B8CC5C4AA6BDE5162D81A61FE4"/>
+	</table>
+	<table name="Token" uuid="D7B5342F71D34604AE1CAE1B861ACF6A" id="33">
+		<field name="UUID" uuid="631A5BB9FB014A338DB26D219F3DF325" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="UUID_Utilisateur" uuid="3A4A2D0A441A47AB9FCF7C9565F8C6CE" type="10" store_as_UUID="true" id="2"/>
+		<field name="Payload" uuid="4D9CA19D718F413981813807FD3FD6D5" type="21" blob_switch_size="2147483647" id="3"/>
+		<field name="Iat" uuid="026F21C427624596B2E25B6D00870B72" type="4" id="4"/>
+		<field name="Exp" uuid="0F8446CDF0B9465C9479199118BD536A" type="4" id="5"/>
+		<primary_key field_name="UUID" field_uuid="631A5BB9FB014A338DB26D219F3DF325"/>
+	</table>
+	<table name="Images_Traitees" uuid="5B43A8DC3CC24BF5BF6180ABE7862E16" id="34">
+		<field name="UUID" uuid="0B9249453ED347369ED2BB54AD35DC9B" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="Photo" uuid="4F4B5CF25B3949FAA45763D71C639207" type="12" id="2"/>
+		<field name="Reponse" uuid="A8614EF3A72B439C9CFF3A04C502A854" type="10" id="3"/>
+		<field name="UUID_Oenologue" uuid="12A7FCDA504B47BEAAE585C90198FBAB" type="10" store_as_UUID="true" id="4">
+			<field_extra multi_line="false"/>
+		</field>
+		<field name="B64" uuid="D9F9EEDBDCAF47FEA5EA1F547CCA862A" type="10" id="5"/>
+		<field name="Temps_Analyse" uuid="221FE118C19648F982772D5AFF14F130" type="4" id="6">
+			<field_extra multi_line="false"/>
+		</field>
+		<field name="ModelIA" uuid="A70D82594A3347338D432F9512E1BA6B" type="10" id="7"/>
+		<primary_key field_name="UUID" field_uuid="0B9249453ED347369ED2BB54AD35DC9B"/>
+		<table_extra output_form="Liste" input_form="Saisie"/>
+	</table>
+	<table name="Image_Traitees2" uuid="881891266749411496C8A6256EE3C9E7" id="35">
+		<field name="UUID" uuid="5BE100B1DA334C509FDE236152A21AB1" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="Photo" uuid="9F3BFFDCEB54474B9D2C6F1707E5A28C" type="12" id="2">
+			<field_extra multi_line="false"/>
+		</field>
+		<field name="Reponse" uuid="AC5064F19D184838A5A543B63C52B7B5" type="10" id="3">
+			<field_extra multi_line="true"/>
+		</field>
+		<field name="UUID_Oenologue" uuid="513D50061D11407AAD72EABFF1A37EE3" type="10" store_as_UUID="true" id="4">
+			<field_extra multi_line="false"/>
+		</field>
+		<field name="B64" uuid="F87A20834C7A457F8CF294DF710014A3" type="10" id="5">
+			<field_extra multi_line="true"/>
+		</field>
+		<field name="Temps_Analyse" uuid="146DCE58FCA64777947866A34F579600" type="4" id="6"/>
+		<field name="ModelIA" uuid="CFD89C71F5DA47CEA027A5B8C1B5632C" type="10" id="7">
+			<field_extra multi_line="true"/>
+		</field>
+		<field name="typeData" uuid="7DDA662031C943B8A24E5C6FA391D756" type="10" id="8"/>
+		<field name="typeCategorie" uuid="4F1D2772E4A74B80977C91C4F081470D" type="10" id="9"/>
+		<primary_key field_name="UUID" field_uuid="5BE100B1DA334C509FDE236152A21AB1"/>
+	</table>
+	<relation uuid="F2EABF984E554D30A39C3FCBF27528AC" name_Nto1="Ref_Pays_1_" name_1toN="Ref_Pays_1_" auto_load_Nto1="true" auto_load_1toN="true" state="1">
+		<related_field kind="source">
+			<field_ref uuid="8AAFD9E2302A46E19204B56BFFBA6943" name="Ref_Pays">
+				<table_ref uuid="95C71106E5A94364B6D5171C608409D2" name="Region"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="437BD807A7004F72921D1D403DC69718" name="Ref_Pays">
+				<table_ref uuid="9C022BADAD024F6A8D8BB2321A961215" name="Pays"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_create="true" choice_field="1"/>
+	</relation>
+	<relation uuid="E84F4A5907A74CDD9A9E3B294E900CDC" name_Nto1="Ref_Cave_2_" name_1toN="Ref_Cave_2_" auto_load_Nto1="true" auto_load_1toN="true" state="1">
+		<related_field kind="source">
+			<field_ref uuid="872A788DECA14FC3AB43A985444B4FDD" name="Ref_Cave">
+				<table_ref uuid="15F2843BDE5F45389DDE3F15F3F5FA7E" name="Degustation"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="CEDDF99A02C44614AFFBB3B8D7D9DC8F" name="Ref_Cave">
+				<table_ref uuid="6F4F15D31EDA4134970B4E5B820EED30" name="Cave"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_create="true" choice_field="1"/>
+	</relation>
+	<relation uuid="D67370F033A24BE2BBD2FF4363DD2125" name_Nto1="Lien_3" name_1toN="Lien_3_retour" state="1">
+		<related_field kind="source">
+			<field_ref uuid="4D8D01A4ACB54F05B3ED620C26ED0FB6" name="UUID_">
+				<table_ref uuid="D171A7B3CAC542B3AA15B97108BF94D9" name="Utilisateur"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="72DC305902BD48FCBC003C2C1D9E89A0" name="UUID_Utilisateur">
+				<table_ref uuid="0DEE00510F6B4F55A04F0BBC0573DD05" name="Mon_Oenologue"/>
+			</field_ref>
+		</related_field>
+	</relation>
+	<relation uuid="9E9557BDBC524D80823A2B76CBC69C7F" name_Nto1="Lien_4" name_1toN="Lien_4_retour" state="1">
+		<related_field kind="source">
+			<field_ref uuid="3A4A2D0A441A47AB9FCF7C9565F8C6CE" name="UUID_Utilisateur">
+				<table_ref uuid="D7B5342F71D34604AE1CAE1B861ACF6A" name="Token"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="4D8D01A4ACB54F05B3ED620C26ED0FB6" name="UUID_">
+				<table_ref uuid="D171A7B3CAC542B3AA15B97108BF94D9" name="Utilisateur"/>
+			</field_ref>
+		</related_field>
+	</relation>
+	<relation uuid="DE56D201FDBC476EB21D037AAB34017C" name_Nto1="Lien_5" name_1toN="Lien_5_retour" state="1">
+		<related_field kind="source">
+			<field_ref uuid="12A7FCDA504B47BEAAE585C90198FBAB" name="UUID_Oenologue">
+				<table_ref uuid="5B43A8DC3CC24BF5BF6180ABE7862E16" name="Images_Traitees"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="1E36D9EF08A44C6E94475941D9F9874B" name="UUID">
+				<table_ref uuid="0DEE00510F6B4F55A04F0BBC0573DD05" name="Mon_Oenologue"/>
+			</field_ref>
+		</related_field>
+	</relation>
+	<relation uuid="BD398001883048608EDF2188DE748A48" name_Nto1="Lien_6" name_1toN="Lien_6_retour" state="1">
+		<related_field kind="source">
+			<field_ref uuid="513D50061D11407AAD72EABFF1A37EE3" name="UUID_Oenologue">
+				<table_ref uuid="881891266749411496C8A6256EE3C9E7" name="Image_Traitees2"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="1E36D9EF08A44C6E94475941D9F9874B" name="UUID">
+				<table_ref uuid="0DEE00510F6B4F55A04F0BBC0573DD05" name="Mon_Oenologue"/>
+			</field_ref>
+		</related_field>
+	</relation>
+	<index kind="regular" uuid="00C754CB6C1E40D781724CA963C415CB" type="7">
+		<field_ref uuid="998C9A2771C84D2CA66A40A9A7D703A1" name="Apogee">
+			<table_ref uuid="6F4F15D31EDA4134970B4E5B820EED30" name="Cave"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="01D12AED80BE48B1B8C5836E717A7716" type="7">
+		<field_ref uuid="B5C7949FC11A4B88BD72029F22483C3D" name="UUID">
+			<table_ref uuid="6F4F15D31EDA4134970B4E5B820EED30" name="Cave"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="04066B217C53449A981D41BBCAD75045" type="7">
+		<field_ref uuid="E8DFAEA8AAAB47D2863DFE055FA0CB0A" name="Type">
+			<table_ref uuid="6F4F15D31EDA4134970B4E5B820EED30" name="Cave"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="06AF4101F57A4BD98CC5207F06CDAD42" type="7">
+		<field_ref uuid="620B923FD8384E31B428D79999A9FD1D" name="Actif_AL">
+			<table_ref uuid="B8D144F392BD4B759799367CFDD78C30" name="Informations"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_17" uuid="08EB379FBA90406DA1E1D2A1E55DE588" type="7">
+		<field_ref uuid="4D8D01A4ACB54F05B3ED620C26ED0FB6" name="UUID_">
+			<table_ref uuid="D171A7B3CAC542B3AA15B97108BF94D9" name="Utilisateur"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="0CAE5125230744078A3E35C66D6CCC9E" type="7">
+		<field_ref uuid="8AAFD9E2302A46E19204B56BFFBA6943" name="Ref_Pays">
+			<table_ref uuid="95C71106E5A94364B6D5171C608409D2" name="Region"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="0E82B727D9E8473F9CD1B511082F860F" type="7">
+		<field_ref uuid="77758ED65C21469094B4979BBB2F2391" name="Ref_Pays">
+			<table_ref uuid="121E219AE8A74059B9CCB97052DFC803" name="Millésimes"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_12" uuid="1097B9D3E3054692B5D4EFA7A53C3DBE" type="7">
+		<field_ref uuid="6F0E612DDB194552B731A90F7C9CEDC7" name="UUID_">
+			<table_ref uuid="15F2843BDE5F45389DDE3F15F3F5FA7E" name="Degustation"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="10BD187F440E459BB78855CDC3DC3E57" type="1">
+		<field_ref uuid="6B1518CB4C1D469B90D8EB21D1D40A83" name="nomPlat">
+			<table_ref uuid="8EF9956EB91147BEB1E1702FB15B55A1" name="Recette"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="11C24B5979F44A21BBB64D19BC3B2276" type="7">
+		<field_ref uuid="675E588C47C349F49039CD67038AC714" name="Actif_En">
+			<table_ref uuid="B8D144F392BD4B759799367CFDD78C30" name="Informations"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_21" uuid="151CBE345BF44A7EBCCECB8317F4AA5E" type="7">
+		<field_ref uuid="DF2542A6CCC54423876B45740FDFDAA2" name="UUID_">
+			<table_ref uuid="74DE43BE3A6140AAA1E11B6525627528" name="Odeur_Aromes"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_2" uuid="15DA262F0A48470B90C1CA17788C4271" type="7">
+		<field_ref uuid="C5FCFCF66B9548139B8899472A572C33" name="UUID_">
+			<table_ref uuid="6F4F15D31EDA4134970B4E5B820EED30" name="Cave"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="16CB871BCE4140C58F5CBB5591DF22B7" type="7">
+		<field_ref uuid="A190B7F7AE5F46F9BFECBF0DC24F56AA" name="_Ref">
+			<table_ref uuid="7B9ADC42D0604139987B1FAAD53AF6AE" name="Modele_Carte"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="1776646E08E2432D8F2D43136AA9CDA1" type="7">
+		<field_ref uuid="03DE8764C10C4908AE25BD094B63A3E9" name="Ref_Producteur">
+			<table_ref uuid="FF59341C8C60479292805A7BF65624B6" name="Producteur"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="1BFCC37054084CFA91574CDBDFDAB511" type="7">
+		<field_ref uuid="F99D6592AA6741A288F20FF71CDCFFFC" name="Ref_Pays">
+			<table_ref uuid="E0707D915DD14DA0BDFF96B6DB62B6EF" name="Titre_Millesime"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="1D40A24BC9FA454C848F7C895FB9BF3F" type="7">
+		<field_ref uuid="417A2224C40345F4965CBCFF016D10E1" name="Nom_Fr">
+			<table_ref uuid="9C022BADAD024F6A8D8BB2321A961215" name="Pays"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_10" uuid="1FF4D6C61C8F4C8587A27CBC74A16B0B" type="7">
+		<field_ref uuid="77401EFFD036435888A03D1F7358EF27" name="UUID_">
+			<table_ref uuid="B8D144F392BD4B759799367CFDD78C30" name="Informations"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="20407E9FD2C44A7AA660652E01FD01A6" type="7">
+		<field_ref uuid="900DCA97E8014BABB0526C0530A2786E" name="Ref_Pays">
+			<table_ref uuid="6F4F15D31EDA4134970B4E5B820EED30" name="Cave"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="263D85963C964835BE77A851967A392D" type="7">
+		<field_ref uuid="59D9B0F7AFB04661A00AF9C95E8D1F10" name="Actif_DA">
+			<table_ref uuid="B8D144F392BD4B759799367CFDD78C30" name="Informations"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="28D06B981AF84CDAB1DFBA38798E26F9" type="7">
+		<field_ref uuid="A058392F4286409B96F010A405E91506" name="Titre_Info_Fr">
+			<table_ref uuid="B8D144F392BD4B759799367CFDD78C30" name="Informations"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="2ADF706B785546C7B9C2B4843FBE59C3" type="7">
+		<field_ref uuid="060487DFD917422C8A3D05D7BF2C87F9" name="Ref_Region">
+			<table_ref uuid="5E6E797B183B488F9B51C3ABFF9B8632" name="Appellation"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_13" uuid="2FA4103AD66C47E3B83F70A6B53FA929" type="7">
+		<field_ref uuid="8E8710E1285B4C35B40838CB51FC2081" name="UUID_">
+			<table_ref uuid="FF59341C8C60479292805A7BF65624B6" name="Producteur"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_20" uuid="30231173B4BC49B99F5A180E34679756" type="7">
+		<field_ref uuid="F9F177D941E44CECA271D9AC37ABFCB0" name="UUID_">
+			<table_ref uuid="D9A31FBC29144AE2AF6CA72BA69B1DBA" name="Import"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_22" uuid="33EFD5DF55F1408889525E5E43EA1B17" type="7">
+		<field_ref uuid="2B553D921A154B69965A9B30B99C2F4A" name="UUID_">
+			<table_ref uuid="E04CE6CEF5BF4412A5499B2A8736FD19" name="Termes"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="34A90EFA819947E1AE7907C8DCF4F0B2" type="7">
+		<field_ref uuid="BD27FDA74DDF4D9B9859ED574B4375D3" name="UUID">
+			<table_ref uuid="17A75F0DE0E8445D8E4853A68C98F099" name="(ResetPassToken)"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="3828055833194EF2B13CD3F74B25AC89" type="7">
+		<field_ref uuid="78A14448290E495D95998C7600AA7E9D" name="UUID_User">
+			<table_ref uuid="6F4F15D31EDA4134970B4E5B820EED30" name="Cave"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_1" uuid="3C67C7E55DC44AE99DFD90F3538543E9" type="7">
+		<field_ref uuid="76CB335D3CB642C789FDF87C64DB9B6F" name="UUID_">
+			<table_ref uuid="D52D3DC5C8154FEE843609B14542BC25" name="Interface"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="3D0EED2759B14099A56591DFE410EBFA" type="7">
+		<field_ref uuid="2F772457823342C6AAE404711DD9B570" name="UUID_User">
+			<table_ref uuid="D171A7B3CAC542B3AA15B97108BF94D9" name="Utilisateur"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="3D18E4F066F3476580AB907977B8AFE4" type="7">
+		<field_ref uuid="470BCDFCEE0643B1B2DE8DF2A739F6D4" name="Actif_FR">
+			<table_ref uuid="B8D144F392BD4B759799367CFDD78C30" name="Informations"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="3F8A7B10BF0840C0A856FCD39E4D44C8" type="7">
+		<field_ref uuid="7D870779C326413EAF2ED2076A500F75" name="Sous_RubriqueES">
+			<table_ref uuid="B8D144F392BD4B759799367CFDD78C30" name="Informations"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="453C0E465C0049E18C0FC34790F9D5D1" type="7">
+		<field_ref uuid="CFC27B829D4C40F6B0B026FFF882FAF9" name="Titre">
+			<table_ref uuid="74DE43BE3A6140AAA1E11B6525627528" name="Odeur_Aromes"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="46ACC4805112439EADB6E19B39AFBBDA" type="7">
+		<field_ref uuid="CEDDF99A02C44614AFFBB3B8D7D9DC8F" name="Ref_Cave">
+			<table_ref uuid="6F4F15D31EDA4134970B4E5B820EED30" name="Cave"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="47AF0635BAF74C83A24CA3A62ADE6003" type="7">
+		<field_ref uuid="4DC44CE8499F4C4887A38041462C6A56" name="Rubrique1">
+			<table_ref uuid="D52D3DC5C8154FEE843609B14542BC25" name="Interface"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="47D3DB87BD5846F1A802169F1AF076A5" type="7">
+		<field_ref uuid="347CDF2D1638498BB8E002213DDFC4DE" name="Millesime">
+			<table_ref uuid="6F4F15D31EDA4134970B4E5B820EED30" name="Cave"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_5" uuid="49ACB928AB044994ADFD4B1ABBE2F5FE" type="7">
+		<field_ref uuid="2E03B8D2F63641DD83306544D2485CDC" name="UUID_">
+			<table_ref uuid="98FCF796B6C54851AAF1A7B2652F4AC0" name="Vocabulaire"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="4B07633E27854DA39E93251644BAF10A" type="7">
+		<field_ref uuid="B16D245E4FAB4EB0937F51C041E28751" name="Sous_Categorie">
+			<table_ref uuid="35B14092A1A149E19F293869B179B749" name="Association"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_16" uuid="4BCF62EFF21F420091735E787A9DE940" type="7">
+		<field_ref uuid="4A01B5D1474A4A42B99657525F4C604F" name="UUID_">
+			<table_ref uuid="90049195A19E45EBB786FA2D2D2E46DF" name="Etiquettes"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="4CC6249D17D94A4BA8FBD6A1E6D81DB9" type="7">
+		<field_ref uuid="3B0D559F7A164E7EA8A49FBCC44FE376" name="Pos">
+			<table_ref uuid="D9A31FBC29144AE2AF6CA72BA69B1DBA" name="Import"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="4DE5F417CC4B4CDF9856F8CB208C87AC" type="7">
+		<field_ref uuid="EB3F2B070E03472E974399B33B21719A" name="Sous_RubriqueDA">
+			<table_ref uuid="B8D144F392BD4B759799367CFDD78C30" name="Informations"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_11" uuid="4F43014910284A81A9F39F49636C4D2C" type="7">
+		<field_ref uuid="5DE54B6B598242648E4125849B5150A2" name="UUID_">
+			<table_ref uuid="FDED7801BF3449E4ADD8A41CBAF99B36" name="Textes"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="525DFFFD199C4AD39D7788BF015CA91F" type="7">
+		<field_ref uuid="367E3FA851AE4B909DB5530E5D01BEDB" name="Sous_Rubrique">
+			<table_ref uuid="B8D144F392BD4B759799367CFDD78C30" name="Informations"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="535D4A1542CE4068B7D0162035393873" type="7">
+		<field_ref uuid="CCAEE3C2A67A4013824C16894626A577" name="Langue">
+			<table_ref uuid="E0707D915DD14DA0BDFF96B6DB62B6EF" name="Titre_Millesime"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="56BEB0B2AE6246D684E5D95287086303" type="7">
+		<field_ref uuid="1E36D9EF08A44C6E94475941D9F9874B" name="UUID">
+			<table_ref uuid="0DEE00510F6B4F55A04F0BBC0573DD05" name="Mon_Oenologue"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="58283FF8560F46C1B3AC88BED39F5A40" type="7">
+		<field_ref uuid="2B6F7D178E74487CA521F7F106422E12" name="Rubrique">
+			<table_ref uuid="B8D144F392BD4B759799367CFDD78C30" name="Informations"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="5940B50255EE4323BE6CBEF70F383054" type="1">
+		<field_ref uuid="6C49AB6E6C0B4628A8585CB08DB642CE" name="UUID_">
+			<table_ref uuid="8EF9956EB91147BEB1E1702FB15B55A1" name="Recette"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="5B196C2919C2473990E0AB7E75B6462F" type="7">
+		<field_ref uuid="A4043119B3C946C498F70E75BAF910F9" name="_Ref">
+			<table_ref uuid="74DE43BE3A6140AAA1E11B6525627528" name="Odeur_Aromes"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="5BE1085C725543CA8B83208757891B79" type="3">
+		<field_ref uuid="3DA40623874F49A8938F0B06E1D64663" name="Categorie">
+			<table_ref uuid="E04CE6CEF5BF4412A5499B2A8736FD19" name="Termes"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="5F73807582CD44208A64B639DBC0E870" type="7">
+		<field_ref uuid="5BE100B1DA334C509FDE236152A21AB1" name="UUID">
+			<table_ref uuid="881891266749411496C8A6256EE3C9E7" name="Image_Traitees2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="63D694AC2A424B4B94EF903AAD88A33B" type="7">
+		<field_ref uuid="DE40538C53CF41DF93AC2633A79847CA" name="RubriqueAL">
+			<table_ref uuid="B8D144F392BD4B759799367CFDD78C30" name="Informations"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="6BEA4C7899BD4D27848AFF8875F10199" type="7">
+		<field_ref uuid="189F14A0D7C44484A8D90ABD573A906E" name="Pays">
+			<table_ref uuid="5E6E797B183B488F9B51C3ABFF9B8632" name="Appellation"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="6C7D539DDF134309B99E54E3AF499120" type="7">
+		<field_ref uuid="C0F81D43804849A58012B05977EE3A8D" name="Pays">
+			<table_ref uuid="6F4F15D31EDA4134970B4E5B820EED30" name="Cave"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="6D311B39EEBE477F87302725713DBF18" type="7">
+		<field_ref uuid="7EF42B96452C4ABF889F9BD553530E23" name="Cave">
+			<table_ref uuid="6F4F15D31EDA4134970B4E5B820EED30" name="Cave"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="6D4FA6DB5C1748A78D09C057DEDFE02D" type="7">
+		<field_ref uuid="639986E750294659B6D61E0F564CBE0B" name="Appellation">
+			<table_ref uuid="6F4F15D31EDA4134970B4E5B820EED30" name="Cave"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="6EEE52650D194B2CAE19B385A66D9A8D" type="7">
+		<field_ref uuid="2BB9A28AD31C44A89B4BA5287131A9B1" name="Sous_RubriqueEN">
+			<table_ref uuid="B8D144F392BD4B759799367CFDD78C30" name="Informations"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="70D9F3F6AAFE4E9B85F18E2BD72D90F6" type="7">
+		<field_ref uuid="FB5A2654C44E4E49B86CED11F24402EC" name="Ref_Region">
+			<table_ref uuid="95C71106E5A94364B6D5171C608409D2" name="Region"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="712E23F973434AE4852626AA5978083C" type="7">
+		<field_ref uuid="C3AE63CE089248A2833FBB9C2FD9BDA2" name="Cepage">
+			<table_ref uuid="96CC5EC2961B45E2950320C3ECEC5491" name="Cépages"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_23" uuid="722D25F8A3494A178EC43CB4164444DA" type="7">
+		<field_ref uuid="F8008014FE0E48D2BB11756DB4D1E606" name="UUID_">
+			<table_ref uuid="A439569DC7244B2196204B60278CE3E3" name="Numerotation"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="7623CC0C4A324DD5BDC6CBB5CC66A489" type="7">
+		<field_ref uuid="872A788DECA14FC3AB43A985444B4FDD" name="Ref_Cave">
+			<table_ref uuid="15F2843BDE5F45389DDE3F15F3F5FA7E" name="Degustation"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="7C3D0E8E1FB94D8AB7E069CAE61E31FF" type="7">
+		<field_ref uuid="764FC3A18A4F465CA6DCA0411990051C" name="Titre_InfoES">
+			<table_ref uuid="B8D144F392BD4B759799367CFDD78C30" name="Informations"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="7D044DC53E514CB48671A5D7EE21AB7A" type="7">
+		<field_ref uuid="56886819BB5047F38EC9756180C559D9" name="Annee">
+			<table_ref uuid="121E219AE8A74059B9CCB97052DFC803" name="Millésimes"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="7E77418F164F4F4BBB26A3CDA6968249" type="7">
+		<field_ref uuid="0A1D37AB7EF94ED5B75BE5D75750D6AF" name="UUID_">
+			<table_ref uuid="34BE07ED9AF44F839D886283077642D3" name="Vin_Association"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="88A89F8A370E4FD8B27CE1C2CBF05A74" type="1">
+		<field_ref uuid="F15B5DCE56D64533A4E7E7F96F6AD129" name="Libelle">
+			<table_ref uuid="D70EC09EA58A44AF953248F4AE42A7B2" name="Prompt"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="8925AA068CE54FAC889762E4A0545674" type="7">
+		<field_ref uuid="2C5D32930CB54890AEAC3EFBF625EF9A" name="Ref_Pays">
+			<table_ref uuid="5E6E797B183B488F9B51C3ABFF9B8632" name="Appellation"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="8FB235B7DFF44247BCFDFEB35C36C54F" type="7">
+		<field_ref uuid="058A7D86D55146A288502867D49439EF" name="Pays">
+			<table_ref uuid="E0707D915DD14DA0BDFF96B6DB62B6EF" name="Titre_Millesime"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="92501BA9A5DE4E709A7C4321F6E0EE18" type="7">
+		<field_ref uuid="F5010AB762A6453EB15B217A1E222E24" name="Categorie">
+			<table_ref uuid="35B14092A1A149E19F293869B179B749" name="Association"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="950C00E2181349EA9DC46BD181DDCE22" type="7">
+		<field_ref uuid="B57D3AF833D540B38A7596555AA38DE7" name="Ref_Region">
+			<table_ref uuid="6F4F15D31EDA4134970B4E5B820EED30" name="Cave"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="960E29B1F2404C9DA1372B9FD5C6F8AC" type="7">
+		<field_ref uuid="96D4F364C9D7447AB588751F6DC425A3" name="Sous_RubriqueAL">
+			<table_ref uuid="B8D144F392BD4B759799367CFDD78C30" name="Informations"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_7" uuid="97AB9C8205E744A4A46C3137F9C72042" type="7">
+		<field_ref uuid="99E9439478274A669BD2B4EB5704C9A1" name="UUID_">
+			<table_ref uuid="35B14092A1A149E19F293869B179B749" name="Association"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="97B69F15D3974E30AD2C86806ACD0BCE" type="7">
+		<field_ref uuid="FAD95AAF566A4A9595168648745BA7AC" name="Met">
+			<table_ref uuid="35B14092A1A149E19F293869B179B749" name="Association"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="98955E98AB2B49ACA16D26D88AA99440" type="7">
+		<field_ref uuid="631A5BB9FB014A338DB26D219F3DF325" name="UUID">
+			<table_ref uuid="D7B5342F71D34604AE1CAE1B861ACF6A" name="Token"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_3" uuid="9E81ABA7F59245FEB87D3E880592B8B9" type="7">
+		<field_ref uuid="0406BE116999469BB22A2A2B3959D25A" name="UUID_">
+			<table_ref uuid="5E6E797B183B488F9B51C3ABFF9B8632" name="Appellation"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="9E93AF7AC8A547DE96A74877B702C833" type="7">
+		<field_ref uuid="437BD807A7004F72921D1D403DC69718" name="Ref_Pays">
+			<table_ref uuid="9C022BADAD024F6A8D8BB2321A961215" name="Pays"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="A851A40765B64ECC8709B689E5132996" type="7">
+		<field_ref uuid="1BE7B8ED69DE4231B1D95AA48766E4AE" name="Vin">
+			<table_ref uuid="35B14092A1A149E19F293869B179B749" name="Association"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="A90E9C9D608E40F8800F04928CEB0A80" type="7">
+		<field_ref uuid="9586CB7F11FA4816974D700C7B173935" name="RubriqueDA">
+			<table_ref uuid="B8D144F392BD4B759799367CFDD78C30" name="Informations"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="AA9A936496434FC3973751FDA2255897" type="1">
+		<field_ref uuid="497C42B134ED4EE198E40673D3A780D7" name="Crea_Date">
+			<table_ref uuid="0DEE00510F6B4F55A04F0BBC0573DD05" name="Mon_Oenologue"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="AC906282124D4EA8864A8421039741BE" type="7">
+		<field_ref uuid="C1A0C1FA774048F7BBA4BEC754AC6006" name="Association">
+			<table_ref uuid="5E6E797B183B488F9B51C3ABFF9B8632" name="Appellation"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="AD09FE2C228C4D13A80795ADE9E5B398" type="7">
+		<field_ref uuid="146FEF77B1B840958E5D403D3C2D5453" name="Societe">
+			<table_ref uuid="FF59341C8C60479292805A7BF65624B6" name="Producteur"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="AEBC0C734B284059A8097387390FFFD8" type="1">
+		<field_ref uuid="B3E5C6254AE14AEFA0A9657CB103D93F" name="UUID">
+			<table_ref uuid="7049C6EE48D24F9EBB676DC20E221398" name="KSF_CRYPTO_KEYS"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="B10EC18D20CC431DA1FD7D3EBCF56FFE" type="7">
+		<field_ref uuid="17F3C47F321142038E43CCD2B4681039" name="_Nom">
+			<table_ref uuid="D9A31FBC29144AE2AF6CA72BA69B1DBA" name="Import"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="B184985865D449EFAAA6B38E97113762" type="7">
+		<field_ref uuid="5A1869E393164BCEAC34CC0B29DB51B2" name="Actif_Es">
+			<table_ref uuid="B8D144F392BD4B759799367CFDD78C30" name="Informations"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="B3D292E78E174B6F9188A39D6941B979" type="7">
+		<field_ref uuid="B4DAA1B03BA7445EAAE4E2C28617DC19" name="Coup_de_Coeur">
+			<table_ref uuid="6F4F15D31EDA4134970B4E5B820EED30" name="Cave"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="B49D0B4169C840BDAF762E2FD8E7AFA8" type="7">
+		<field_ref uuid="9AFF02194DC344E294A74A2A5D629FF0" name="Langue">
+			<table_ref uuid="35B14092A1A149E19F293869B179B749" name="Association"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_4" uuid="BBB55957201D44508B5DB0F5823965C7" type="7">
+		<field_ref uuid="139FF1814C1A4D4481CF94740DFEBA1F" name="UUID_">
+			<table_ref uuid="121E219AE8A74059B9CCB97052DFC803" name="Millésimes"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_9" uuid="BCBB58256FBE48F0A7C050CBE8E27054" type="7">
+		<field_ref uuid="89F36C45AE9C444B871EB732C3AA3896" name="UUID_">
+			<table_ref uuid="95C71106E5A94364B6D5171C608409D2" name="Region"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="BE62F66E1F7843729E7B22AC95239D04" type="7">
+		<field_ref uuid="B32FC8F88C774D91B27ED5F979919268" name="_Ref">
+			<table_ref uuid="4150A5FAC35D49EF95B3030F716A2BB3" name="Localisation_Carte"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="C3AF5EDC355E489DB9F0A89679F707D5" type="7">
+		<field_ref uuid="5531497C59E2496A9FE3463E886FECE9" name="UUID_">
+			<table_ref uuid="A7D1FA1BE5D74935AB46AD11D5651C64" name="Analyse_IA"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="C4390008992A4D01AB0E8C9CE54D72C2" type="7">
+		<field_ref uuid="5A0D00D3888A49349AC1A8D8C8BBFD4E" name="Type_Enumération">
+			<table_ref uuid="FDED7801BF3449E4ADD8A41CBAF99B36" name="Textes"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="C4BB201948494574A13D44FF413B1D4B" type="7">
+		<field_ref uuid="382AD826E7B24DCD9BC06B68FC5B4707" name="Région">
+			<table_ref uuid="6F4F15D31EDA4134970B4E5B820EED30" name="Cave"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="C5BFB412B9404441AAD24B51A55B1E3F" type="7">
+		<field_ref uuid="BD75D2B8CC5C4AA6BDE5162D81A61FE4" name="UUID">
+			<table_ref uuid="D70EC09EA58A44AF953248F4AE42A7B2" name="Prompt"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="C5E04F8D3CF643CCAAB84B48076A056D" type="7">
+		<field_ref uuid="72DC305902BD48FCBC003C2C1D9E89A0" name="UUID_Utilisateur">
+			<table_ref uuid="0DEE00510F6B4F55A04F0BBC0573DD05" name="Mon_Oenologue"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="C8190BE499874B41B5E85BF0B06B585C" type="7">
+		<field_ref uuid="FF6643A9087049538E863B8DD2BB1539" name="RubriqueEN">
+			<table_ref uuid="B8D144F392BD4B759799367CFDD78C30" name="Informations"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="CE9BD441F8FD4CA1905BB59C81B3D505" type="7">
+		<field_ref uuid="9F13494B796C4F288DE771F7F5F5DF65" name="Titre_InfoAL">
+			<table_ref uuid="B8D144F392BD4B759799367CFDD78C30" name="Informations"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_19" uuid="D1CBA5CAC69E4409819E888944B2B232" type="7">
+		<field_ref uuid="4A7EAB16BBB649AEBB29A011881BC535" name="UUID_">
+			<table_ref uuid="4150A5FAC35D49EF95B3030F716A2BB3" name="Localisation_Carte"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_14" uuid="D705C4E96FFC44B5970FC2BFFAEBCE0A" type="7">
+		<field_ref uuid="86BDFD833B794DC38B84D79C83221334" name="UUID_">
+			<table_ref uuid="E0707D915DD14DA0BDFF96B6DB62B6EF" name="Titre_Millesime"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="D71CF4BFB619466497377D0B21E8F36E" type="7">
+		<field_ref uuid="20771C792EB6425E91CA7A72911014EB" name="Reste_en_Cave">
+			<table_ref uuid="6F4F15D31EDA4134970B4E5B820EED30" name="Cave"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="DB9B5779569344668DA8E4148B487747" type="7">
+		<field_ref uuid="5F15E9700B0E4EFDA6F32A1473C30A96" name="Titre_InfoDA">
+			<table_ref uuid="B8D144F392BD4B759799367CFDD78C30" name="Informations"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="DC6EA2C9B30E4A198509AFA40FE65885" type="7">
+		<field_ref uuid="370F9BAAAD5D44D8B2FF662B1770164D" name="UUID_">
+			<table_ref uuid="BD89CF4E677A434B877FFEB4A1505073" name="Enum"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="DE5FC88E916F40F4B59B7F782A04A6D5" type="7">
+		<field_ref uuid="DDC8CFD849BE40EDBE1633A53C19BDD1" name="Region">
+			<table_ref uuid="5E6E797B183B488F9B51C3ABFF9B8632" name="Appellation"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="DE8C1408BCAA4B38896C59BD2F52AA34" type="7">
+		<field_ref uuid="01444AD36C4F4D0DB11ABC1204E85B1B" name="Ref_Degust">
+			<table_ref uuid="15F2843BDE5F45389DDE3F15F3F5FA7E" name="Degustation"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_6" uuid="E19D590BA4AE42E59FB8894D4CAEBCC1" type="7">
+		<field_ref uuid="9C54530F93594DCC80BF027923C9C6AA" name="UUID_">
+			<table_ref uuid="96CC5EC2961B45E2950320C3ECEC5491" name="Cépages"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_18" uuid="E1C3937732CB487EB591BF641A735035" type="7">
+		<field_ref uuid="DCA9F524E50A428DBE5FC059F3FDB389" name="UUID_">
+			<table_ref uuid="7B9ADC42D0604139987B1FAAD53AF6AE" name="Modele_Carte"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="E333502B446B41FE9D879C8237FC88E7" type="7">
+		<field_ref uuid="4527B0FBFFDB42959B8346C9DE216AF5" name="Appellation">
+			<table_ref uuid="5E6E797B183B488F9B51C3ABFF9B8632" name="Appellation"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="E4E69800806B4DBA82BF3CCBCE3179EF" type="7">
+		<field_ref uuid="E58B04CAF5754610A1432D8AC6FCF536" name="Ref_Producteur">
+			<table_ref uuid="6F4F15D31EDA4134970B4E5B820EED30" name="Cave"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_15" uuid="EAC158D47FE74C9B8F5705C283F7748F" type="7">
+		<field_ref uuid="410A4704AA984A33BD28FAFFDFEE01A0" name="UUID_">
+			<table_ref uuid="A17086F634A14486B978E371CA872450" name="Sites"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="EBDEA96B502E47F385390C3A97CAE29B" type="7">
+		<field_ref uuid="A6D1DC52C77A420C9BE9E94FD85F4A11" name="Rubrique">
+			<table_ref uuid="A17086F634A14486B978E371CA872450" name="Sites"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="ECE76B7CF60F42ACBEF3929E38993135" type="1">
+		<field_ref uuid="8BEC99215CC34645B26B2B6ABE0985EA" name="UUID_">
+			<table_ref uuid="D094368DEF8C4F188BA3FEECAE18B646" name="Recette_Utilisateur"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="ED0E037CD0A34CFCB84B0830CD156A5B" type="7">
+		<field_ref uuid="F3C2AEFF88D643F3BA4CA213748CE56C" name="RubriqueES">
+			<table_ref uuid="B8D144F392BD4B759799367CFDD78C30" name="Informations"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="EDB1394F94E548279AD4676CB508D714" type="7">
+		<field_ref uuid="0B9249453ED347369ED2BB54AD35DC9B" name="UUID">
+			<table_ref uuid="5B43A8DC3CC24BF5BF6180ABE7862E16" name="Images_Traitees"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="EE97EE445E3E4EE88D52DEF6A2E3AD87" type="7">
+		<field_ref uuid="E090E66BA34343CF94573942FC7BDA03" name="Langue">
+			<table_ref uuid="96CC5EC2961B45E2950320C3ECEC5491" name="Cépages"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="EFB932B01B7E4F3EB89012736C547FCB" type="7">
+		<field_ref uuid="CADB33E1EC8B4EC28C41B901EE3CE79B" name="Localisation">
+			<table_ref uuid="4150A5FAC35D49EF95B3030F716A2BB3" name="Localisation_Carte"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="F318F71A4BCB4E47A99C036C3C9463AE" type="7">
+		<field_ref uuid="FBAAF7ED152C4A8682C4BD66D7ECF889" name="Titre_InfoEN">
+			<table_ref uuid="B8D144F392BD4B759799367CFDD78C30" name="Informations"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="F36C8E4D5312412CBD59C86317B82745" type="7">
+		<field_ref uuid="1FFE28BE16B14D7FAC788539EC4EB8AA" name="Pays">
+			<table_ref uuid="121E219AE8A74059B9CCB97052DFC803" name="Millésimes"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_8" uuid="F60D390E16D6476EBE51E215B1C84F62" type="7">
+		<field_ref uuid="D1A91AF9A0CB4C27BB4B4970B115D97D" name="UUID_">
+			<table_ref uuid="9C022BADAD024F6A8D8BB2321A961215" name="Pays"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="F87AF1501E414EC8B3F2D700D88AC1BE" type="7">
+		<field_ref uuid="88A611C4B8A7420C801F0D75D7AD93E7" name="Nom">
+			<table_ref uuid="6F4F15D31EDA4134970B4E5B820EED30" name="Cave"/>
+		</field_ref>
+	</index>
+	<base_extra data_file_path=":Cave à Vin.4DD" package_name="Vin sur Vin V15 boutik 7" structure_file_name="Cave à Vin" ppc_code_stamp="111">
+		<temp_folder folder_selector="data"/>
+	</base_extra>
+</base>

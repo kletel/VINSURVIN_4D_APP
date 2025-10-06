@@ -1,0 +1,87 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Image3": {
+					"type": "picture",
+					"top": 0,
+					"left": 0,
+					"width": 803,
+					"height": 565,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/bois3.jpg"
+				},
+				"Image13": {
+					"type": "picture",
+					"top": 0,
+					"left": 0,
+					"width": 803,
+					"height": 79,
+					"sizingX": "grow",
+					"pictureFormat": "scaled",
+					"picture": "Images/Image13.jpg"
+				},
+				"Ligne": {
+					"type": "line",
+					"top": 79,
+					"left": 1,
+					"width": 802,
+					"sizingX": "grow",
+					"stroke": "#600000"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "Vue 1",
+		"defaultView": "Vue 1",
+		"views": {
+			"Vue 1": {},
+			"Vue 2": {},
+			"Vue 3": {},
+			"Vue 4": {},
+			"Vue 5": {},
+			"Vue 6": {},
+			"Vue 7": {},
+			"Vue 8": {},
+			"Vue 9": {}
+		}
+	}
+}

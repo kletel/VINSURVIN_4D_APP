@@ -1,0 +1,458 @@
+-- Startup on: Thursday, May 15, 2025 11:44:16 AM --
+sequence_number	time	processID	unique_processID	stack_level	operation_type	operation	operation_parameters	form_event	stack_opening_sequence_number	stack_level_execution_time
+1	2025-05-15T11:44:20.881	5	5137	0	8		Gestionnaire d'évènement Apple	0		
+2	2025-05-15T11:44:20.943	5	5137	1	2	Sur événement système	1	0		
+3	2025-05-15T11:44:20.945	5	5137	1	2	Sur événement système	1	0	2	71
+16	2025-05-15T11:44:24.801	6	5138	0	8		Reused spare process	0		
+85	2025-05-15T11:44:29.203	5	5137	1	2	Sur événement système	2	0		
+86	2025-05-15T11:44:29.203	5	5137	1	2	Sur événement système	2	0	85	15
+88	2025-05-15T11:44:36.31	5	5137	1	2	Sur événement système	1	0		
+89	2025-05-15T11:44:36.31	5	5137	1	2	Sur événement système	1	0	88	13
+90	2025-05-15T11:44:54.895	6	5138	0	8		Reused spare process	0	16	30094291
+91	2025-05-15T11:44:59.843	7	3085	0	2	Trigger sur [Cave]		0		
+92	2025-05-15T11:44:59.845	7	3085	1	1	246	[Cave]	0		
+93	2025-05-15T11:44:59.845	7	3085	1	1	246	[Cave]	0	92	14
+94	2025-05-15T11:44:59.845	7	3085	0	2	Trigger sur [Cave]		0	91	499
+98	2025-05-15T11:44:59.890	6	5139	0	8		Reused spare process	0		
+272	2025-05-15T11:45:24.924	6	5139	0	8		Reused spare process	0	98	25033819
+282	2025-05-15T11:45:27.893	6	5140	0	8		Reused spare process	0		
+354	2025-05-15T11:45:54.947	6	5140	0	8		Reused spare process	0	282	27053632
+355	2025-05-15T11:48:31.200	7	3085	0	2	Trigger sur [Cave]		0		
+356	2025-05-15T11:48:31.200	7	3085	1	1	246	[Cave]	0		
+357	2025-05-15T11:48:31.200	7	3085	1	1	246	[Cave]	0	356	3
+358	2025-05-15T11:48:31.200	7	3085	0	2	Trigger sur [Cave]		0	355	97
+362	2025-05-15T11:48:31.223	6	5141	0	8		Reused spare process	0		
+607	2025-05-15T11:48:47.828	7	3085	0	2	Trigger sur [Cave]		0		
+608	2025-05-15T11:48:47.828	7	3085	1	1	246	[Cave]	0		
+609	2025-05-15T11:48:47.828	7	3085	1	1	246	[Cave]	0	608	3
+610	2025-05-15T11:48:47.828	7	3085	0	2	Trigger sur [Cave]		0	607	106
+786	2025-05-15T11:49:15.109	6	5141	0	8		Reused spare process	0	362	43884876
+787	2025-05-15T11:54:36.140	5	5137	0	8		Gestionnaire d'évènement Apple	0	1	615253916
+788	2025-05-15T11:58:52.67	5	5142	0	8		Reused spare process	0		
+793	2025-05-15T11:59:15.460	5	5142	0	8		Reused spare process	0	788	23392172
+794	2025-05-15T14:37:15.438	5	5143	0	8	297576703590E645BF841FC1C628AB1F	Process Web	0		
+795	2025-05-15T14:37:15.439	5	5143	1	2	Compiler_Web		0		
+796	2025-05-15T14:37:15.439	5	5143	2	1	604	DAX_BinaryFile	0		
+797	2025-05-15T14:37:15.439	5	5143	2	1	604	DAX_BinaryFile	0	796	19
+798	2025-05-15T14:37:15.439	5	5143	1	2	Compiler_Web		0	795	180
+799	2025-05-15T14:37:15.483	5	5143	1	2	Sur authentification Web	"/fhir/metadata";"GET /fhir/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ...";"::1";"::1";"";""	0		
+800	2025-05-15T14:37:15.484	5	5143	1	2	Sur authentification Web	"/fhir/metadata";"GET /fhir/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ...";"::1";"::1";"";""	0	799	437
+801	2025-05-15T14:37:15.484	5	5143	1	2	Sur connexion Web	"/fhir/metadata";"GET /fhir/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ...";"::1";"::1";"";""	0		
+802	2025-05-15T14:37:15.484	5	5143	2	1	494		0		
+803	2025-05-15T14:37:15.484	5	5143	2	1	494		0	802	2
+804	2025-05-15T14:37:15.484	5	5143	1	2	Sur connexion Web	"/fhir/metadata";"GET /fhir/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ...";"::1";"::1";"";""	0	801	94
+805	2025-05-15T14:37:15.510	6	5144	0	8	9E5FD30F1C39FD4780B88E227033ACA7	Process Web	0		
+806	2025-05-15T14:37:15.510	6	5144	1	2	Compiler_Web		0		
+807	2025-05-15T14:37:15.510	6	5144	2	1	604	DAX_BinaryFile	0		
+808	2025-05-15T14:37:15.510	6	5144	2	1	604	DAX_BinaryFile	0	807	6
+809	2025-05-15T14:37:15.510	6	5144	1	2	Compiler_Web		0	806	57
+810	2025-05-15T14:37:15.511	6	5144	1	2	Sur authentification Web	"/baseR4/metadata";"GET /baseR4/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type...";"::1";"::1";"";""	0		
+811	2025-05-15T14:37:15.512	6	5144	1	2	Sur authentification Web	"/baseR4/metadata";"GET /baseR4/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type...";"::1";"::1";"";""	0	810	50
+812	2025-05-15T14:37:15.512	6	5144	1	2	Sur connexion Web	"/baseR4/metadata";"GET /baseR4/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type...";"::1";"::1";"";""	0		
+813	2025-05-15T14:37:15.512	6	5144	2	1	494		0		
+814	2025-05-15T14:37:15.512	6	5144	2	1	494		0	813	2
+815	2025-05-15T14:37:15.512	6	5144	1	2	Sur connexion Web	"/baseR4/metadata";"GET /baseR4/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type...";"::1";"::1";"";""	0	812	46
+816	2025-05-15T14:37:15.543	9	5145	0	8	B9E47059C8E0374895C62E6801443A58	Process Web	0		
+817	2025-05-15T14:37:15.543	9	5145	1	2	Compiler_Web		0		
+818	2025-05-15T14:37:15.543	9	5145	2	1	604	DAX_BinaryFile	0		
+819	2025-05-15T14:37:15.543	9	5145	2	1	604	DAX_BinaryFile	0	818	7
+820	2025-05-15T14:37:15.543	9	5145	1	2	Compiler_Web		0	817	88
+821	2025-05-15T14:37:15.544	9	5145	1	2	Sur authentification Web	"/metadata";"GET /metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: appli...";"::1";"::1";"";""	0		
+822	2025-05-15T14:37:15.544	9	5145	1	2	Sur authentification Web	"/metadata";"GET /metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: appli...";"::1";"::1";"";""	0	821	25
+823	2025-05-15T14:37:15.545	9	5145	1	2	Sur connexion Web	"/metadata";"GET /metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: appli...";"::1";"::1";"";""	0		
+824	2025-05-15T14:37:15.545	9	5145	2	1	494		0		
+825	2025-05-15T14:37:15.545	9	5145	2	1	494		0	824	1
+826	2025-05-15T14:37:15.545	9	5145	1	2	Sur connexion Web	"/metadata";"GET /metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: appli...";"::1";"::1";"";""	0	823	46
+827	2025-05-15T14:37:15.571	10	5146	0	8	39A4035A40E40C46AC9D10ADBE935AFC	Process Web	0		
+828	2025-05-15T14:37:15.571	10	5146	1	2	Compiler_Web		0		
+829	2025-05-15T14:37:15.571	10	5146	2	1	604	DAX_BinaryFile	0		
+830	2025-05-15T14:37:15.571	10	5146	2	1	604	DAX_BinaryFile	0	829	7
+831	2025-05-15T14:37:15.571	10	5146	1	2	Compiler_Web		0	828	56
+832	2025-05-15T14:37:15.572	10	5146	1	2	Sur authentification Web	"/fhir-server/api/v4/metadata";"GET /fhir-server/api/v4/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\n...";"::1";"::1";"";""	0		
+833	2025-05-15T14:37:15.572	10	5146	1	2	Sur authentification Web	"/fhir-server/api/v4/metadata";"GET /fhir-server/api/v4/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\n...";"::1";"::1";"";""	0	832	24
+834	2025-05-15T14:37:15.573	10	5146	1	2	Sur connexion Web	"/fhir-server/api/v4/metadata";"GET /fhir-server/api/v4/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\n...";"::1";"::1";"";""	0		
+835	2025-05-15T14:37:15.573	10	5146	2	1	494		0		
+836	2025-05-15T14:37:15.573	10	5146	2	1	494		0	835	1
+837	2025-05-15T14:37:15.573	10	5146	1	2	Sur connexion Web	"/fhir-server/api/v4/metadata";"GET /fhir-server/api/v4/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\n...";"::1";"::1";"";""	0	834	42
+838	2025-05-15T14:37:15.598	11	5147	0	8	2C60AD86DB933A4D94AC61FA8D36467C	Process Web	0		
+839	2025-05-15T14:37:15.598	11	5147	1	2	Compiler_Web		0		
+840	2025-05-15T14:37:15.598	11	5147	2	1	604	DAX_BinaryFile	0		
+841	2025-05-15T14:37:15.598	11	5147	2	1	604	DAX_BinaryFile	0	840	8
+842	2025-05-15T14:37:15.598	11	5147	1	2	Compiler_Web		0	839	81
+843	2025-05-15T14:37:15.599	11	5147	1	2	Sur authentification Web	"/r2/metadata";"GET /r2/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ap...";"::1";"::1";"";""	0		
+844	2025-05-15T14:37:15.599	11	5147	1	2	Sur authentification Web	"/r2/metadata";"GET /r2/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ap...";"::1";"::1";"";""	0	843	74
+845	2025-05-15T14:37:15.600	11	5147	1	2	Sur connexion Web	"/r2/metadata";"GET /r2/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ap...";"::1";"::1";"";""	0		
+846	2025-05-15T14:37:15.600	11	5147	2	1	494		0		
+847	2025-05-15T14:37:15.600	11	5147	2	1	494		0	846	2
+848	2025-05-15T14:37:15.600	11	5147	1	2	Sur connexion Web	"/r2/metadata";"GET /r2/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ap...";"::1";"::1";"";""	0	845	104
+849	2025-05-15T14:37:15.625	12	5148	0	8	879DA83EB0F94F41A9944201FFCABD7C	Process Web	0		
+850	2025-05-15T14:37:15.625	12	5148	1	2	Compiler_Web		0		
+851	2025-05-15T14:37:15.625	12	5148	2	1	604	DAX_BinaryFile	0		
+852	2025-05-15T14:37:15.625	12	5148	2	1	604	DAX_BinaryFile	0	851	7
+853	2025-05-15T14:37:15.625	12	5148	1	2	Compiler_Web		0	850	83
+854	2025-05-15T14:37:15.626	12	5148	1	2	Sur authentification Web	"/baseDstu2/metadata";"GET /baseDstu2/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-T...";"::1";"::1";"";""	0		
+855	2025-05-15T14:37:15.626	12	5148	1	2	Sur authentification Web	"/baseDstu2/metadata";"GET /baseDstu2/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-T...";"::1";"::1";"";""	0	854	26
+856	2025-05-15T14:37:15.627	12	5148	1	2	Sur connexion Web	"/baseDstu2/metadata";"GET /baseDstu2/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-T...";"::1";"::1";"";""	0		
+857	2025-05-15T14:37:15.627	12	5148	2	1	494		0		
+858	2025-05-15T14:37:15.627	12	5148	2	1	494		0	857	2
+859	2025-05-15T14:37:15.627	12	5148	1	2	Sur connexion Web	"/baseDstu2/metadata";"GET /baseDstu2/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-T...";"::1";"::1";"";""	0	856	46
+860	2025-05-15T14:37:15.651	13	5149	0	8	C40B9543CE838E49A5CB5B0C3C16AE36	Process Web	0		
+861	2025-05-15T14:37:15.652	13	5149	1	2	Compiler_Web		0		
+862	2025-05-15T14:37:15.652	13	5149	2	1	604	DAX_BinaryFile	0		
+863	2025-05-15T14:37:15.652	13	5149	2	1	604	DAX_BinaryFile	0	862	8
+864	2025-05-15T14:37:15.652	13	5149	1	2	Compiler_Web		0	861	68
+865	2025-05-15T14:37:15.653	13	5149	1	2	Sur authentification Web	"/r4/metadata";"GET /r4/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ap...";"::1";"::1";"";""	0		
+866	2025-05-15T14:37:15.653	13	5149	1	2	Sur authentification Web	"/r4/metadata";"GET /r4/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ap...";"::1";"::1";"";""	0	865	46
+867	2025-05-15T14:37:15.653	13	5149	1	2	Sur connexion Web	"/r4/metadata";"GET /r4/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ap...";"::1";"::1";"";""	0		
+868	2025-05-15T14:37:15.653	13	5149	2	1	494		0		
+869	2025-05-15T14:37:15.653	13	5149	2	1	494		0	868	2
+870	2025-05-15T14:37:15.653	13	5149	1	2	Sur connexion Web	"/r4/metadata";"GET /r4/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ap...";"::1";"::1";"";""	0	867	48
+871	2025-05-15T14:37:15.678	14	5150	0	8	BAD9F5C24593E7478D52AD256BDA23D5	Process Web	0		
+872	2025-05-15T14:37:15.678	14	5150	1	2	Compiler_Web		0		
+873	2025-05-15T14:37:15.678	14	5150	2	1	604	DAX_BinaryFile	0		
+874	2025-05-15T14:37:15.678	14	5150	2	1	604	DAX_BinaryFile	0	873	6
+875	2025-05-15T14:37:15.678	14	5150	1	2	Compiler_Web		0	872	55
+876	2025-05-15T14:37:15.679	14	5150	1	2	Sur authentification Web	"/baseDstu3/metadata";"GET /baseDstu3/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-T...";"::1";"::1";"";""	0		
+877	2025-05-15T14:37:15.679	14	5150	1	2	Sur authentification Web	"/baseDstu3/metadata";"GET /baseDstu3/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-T...";"::1";"::1";"";""	0	876	23
+878	2025-05-15T14:37:15.680	14	5150	1	2	Sur connexion Web	"/baseDstu3/metadata";"GET /baseDstu3/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-T...";"::1";"::1";"";""	0		
+879	2025-05-15T14:37:15.680	14	5150	2	1	494		0		
+880	2025-05-15T14:37:15.680	14	5150	2	1	494		0	879	2
+881	2025-05-15T14:37:15.680	14	5150	1	2	Sur connexion Web	"/baseDstu3/metadata";"GET /baseDstu3/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-T...";"::1";"::1";"";""	0	878	50
+882	2025-05-15T14:37:16.339	19	5155	0	8	209EF34E7FAD53499D5908E0F41AFA95	Process Web	0		
+883	2025-05-15T14:37:16.340	20	5156	0	8	D4C51004DF059C40948BFFAF838C4B8D	Process Web	0		
+884	2025-05-15T14:37:16.341	21	5157	0	8	05EFB817247C494D8E945C28DAA77A9E	Process Web	0		
+885	2025-05-15T14:37:16.355	19	5155	1	2	Compiler_Web		0		
+886	2025-05-15T14:37:16.356	19	5155	2	1	604	DAX_BinaryFile	0		
+887	2025-05-15T14:37:16.356	19	5155	2	1	604	DAX_BinaryFile	0	886	9
+888	2025-05-15T14:37:16.356	19	5155	1	2	Compiler_Web		0	885	64
+889	2025-05-15T14:37:16.356	19	5155	1	2	Sur authentification Web	"/metadata";"GET /metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: appli...";"::1";"::1";"";""	0		
+890	2025-05-15T14:37:16.357	19	5155	1	2	Sur authentification Web	"/metadata";"GET /metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: appli...";"::1";"::1";"";""	0	889	33
+891	2025-05-15T14:37:16.357	19	5155	1	2	Sur connexion Web	"/metadata";"GET /metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: appli...";"::1";"::1";"";""	0		
+892	2025-05-15T14:37:16.357	19	5155	2	1	494		0		
+893	2025-05-15T14:37:16.357	19	5155	2	1	494		0	892	2
+894	2025-05-15T14:37:16.357	19	5155	1	2	Sur connexion Web	"/metadata";"GET /metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: appli...";"::1";"::1";"";""	0	891	46
+895	2025-05-15T14:37:16.357	20	5156	1	2	Compiler_Web		0		
+896	2025-05-15T14:37:16.357	20	5156	2	1	604	DAX_BinaryFile	0		
+897	2025-05-15T14:37:16.357	20	5156	2	1	604	DAX_BinaryFile	0	896	6
+898	2025-05-15T14:37:16.357	20	5156	1	2	Compiler_Web		0	895	49
+899	2025-05-15T14:37:16.358	20	5156	1	2	Sur authentification Web	"/baseDstu2/metadata";"GET /baseDstu2/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-T...";"::1";"::1";"";""	0		
+900	2025-05-15T14:37:16.358	20	5156	1	2	Sur authentification Web	"/baseDstu2/metadata";"GET /baseDstu2/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-T...";"::1";"::1";"";""	0	899	23
+901	2025-05-15T14:37:16.358	20	5156	1	2	Sur connexion Web	"/baseDstu2/metadata";"GET /baseDstu2/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-T...";"::1";"::1";"";""	0		
+902	2025-05-15T14:37:16.358	20	5156	2	1	494		0		
+903	2025-05-15T14:37:16.358	20	5156	2	1	494		0	902	1
+904	2025-05-15T14:37:16.358	20	5156	1	2	Sur connexion Web	"/baseDstu2/metadata";"GET /baseDstu2/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-T...";"::1";"::1";"";""	0	901	44
+905	2025-05-15T14:37:16.358	21	5157	1	2	Compiler_Web		0		
+906	2025-05-15T14:37:16.358	21	5157	2	1	604	DAX_BinaryFile	0		
+907	2025-05-15T14:37:16.359	21	5157	2	1	604	DAX_BinaryFile	0	906	6
+908	2025-05-15T14:37:16.359	21	5157	1	2	Compiler_Web		0	905	42
+909	2025-05-15T14:37:16.359	21	5157	1	2	Sur authentification Web	"/r2/metadata";"GET /r2/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ap...";"::1";"::1";"";""	0		
+910	2025-05-15T14:37:16.359	21	5157	1	2	Sur authentification Web	"/r2/metadata";"GET /r2/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ap...";"::1";"::1";"";""	0	909	32
+911	2025-05-15T14:37:16.360	21	5157	1	2	Sur connexion Web	"/r2/metadata";"GET /r2/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ap...";"::1";"::1";"";""	0		
+912	2025-05-15T14:37:16.360	21	5157	2	1	494		0		
+913	2025-05-15T14:37:16.360	21	5157	2	1	494		0	912	2
+914	2025-05-15T14:37:16.360	21	5157	1	2	Sur connexion Web	"/r2/metadata";"GET /r2/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ap...";"::1";"::1";"";""	0	911	153
+915	2025-05-15T14:37:16.361	22	5158	0	8	1991471B10C8694589A7DB96CE4F6334	Process Web	0		
+916	2025-05-15T14:37:16.361	23	5159	0	8	E7A048A914E4F94285F403CA6CA6F903	Process Web	0		
+917	2025-05-15T14:37:16.362	24	5160	0	8	3C30B2923B3D3F439F6488DA99E863E8	Process Web	0		
+918	2025-05-15T14:37:16.364	25	5161	0	8	D3D895932ADF2647A49D006357B54D44	Process Web	0		
+919	2025-05-15T14:37:16.364	26	5162	0	8	1B2A631A13FCD84F9A202E946D073774	Process Web	0		
+920	2025-05-15T14:37:16.365	27	5163	0	8	46C0D8F2A5666247BB705BE1D509FB71	Process Web	0		
+921	2025-05-15T14:37:16.366	28	5164	0	8	06BE7F667E064B4095AAA76AECD7113A	Process Web	0		
+922	2025-05-15T14:37:16.367	29	5165	0	8	80CB6588A05CAF4994D803E154265DF0	Process Web	0		
+923	2025-05-15T14:37:16.367	32	5166	0	8	AC0451659E9EB345A7459468552F5FB5	Process Web	0		
+924	2025-05-15T14:37:16.371	22	5158	1	2	Compiler_Web		0		
+925	2025-05-15T14:37:16.371	22	5158	2	1	604	DAX_BinaryFile	0		
+926	2025-05-15T14:37:16.371	22	5158	2	1	604	DAX_BinaryFile	0	925	8
+927	2025-05-15T14:37:16.371	22	5158	1	2	Compiler_Web		0	924	54
+928	2025-05-15T14:37:16.372	22	5158	1	2	Sur authentification Web	"/fhir/metadata";"GET /fhir/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ...";"::1";"::1";"";""	0		
+929	2025-05-15T14:37:16.372	22	5158	1	2	Sur authentification Web	"/fhir/metadata";"GET /fhir/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ...";"::1";"::1";"";""	0	928	36
+930	2025-05-15T14:37:16.373	22	5158	1	2	Sur connexion Web	"/fhir/metadata";"GET /fhir/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ...";"::1";"::1";"";""	0		
+931	2025-05-15T14:37:16.373	22	5158	2	1	494		0		
+932	2025-05-15T14:37:16.373	22	5158	2	1	494		0	931	1
+933	2025-05-15T14:37:16.373	22	5158	1	2	Sur connexion Web	"/fhir/metadata";"GET /fhir/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ...";"::1";"::1";"";""	0	930	53
+934	2025-05-15T14:37:16.373	23	5159	1	2	Compiler_Web		0		
+935	2025-05-15T14:37:16.373	23	5159	2	1	604	DAX_BinaryFile	0		
+936	2025-05-15T14:37:16.373	23	5159	2	1	604	DAX_BinaryFile	0	935	6
+937	2025-05-15T14:37:16.373	23	5159	1	2	Compiler_Web		0	934	46
+938	2025-05-15T14:37:16.374	23	5159	1	2	Sur authentification Web	"/fhir-server/api/v4/metadata";"GET /fhir-server/api/v4/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\n...";"::1";"::1";"";""	0		
+939	2025-05-15T14:37:16.374	23	5159	1	2	Sur authentification Web	"/fhir-server/api/v4/metadata";"GET /fhir-server/api/v4/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\n...";"::1";"::1";"";""	0	938	20
+940	2025-05-15T14:37:16.374	23	5159	1	2	Sur connexion Web	"/fhir-server/api/v4/metadata";"GET /fhir-server/api/v4/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\n...";"::1";"::1";"";""	0		
+941	2025-05-15T14:37:16.374	23	5159	2	1	494		0		
+942	2025-05-15T14:37:16.374	23	5159	2	1	494		0	941	1
+943	2025-05-15T14:37:16.374	23	5159	1	2	Sur connexion Web	"/fhir-server/api/v4/metadata";"GET /fhir-server/api/v4/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\n...";"::1";"::1";"";""	0	940	52
+944	2025-05-15T14:37:16.374	24	5160	1	2	Compiler_Web		0		
+945	2025-05-15T14:37:16.374	24	5160	2	1	604	DAX_BinaryFile	0		
+946	2025-05-15T14:37:16.374	24	5160	2	1	604	DAX_BinaryFile	0	945	6
+947	2025-05-15T14:37:16.374	24	5160	1	2	Compiler_Web		0	944	46
+948	2025-05-15T14:37:16.375	24	5160	1	2	Sur authentification Web	"/r5/metadata";"GET /r5/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ap...";"::1";"::1";"";""	0		
+949	2025-05-15T14:37:16.375	24	5160	1	2	Sur authentification Web	"/r5/metadata";"GET /r5/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ap...";"::1";"::1";"";""	0	948	28
+950	2025-05-15T14:37:16.375	24	5160	1	2	Sur connexion Web	"/r5/metadata";"GET /r5/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ap...";"::1";"::1";"";""	0		
+951	2025-05-15T14:37:16.375	24	5160	2	1	494		0		
+952	2025-05-15T14:37:16.375	24	5160	2	1	494		0	951	1
+953	2025-05-15T14:37:16.375	24	5160	1	2	Sur connexion Web	"/r5/metadata";"GET /r5/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ap...";"::1";"::1";"";""	0	950	57
+954	2025-05-15T14:37:16.376	25	5161	1	2	Compiler_Web		0		
+955	2025-05-15T14:37:16.376	25	5161	2	1	604	DAX_BinaryFile	0		
+956	2025-05-15T14:37:16.376	25	5161	2	1	604	DAX_BinaryFile	0	955	6
+957	2025-05-15T14:37:16.376	25	5161	1	2	Compiler_Web		0	954	42
+958	2025-05-15T14:37:16.377	25	5161	1	2	Sur authentification Web	"/baseR5/metadata";"GET /baseR5/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type...";"::1";"::1";"";""	0		
+959	2025-05-15T14:37:16.377	25	5161	1	2	Sur authentification Web	"/baseR5/metadata";"GET /baseR5/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type...";"::1";"::1";"";""	0	958	38
+960	2025-05-15T14:37:16.377	25	5161	1	2	Sur connexion Web	"/baseR5/metadata";"GET /baseR5/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type...";"::1";"::1";"";""	0		
+961	2025-05-15T14:37:16.377	25	5161	2	1	494		0		
+962	2025-05-15T14:37:16.377	25	5161	2	1	494		0	961	1
+963	2025-05-15T14:37:16.377	25	5161	1	2	Sur connexion Web	"/baseR5/metadata";"GET /baseR5/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type...";"::1";"::1";"";""	0	960	42
+964	2025-05-15T14:37:16.377	26	5162	1	2	Compiler_Web		0		
+965	2025-05-15T14:37:16.377	26	5162	2	1	604	DAX_BinaryFile	0		
+966	2025-05-15T14:37:16.377	26	5162	2	1	604	DAX_BinaryFile	0	965	6
+967	2025-05-15T14:37:16.377	26	5162	1	2	Compiler_Web		0	964	72
+968	2025-05-15T14:37:16.378	26	5162	1	2	Sur authentification Web	"/r3/metadata";"GET /r3/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ap...";"::1";"::1";"";""	0		
+969	2025-05-15T14:37:16.378	26	5162	1	2	Sur authentification Web	"/r3/metadata";"GET /r3/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ap...";"::1";"::1";"";""	0	968	18
+970	2025-05-15T14:37:16.378	26	5162	1	2	Sur connexion Web	"/r3/metadata";"GET /r3/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ap...";"::1";"::1";"";""	0		
+971	2025-05-15T14:37:16.378	26	5162	2	1	494		0		
+972	2025-05-15T14:37:16.378	26	5162	2	1	494		0	971	1
+973	2025-05-15T14:37:16.378	26	5162	1	2	Sur connexion Web	"/r3/metadata";"GET /r3/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ap...";"::1";"::1";"";""	0	970	51
+974	2025-05-15T14:37:16.378	27	5163	1	2	Compiler_Web		0		
+975	2025-05-15T14:37:16.379	27	5163	2	1	604	DAX_BinaryFile	0		
+976	2025-05-15T14:37:16.379	27	5163	2	1	604	DAX_BinaryFile	0	975	6
+977	2025-05-15T14:37:16.379	27	5163	1	2	Compiler_Web		0	974	40
+978	2025-05-15T14:37:16.379	27	5163	1	2	Sur authentification Web	"/r4/metadata";"GET /r4/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ap...";"::1";"::1";"";""	0		
+979	2025-05-15T14:37:16.379	27	5163	1	2	Sur authentification Web	"/r4/metadata";"GET /r4/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ap...";"::1";"::1";"";""	0	978	44
+980	2025-05-15T14:37:16.380	27	5163	1	2	Sur connexion Web	"/r4/metadata";"GET /r4/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ap...";"::1";"::1";"";""	0		
+981	2025-05-15T14:37:16.380	27	5163	2	1	494		0		
+982	2025-05-15T14:37:16.380	27	5163	2	1	494		0	981	1
+983	2025-05-15T14:37:16.380	27	5163	1	2	Sur connexion Web	"/r4/metadata";"GET /r4/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type: ap...";"::1";"::1";"";""	0	980	48
+984	2025-05-15T14:37:16.380	28	5164	1	2	Compiler_Web		0		
+985	2025-05-15T14:37:16.380	28	5164	2	1	604	DAX_BinaryFile	0		
+986	2025-05-15T14:37:16.380	28	5164	2	1	604	DAX_BinaryFile	0	985	6
+987	2025-05-15T14:37:16.380	28	5164	1	2	Compiler_Web		0	984	42
+988	2025-05-15T14:37:16.381	28	5164	1	2	Sur authentification Web	"/baseR3/metadata";"GET /baseR3/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type...";"::1";"::1";"";""	0		
+989	2025-05-15T14:37:16.381	28	5164	1	2	Sur authentification Web	"/baseR3/metadata";"GET /baseR3/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type...";"::1";"::1";"";""	0	988	20
+990	2025-05-15T14:37:16.381	28	5164	1	2	Sur connexion Web	"/baseR3/metadata";"GET /baseR3/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type...";"::1";"::1";"";""	0		
+991	2025-05-15T14:37:16.381	28	5164	2	1	494		0		
+992	2025-05-15T14:37:16.381	28	5164	2	1	494		0	991	1
+993	2025-05-15T14:37:16.381	28	5164	1	2	Sur connexion Web	"/baseR3/metadata";"GET /baseR3/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type...";"::1";"::1";"";""	0	990	45
+994	2025-05-15T14:37:16.381	29	5165	1	2	Compiler_Web		0		
+995	2025-05-15T14:37:16.381	29	5165	2	1	604	DAX_BinaryFile	0		
+996	2025-05-15T14:37:16.381	29	5165	2	1	604	DAX_BinaryFile	0	995	6
+997	2025-05-15T14:37:16.381	29	5165	1	2	Compiler_Web		0	994	41
+998	2025-05-15T14:37:16.382	29	5165	1	2	Sur authentification Web	"/baseDstu3/metadata";"GET /baseDstu3/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-T...";"::1";"::1";"";""	0		
+999	2025-05-15T14:37:16.382	29	5165	1	2	Sur authentification Web	"/baseDstu3/metadata";"GET /baseDstu3/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-T...";"::1";"::1";"";""	0	998	19
+1000	2025-05-15T14:37:16.382	29	5165	1	2	Sur connexion Web	"/baseDstu3/metadata";"GET /baseDstu3/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-T...";"::1";"::1";"";""	0		
+1001	2025-05-15T14:37:16.382	29	5165	2	1	494		0		
+1002	2025-05-15T14:37:16.382	29	5165	2	1	494		0	1001	1
+1003	2025-05-15T14:37:16.382	29	5165	1	2	Sur connexion Web	"/baseDstu3/metadata";"GET /baseDstu3/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-T...";"::1";"::1";"";""	0	1000	40
+1004	2025-05-15T14:37:16.384	32	5166	1	2	Compiler_Web		0		
+1005	2025-05-15T14:37:16.384	32	5166	2	1	604	DAX_BinaryFile	0		
+1006	2025-05-15T14:37:16.384	32	5166	2	1	604	DAX_BinaryFile	0	1005	6
+1007	2025-05-15T14:37:16.384	32	5166	1	2	Compiler_Web		0	1004	53
+1008	2025-05-15T14:37:16.385	32	5166	1	2	Sur authentification Web	"/baseR2/metadata";"GET /baseR2/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type...";"::1";"::1";"";""	0		
+1009	2025-05-15T14:37:16.385	32	5166	1	2	Sur authentification Web	"/baseR2/metadata";"GET /baseR2/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type...";"::1";"::1";"";""	0	1008	49
+1010	2025-05-15T14:37:16.386	32	5166	1	2	Sur connexion Web	"/baseR2/metadata";"GET /baseR2/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type...";"::1";"::1";"";""	0		
+1011	2025-05-15T14:37:16.386	32	5166	2	1	494		0		
+1012	2025-05-15T14:37:16.386	32	5166	2	1	494		0	1011	1
+1013	2025-05-15T14:37:16.386	32	5166	1	2	Sur connexion Web	"/baseR2/metadata";"GET /baseR2/metadata HTTP/1.1\r\nAccept: application/fhir+json\r\nConnection: Keep-Alive\r\nContent-Type...";"::1";"::1";"";""	0	1010	71
+1014	2025-05-15T14:37:16.497	5	5143	0	8	297576703590E645BF841FC1C628AB1F	Process Web	0	794	1059197
+1015	2025-05-15T14:37:16.528	6	5144	0	8	9E5FD30F1C39FD4780B88E227033ACA7	Process Web	0	805	1018010
+1016	2025-05-15T14:37:16.562	9	5145	0	8	B9E47059C8E0374895C62E6801443A58	Process Web	0	816	1019316
+1017	2025-05-15T14:37:16.592	10	5146	0	8	39A4035A40E40C46AC9D10ADBE935AFC	Process Web	0	827	1020691
+1018	2025-05-15T14:37:16.667	11	5147	0	8	2C60AD86DB933A4D94AC61FA8D36467C	Process Web	0	838	1069038
+1019	2025-05-15T14:37:16.667	12	5148	0	8	879DA83EB0F94F41A9944201FFCABD7C	Process Web	0	849	1042293
+1020	2025-05-15T14:37:16.668	13	5149	0	8	C40B9543CE838E49A5CB5B0C3C16AE36	Process Web	0	860	1016442
+1021	2025-05-15T14:37:16.845	14	5150	0	8	BAD9F5C24593E7478D52AD256BDA23D5	Process Web	0	871	1166868
+1022	2025-05-15T14:37:17.401	26	5162	0	8	1B2A631A13FCD84F9A202E946D073774	Process Web	0	919	1036864
+1023	2025-05-15T14:37:17.402	27	5163	0	8	46C0D8F2A5666247BB705BE1D509FB71	Process Web	0	920	1036726
+1024	2025-05-15T14:37:17.402	28	5164	0	8	06BE7F667E064B4095AAA76AECD7113A	Process Web	0	921	1035792
+1025	2025-05-15T14:37:17.402	29	5165	0	8	80CB6588A05CAF4994D803E154265DF0	Process Web	0	922	1035512
+1026	2025-05-15T14:37:17.403	32	5166	0	8	AC0451659E9EB345A7459468552F5FB5	Process Web	0	923	1035039
+1027	2025-05-15T14:37:17.870	19	5155	0	8	209EF34E7FAD53499D5908E0F41AFA95	Process Web	0	882	1531134
+1028	2025-05-15T14:37:17.871	20	5156	0	8	D4C51004DF059C40948BFFAF838C4B8D	Process Web	0	883	1530895
+1029	2025-05-15T14:37:17.871	21	5157	0	8	05EFB817247C494D8E945C28DAA77A9E	Process Web	0	884	1530296
+1030	2025-05-15T14:37:17.886	22	5158	0	8	1991471B10C8694589A7DB96CE4F6334	Process Web	0	915	1525912
+1031	2025-05-15T14:37:17.887	23	5159	0	8	E7A048A914E4F94285F403CA6CA6F903	Process Web	0	916	1525525
+1032	2025-05-15T14:37:17.887	24	5160	0	8	3C30B2923B3D3F439F6488DA99E863E8	Process Web	0	917	1524568
+1033	2025-05-15T14:37:17.887	25	5161	0	8	D3D895932ADF2647A49D006357B54D44	Process Web	0	918	1523389
+1052	2025-05-15T14:40:20.672	5	5167	0	8		Reused spare process	0		
+1057	2025-05-15T14:40:26.427	6	5168	0	8		Reused spare process	0		
+1059	2025-05-15T14:40:26.463	9	5169	0	8		Reused spare process	0		
+1063	2025-05-15T14:40:26.499	9	5169	0	8		Reused spare process	0	1059	36571
+1070	2025-05-15T14:40:52.123	5	5167	0	8		Reused spare process	0	1052	31450657
+1071	2025-05-15T14:40:52.210	6	5168	0	8		Reused spare process	0	1057	25783219
+1074	2025-05-15T14:40:56.537	5	5170	0	8		Reused spare process	0		
+1077	2025-05-15T14:40:56.583	6	5171	0	8		P_4	0		
+1078	2025-05-15T14:40:56.584	6	5171	1	2	Sur ouverture connexion serveur	346110208;435794016;0	0		
+1079	2025-05-15T14:40:56.584	6	5171	2	1	494		0		
+1080	2025-05-15T14:40:56.584	6	5171	2	1	494		0	1079	3
+1081	2025-05-15T14:40:56.584	6	5171	1	2	Sur ouverture connexion serveur	346110208;435794016;0	0	1078	58
+1086	2025-05-15T14:40:56.613	6	5171	1	2	Sur fermeture connexion serveur	346110208;435794016;0	0		
+1087	2025-05-15T14:40:56.613	6	5171	1	2	Sur fermeture connexion serveur	346110208;435794016;0	0	1086	13
+1088	2025-05-15T14:40:56.613	6	5171	0	8		P_4	0	1077	29812
+1091	2025-05-15T14:41:22.236	5	5170	0	8		Reused spare process	0	1074	25698086
+1103	2025-05-15T14:58:46.957	5	5172	0	8		Reused spare process	0		
+1174	2025-05-15T14:59:12.846	5	5172	0	8		Reused spare process	0	1103	25888241
+1175	2025-05-15T17:40:13.299	5	5173	0	8	7CEA895D02403F41B81F6BBC5D706026	Process Web	0		
+1176	2025-05-15T17:40:13.300	5	5173	1	2	Compiler_Web		0		
+1177	2025-05-15T17:40:13.300	5	5173	2	1	604	DAX_BinaryFile	0		
+1178	2025-05-15T17:40:13.301	5	5173	2	1	604	DAX_BinaryFile	0	1177	20
+1179	2025-05-15T17:40:13.301	5	5173	1	2	Compiler_Web		0	1176	216
+1180	2025-05-15T17:40:13.304	5	5173	1	2	Sur authentification Web	"/sitemap.xml";"GET /sitemap.xml HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vitissia...";"::1";"::1";"";""	0		
+1181	2025-05-15T17:40:13.304	5	5173	1	2	Sur authentification Web	"/sitemap.xml";"GET /sitemap.xml HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vitissia...";"::1";"::1";"";""	0	1180	75
+1182	2025-05-15T17:40:13.304	5	5173	1	2	Sur connexion Web	"/sitemap.xml";"GET /sitemap.xml HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vitissia...";"::1";"::1";"";""	0		
+1183	2025-05-15T17:40:13.305	5	5173	2	1	494		0		
+1184	2025-05-15T17:40:13.305	5	5173	2	1	494		0	1183	3
+1185	2025-05-15T17:40:13.305	5	5173	1	2	Sur connexion Web	"/sitemap.xml";"GET /sitemap.xml HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vitissia...";"::1";"::1";"";""	0	1182	110
+1186	2025-05-15T17:40:14.323	5	5173	0	8	7CEA895D02403F41B81F6BBC5D706026	Process Web	0	1175	1023924
+1187	2025-05-15T17:40:18.103	5	5174	0	8	248C7F8409A21344A17EDE05524B69D5	Process Web	0		
+1188	2025-05-15T17:40:18.103	5	5174	1	2	Compiler_Web		0		
+1189	2025-05-15T17:40:18.103	5	5174	2	1	604	DAX_BinaryFile	0		
+1190	2025-05-15T17:40:18.103	5	5174	2	1	604	DAX_BinaryFile	0	1189	6
+1191	2025-05-15T17:40:18.103	5	5174	1	2	Compiler_Web		0	1188	65
+1192	2025-05-15T17:40:18.104	5	5174	1	2	Sur authentification Web	"/static/js/stepper.action";"GET /static/js/stepper.action HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsu...";"::1";"::1";"";""	0		
+1193	2025-05-15T17:40:18.104	5	5174	1	2	Sur authentification Web	"/static/js/stepper.action";"GET /static/js/stepper.action HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsu...";"::1";"::1";"";""	0	1192	24
+1194	2025-05-15T17:40:18.105	5	5174	1	2	Sur connexion Web	"/static/js/stepper.action";"GET /static/js/stepper.action HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsu...";"::1";"::1";"";""	0		
+1195	2025-05-15T17:40:18.105	5	5174	2	1	494		0		
+1196	2025-05-15T17:40:18.105	5	5174	2	1	494		0	1195	2
+1197	2025-05-15T17:40:18.105	5	5174	1	2	Sur connexion Web	"/static/js/stepper.action";"GET /static/js/stepper.action HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsu...";"::1";"::1";"";""	0	1194	46
+1198	2025-05-15T17:40:18.990	6	5175	0	8	8E98EA1ACB2B224B879CB0E61B23A09B	Process Web	0		
+1199	2025-05-15T17:40:19.8	6	5175	1	2	Compiler_Web		0		
+1200	2025-05-15T17:40:19.8	6	5175	2	1	604	DAX_BinaryFile	0		
+1201	2025-05-15T17:40:19.8	6	5175	2	1	604	DAX_BinaryFile	0	1200	18
+1202	2025-05-15T17:40:19.9	6	5175	1	2	Compiler_Web		0	1199	129
+1203	2025-05-15T17:40:19.10	6	5175	1	2	Sur authentification Web	"/static/js/?=&\\\\\\\\";"GET /static/js/?=&\\\\\\\\ HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vi...";"::1";"::1";"";""	0		
+1204	2025-05-15T17:40:19.10	6	5175	1	2	Sur authentification Web	"/static/js/?=&\\\\\\\\";"GET /static/js/?=&\\\\\\\\ HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vi...";"::1";"::1";"";""	0	1203	29
+1205	2025-05-15T17:40:19.10	6	5175	1	2	Sur connexion Web	"/static/js/?=&\\\\\\\\";"GET /static/js/?=&\\\\\\\\ HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vi...";"::1";"::1";"";""	0		
+1206	2025-05-15T17:40:19.10	6	5175	2	1	494		0		
+1207	2025-05-15T17:40:19.10	6	5175	2	1	494		0	1206	2
+1208	2025-05-15T17:40:19.10	6	5175	1	2	Sur connexion Web	"/static/js/?=&\\\\\\\\";"GET /static/js/?=&\\\\\\\\ HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vi...";"::1";"::1";"";""	0	1205	47
+1209	2025-05-15T17:40:19.14	9	5176	0	8	DD5A17F52C2FF645B0E5B79589ACE87F	Process Web	0		
+1210	2025-05-15T17:40:19.14	9	5176	1	2	Compiler_Web		0		
+1211	2025-05-15T17:40:19.14	9	5176	2	1	604	DAX_BinaryFile	0		
+1212	2025-05-15T17:40:19.14	9	5176	2	1	604	DAX_BinaryFile	0	1211	7
+1213	2025-05-15T17:40:19.14	9	5176	1	2	Compiler_Web		0	1210	58
+1214	2025-05-15T17:40:19.15	9	5176	1	2	Sur authentification Web	"/static/js/gm";"GET /static/js/gm HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vitissi...";"::1";"::1";"";""	0		
+1215	2025-05-15T17:40:19.15	9	5176	1	2	Sur authentification Web	"/static/js/gm";"GET /static/js/gm HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vitissi...";"::1";"::1";"";""	0	1214	52
+1216	2025-05-15T17:40:19.16	9	5176	1	2	Sur connexion Web	"/static/js/gm";"GET /static/js/gm HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vitissi...";"::1";"::1";"";""	0		
+1217	2025-05-15T17:40:19.16	9	5176	2	1	494		0		
+1218	2025-05-15T17:40:19.16	9	5176	2	1	494		0	1217	2
+1219	2025-05-15T17:40:19.16	9	5176	1	2	Sur connexion Web	"/static/js/gm";"GET /static/js/gm HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vitissi...";"::1";"::1";"";""	0	1216	77
+1220	2025-05-15T17:40:19.118	5	5174	0	8	248C7F8409A21344A17EDE05524B69D5	Process Web	0	1187	1015049
+1221	2025-05-15T17:40:19.123	5	5177	0	8	FB5FB1C5C0E321478B39B885322B9BD7	Process Web	0		
+1222	2025-05-15T17:40:19.124	10	5178	0	8	7B83385A2CEDC648BA100011946A0613	Process Web	0		
+1223	2025-05-15T17:40:19.124	5	5177	1	2	Compiler_Web		0		
+1224	2025-05-15T17:40:19.124	5	5177	2	1	604	DAX_BinaryFile	0		
+1225	2025-05-15T17:40:19.124	5	5177	2	1	604	DAX_BinaryFile	0	1224	7
+1226	2025-05-15T17:40:19.124	5	5177	1	2	Compiler_Web		0	1223	56
+1227	2025-05-15T17:40:19.125	5	5177	1	2	Sur authentification Web	"/static/js/gm.test";"GET /static/js/gm.test HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vi...";"::1";"::1";"";""	0		
+1228	2025-05-15T17:40:19.125	5	5177	1	2	Sur authentification Web	"/static/js/gm.test";"GET /static/js/gm.test HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vi...";"::1";"::1";"";""	0	1227	26
+1229	2025-05-15T17:40:19.126	5	5177	1	2	Sur connexion Web	"/static/js/gm.test";"GET /static/js/gm.test HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vi...";"::1";"::1";"";""	0		
+1230	2025-05-15T17:40:19.126	5	5177	2	1	494		0		
+1231	2025-05-15T17:40:19.126	5	5177	2	1	494		0	1230	2
+1232	2025-05-15T17:40:19.126	5	5177	1	2	Sur connexion Web	"/static/js/gm.test";"GET /static/js/gm.test HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vi...";"::1";"::1";"";""	0	1229	49
+1233	2025-05-15T17:40:19.126	10	5178	1	2	Compiler_Web		0		
+1234	2025-05-15T17:40:19.126	10	5178	2	1	604	DAX_BinaryFile	0		
+1235	2025-05-15T17:40:19.126	10	5178	2	1	604	DAX_BinaryFile	0	1234	5
+1236	2025-05-15T17:40:19.126	10	5178	1	2	Compiler_Web		0	1233	43
+1237	2025-05-15T17:40:19.127	10	5178	1	2	Sur authentification Web	"/static/js/gi";"GET /static/js/gi HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vitissi...";"::1";"::1";"";""	0		
+1238	2025-05-15T17:40:19.127	10	5178	1	2	Sur authentification Web	"/static/js/gi";"GET /static/js/gi HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vitissi...";"::1";"::1";"";""	0	1237	27
+1239	2025-05-15T17:40:19.127	10	5178	1	2	Sur connexion Web	"/static/js/gi";"GET /static/js/gi HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vitissi...";"::1";"::1";"";""	0		
+1240	2025-05-15T17:40:19.127	10	5178	2	1	494		0		
+1241	2025-05-15T17:40:19.127	10	5178	2	1	494		0	1240	1
+1242	2025-05-15T17:40:19.127	10	5178	1	2	Sur connexion Web	"/static/js/gi";"GET /static/js/gi HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vitissi...";"::1";"::1";"";""	0	1239	44
+1243	2025-05-15T17:40:19.193	11	5179	0	8	013B735EC6362242A90E086C5F5D4E75	Process Web	0		
+1244	2025-05-15T17:40:19.193	12	5180	0	8	03000D2447808E498194B7E26D7C8A57	Process Web	0		
+1245	2025-05-15T17:40:19.194	11	5179	1	2	Compiler_Web		0		
+1246	2025-05-15T17:40:19.194	11	5179	2	1	604	DAX_BinaryFile	0		
+1247	2025-05-15T17:40:19.194	11	5179	2	1	604	DAX_BinaryFile	0	1246	6
+1248	2025-05-15T17:40:19.194	11	5179	1	2	Compiler_Web		0	1245	70
+1249	2025-05-15T17:40:19.195	11	5179	1	2	Sur authentification Web	"/static/js/g.test";"GET /static/js/g.test HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vit...";"::1";"::1";"";""	0		
+1250	2025-05-15T17:40:19.195	11	5179	1	2	Sur authentification Web	"/static/js/g.test";"GET /static/js/g.test HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vit...";"::1";"::1";"";""	0	1249	33
+1251	2025-05-15T17:40:19.195	11	5179	1	2	Sur connexion Web	"/static/js/g.test";"GET /static/js/g.test HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vit...";"::1";"::1";"";""	0		
+1252	2025-05-15T17:40:19.195	11	5179	2	1	494		0		
+1253	2025-05-15T17:40:19.195	11	5179	2	1	494		0	1252	2
+1254	2025-05-15T17:40:19.195	11	5179	1	2	Sur connexion Web	"/static/js/g.test";"GET /static/js/g.test HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vit...";"::1";"::1";"";""	0	1251	54
+1255	2025-05-15T17:40:19.195	12	5180	1	2	Compiler_Web		0		
+1256	2025-05-15T17:40:19.195	12	5180	2	1	604	DAX_BinaryFile	0		
+1257	2025-05-15T17:40:19.195	12	5180	2	1	604	DAX_BinaryFile	0	1256	6
+1258	2025-05-15T17:40:19.195	12	5180	1	2	Compiler_Web		0	1255	54
+1259	2025-05-15T17:40:19.196	12	5180	1	2	Sur authentification Web	"/static/js/.test";"GET /static/js/.test HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.viti...";"::1";"::1";"";""	0		
+1260	2025-05-15T17:40:19.197	12	5180	1	2	Sur authentification Web	"/static/js/.test";"GET /static/js/.test HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.viti...";"::1";"::1";"";""	0	1259	22
+1261	2025-05-15T17:40:19.197	12	5180	1	2	Sur connexion Web	"/static/js/.test";"GET /static/js/.test HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.viti...";"::1";"::1";"";""	0		
+1262	2025-05-15T17:40:19.197	12	5180	2	1	494		0		
+1263	2025-05-15T17:40:19.197	12	5180	2	1	494		0	1262	2
+1264	2025-05-15T17:40:19.197	12	5180	1	2	Sur connexion Web	"/static/js/.test";"GET /static/js/.test HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.viti...";"::1";"::1";"";""	0	1261	106
+1265	2025-05-15T17:40:20.46	9	5176	0	8	DD5A17F52C2FF645B0E5B79589ACE87F	Process Web	0	1209	1031839
+1266	2025-05-15T17:40:20.157	5	5177	0	8	FB5FB1C5C0E321478B39B885322B9BD7	Process Web	0	1221	1033766
+1267	2025-05-15T17:40:20.158	10	5178	0	8	7B83385A2CEDC648BA100011946A0613	Process Web	0	1222	1033570
+1268	2025-05-15T17:40:20.223	11	5179	0	8	013B735EC6362242A90E086C5F5D4E75	Process Web	0	1243	1030240
+1269	2025-05-15T17:40:20.224	12	5180	0	8	03000D2447808E498194B7E26D7C8A57	Process Web	0	1244	1030133
+1270	2025-05-15T17:40:20.521	6	5175	0	8	8E98EA1ACB2B224B879CB0E61B23A09B	Process Web	0	1198	1531616
+1271	2025-05-16T06:32:05.679	5	5181	0	8	4F7889A1D5870946B8FC3C9D692377EC	Process Web	0		
+1272	2025-05-16T06:32:05.680	5	5181	1	2	Compiler_Web		0		
+1273	2025-05-16T06:32:05.680	5	5181	2	1	604	DAX_BinaryFile	0		
+1274	2025-05-16T06:32:05.680	5	5181	2	1	604	DAX_BinaryFile	0	1273	17
+1275	2025-05-16T06:32:05.680	5	5181	1	2	Compiler_Web		0	1272	153
+1276	2025-05-16T06:32:05.682	5	5181	1	2	Sur authentification Web	"/Autodiscover/Autodiscover.xml";"GET /Autodiscover/Autodiscover.xml HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nConten...";"::1";"::1";"";""	0		
+1277	2025-05-16T06:32:05.682	5	5181	1	2	Sur authentification Web	"/Autodiscover/Autodiscover.xml";"GET /Autodiscover/Autodiscover.xml HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nConten...";"::1";"::1";"";""	0	1276	62
+1278	2025-05-16T06:32:05.682	5	5181	1	2	Sur connexion Web	"/Autodiscover/Autodiscover.xml";"GET /Autodiscover/Autodiscover.xml HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nConten...";"::1";"::1";"";""	0		
+1279	2025-05-16T06:32:05.682	5	5181	2	1	494		0		
+1280	2025-05-16T06:32:05.682	5	5181	2	1	494		0	1279	2
+1281	2025-05-16T06:32:05.682	5	5181	1	2	Sur connexion Web	"/Autodiscover/Autodiscover.xml";"GET /Autodiscover/Autodiscover.xml HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nConten...";"::1";"::1";"";""	0	1278	76
+1282	2025-05-16T06:32:06.706	5	5181	0	8	4F7889A1D5870946B8FC3C9D692377EC	Process Web	0	1271	1026161
+1283	2025-05-16T07:12:06.632	5	5182	0	8	68A97D3F42BFB441980DF0EEC4904A7C	Process Web	0		
+1284	2025-05-16T07:12:06.632	5	5182	1	2	Compiler_Web		0		
+1285	2025-05-16T07:12:06.632	5	5182	2	1	604	DAX_BinaryFile	0		
+1286	2025-05-16T07:12:06.632	5	5182	2	1	604	DAX_BinaryFile	0	1285	15
+1287	2025-05-16T07:12:06.632	5	5182	1	2	Compiler_Web		0	1284	159
+1288	2025-05-16T07:12:06.634	5	5182	1	2	Sur authentification Web	"/sitemap.xml";"GET /sitemap.xml HTTP/1.1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avi...";"::1";"::1";"";""	0		
+1289	2025-05-16T07:12:06.634	5	5182	1	2	Sur authentification Web	"/sitemap.xml";"GET /sitemap.xml HTTP/1.1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avi...";"::1";"::1";"";""	0	1288	67
+1290	2025-05-16T07:12:06.634	5	5182	1	2	Sur connexion Web	"/sitemap.xml";"GET /sitemap.xml HTTP/1.1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avi...";"::1";"::1";"";""	0		
+1291	2025-05-16T07:12:06.634	5	5182	2	1	494		0		
+1292	2025-05-16T07:12:06.634	5	5182	2	1	494		0	1291	2
+1293	2025-05-16T07:12:06.634	5	5182	1	2	Sur connexion Web	"/sitemap.xml";"GET /sitemap.xml HTTP/1.1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avi...";"::1";"::1";"";""	0	1290	73
+1294	2025-05-16T07:12:08.149	5	5182	0	8	68A97D3F42BFB441980DF0EEC4904A7C	Process Web	0	1283	1517529
+1295	2025-05-16T07:40:12.707	5	5183	0	8	781A603A08FA0642A23E7E02E205C1C5	Process Web	0		
+1296	2025-05-16T07:40:12.708	5	5183	1	2	Compiler_Web		0		
+1297	2025-05-16T07:40:12.708	5	5183	2	1	604	DAX_BinaryFile	0		
+1298	2025-05-16T07:40:12.708	5	5183	2	1	604	DAX_BinaryFile	0	1297	14
+1299	2025-05-16T07:40:12.708	5	5183	1	2	Compiler_Web		0	1296	208
+1300	2025-05-16T07:40:12.709	5	5183	1	2	Sur authentification Web	"/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php";"GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnectio...";"::1";"::1";"";""	0		
+1301	2025-05-16T07:40:12.710	5	5183	1	2	Sur authentification Web	"/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php";"GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnectio...";"::1";"::1";"";""	0	1300	68
+1302	2025-05-16T07:40:12.710	5	5183	1	2	Sur connexion Web	"/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php";"GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnectio...";"::1";"::1";"";""	0		
+1303	2025-05-16T07:40:12.710	5	5183	2	1	494		0		
+1304	2025-05-16T07:40:12.710	5	5183	2	1	494		0	1303	2
+1305	2025-05-16T07:40:12.710	5	5183	1	2	Sur connexion Web	"/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php";"GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnectio...";"::1";"::1";"";""	0	1302	74
+1306	2025-05-16T07:40:13.724	5	5183	0	8	781A603A08FA0642A23E7E02E205C1C5	Process Web	0	1295	1016742
+1307	2025-05-16T08:15:55.317	5	5184	0	8	790EB95978DCF348B3DC7B915FB38DDE	Process Web	0		
+1308	2025-05-16T08:15:55.318	5	5184	1	2	Compiler_Web		0		
+1309	2025-05-16T08:15:55.318	5	5184	2	1	604	DAX_BinaryFile	0		
+1310	2025-05-16T08:15:55.318	5	5184	2	1	604	DAX_BinaryFile	0	1309	16
+1311	2025-05-16T08:15:55.318	5	5184	1	2	Compiler_Web		0	1308	151
+1312	2025-05-16T08:15:55.319	5	5184	1	2	Sur authentification Web	"/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php";"GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnectio...";"::1";"::1";"";""	0		
+1313	2025-05-16T08:15:55.319	5	5184	1	2	Sur authentification Web	"/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php";"GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnectio...";"::1";"::1";"";""	0	1312	79
+1314	2025-05-16T08:15:55.320	5	5184	1	2	Sur connexion Web	"/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php";"GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnectio...";"::1";"::1";"";""	0		
+1315	2025-05-16T08:15:55.320	5	5184	2	1	494		0		
+1316	2025-05-16T08:15:55.320	5	5184	2	1	494		0	1315	6
+1317	2025-05-16T08:15:55.320	5	5184	1	2	Sur connexion Web	"/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php";"GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnectio...";"::1";"::1";"";""	0	1314	82
+1318	2025-05-16T08:15:56.331	5	5184	0	8	790EB95978DCF348B3DC7B915FB38DDE	Process Web	0	1307	1013849
+1319	2025-05-16T09:02:30.499	5	5185	0	8	67FA86D30BBE75498ABD9DAAEA8CDE31	Process Web	0		
+1320	2025-05-16T09:02:30.500	5	5185	1	2	Compiler_Web		0		
+1321	2025-05-16T09:02:30.500	5	5185	2	1	604	DAX_BinaryFile	0		
+1322	2025-05-16T09:02:30.500	5	5185	2	1	604	DAX_BinaryFile	0	1321	15
+1323	2025-05-16T09:02:30.500	5	5185	1	2	Compiler_Web		0	1320	150
+1324	2025-05-16T09:02:30.501	5	5185	1	2	Sur authentification Web	"/solr/admin/info/system?wt=json";"GET /solr/admin/info/system?wt=json HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost:...";"::1";"::1";"";""	0		
+1325	2025-05-16T09:02:30.502	5	5185	1	2	Sur authentification Web	"/solr/admin/info/system?wt=json";"GET /solr/admin/info/system?wt=json HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost:...";"::1";"::1";"";""	0	1324	80
+1326	2025-05-16T09:02:30.502	5	5185	1	2	Sur connexion Web	"/solr/admin/info/system?wt=json";"GET /solr/admin/info/system?wt=json HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost:...";"::1";"::1";"";""	0		
+1327	2025-05-16T09:02:30.502	5	5185	2	1	494		0		
+1328	2025-05-16T09:02:30.502	5	5185	2	1	494		0	1327	2
+1329	2025-05-16T09:02:30.502	5	5185	1	2	Sur connexion Web	"/solr/admin/info/system?wt=json";"GET /solr/admin/info/system?wt=json HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost:...";"::1";"::1";"";""	0	1326	69
+1330	2025-05-16T09:02:31.521	5	5185	0	8	67FA86D30BBE75498ABD9DAAEA8CDE31	Process Web	0	1319	1021825
+1331	2025-05-16T09:59:06.268	5	5186	0	8	01758C54B0A6754D87F673D0DBD2F7B9	Process Web	0		
+1332	2025-05-16T09:59:06.269	5	5186	1	2	Compiler_Web		0		
+1333	2025-05-16T09:59:06.269	5	5186	2	1	604	DAX_BinaryFile	0		
+1334	2025-05-16T09:59:06.269	5	5186	2	1	604	DAX_BinaryFile	0	1333	17
+1335	2025-05-16T09:59:06.269	5	5186	1	2	Compiler_Web		0	1332	164
+1336	2025-05-16T09:59:06.271	5	5186	1	2	Sur authentification Web	"/console/";"GET /console/ HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vitissia.fr...";"::1";"::1";"";""	0		
+1337	2025-05-16T09:59:06.271	5	5186	1	2	Sur authentification Web	"/console/";"GET /console/ HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vitissia.fr...";"::1";"::1";"";""	0	1336	87
+1338	2025-05-16T09:59:06.272	5	5186	1	2	Sur connexion Web	"/console/";"GET /console/ HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vitissia.fr...";"::1";"::1";"";""	0		
+1339	2025-05-16T09:59:06.272	5	5186	2	1	494		0		
+1340	2025-05-16T09:59:06.272	5	5186	2	1	494		0	1339	2
+1341	2025-05-16T09:59:06.272	5	5186	1	2	Sur connexion Web	"/console/";"GET /console/ HTTP/1.1\r\nAccept-Encoding: gzip\r\nConnection: Keep-Alive\r\nHost: vinsurvin.vitissia.fr...";"::1";"::1";"";""	0	1338	77
+1342	2025-05-16T09:59:07.788	5	5186	0	8	01758C54B0A6754D87F673D0DBD2F7B9	Process Web	0	1331	1520022

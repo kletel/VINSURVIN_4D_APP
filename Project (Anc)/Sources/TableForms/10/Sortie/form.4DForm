@@ -1,0 +1,329 @@
+{
+	"destination": "listScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 10,
+	"markerHeader": 23,
+	"markerBody": 40,
+	"markerBreak": 46,
+	"markerFooter": 46,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle8": {
+					"type": "rectangle",
+					"top": -4,
+					"left": -2,
+					"width": 745,
+					"height": 47,
+					"sizingX": "grow",
+					"fill": "transparent"
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 21,
+					"left": 2,
+					"width": 518,
+					"height": 19,
+					"sizingX": "grow",
+					"stroke": "transparent"
+				},
+				"Séparateur1": {
+					"type": "splitter",
+					"top": -2,
+					"left": 229,
+					"width": 1,
+					"height": 42,
+					"dataSource": "Séparateur1",
+					"borderStyle": "none",
+					"events": [
+						"onClick"
+					]
+				},
+				"Séparateur2": {
+					"type": "splitter",
+					"top": -2,
+					"left": 388,
+					"width": 1,
+					"height": 42,
+					"dataSource": "Séparateur2",
+					"borderStyle": "none",
+					"events": [
+						"onClick"
+					]
+				},
+				"Ligne5": {
+					"type": "line",
+					"top": 19,
+					"left": -2,
+					"width": 744,
+					"sizingX": "grow"
+				},
+				"Séparateur1_Ligne2": {
+					"type": "line",
+					"top": 22,
+					"left": 229,
+					"height": 18,
+					"stroke": "#AAAAAA"
+				},
+				"Séparateur2_Ligne2": {
+					"type": "line",
+					"top": 22,
+					"left": 388,
+					"height": 18,
+					"stroke": "#AAAAAA"
+				},
+				"Ligne9": {
+					"type": "line",
+					"top": 39,
+					"left": 0,
+					"width": 520,
+					"sizingX": "grow",
+					"stroke": "#AAAAAA"
+				},
+				"S1_Texte": {
+					"type": "text",
+					"top": 3,
+					"left": 3,
+					"width": 224,
+					"height": 12,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"borderStyle": "raised",
+					"text": "Rubrique"
+				},
+				"S2_Texte": {
+					"type": "text",
+					"top": 3,
+					"left": 233,
+					"width": 153,
+					"height": 12,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"borderStyle": "raised",
+					"text": "Sous_Rubrique"
+				},
+				"S3_Texte": {
+					"type": "text",
+					"top": 3,
+					"left": 392,
+					"width": 349,
+					"height": 12,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"borderStyle": "raised",
+					"text": "Titre Article"
+				},
+				"S1_Champ": {
+					"type": "input",
+					"top": 25,
+					"left": 3,
+					"width": 224,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[Informations:10]Rubrique:1",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S2_Champ": {
+					"type": "input",
+					"top": 25,
+					"left": 233,
+					"width": 153,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[Informations:10]Sous_Rubrique:2",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S3_Champ": {
+					"type": "input",
+					"top": 25,
+					"left": 392,
+					"width": 348,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[Informations:10]Titre_Info_Fr:5",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 973,
+					"height": 42,
+					"sizingX": "grow",
+					"fill": "transparent"
+				},
+				"Ligne1": {
+					"type": "line",
+					"top": 18,
+					"left": -2,
+					"width": 972,
+					"height": 1,
+					"sizingX": "grow",
+					"startPoint": "bottomLeft"
+				},
+				"Ligne2": {
+					"type": "line",
+					"top": 39,
+					"left": 0,
+					"width": 520,
+					"sizingX": "grow",
+					"stroke": "#AAAAAA"
+				},
+				"S1_Champ1": {
+					"type": "input",
+					"top": 25,
+					"left": 3,
+					"width": 224,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[Informations:10]Rubrique:1",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S1_Texte1": {
+					"type": "text",
+					"top": 2,
+					"left": 745,
+					"width": 224,
+					"height": 12,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"borderStyle": "raised",
+					"text": "Rubrique US"
+				},
+				"S1_Champ2": {
+					"type": "input",
+					"top": 24,
+					"left": 745,
+					"width": 224,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[Informations:10]RubriqueEN:9",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	]
+}

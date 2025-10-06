@@ -1,0 +1,606 @@
+{
+	"destination": "detailScreen",
+	"windowTitle": "Zoekeditor",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Image statique1": {
+					"type": "picture",
+					"top": 0,
+					"left": 0,
+					"width": 576,
+					"height": 433,
+					"pictureFormat": "scaled",
+					"picture": "Images/Image statique1.pict"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Image4": {
+					"type": "picture",
+					"top": 387,
+					"left": 21,
+					"width": 89,
+					"height": 35,
+					"pictureFormat": "scaled",
+					"picture": "Images/Image4.pict"
+				},
+				"Image3": {
+					"type": "picture",
+					"top": 387,
+					"left": 235,
+					"width": 89,
+					"height": 35,
+					"pictureFormat": "scaled",
+					"picture": "Images/Image3.pict"
+				},
+				"Image2": {
+					"type": "picture",
+					"top": 387,
+					"left": 353,
+					"width": 89,
+					"height": 35,
+					"pictureFormat": "scaled",
+					"picture": "Images/Image2.pict"
+				},
+				"Image1": {
+					"type": "picture",
+					"top": 387,
+					"left": 459,
+					"width": 89,
+					"height": 35,
+					"pictureFormat": "scaled",
+					"picture": "Images/Image1.pict"
+				},
+				"Zone de défilement1": {
+					"type": "listbox",
+					"top": 75,
+					"left": 23,
+					"width": 176,
+					"height": 117,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"focusable": false,
+					"movableRows": false,
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"class": "Par_défaut",
+					"borderStyle": "raised",
+					"method": "ObjectMethods/Zone de défilement1.4dm",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Zone de défilement1_Column1",
+							"dataSource": "Z_Rech_1",
+							"width": 10,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"class": "Par_défaut",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête1",
+								"text": "Entête1",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"class": "Par_défaut"
+							},
+							"footer": {
+								"name": "Pied1",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"class": "Par_défaut"
+							}
+						}
+					]
+				},
+				"Zone de défilement2": {
+					"type": "listbox",
+					"top": 75,
+					"left": 199,
+					"width": 176,
+					"height": 117,
+					"resizingMode": "legacy",
+					"focusable": false,
+					"movableRows": false,
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"class": "Par_défaut",
+					"borderStyle": "raised",
+					"method": "ObjectMethods/Zone de défilement2.4dm",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Zone de défilement2_Column1",
+							"dataSource": "Z_Rech_2",
+							"width": 10,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"class": "Par_défaut",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête2",
+								"text": "Entête2",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"class": "Par_défaut"
+							},
+							"footer": {
+								"name": "Pied2",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"class": "Par_défaut"
+							}
+						}
+					]
+				},
+				"Zone de défilement3": {
+					"type": "listbox",
+					"top": 75,
+					"left": 375,
+					"width": 176,
+					"height": 117,
+					"resizingMode": "legacy",
+					"focusable": false,
+					"movableRows": false,
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"class": "Par_défaut",
+					"borderStyle": "raised",
+					"method": "ObjectMethods/Zone de défilement3.4dm",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Zone de défilement3_Column1",
+							"dataSource": "Z_Rech_3",
+							"width": 10,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"class": "Par_défaut",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête3",
+								"text": "Entête3",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"class": "Par_défaut"
+							},
+							"footer": {
+								"name": "Pied3",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"class": "Par_défaut"
+							}
+						}
+					]
+				},
+				"Zone de défilement4": {
+					"type": "listbox",
+					"top": 224,
+					"left": 21,
+					"width": 261,
+					"height": 117,
+					"sizingX": "grow",
+					"resizingMode": "legacy",
+					"focusable": false,
+					"movableRows": false,
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"class": "Par_défaut",
+					"borderStyle": "none",
+					"method": "ObjectMethods/Zone de défilement4.4dm",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Zone de défilement4_Column1",
+							"dataSource": "Z_Zones",
+							"width": 10,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"class": "Par_défaut",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête4",
+								"text": "Entête4",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"class": "Par_défaut"
+							},
+							"footer": {
+								"name": "Pied4",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"class": "Par_défaut"
+							}
+						}
+					]
+				},
+				"Séparateur1": {
+					"type": "splitter",
+					"top": 207,
+					"left": 287,
+					"width": 8,
+					"height": 141,
+					"dataSource": "Séparateur1",
+					"borderStyle": "sunken",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Zone de défilement5": {
+					"type": "listbox",
+					"top": 224,
+					"left": 295,
+					"width": 254,
+					"height": 117,
+					"sizingX": "grow",
+					"resizingMode": "legacy",
+					"focusable": false,
+					"movableRows": false,
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"class": "Par_défaut",
+					"borderStyle": "none",
+					"method": "ObjectMethods/Zone de défilement5.4dm",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Zone de défilement5_Column1",
+							"dataSource": "Z_Compar",
+							"width": 10,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"class": "Par_défaut",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête5",
+								"text": "Entête5",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"class": "Par_défaut"
+							},
+							"footer": {
+								"name": "Pied5",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"class": "Par_défaut"
+							}
+						}
+					]
+				},
+				"Séparateur2": {
+					"type": "splitter",
+					"top": 203,
+					"left": 21,
+					"width": 532,
+					"height": 2,
+					"dataSource": "Séparateur2",
+					"borderStyle": "sunken",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Séparateur3": {
+					"type": "splitter",
+					"top": 351,
+					"left": 22,
+					"width": 530,
+					"height": 7,
+					"dataSource": "Séparateur3",
+					"borderStyle": "sunken",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 362,
+					"left": 21,
+					"width": 136,
+					"height": 13,
+					"class": "Par_défaut",
+					"fontWeight": "bold",
+					"text": "Waarde :"
+				},
+				"Texte2": {
+					"type": "text",
+					"top": 208,
+					"left": 21,
+					"width": 136,
+					"height": 13,
+					"class": "Par_défaut",
+					"fontWeight": "bold",
+					"text": "Selecteer een veld :"
+				},
+				"Texte3": {
+					"type": "text",
+					"top": 207,
+					"left": 295,
+					"width": 148,
+					"height": 13,
+					"class": "Par_défaut",
+					"fontWeight": "bold",
+					"text": "Vergelijkingen"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 361,
+					"left": 78,
+					"width": 406,
+					"height": 13,
+					"dataSource": "V_VAL",
+					"class": "Par_défaut",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Bouton1": {
+					"type": "button",
+					"top": 357,
+					"left": 489,
+					"width": 57,
+					"height": 20,
+					"dataSource": "Bouton1",
+					"text": "Ok",
+					"class": "Par_défaut",
+					"method": "ObjectMethods/Bouton1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Bouton2": {
+					"type": "button",
+					"top": 389,
+					"left": 23,
+					"width": 85,
+					"height": 30,
+					"dataSource": "Bouton2",
+					"action": "cancel",
+					"class": "Par_défaut",
+					"focusable": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Bouton3": {
+					"type": "button",
+					"top": 389,
+					"left": 237,
+					"width": 85,
+					"height": 31,
+					"dataSource": "Bouton2",
+					"class": "Par_défaut",
+					"focusable": false,
+					"method": "ObjectMethods/Bouton3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Bouton4": {
+					"type": "button",
+					"top": 389,
+					"left": 354,
+					"width": 87,
+					"height": 31,
+					"dataSource": "Bouton2",
+					"class": "Par_défaut",
+					"focusable": false,
+					"method": "ObjectMethods/Bouton4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Bouton5": {
+					"type": "button",
+					"top": 387,
+					"left": 459,
+					"width": 88,
+					"height": 33,
+					"dataSource": "Bouton2",
+					"class": "Par_défaut",
+					"focusable": false,
+					"method": "ObjectMethods/Bouton5.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Image5": {
+					"type": "picture",
+					"top": 0,
+					"left": 0,
+					"width": 510,
+					"height": 69,
+					"pictureFormat": "scaled",
+					"picture": "Images/Image5.pict"
+				}
+			}
+		}
+	],
+	"editor": {
+		"groups": {
+			"Groupe2": [
+				"Zone de défilement1",
+				"Zone de défilement2",
+				"Zone de défilement3"
+			]
+		}
+	}
+}

@@ -1,0 +1,3115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+   <!--Translation file.This file is distributed under the same license as the product package.-->
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" source-language="fr" target-language="fr">
+      <header>
+         <prop-group name="Xliff-Editor.4dbase">
+            <prop prop-type="version">1.0</prop>
+         </prop-group>
+      </header>
+      <body>
+         <group id="19660" resname="STR# 19660">
+            <trans-unit id="1" resname="Gestion personnelle" translate="no">
+               <source>Gestion personnelle</source>
+            </trans-unit>
+            <trans-unit id="2" resname="Votre livre de cave" translate="no">
+               <source>Votre livre de cave</source>
+            </trans-unit>
+            <trans-unit id="3" resname="Vos dégustations" translate="no">
+               <source>Vos dégustations</source>
+            </trans-unit>
+            <trans-unit id="4" resname="Astuces et Conseils" translate="no">
+               <source>Astuces et Conseils</source>
+            </trans-unit>
+            <trans-unit id="5" resname="Mets et vins" translate="no">
+               <source>Mets et vins</source>
+            </trans-unit>
+            <trans-unit id="6" resname="Bien gérer sa cave" translate="no">
+               <source>Bien gérer sa cave</source>
+            </trans-unit>
+            <trans-unit id="7" resname="Dégustation et service" translate="no">
+               <source>Dégustation et service</source>
+            </trans-unit>
+            <trans-unit id="8" resname="Les cépages" translate="no">
+               <source>Les cépages</source>
+            </trans-unit>
+            <trans-unit id="9" resname="Lexique" translate="no">
+               <source>Lexique</source>
+            </trans-unit>
+            <trans-unit id="10" resname="Les millésimes" translate="no">
+               <source>Les millésimes</source>
+            </trans-unit>
+            <trans-unit id="11" resname="Administration" translate="no">
+               <source>Administration</source>
+            </trans-unit>
+            <trans-unit id="12" resname="Les producteurs" translate="no">
+               <source>Les producteurs</source>
+            </trans-unit>
+            <trans-unit id="13" resname="Quitter" translate="no">
+               <source>Quitter</source>
+            </trans-unit>
+            <trans-unit id="14" resname="Dictionnaires" translate="no">
+               <source>Dictionnaires</source>
+            </trans-unit>
+            <trans-unit id="15" resname="Vin blanc" translate="no">
+               <source>Vin blanc</source>
+            </trans-unit>
+            <trans-unit id="16" resname="Vin rouge" translate="no">
+               <source>Vin rouge</source>
+            </trans-unit>
+            <trans-unit id="17" resname="Rechercher" translate="no">
+               <source>Rechercher</source>
+            </trans-unit>
+            <trans-unit id="18" resname="A propos.." translate="no">
+               <source>A propos..</source>
+            </trans-unit>
+            <trans-unit id="19" resname="Quel cépage recherchez-vous ?" translate="no">
+               <source>Quel cépage recherchez-vous ?</source>
+            </trans-unit>
+            <trans-unit id="20" resname="Les appellations" translate="no">
+               <source>Les appellations</source>
+            </trans-unit>
+            <trans-unit id="21" resname="Annuler" translate="no">
+               <source>Annuler</source>
+            </trans-unit>
+            <trans-unit id="22" resname="Sélectionner" translate="no">
+               <source>Sélectionner</source>
+            </trans-unit>
+            <trans-unit id="23" resname="Répartition de la cave" translate="no">
+               <source>Répartition de la cave</source>
+            </trans-unit>
+            <trans-unit id="24" resname="Gestion de la cave" translate="no">
+               <source>Gestion de la cave</source>
+            </trans-unit>
+            <trans-unit id="25" resname="Nouveau vin" translate="no">
+               <source>Nouveau vin</source>
+            </trans-unit>
+            <trans-unit id="26" resname="Répartition par pays" translate="no">
+               <source>Répartition par pays</source>
+            </trans-unit>
+            <trans-unit id="27" resname="Les millésimes" translate="no">
+               <source>Les millésimes</source>
+            </trans-unit>
+            <trans-unit id="28" resname="Imprimer" translate="no">
+               <source>Imprimer</source>
+            </trans-unit>
+            <trans-unit id="29" resname="Rechercher" translate="no">
+               <source>Rechercher</source>
+            </trans-unit>
+            <trans-unit id="30" resname="Toutes" translate="no">
+               <source>Toutes</source>
+            </trans-unit>
+            <trans-unit id="31" resname="A boire" translate="no">
+               <source>A boire</source>
+            </trans-unit>
+            <trans-unit id="32" resname="En cave" translate="no">
+               <source>En cave</source>
+            </trans-unit>
+            <trans-unit id="33" resname="A garder" translate="no">
+               <source>A garder</source>
+            </trans-unit>
+            <trans-unit id="34" resname="Monnaie" translate="no">
+               <source>Monnaie</source>
+            </trans-unit>
+            <trans-unit id="35" resname="Nb de bouteilles" translate="no">
+               <source>Nb de bouteilles</source>
+            </trans-unit>
+            <trans-unit id="36" resname="Valeur d&apos;achat" translate="no">
+               <source>Valeur d'achat</source>
+            </trans-unit>
+            <trans-unit id="37" resname="Valeur actuelle" translate="no">
+               <source>Valeur actuelle</source>
+            </trans-unit>
+            <trans-unit id="38" resname="Ajouter" translate="no">
+               <source>Ajouter</source>
+            </trans-unit>
+            <trans-unit id="39" resname="Votre cave" translate="no">
+               <source>Votre cave</source>
+            </trans-unit>
+            <trans-unit id="40" resname="Nom" translate="no">
+               <source>Nom</source>
+            </trans-unit>
+            <trans-unit id="41" resname="Type" translate="no">
+               <source>Type</source>
+            </trans-unit>
+            <trans-unit id="42" resname="Appellation" translate="no">
+               <source>Appellation</source>
+            </trans-unit>
+            <trans-unit id="43" resname="Pays" translate="no">
+               <source>Pays</source>
+            </trans-unit>
+            <trans-unit id="44" resname="An" translate="no">
+               <source>An</source>
+            </trans-unit>
+            <trans-unit id="45" resname="Année" translate="no">
+               <source>Année</source>
+            </trans-unit>
+            <trans-unit id="46" resname="Apogée" translate="no">
+               <source>Apogée</source>
+            </trans-unit>
+            <trans-unit id="47" resname="Apogée  //Titre dans la liste" translate="no">
+               <source>Apogée  //Titre dans la liste</source>
+            </trans-unit>
+            <trans-unit id="48" resname="Qté" translate="no">
+               <source>Qté</source>
+            </trans-unit>
+            <trans-unit id="49" resname="Quantité" translate="no">
+               <source>Quantité</source>
+            </trans-unit>
+            <trans-unit id="50" resname="Ajouter un pays" translate="no">
+               <source>Ajouter un pays</source>
+            </trans-unit>
+            <trans-unit id="51" resname="Région" translate="no">
+               <source>Région</source>
+            </trans-unit>
+            <trans-unit id="52" resname="Nom du pays à ajouter :" translate="no">
+               <source>Nom du pays à ajouter :</source>
+            </trans-unit>
+            <trans-unit id="53" resname="Toutes" translate="no">
+               <source>Toutes</source>
+            </trans-unit>
+            <trans-unit id="54" resname="Nom de la région à ajouter" translate="no">
+               <source>Nom de la région à ajouter</source>
+            </trans-unit>
+            <trans-unit id="55" resname="Ajouter une région" translate="no">
+               <source>Ajouter une région</source>
+            </trans-unit>
+            <trans-unit id="56" resname="Fiche producteur" translate="no">
+               <source>Fiche producteur</source>
+            </trans-unit>
+            <trans-unit id="57" resname="Date" translate="no">
+               <source>Date</source>
+            </trans-unit>
+            <trans-unit id="58" resname="Par événement" translate="no">
+               <source>Par événement</source>
+            </trans-unit>
+            <trans-unit id="59" resname="Par convive" translate="no">
+               <source>Par convive</source>
+            </trans-unit>
+            <trans-unit id="60" resname="Par plat" translate="no">
+               <source>Par plat</source>
+            </trans-unit>
+            <trans-unit id="61" resname="Evénement à rechercher :" translate="no">
+               <source>Evénement à rechercher :</source>
+            </trans-unit>
+            <trans-unit id="62" resname="Convive à rechercher :" translate="no">
+               <source>Convive à rechercher :</source>
+            </trans-unit>
+            <trans-unit id="63" resname="Plat à rechercher :" translate="no">
+               <source>Plat à rechercher :</source>
+            </trans-unit>
+            <trans-unit id="64" resname="Recherche multicritère" translate="no">
+               <source>Recherche multicritère</source>
+            </trans-unit>
+            <trans-unit id="65" resname="Evénements / Convives / Plats" translate="no">
+               <source>Evénements / Convives / Plats</source>
+            </trans-unit>
+            <trans-unit id="66" resname="Fermer" translate="no">
+               <source>Fermer</source>
+            </trans-unit>
+            <trans-unit id="67" resname="Les producteurs" translate="no">
+               <source>Les producteurs</source>
+            </trans-unit>
+            <trans-unit id="68" resname="Nouveau producteur" translate="no">
+               <source>Nouveau producteur</source>
+            </trans-unit>
+            <trans-unit id="69" resname="Rechercher un producteur" translate="no">
+               <source>Rechercher un producteur</source>
+            </trans-unit>
+            <trans-unit id="70" resname="Société" translate="no">
+               <source>Société</source>
+            </trans-unit>
+            <trans-unit id="71" resname="Ville" translate="no">
+               <source>Ville</source>
+            </trans-unit>
+            <trans-unit id="72" resname="Tél." translate="no">
+               <source>Tél.</source>
+            </trans-unit>
+            <trans-unit id="73" resname="E-mail" translate="no">
+               <source>E-mail</source>
+            </trans-unit>
+            <trans-unit id="74" resname="Tous" translate="no">
+               <source>Tous</source>
+            </trans-unit>
+            <trans-unit id="75" resname="Mises à Jour" translate="no">
+               <source>Mises à Jour</source>
+            </trans-unit>
+            <trans-unit id="76" resname="Développé par :" translate="no">
+               <source>Développé par :</source>
+            </trans-unit>
+            <trans-unit id="77" resname="Note" translate="no">
+               <source>Note</source>
+            </trans-unit>
+            <trans-unit id="78" resname="Valider" translate="no">
+               <source>Valider</source>
+            </trans-unit>
+            <trans-unit id="79" resname="Fermer" translate="no">
+               <source>Fermer</source>
+            </trans-unit>
+            <trans-unit id="80" resname="Nouvelle bouteille" translate="no">
+               <source>Nouvelle bouteille</source>
+            </trans-unit>
+            <trans-unit id="81" resname="Supprimer" translate="no">
+               <source>Supprimer</source>
+            </trans-unit>
+            <trans-unit id="82" resname="Chercher" translate="no">
+               <source>Chercher</source>
+            </trans-unit>
+            <trans-unit id="83" resname="Imprimer" translate="no">
+               <source>Imprimer</source>
+            </trans-unit>
+            <trans-unit id="84" resname="Millésimes" translate="no">
+               <source>Millésimes</source>
+            </trans-unit>
+            <trans-unit id="85" resname="Nouvelle appellation" translate="no">
+               <source>Nouvelle appellation</source>
+            </trans-unit>
+            <trans-unit id="86" resname="Dupliquer" translate="no">
+               <source>Dupliquer</source>
+            </trans-unit>
+            <trans-unit id="87" resname="Etiquette" translate="no">
+               <source>Etiquette</source>
+            </trans-unit>
+            <trans-unit id="88" resname="LA CAVE" translate="no">
+               <source>LA CAVE</source>
+            </trans-unit>
+            <trans-unit id="89" resname="Cépages" translate="no">
+               <source>Cépages</source>
+            </trans-unit>
+            <trans-unit id="90" resname="Nb bouteilles" translate="no">
+               <source>Nb bouteilles</source>
+            </trans-unit>
+            <trans-unit id="91" resname="Dont bues" translate="no">
+               <source>Dont bues</source>
+            </trans-unit>
+            <trans-unit id="92" resname="Reste" translate="no">
+               <source>Reste</source>
+            </trans-unit>
+            <trans-unit id="93" resname="Apogée de" translate="no">
+               <source>Apogée de</source>
+            </trans-unit>
+            <trans-unit id="94" resname="à" translate="no">
+               <source>à</source>
+            </trans-unit>
+            <trans-unit id="95" resname="Note" translate="no">
+               <source>Note</source>
+            </trans-unit>
+            <trans-unit id="96" resname="Date d&apos;achat" translate="no">
+               <source>Date d'achat</source>
+            </trans-unit>
+            <trans-unit id="97" resname="Température" translate="no">
+               <source>Température</source>
+            </trans-unit>
+            <trans-unit id="98" resname="Alcool" translate="no">
+               <source>Alcool</source>
+            </trans-unit>
+            <trans-unit id="99" resname="Prix d&apos;achat" translate="no">
+               <source>Prix d'achat</source>
+            </trans-unit>
+            <trans-unit id="100" resname="Valeur" translate="no">
+               <source>Valeur</source>
+            </trans-unit>
+            <trans-unit id="101" resname="Casier" translate="no">
+               <source>Casier</source>
+            </trans-unit>
+            <trans-unit id="102" resname="Elevage" translate="no">
+               <source>Elevage</source>
+            </trans-unit>
+            <trans-unit id="103" resname="Notes de dégustation" translate="no">
+               <source>Notes de dégustation</source>
+            </trans-unit>
+            <trans-unit id="104" resname="Remarques" translate="no">
+               <source>Remarques</source>
+            </trans-unit>
+            <trans-unit id="105" resname="Cave" translate="no">
+               <source>Cave</source>
+            </trans-unit>
+            <trans-unit id="106" resname="Dégustation" translate="no">
+               <source>Dégustation</source>
+            </trans-unit>
+            <trans-unit id="107" resname="Producteur" translate="no">
+               <source>Producteur</source>
+            </trans-unit>
+            <trans-unit id="108" resname="INFORMATIONS" translate="no">
+               <source>INFORMATIONS</source>
+            </trans-unit>
+            <trans-unit id="109" resname="INTERNET" translate="no">
+               <source>INTERNET</source>
+            </trans-unit>
+            <trans-unit id="110" resname="Société" translate="no">
+               <source>Société</source>
+            </trans-unit>
+            <trans-unit id="111" resname="Nom" translate="no">
+               <source>Nom</source>
+            </trans-unit>
+            <trans-unit id="112" resname="Prénom" translate="no">
+               <source>Prénom</source>
+            </trans-unit>
+            <trans-unit id="113" resname="Adresse" translate="no">
+               <source>Adresse</source>
+            </trans-unit>
+            <trans-unit id="114" resname="CP" translate="no">
+               <source>CP</source>
+            </trans-unit>
+            <trans-unit id="115" resname="Ville" translate="no">
+               <source>Ville</source>
+            </trans-unit>
+            <trans-unit id="116" resname="Pays" translate="no">
+               <source>Pays</source>
+            </trans-unit>
+            <trans-unit id="117" resname="Tél" translate="no">
+               <source>Tél</source>
+            </trans-unit>
+            <trans-unit id="118" resname="Fax" translate="no">
+               <source>Fax</source>
+            </trans-unit>
+            <trans-unit id="119" resname="Portable" translate="no">
+               <source>Portable</source>
+            </trans-unit>
+            <trans-unit id="120" resname="E-Mail" translate="no">
+               <source>E-Mail</source>
+            </trans-unit>
+            <trans-unit id="121" resname="Web" translate="no">
+               <source>Web</source>
+            </trans-unit>
+            <trans-unit id="122" resname="Remarques" translate="no">
+               <source>Remarques</source>
+            </trans-unit>
+            <trans-unit id="123" resname="Lieu d&apos;achat" translate="no">
+               <source>Lieu d'achat</source>
+            </trans-unit>
+            <trans-unit id="124" resname="Précédent" translate="no">
+               <source>Précédent</source>
+            </trans-unit>
+            <trans-unit id="125" resname="Nouveau Millésime" translate="no">
+               <source>Nouveau Millésime</source>
+            </trans-unit>
+            <trans-unit id="126" resname="Tout montrer" translate="no">
+               <source>Tout montrer</source>
+            </trans-unit>
+            <trans-unit id="127" resname="Aucun pays sélectionné" translate="no">
+               <source>Aucun pays sélectionné</source>
+            </trans-unit>
+            <trans-unit id="128" resname="Aucune région sélectionnée" translate="no">
+               <source>Aucune région sélectionnée</source>
+            </trans-unit>
+            <trans-unit id="129" resname="Appellation" translate="no">
+               <source>Appellation</source>
+            </trans-unit>
+            <trans-unit id="130" resname="Voulez-vous réellement supprimer cet enregistrement" translate="no">
+               <source>Voulez-vous réellement supprimer cet enregistrement</source>
+            </trans-unit>
+            <trans-unit id="131" resname="Mot à rechercher" translate="no">
+               <source>Mot à rechercher</source>
+            </trans-unit>
+            <trans-unit id="132" resname="Un Vin - Un Mets" translate="no">
+               <source>Un Vin - Un Mets</source>
+            </trans-unit>
+            <trans-unit id="133" resname="Appelation recherchée" translate="no">
+               <source>Appelation recherchée</source>
+            </trans-unit>
+            <trans-unit id="134" resname="Aucun enregistrement trouvé" translate="no">
+               <source>Aucun enregistrement trouvé</source>
+            </trans-unit>
+            <trans-unit id="135" resname="Sélectionnez un mets pour y associer des vins" translate="no">
+               <source>Sélectionnez un mets pour y associer des vins</source>
+            </trans-unit>
+            <trans-unit id="136" resname="Nom du vin" translate="no">
+               <source>Nom du vin</source>
+            </trans-unit>
+            <trans-unit id="137" resname="Nom de l&apos;appellation" translate="no">
+               <source>Nom de l'appellation</source>
+            </trans-unit>
+            <trans-unit id="138" resname="Nom de la région" translate="no">
+               <source>Nom de la région</source>
+            </trans-unit>
+            <trans-unit id="139" resname="Année à supprimer" translate="no">
+               <source>Année à supprimer</source>
+            </trans-unit>
+            <trans-unit id="140" resname="Voulez-vous réellement supprimer cet enregistrement ?" translate="no">
+               <source>Voulez-vous réellement supprimer cet enregistrement ?</source>
+            </trans-unit>
+            <trans-unit id="141" resname="Voulez-vous réellement dupliquer cet enregistrement ?" translate="no">
+               <source>Voulez-vous réellement dupliquer cet enregistrement ?</source>
+            </trans-unit>
+            <trans-unit id="142" resname="Type de vin" translate="no">
+               <source>Type de vin</source>
+            </trans-unit>
+            <trans-unit id="143" resname="Evènement" translate="no">
+               <source>Evènement</source>
+            </trans-unit>
+            <trans-unit id="144" resname="Convives" translate="no">
+               <source>Convives</source>
+            </trans-unit>
+            <trans-unit id="145" resname="Plats" translate="no">
+               <source>Plats</source>
+            </trans-unit>
+            <trans-unit id="146" resname="Vin dégusté" translate="no">
+               <source>Vin dégusté</source>
+            </trans-unit>
+            <trans-unit id="147" resname="Appellation" translate="no">
+               <source>Appellation</source>
+            </trans-unit>
+            <trans-unit id="148" resname="Conseils" translate="no">
+               <source>Conseils</source>
+            </trans-unit>
+            <trans-unit id="149" resname="Associations" translate="no">
+               <source>Associations</source>
+            </trans-unit>
+            <trans-unit id="150" resname="Mises à jour" translate="no">
+               <source>Mises à jour</source>
+            </trans-unit>
+            <trans-unit id="151" resname="Importer" translate="no">
+               <source>Importer</source>
+            </trans-unit>
+            <trans-unit id="152" resname="Fichier" translate="no">
+               <source>Fichier</source>
+            </trans-unit>
+            <trans-unit id="153" resname="Sérialisation" translate="no">
+               <source>Sérialisation</source>
+            </trans-unit>
+            <trans-unit id="154" resname="Importer d&apos;une ancienne version" translate="no">
+               <source>Importer d'une ancienne version</source>
+            </trans-unit>
+            <trans-unit id="155" resname="Cave sélectionnée :" translate="no">
+               <source>Cave sélectionnée :</source>
+            </trans-unit>
+            <trans-unit id="156" resname="Cave Principale" translate="no">
+               <source>Cave Principale</source>
+            </trans-unit>
+            <trans-unit id="157" resname="Nom de la cave à rajouter" translate="no">
+               <source>Nom de la cave à rajouter</source>
+            </trans-unit>
+            <trans-unit id="158" resname="Coups de cœur" translate="no">
+               <source>Coups de cœur</source>
+            </trans-unit>
+            <trans-unit id="159" resname="Carte" translate="no">
+               <source>Carte</source>
+            </trans-unit>
+            <trans-unit id="160" resname="Graphe" translate="no">
+               <source>Graphe</source>
+            </trans-unit>
+            <trans-unit id="161" resname="Nom du cépage" translate="no">
+               <source>Nom du cépage</source>
+            </trans-unit>
+            <trans-unit id="162" resname="Déscription" translate="no">
+               <source>Déscription</source>
+            </trans-unit>
+            <trans-unit id="163" resname="Exporter" translate="no">
+               <source>Exporter</source>
+            </trans-unit>
+            <trans-unit id="164" resname="Plus-value" translate="no">
+               <source>Plus-value</source>
+            </trans-unit>
+            <trans-unit id="165" resname="Modifier" translate="no">
+               <source>Modifier</source>
+            </trans-unit>
+            <trans-unit id="166" resname="Choisissez le mode de gestion de votre cave :" translate="no">
+               <source>Choisissez le mode de gestion de votre cave :</source>
+            </trans-unit>
+            <trans-unit id="167" resname="Amateur" translate="no">
+               <source>Amateur</source>
+            </trans-unit>
+            <trans-unit id="168" resname="Expert" translate="no">
+               <source>Expert</source>
+            </trans-unit>
+            <trans-unit id="169" resname="Sites Web" translate="no">
+               <source>Sites Web</source>
+            </trans-unit>
+            <trans-unit id="170" resname="Mode" translate="no">
+               <source>Mode</source>
+            </trans-unit>
+            <trans-unit id="171" resname="A commander" translate="no">
+               <source>A commander</source>
+            </trans-unit>
+            <trans-unit id="172" resname="Fiche vin" translate="no">
+               <source>Fiche vin</source>
+            </trans-unit>
+            <trans-unit id="173" resname="Vin sur Vin © KLETEL Multimédia" translate="no">
+               <source>Vin sur Vin © KLETEL Multimédia</source>
+            </trans-unit>
+            <trans-unit id="174" resname="Etat" translate="no">
+               <source>Etat</source>
+            </trans-unit>
+            <trans-unit id="175" resname="Veuillez compléter le numéro de licence ci-dessous:" translate="no">
+               <source>Veuillez compléter le numéro de licence ci-dessous:</source>
+            </trans-unit>
+            <trans-unit id="176" resname="Enregistrement" translate="no">
+               <source>Enregistrement</source>
+            </trans-unit>
+            <trans-unit id="177" resname="Démo" translate="no">
+               <source>Démo</source>
+            </trans-unit>
+            <trans-unit id="178" resname="Enregistrer" translate="no">
+               <source>Enregistrer</source>
+            </trans-unit>
+            <trans-unit id="179" resname="Aucun enregistrement n’est sélectionné." translate="no">
+               <source>Aucun enregistrement n’est sélectionné.</source>
+            </trans-unit>
+            <trans-unit id="180" resname="Voulez-vous vraiment supprimer cet enregistrement ?" translate="no">
+               <source>Voulez-vous vraiment supprimer cet enregistrement ?</source>
+            </trans-unit>
+            <trans-unit id="181" resname="Voulez-vous vraiment supprimer ces" translate="no">
+               <source>Voulez-vous vraiment supprimer ces</source>
+            </trans-unit>
+            <trans-unit id="182" resname="enregistrements ?" translate="no">
+               <source>enregistrements ?</source>
+            </trans-unit>
+            <trans-unit id="183" resname="Cette version est limitée à 15 fiches par module." translate="no">
+               <source>Cette version est limitée à 15 fiches par module.</source>
+            </trans-unit>
+            <trans-unit id="184" resname="Numéro de série incorrect" translate="no">
+               <source>Numéro de série incorrect</source>
+            </trans-unit>
+            <trans-unit id="185" resname="Enregistrement réussi" translate="no">
+               <source>Enregistrement réussi</source>
+            </trans-unit>
+            <trans-unit id="186" resname="Aucune association à vous conseiller" translate="no">
+               <source>Aucune association à vous conseiller</source>
+            </trans-unit>
+            <trans-unit id="187" resname="Produit non enregistré sauvegarde impossible" translate="no">
+               <source>Produit non enregistré sauvegarde impossible</source>
+            </trans-unit>
+            <trans-unit id="188" resname="Le nom, le prénom de l&apos;utilisateur et le numéro de licence sont obligatoires." translate="no">
+               <source>Le nom, le prénom de l'utilisateur et le numéro de licence sont obligatoires.</source>
+            </trans-unit>
+            <trans-unit id="189" resname="Le numéro de licence est incorrect !" translate="no">
+               <source>Le numéro de licence est incorrect !</source>
+            </trans-unit>
+            <trans-unit id="190" resname="La base est véroullée" translate="no">
+               <source>La base est véroullée</source>
+            </trans-unit>
+            <trans-unit id="191" resname="Copiez la sur votre disque dur" translate="no">
+               <source>Copiez la sur votre disque dur</source>
+            </trans-unit>
+            <trans-unit id="192" resname="Expiration de Vin sur Vin" translate="no">
+               <source>Expiration de Vin sur Vin</source>
+            </trans-unit>
+            <trans-unit id="193" resname="Sélectionnez un vin" translate="no">
+               <source>Sélectionnez un vin</source>
+            </trans-unit>
+            <trans-unit id="194" resname="Voulez-vous supprimer cette cave ?" translate="no">
+               <source>Voulez-vous supprimer cette cave ?</source>
+            </trans-unit>
+            <trans-unit id="195" resname="Voulez-vous réellement supprimer" translate="no">
+               <source>Voulez-vous réellement supprimer</source>
+            </trans-unit>
+            <trans-unit id="196" resname="En mode amateur il est impossible de saisir une dégustation." translate="no">
+               <source>En mode amateur il est impossible de saisir une dégustation.</source>
+            </trans-unit>
+            <trans-unit id="197" resname="Voulez-vous passer en mode Expert ?" translate="no">
+               <source>Voulez-vous passer en mode Expert ?</source>
+            </trans-unit>
+            <trans-unit id="198" resname="Voulez-vous supprimer :" translate="no">
+               <source>Voulez-vous supprimer :</source>
+            </trans-unit>
+            <trans-unit id="199" resname="Nombre d&apos;etiquettes à imprimer" translate="no">
+               <source>Nombre d'etiquettes à imprimer</source>
+            </trans-unit>
+            <trans-unit id="200" resname="Liste des producteurs" translate="no">
+               <source>Liste des producteurs</source>
+            </trans-unit>
+            <trans-unit id="201" resname="Nombre de bouteilles :" translate="no">
+               <source>Nombre de bouteilles :</source>
+            </trans-unit>
+            <trans-unit id="202" resname="Apogée de" translate="no">
+               <source>Apogée de</source>
+            </trans-unit>
+            <trans-unit id="203" resname="Date d&apos;achat :" translate="no">
+               <source>Date d'achat :</source>
+            </trans-unit>
+            <trans-unit id="204" resname="Prix d&apos;achat :" translate="no">
+               <source>Prix d'achat :</source>
+            </trans-unit>
+            <trans-unit id="205" resname="Casier :" translate="no">
+               <source>Casier :</source>
+            </trans-unit>
+            <trans-unit id="206" resname="Flacon :" translate="no">
+               <source>Flacon :</source>
+            </trans-unit>
+            <trans-unit id="207" resname="Mise en bouteille :" translate="no">
+               <source>Mise en bouteille :</source>
+            </trans-unit>
+            <trans-unit id="208" resname="Notes de dégustation :" translate="no">
+               <source>Notes de dégustation :</source>
+            </trans-unit>
+            <trans-unit id="209" resname="Dont bues :" translate="no">
+               <source>Dont bues :</source>
+            </trans-unit>
+            <trans-unit id="210" resname="Reste :" translate="no">
+               <source>Reste :</source>
+            </trans-unit>
+            <trans-unit id="211" resname="Note / 20 :" translate="no">
+               <source>Note / 20 :</source>
+            </trans-unit>
+            <trans-unit id="212" resname="Température :" translate="no">
+               <source>Température :</source>
+            </trans-unit>
+            <trans-unit id="213" resname="Alcool :" translate="no">
+               <source>Alcool :</source>
+            </trans-unit>
+            <trans-unit id="214" resname="Valeur :" translate="no">
+               <source>Valeur :</source>
+            </trans-unit>
+            <trans-unit id="215" resname="à :" translate="no">
+               <source>à :</source>
+            </trans-unit>
+            <trans-unit id="216" resname="Fiche de cave" translate="no">
+               <source>Fiche de cave</source>
+            </trans-unit>
+            <trans-unit id="217" resname="Elevage :" translate="no">
+               <source>Elevage :</source>
+            </trans-unit>
+            <trans-unit id="218" resname="Informations" translate="no">
+               <source>Informations</source>
+            </trans-unit>
+            <trans-unit id="219" resname="Producteur" translate="no">
+               <source>Producteur</source>
+            </trans-unit>
+            <trans-unit id="220" resname="Societé" translate="no">
+               <source>Societé</source>
+            </trans-unit>
+            <trans-unit id="221" resname="Nom :" translate="no">
+               <source>Nom :</source>
+            </trans-unit>
+            <trans-unit id="222" resname="Adresse :" translate="no">
+               <source>Adresse :</source>
+            </trans-unit>
+            <trans-unit id="223" resname="Prénom :" translate="no">
+               <source>Prénom :</source>
+            </trans-unit>
+            <trans-unit id="224" resname="CP :" translate="no">
+               <source>CP :</source>
+            </trans-unit>
+            <trans-unit id="225" resname="Ville :" translate="no">
+               <source>Ville :</source>
+            </trans-unit>
+            <trans-unit id="226" resname="Pays :" translate="no">
+               <source>Pays :</source>
+            </trans-unit>
+            <trans-unit id="227" resname="Tèl :" translate="no">
+               <source>Tèl :</source>
+            </trans-unit>
+            <trans-unit id="228" resname="Fax :" translate="no">
+               <source>Fax :</source>
+            </trans-unit>
+            <trans-unit id="229" resname="Portable :" translate="no">
+               <source>Portable :</source>
+            </trans-unit>
+            <trans-unit id="230" resname="E-Mail :" translate="no">
+               <source>E-Mail :</source>
+            </trans-unit>
+            <trans-unit id="231" resname="Web :" translate="no">
+               <source>Web :</source>
+            </trans-unit>
+            <trans-unit id="232" resname="Vos dégustations" translate="no">
+               <source>Vos dégustations</source>
+            </trans-unit>
+            <trans-unit id="233" resname="Remarques :" translate="no">
+               <source>Remarques :</source>
+            </trans-unit>
+            <trans-unit id="234" resname="Lieu d&apos;achat :" translate="no">
+               <source>Lieu d'achat :</source>
+            </trans-unit>
+            <trans-unit id="235" resname="Fiche du vin;Fiche vierge;Etiquette à casier" translate="no">
+               <source>Fiche du vin;Fiche vierge;Etiquette à casier</source>
+            </trans-unit>
+            <trans-unit id="236" resname="Vos vins en liste;Vos vins en fiche;Impression personnalisée;Imprimer des étiquettes" translate="no">
+               <source>Vos vins en liste;Vos vins en fiche;Impression personnalisée;Imprimer des étiquettes</source>
+            </trans-unit>
+            <trans-unit id="237" resname="Catégorie :" translate="no">
+               <source>Catégorie :</source>
+            </trans-unit>
+            <trans-unit id="238" resname="Sous catégorie :" translate="no">
+               <source>Sous catégorie :</source>
+            </trans-unit>
+            <trans-unit id="239" resname="Nom du met :" translate="no">
+               <source>Nom du met :</source>
+            </trans-unit>
+            <trans-unit id="240" resname="Nom du vin :" translate="no">
+               <source>Nom du vin :</source>
+            </trans-unit>
+            <trans-unit id="241" resname="Sites Web" translate="no">
+               <source>Sites Web</source>
+            </trans-unit>
+            <trans-unit id="242" resname="Consulter" translate="no">
+               <source>Consulter</source>
+            </trans-unit>
+            <trans-unit id="243" resname="Attention ! L’abus d’alcool est dangereux pour la santé" translate="no">
+               <source>Attention ! L’abus d’alcool est dangereux pour la santé</source>
+            </trans-unit>
+            <trans-unit id="244" resname="Millésimes" translate="no">
+               <source>Millésimes</source>
+            </trans-unit>
+            <trans-unit id="245" resname="Les producteurs" translate="no">
+               <source>Les producteurs</source>
+            </trans-unit>
+            <trans-unit id="246" resname="Descriptif :" translate="no">
+               <source>Descriptif :</source>
+            </trans-unit>
+            <trans-unit id="247" resname="Site Web :" translate="no">
+               <source>Site Web :</source>
+            </trans-unit>
+            <trans-unit id="248" resname="Rubrique :" translate="no">
+               <source>Rubrique :</source>
+            </trans-unit>
+            <trans-unit id="249" resname="Etat :" translate="no">
+               <source>Etat :</source>
+            </trans-unit>
+            <trans-unit id="250" resname="Produit :" translate="no">
+               <source>Produit :</source>
+            </trans-unit>
+            <trans-unit id="251" resname="Document à adresser par courrier ou par fax à :" translate="no">
+               <source>Document à adresser par courrier ou par fax à :</source>
+            </trans-unit>
+            <trans-unit id="252" resname="Revendeur :" translate="no">
+               <source>Revendeur :</source>
+            </trans-unit>
+            <trans-unit id="253" resname="Matériel :" translate="no">
+               <source>Matériel :</source>
+            </trans-unit>
+            <trans-unit id="254" resname="Taille de l&apos;écran :" translate="no">
+               <source>Taille de l'écran :</source>
+            </trans-unit>
+            <trans-unit id="255" resname="Système :" translate="no">
+               <source>Système :</source>
+            </trans-unit>
+            <trans-unit id="256" resname="Enregistrement de Vin sur Vin 6.0.3 :" translate="no">
+               <source>Enregistrement de Vin sur Vin 6.0.3 :</source>
+            </trans-unit>
+            <trans-unit id="257" resname="Souhaitez-vous créer votre carte d&apos;enregistrement ?" translate="no">
+               <source>Souhaitez-vous créer votre carte d'enregistrement ?</source>
+            </trans-unit>
+            <trans-unit id="258" resname="Renvoyez votre carte d&apos;enregistrement pour bénéficier du suppo+rt technique." translate="no">
+               <source>Renvoyez votre carte d'enregistrement pour bénéficier du suppo+rt technique.</source>
+            </trans-unit>
+            <trans-unit id="259" resname="Plus tard" translate="no">
+               <source>Plus tard</source>
+            </trans-unit>
+            <trans-unit id="260" resname="Déjà fait" translate="no">
+               <source>Déjà fait</source>
+            </trans-unit>
+            <trans-unit id="261" resname="Maintenant" translate="no">
+               <source>Maintenant</source>
+            </trans-unit>
+            <trans-unit id="262" resname="Mot :" translate="no">
+               <source>Mot :</source>
+            </trans-unit>
+            <trans-unit id="263" resname="definition :" translate="no">
+               <source>definition :</source>
+            </trans-unit>
+            <trans-unit id="264" resname="Vue :" translate="no">
+               <source>Vue :</source>
+            </trans-unit>
+            <trans-unit id="265" resname="Nez :" translate="no">
+               <source>Nez :</source>
+            </trans-unit>
+            <trans-unit id="266" resname="Goût :" translate="no">
+               <source>Goût :</source>
+            </trans-unit>
+            <trans-unit id="267" resname="Global :" translate="no">
+               <source>Global :</source>
+            </trans-unit>
+            <trans-unit id="268" resname="Convertisseur :" translate="no">
+               <source>Convertisseur :</source>
+            </trans-unit>
+            <trans-unit id="269" resname="Vin sur Vin 7.0.0" translate="no">
+               <source>Vin sur Vin 7.0.0</source>
+            </trans-unit>
+            <trans-unit id="270" resname="Liste des vins disponibles en cave" translate="no">
+               <source>Liste des vins disponibles en cave</source>
+            </trans-unit>
+            <trans-unit id="271" resname="- Une variété de sites en rapport avec le vin vous est présentée. Liste donnée à titre indicatif pour laquelle KLETEL Multimédia ne peut ni maîtriser ni garantir le contenu, descriptif et commentaire inclus." translate="no">
+               <source>- Une variété de sites en rapport avec le vin vous est présentée. Liste donnée à titre indicatif pour laquelle KLETEL Multimédia ne peut ni maîtriser ni garantir le contenu, descriptif et commentaire inclus.</source>
+            </trans-unit>
+            <trans-unit id="272" resname="Année" translate="no">
+               <source>Année</source>
+            </trans-unit>
+            <trans-unit id="273" resname="Bordeaux rouge" translate="no">
+               <source>Bordeaux rouge</source>
+            </trans-unit>
+            <trans-unit id="274" resname="Bordeaux blanc liquoreux" translate="no">
+               <source>Bordeaux blanc liquoreux</source>
+            </trans-unit>
+            <trans-unit id="275" resname="Bourgogne rouge" translate="no">
+               <source>Bourgogne rouge</source>
+            </trans-unit>
+            <trans-unit id="276" resname="Bourgogne Blanc" translate="no">
+               <source>Bourgogne Blanc</source>
+            </trans-unit>
+            <trans-unit id="277" resname="Rhône" translate="no">
+               <source>Rhône</source>
+            </trans-unit>
+            <trans-unit id="278" resname="Nouvelle cave" translate="no">
+               <source>Nouvelle cave</source>
+            </trans-unit>
+            <trans-unit id="279" resname="Supprimer cette cave" translate="no">
+               <source>Supprimer cette cave</source>
+            </trans-unit>
+            <trans-unit id="280" resname="Carte d&apos;enregistrement" translate="no">
+               <source>Carte d'enregistrement</source>
+            </trans-unit>
+            <trans-unit id="281" resname="Faisons connaissance ..." translate="no">
+               <source>Faisons connaissance ...</source>
+            </trans-unit>
+            <trans-unit id="282" resname="Importer" translate="no">
+               <source>Importer</source>
+            </trans-unit>
+            <trans-unit id="283" resname="Exporter" translate="no">
+               <source>Exporter</source>
+            </trans-unit>
+            <trans-unit id="284" resname="Importer d&apos;une ancienne version" translate="no">
+               <source>Importer d'une ancienne version</source>
+            </trans-unit>
+            <trans-unit id="285" resname="Carte d&apos;enregistrement" translate="no">
+               <source>Carte d'enregistrement</source>
+            </trans-unit>
+            <trans-unit id="286" resname="Quitter" translate="no">
+               <source>Quitter</source>
+            </trans-unit>
+            <trans-unit id="287" resname="Amateur" translate="no">
+               <source>Amateur</source>
+            </trans-unit>
+            <trans-unit id="288" resname="Expert" translate="no">
+               <source>Expert</source>
+            </trans-unit>
+            <trans-unit id="289" resname="Suivant" translate="no">
+               <source>Suivant</source>
+            </trans-unit>
+            <trans-unit id="290" resname="Annuler" translate="no">
+               <source>Annuler</source>
+            </trans-unit>
+            <trans-unit id="291" resname="Couper" translate="no">
+               <source>Couper</source>
+            </trans-unit>
+            <trans-unit id="292" resname="Copier" translate="no">
+               <source>Copier</source>
+            </trans-unit>
+            <trans-unit id="293" resname="Coller" translate="no">
+               <source>Coller</source>
+            </trans-unit>
+            <trans-unit id="294" resname="Effacer" translate="no">
+               <source>Effacer</source>
+            </trans-unit>
+            <trans-unit id="295" resname="Tout selectionner" translate="no">
+               <source>Tout selectionner</source>
+            </trans-unit>
+            <trans-unit id="296" resname="Afficher le presse papier" translate="no">
+               <source>Afficher le presse papier</source>
+            </trans-unit>
+            <trans-unit id="297" resname="Fichier" translate="no">
+               <source>Fichier</source>
+            </trans-unit>
+            <trans-unit id="298" resname="Mode" translate="no">
+               <source>Mode</source>
+            </trans-unit>
+            <trans-unit id="299" resname="Edition" translate="no">
+               <source>Edition</source>
+            </trans-unit>
+            <trans-unit id="300" resname="Les cépages;Lexique;Les millésimes" translate="no">
+               <source>Les cépages;Lexique;Les millésimes</source>
+            </trans-unit>
+            <trans-unit id="301" resname="Prix" translate="no">
+               <source>Prix</source>
+            </trans-unit>
+            <trans-unit id="302" resname="Rubrique" translate="no">
+               <source>Rubrique</source>
+            </trans-unit>
+            <trans-unit id="303" resname="Voulez-vous imprimer la carte d&apos;enregistrement ?" translate="no">
+               <source>Voulez-vous imprimer la carte d'enregistrement ?</source>
+            </trans-unit>
+            <trans-unit id="304" resname="Sauvegarder la base" translate="no">
+               <source>Sauvegarder la base</source>
+            </trans-unit>
+            <trans-unit id="305" resname="Restaurer la base" translate="no">
+               <source>Restaurer la base</source>
+            </trans-unit>
+            <trans-unit id="306" resname="Voulez vous réellement quitter Vin sur Vin ?" translate="no">
+               <source>Voulez vous réellement quitter Vin sur Vin ?</source>
+            </trans-unit>
+            <trans-unit id="307" resname="Votre compte" translate="no">
+               <source>Votre compte</source>
+            </trans-unit>
+            <trans-unit id="308" resname="Boutique" translate="no">
+               <source>Boutique</source>
+            </trans-unit>
+            <trans-unit id="309" resname="Vos favoris" translate="no">
+               <source>Vos favoris</source>
+            </trans-unit>
+            <trans-unit id="310" resname="Vin sur Vin 7" translate="no">
+               <source>Vin sur Vin 7</source>
+            </trans-unit>
+            <trans-unit id="311" resname="Type :" translate="no">
+               <source>Type :</source>
+            </trans-unit>
+            <trans-unit id="312" resname="Région :" translate="no">
+               <source>Région :</source>
+            </trans-unit>
+            <trans-unit id="313" resname="Appellation :" translate="no">
+               <source>Appellation :</source>
+            </trans-unit>
+            <trans-unit id="314" resname="Millésimes :" translate="no">
+               <source>Millésimes :</source>
+            </trans-unit>
+            <trans-unit id="315" resname="Dénomination" translate="no">
+               <source>Dénomination</source>
+            </trans-unit>
+            <trans-unit id="316" resname="Mentions" translate="no">
+               <source>Mentions</source>
+            </trans-unit>
+            <trans-unit id="317" resname="Etagère" translate="no">
+               <source>Etagère</source>
+            </trans-unit>
+            <trans-unit id="318" resname="Rang" translate="no">
+               <source>Rang</source>
+            </trans-unit>
+            <trans-unit id="319" resname="Sélectionnez votre cave" translate="no">
+               <source>Sélectionnez votre cave</source>
+            </trans-unit>
+            <trans-unit id="320" resname="Indications de production" translate="no">
+               <source>Indications de production</source>
+            </trans-unit>
+            <trans-unit id="321" resname="Odeurs et Arômes" translate="no">
+               <source>Odeurs et Arômes</source>
+            </trans-unit>
+            <trans-unit id="322" resname="Secteurs" translate="no">
+               <source>Secteurs</source>
+            </trans-unit>
+            <trans-unit id="323" resname="Colonnes" translate="no">
+               <source>Colonnes</source>
+            </trans-unit>
+            <trans-unit id="324" resname="Courbes" translate="no">
+               <source>Courbes</source>
+            </trans-unit>
+            <trans-unit id="325" resname="Aires" translate="no">
+               <source>Aires</source>
+            </trans-unit>
+            <trans-unit id="326" resname="Présentation par pays" translate="no">
+               <source>Présentation par pays</source>
+            </trans-unit>
+            <trans-unit id="327" resname="Tout" translate="no">
+               <source>Tout</source>
+            </trans-unit>
+            <trans-unit id="328" resname="Sélection" translate="no">
+               <source>Sélection</source>
+            </trans-unit>
+            <trans-unit id="329" resname="Séléction par Pays" translate="no">
+               <source>Séléction par Pays</source>
+            </trans-unit>
+            <trans-unit id="330" resname="Sélection par Régions" translate="no">
+               <source>Sélection par Régions</source>
+            </trans-unit>
+            <trans-unit id="331" resname="Sélection par Type" translate="no">
+               <source>Sélection par Type</source>
+            </trans-unit>
+            <trans-unit id="332" resname="Reste en cave" translate="no">
+               <source>Reste en cave</source>
+            </trans-unit>
+            <trans-unit id="333" resname="Afficher" translate="no">
+               <source>Afficher</source>
+            </trans-unit>
+            <trans-unit id="334" resname="Séléction par Type" translate="no">
+               <source>Séléction par Type</source>
+            </trans-unit>
+            <trans-unit id="335" resname="Liste des caves" translate="no">
+               <source>Liste des caves</source>
+            </trans-unit>
+            <trans-unit id="336" resname="N° Enregistrement :" translate="no">
+               <source>N° Enregistrement :</source>
+            </trans-unit>
+            <trans-unit id="337" resname="Acheter" translate="no">
+               <source>Acheter</source>
+            </trans-unit>
+            <trans-unit id="338" resname="- Une variété de sites en rapport avec le vin vous est présentée. Liste donnée à titre indicatif pour laquelle Kletel Multimedia ne peut ni maîtriser ni garantir le contenu, descriptif et commentaire inclus." translate="no">
+               <source>- Une variété de sites en rapport avec le vin vous est présentée. Liste donnée à titre indicatif pour laquelle Kletel Multimedia ne peut ni maîtriser ni garantir le contenu, descriptif et commentaire inclus.</source>
+            </trans-unit>
+            <trans-unit id="339" resname="Voulez-vous importer une cave de démonstration ?" translate="no">
+               <source>Voulez-vous importer une cave de démonstration ?</source>
+            </trans-unit>
+            <trans-unit id="340" resname="La base de données va être installée dans documents, l&apos;application va redémarrer." translate="no">
+               <source>La base de données va être installée dans documents, l'application va redémarrer.</source>
+            </trans-unit>
+            <trans-unit id="341" resname="la configuration utilisateur est incorrecte, le fichier de configuration utilisateur va etre supprimé" translate="no">
+               <source>la configuration utilisateur est incorrecte, le fichier de configuration utilisateur va etre supprimé</source>
+            </trans-unit>
+            <trans-unit id="342" resname="Cave par défaut" translate="no">
+               <source>Cave par défaut</source>
+            </trans-unit>
+            <trans-unit id="343" resname="Renommer la cave" translate="no">
+               <source>Renommer la cave</source>
+            </trans-unit>
+            <trans-unit id="344" resname="nom de la cave" translate="no">
+               <source>nom de la cave</source>
+            </trans-unit>
+         </group>
+         <group id="22000" resname="STR# 22000">
+            <trans-unit id="1" resname="Persoonlijk beheer" translate="no">
+               <source>Persoonlijk beheer</source>
+            </trans-unit>
+            <trans-unit id="2" resname="Uw wijnkelder" translate="no">
+               <source>Uw wijnkelder</source>
+            </trans-unit>
+            <trans-unit id="3" resname="Wijnproeverijen" translate="no">
+               <source>Wijnproeverijen</source>
+            </trans-unit>
+            <trans-unit id="4" resname="Tips en raadgevingen" translate="no">
+               <source>Tips en raadgevingen</source>
+            </trans-unit>
+            <trans-unit id="5" resname="Gerechten en wijnen" translate="no">
+               <source>Gerechten en wijnen</source>
+            </trans-unit>
+            <trans-unit id="6" resname="Uw wijnkelder beheren" translate="no">
+               <source>Uw wijnkelder beheren</source>
+            </trans-unit>
+            <trans-unit id="7" resname="Proeven en serveren" translate="no">
+               <source>Proeven en serveren</source>
+            </trans-unit>
+            <trans-unit id="8" resname="Druivensoorten" translate="no">
+               <source>Druivensoorten</source>
+            </trans-unit>
+            <trans-unit id="9" resname="Lexicon" translate="no">
+               <source>Lexicon</source>
+            </trans-unit>
+            <trans-unit id="10" resname="Jaartallen" translate="no">
+               <source>Jaartallen</source>
+            </trans-unit>
+            <trans-unit id="11" resname="Administratie" translate="no">
+               <source>Administratie</source>
+            </trans-unit>
+            <trans-unit id="12" resname="Wijnproducenten" translate="no">
+               <source>Wijnproducenten</source>
+            </trans-unit>
+            <trans-unit id="13" resname="Afsluiten" translate="no">
+               <source>Afsluiten</source>
+            </trans-unit>
+            <trans-unit id="14" resname="Woordenboeken" translate="no">
+               <source>Woordenboeken</source>
+            </trans-unit>
+            <trans-unit id="15" resname="Witte wijn" translate="no">
+               <source>Witte wijn</source>
+            </trans-unit>
+            <trans-unit id="16" resname="Rode wijn" translate="no">
+               <source>Rode wijn</source>
+            </trans-unit>
+            <trans-unit id="17" resname="Zoeken" translate="no">
+               <source>Zoeken</source>
+            </trans-unit>
+            <trans-unit id="18" resname="Informatiescherm..." translate="no">
+               <source>Informatiescherm...</source>
+            </trans-unit>
+            <trans-unit id="19" resname="Welke druivensoort zoekt u?" translate="no">
+               <source>Welke druivensoort zoekt u?</source>
+            </trans-unit>
+            <trans-unit id="20" resname="De herkomstbenamingen" translate="no">
+               <source>De herkomstbenamingen</source>
+            </trans-unit>
+            <trans-unit id="21" resname="Annuleren" translate="no">
+               <source>Annuleren</source>
+            </trans-unit>
+            <trans-unit id="22" resname="Selecteren" translate="no">
+               <source>Selecteren</source>
+            </trans-unit>
+            <trans-unit id="23" resname="Spreiding van de wijnkelder" translate="no">
+               <source>Spreiding van de wijnkelder</source>
+            </trans-unit>
+            <trans-unit id="24" resname="Beheer van de kelder" translate="no">
+               <source>Beheer van de kelder</source>
+            </trans-unit>
+            <trans-unit id="25" resname="Nieuwe wijn" translate="no">
+               <source>Nieuwe wijn</source>
+            </trans-unit>
+            <trans-unit id="26" resname="Spreiding volgens land" translate="no">
+               <source>Spreiding volgens land</source>
+            </trans-unit>
+            <trans-unit id="27" resname="Jaartallen" translate="no">
+               <source>Jaartallen</source>
+            </trans-unit>
+            <trans-unit id="28" resname="Lijst afdrukken" translate="no">
+               <source>Lijst afdrukken</source>
+            </trans-unit>
+            <trans-unit id="29" resname="Zoeken in wijnkelder" translate="no">
+               <source>Zoeken in wijnkelder</source>
+            </trans-unit>
+            <trans-unit id="30" resname="Alle wijnen" translate="no">
+               <source>Alle wijnen</source>
+            </trans-unit>
+            <trans-unit id="31" resname="Te drinken" translate="no">
+               <source>Te drinken</source>
+            </trans-unit>
+            <trans-unit id="32" resname="In wijnkelder" translate="no">
+               <source>In wijnkelder</source>
+            </trans-unit>
+            <trans-unit id="33" resname="Te bewaren" translate="no">
+               <source>Te bewaren</source>
+            </trans-unit>
+            <trans-unit id="34" resname="Munteenheid" translate="no">
+               <source>Munteenheid</source>
+            </trans-unit>
+            <trans-unit id="35" resname="Aantal flessen" translate="no">
+               <source>Aantal flessen</source>
+            </trans-unit>
+            <trans-unit id="36" resname="Aankoopwaarde" translate="no">
+               <source>Aankoopwaarde</source>
+            </trans-unit>
+            <trans-unit id="37" resname="Huidige waarde" translate="no">
+               <source>Huidige waarde</source>
+            </trans-unit>
+            <trans-unit id="38" resname="Toevoegen" translate="no">
+               <source>Toevoegen</source>
+            </trans-unit>
+            <trans-unit id="39" resname="DK Votre cave" translate="no">
+               <source>DK Votre cave</source>
+            </trans-unit>
+            <trans-unit id="40" resname="Naam" translate="no">
+               <source>Naam</source>
+            </trans-unit>
+            <trans-unit id="41" resname="Type" translate="no">
+               <source>Type</source>
+            </trans-unit>
+            <trans-unit id="42" resname="Herkomstben." translate="no">
+               <source>Herkomstben.</source>
+            </trans-unit>
+            <trans-unit id="43" resname="Land" translate="no">
+               <source>Land</source>
+            </trans-unit>
+            <trans-unit id="44" resname="Jaar" translate="no">
+               <source>Jaar</source>
+            </trans-unit>
+            <trans-unit id="45" resname="Jaar" translate="no">
+               <source>Jaar</source>
+            </trans-unit>
+            <trans-unit id="46" resname="Hoogtepunt" translate="no">
+               <source>Hoogtepunt</source>
+            </trans-unit>
+            <trans-unit id="47" resname="Hoogtepunt" translate="no">
+               <source>Hoogtepunt</source>
+            </trans-unit>
+            <trans-unit id="48" resname="Aantal" translate="no">
+               <source>Aantal</source>
+            </trans-unit>
+            <trans-unit id="49" resname="Aantal" translate="no">
+               <source>Aantal</source>
+            </trans-unit>
+            <trans-unit id="50" resname="Land toevoegen" translate="no">
+               <source>Land toevoegen</source>
+            </trans-unit>
+            <trans-unit id="51" resname="Wijngebied" translate="no">
+               <source>Wijngebied</source>
+            </trans-unit>
+            <trans-unit id="52" resname="Naam van het land dat u wilt toevoegen:" translate="no">
+               <source>Naam van het land dat u wilt toevoegen:</source>
+            </trans-unit>
+            <trans-unit id="53" resname="Alles" translate="no">
+               <source>Alles</source>
+            </trans-unit>
+            <trans-unit id="54" resname="Naam van het toe te voegen wijngebied" translate="no">
+               <source>Naam van het toe te voegen wijngebied</source>
+            </trans-unit>
+            <trans-unit id="55" resname="Wijngebied toevoegen" translate="no">
+               <source>Wijngebied toevoegen</source>
+            </trans-unit>
+            <trans-unit id="56" resname="Wijnproducenten" translate="no">
+               <source>Wijnproducenten</source>
+            </trans-unit>
+            <trans-unit id="57" resname="Datum" translate="no">
+               <source>Datum</source>
+            </trans-unit>
+            <trans-unit id="58" resname="Zoeken op evenement" translate="no">
+               <source>Zoeken op evenement</source>
+            </trans-unit>
+            <trans-unit id="59" resname="Zoeken op tafelgenoot" translate="no">
+               <source>Zoeken op tafelgenoot</source>
+            </trans-unit>
+            <trans-unit id="60" resname="Zoeken op gerecht" translate="no">
+               <source>Zoeken op gerecht</source>
+            </trans-unit>
+            <trans-unit id="61" resname="Gezocht evenement:" translate="no">
+               <source>Gezocht evenement:</source>
+            </trans-unit>
+            <trans-unit id="62" resname="Gezochte tafelgenoot:" translate="no">
+               <source>Gezochte tafelgenoot:</source>
+            </trans-unit>
+            <trans-unit id="63" resname="Gezocht gerecht:" translate="no">
+               <source>Gezocht gerecht:</source>
+            </trans-unit>
+            <trans-unit id="64" resname="Meerdere zoekcriteria" translate="no">
+               <source>Meerdere zoekcriteria</source>
+            </trans-unit>
+            <trans-unit id="65" resname="Evenementen / tafelgenoten / gerechten" translate="no">
+               <source>Evenementen / tafelgenoten / gerechten</source>
+            </trans-unit>
+            <trans-unit id="66" resname="Sluiten" translate="no">
+               <source>Sluiten</source>
+            </trans-unit>
+            <trans-unit id="67" resname="Wijnproducenten" translate="no">
+               <source>Wijnproducenten</source>
+            </trans-unit>
+            <trans-unit id="68" resname="Nieuwe producent" translate="no">
+               <source>Nieuwe producent</source>
+            </trans-unit>
+            <trans-unit id="69" resname="Een producent zoeken" translate="no">
+               <source>Een producent zoeken</source>
+            </trans-unit>
+            <trans-unit id="70" resname="Bedrijf" translate="no">
+               <source>Bedrijf</source>
+            </trans-unit>
+            <trans-unit id="71" resname="Stad" translate="no">
+               <source>Stad</source>
+            </trans-unit>
+            <trans-unit id="72" resname="Tel." translate="no">
+               <source>Tel.</source>
+            </trans-unit>
+            <trans-unit id="73" resname="E-mail" translate="no">
+               <source>E-mail</source>
+            </trans-unit>
+            <trans-unit id="74" resname="Alle" translate="no">
+               <source>Alle</source>
+            </trans-unit>
+            <trans-unit id="75" resname="Updates" translate="no">
+               <source>Updates</source>
+            </trans-unit>
+            <trans-unit id="76" resname="Ontwikkeld door:" translate="no">
+               <source>Ontwikkeld door:</source>
+            </trans-unit>
+            <trans-unit id="77" resname="Punten" translate="no">
+               <source>Punten</source>
+            </trans-unit>
+            <trans-unit id="78" resname="Toevoegen" translate="no">
+               <source>Toevoegen</source>
+            </trans-unit>
+            <trans-unit id="79" resname="Sluiten" translate="no">
+               <source>Sluiten</source>
+            </trans-unit>
+            <trans-unit id="80" resname="Nieuwe fles" translate="no">
+               <source>Nieuwe fles</source>
+            </trans-unit>
+            <trans-unit id="81" resname="Verwijder" translate="no">
+               <source>Verwijder</source>
+            </trans-unit>
+            <trans-unit id="82" resname="Zoeken" translate="no">
+               <source>Zoeken</source>
+            </trans-unit>
+            <trans-unit id="83" resname="Afdrukken" translate="no">
+               <source>Afdrukken</source>
+            </trans-unit>
+            <trans-unit id="84" resname="Jaartallen" translate="no">
+               <source>Jaartallen</source>
+            </trans-unit>
+            <trans-unit id="85" resname="Nieuwe herkomstbenaming" translate="no">
+               <source>Nieuwe herkomstbenaming</source>
+            </trans-unit>
+            <trans-unit id="86" resname="Kopiëren" translate="no">
+               <source>Kopiëren</source>
+            </trans-unit>
+            <trans-unit id="87" resname="Etiket" translate="no">
+               <source>Etiket</source>
+            </trans-unit>
+            <trans-unit id="88" resname="DK LA CAVE" translate="no">
+               <source>DK LA CAVE</source>
+            </trans-unit>
+            <trans-unit id="89" resname="DK Cépages" translate="no">
+               <source>DK Cépages</source>
+            </trans-unit>
+            <trans-unit id="90" resname="Aantal flessen" translate="no">
+               <source>Aantal flessen</source>
+            </trans-unit>
+            <trans-unit id="91" resname="Gedronken" translate="no">
+               <source>Gedronken</source>
+            </trans-unit>
+            <trans-unit id="92" resname="Rest" translate="no">
+               <source>Rest</source>
+            </trans-unit>
+            <trans-unit id="93" resname="Hoogtepunt" translate="no">
+               <source>Hoogtepunt</source>
+            </trans-unit>
+            <trans-unit id="94" resname="op" translate="no">
+               <source>op</source>
+            </trans-unit>
+            <trans-unit id="95" resname="Cijfer" translate="no">
+               <source>Cijfer</source>
+            </trans-unit>
+            <trans-unit id="96" resname="Aankoopdatum" translate="no">
+               <source>Aankoopdatum</source>
+            </trans-unit>
+            <trans-unit id="97" resname="Temperatuur" translate="no">
+               <source>Temperatuur</source>
+            </trans-unit>
+            <trans-unit id="98" resname="Alcohol" translate="no">
+               <source>Alcohol</source>
+            </trans-unit>
+            <trans-unit id="99" resname="Aankoopprijs" translate="no">
+               <source>Aankoopprijs</source>
+            </trans-unit>
+            <trans-unit id="100" resname="Waarde" translate="no">
+               <source>Waarde</source>
+            </trans-unit>
+            <trans-unit id="101" resname="Vak" translate="no">
+               <source>Vak</source>
+            </trans-unit>
+            <trans-unit id="102" resname="Druivensoorten" translate="no">
+               <source>Druivensoorten</source>
+            </trans-unit>
+            <trans-unit id="103" resname="Notities bij de wijnproeverij" translate="no">
+               <source>Notities bij de wijnproeverij</source>
+            </trans-unit>
+            <trans-unit id="104" resname="Opmerkingen" translate="no">
+               <source>Opmerkingen</source>
+            </trans-unit>
+            <trans-unit id="105" resname="Kelder" translate="no">
+               <source>Kelder</source>
+            </trans-unit>
+            <trans-unit id="106" resname="Proeven" translate="no">
+               <source>Proeven</source>
+            </trans-unit>
+            <trans-unit id="107" resname="Producent" translate="no">
+               <source>Producent</source>
+            </trans-unit>
+            <trans-unit id="108" resname="DK INFORMATIONS" translate="no">
+               <source>DK INFORMATIONS</source>
+            </trans-unit>
+            <trans-unit id="109" resname="DK INTERNET" translate="no">
+               <source>DK INTERNET</source>
+            </trans-unit>
+            <trans-unit id="110" resname="Vennoot." translate="no">
+               <source>Vennoot.</source>
+            </trans-unit>
+            <trans-unit id="111" resname="Naam" translate="no">
+               <source>Naam</source>
+            </trans-unit>
+            <trans-unit id="112" resname="Voornaam" translate="no">
+               <source>Voornaam</source>
+            </trans-unit>
+            <trans-unit id="113" resname="Adres" translate="no">
+               <source>Adres</source>
+            </trans-unit>
+            <trans-unit id="114" resname="Postcode" translate="no">
+               <source>Postcode</source>
+            </trans-unit>
+            <trans-unit id="115" resname="Stad" translate="no">
+               <source>Stad</source>
+            </trans-unit>
+            <trans-unit id="116" resname="Land" translate="no">
+               <source>Land</source>
+            </trans-unit>
+            <trans-unit id="117" resname="Telefoon" translate="no">
+               <source>Telefoon</source>
+            </trans-unit>
+            <trans-unit id="118" resname="Fax" translate="no">
+               <source>Fax</source>
+            </trans-unit>
+            <trans-unit id="119" resname="GSM" translate="no">
+               <source>GSM</source>
+            </trans-unit>
+            <trans-unit id="120" resname="E-Mail" translate="no">
+               <source>E-Mail</source>
+            </trans-unit>
+            <trans-unit id="121" resname="Web" translate="no">
+               <source>Web</source>
+            </trans-unit>
+            <trans-unit id="122" resname="Opmerkingen" translate="no">
+               <source>Opmerkingen</source>
+            </trans-unit>
+            <trans-unit id="123" resname="Aanteken" translate="no">
+               <source>Aanteken</source>
+            </trans-unit>
+            <trans-unit id="124" resname="DK Précédent" translate="no">
+               <source>DK Précédent</source>
+            </trans-unit>
+            <trans-unit id="125" resname="Nieuwe Jaartallen" translate="no">
+               <source>Nieuwe Jaartallen</source>
+            </trans-unit>
+            <trans-unit id="126" resname="alles tonen" translate="no">
+               <source>alles tonen</source>
+            </trans-unit>
+            <trans-unit id="127" resname="Geen enkel geselecteerd land" translate="no">
+               <source>Geen enkel geselecteerd land</source>
+            </trans-unit>
+            <trans-unit id="128" resname="Geen enkel geselecteerd gebied" translate="no">
+               <source>Geen enkel geselecteerd gebied</source>
+            </trans-unit>
+            <trans-unit id="129" resname="Aanduiding" translate="no">
+               <source>Aanduiding</source>
+            </trans-unit>
+            <trans-unit id="130" resname="Wilt u réelement deze registratie afschaffen" translate="no">
+               <source>Wilt u réelement deze registratie afschaffen</source>
+            </trans-unit>
+            <trans-unit id="131" resname="Gezocht woord" translate="no">
+               <source>Gezocht woord</source>
+            </trans-unit>
+            <trans-unit id="132" resname="Een Wijn - Een zet" translate="no">
+               <source>Een Wijn - Een zet</source>
+            </trans-unit>
+            <trans-unit id="133" resname="Naam van de wijn" translate="no">
+               <source>Naam van de wijn</source>
+            </trans-unit>
+            <trans-unit id="134" resname="Geen enkele gevonden registratie" translate="no">
+               <source>Geen enkele gevonden registratie</source>
+            </trans-unit>
+            <trans-unit id="135" resname="Selecteert een zet om wijnen ermee te verenigen" translate="no">
+               <source>Selecteert een zet om wijnen ermee te verenigen</source>
+            </trans-unit>
+            <trans-unit id="136" resname="Naam van de wijn" translate="no">
+               <source>Naam van de wijn</source>
+            </trans-unit>
+            <trans-unit id="137" resname="Naam van de aanduiding" translate="no">
+               <source>Naam van de aanduiding</source>
+            </trans-unit>
+            <trans-unit id="138" resname="Naam van het gebied" translate="no">
+               <source>Naam van het gebied</source>
+            </trans-unit>
+            <trans-unit id="139" resname="Te verwijderen jaar" translate="no">
+               <source>Te verwijderen jaar</source>
+            </trans-unit>
+            <trans-unit id="140" resname="Wilt u werkelijk deze registratie verwijderen ?" translate="no">
+               <source>Wilt u werkelijk deze registratie verwijderen ?</source>
+            </trans-unit>
+            <trans-unit id="141" resname="Wilt u deze registratie doorvoeren ?" translate="no">
+               <source>Wilt u deze registratie doorvoeren ?</source>
+            </trans-unit>
+            <trans-unit id="142" resname="Wijntype" translate="no">
+               <source>Wijntype</source>
+            </trans-unit>
+            <trans-unit id="143" resname="Evenementen" translate="no">
+               <source>Evenementen</source>
+            </trans-unit>
+            <trans-unit id="144" resname="Tafelgenoten" translate="no">
+               <source>Tafelgenoten</source>
+            </trans-unit>
+            <trans-unit id="145" resname="Gerechten" translate="no">
+               <source>Gerechten</source>
+            </trans-unit>
+            <trans-unit id="146" resname="Geproefte wijn" translate="no">
+               <source>Geproefte wijn</source>
+            </trans-unit>
+            <trans-unit id="147" resname="Herkomst" translate="no">
+               <source>Herkomst</source>
+            </trans-unit>
+            <trans-unit id="148" resname="Conseils" translate="no">
+               <source>Conseils</source>
+            </trans-unit>
+            <trans-unit id="149" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="150" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="151" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="152" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="153" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="154" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="155" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="156" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="157" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="158" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="159" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="160" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="161" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="162" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="163" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="164" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="165" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="166" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="167" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="168" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="169" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="170" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="171" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="172" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="173" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="174" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="175" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="176" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="177" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="178" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="179" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="180" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="181" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="182" resname="DK enregistrements ?" translate="no">
+               <source>DK enregistrements ?</source>
+            </trans-unit>
+            <trans-unit id="183" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="184" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="185" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="186" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="187" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="188" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="189" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="190" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="191" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="192" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="193" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="194" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="195" resname="DK Voulez-vous réellement supprimer" translate="no">
+               <source>DK Voulez-vous réellement supprimer</source>
+            </trans-unit>
+            <trans-unit id="196" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="197" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="198" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="199" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="200" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="201" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="202" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="203" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="204" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="205" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="206" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="207" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="208" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="209" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="210" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="211" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="212" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="213" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="214" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="215" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="216" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="217" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="218" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="219" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="220" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="221" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="222" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="223" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="224" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="225" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="226" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="227" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="228" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="229" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="230" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="231" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="232" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="233" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="234" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="235" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="236" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="237" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="238" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="239" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="240" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="241" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="242" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="243" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="244" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="245" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="246" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="247" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="248" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="249" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="250" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="251" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="252" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="253" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="254" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="255" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="256" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="257" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="258" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="259" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="260" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="261" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="262" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="263" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="264" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="265" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="266" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="267" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="268" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="269" resname="DK Vin sur Vin 7.0.0" translate="no">
+               <source>DK Vin sur Vin 7.0.0</source>
+            </trans-unit>
+            <trans-unit id="270" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="271" resname="DK - Une variété de sites en rapport avec le vin vous est présentée. Liste donnée à titre indicatif pour laquelle KLETEL Multimédia ne peut ni maîtriser ni garantir le contenu, descriptif et commentaire inclus." translate="no">
+               <source>DK - Une variété de sites en rapport avec le vin vous est présentée. Liste donnée à titre indicatif pour laquelle KLETEL Multimédia ne peut ni maîtriser ni garantir le contenu, descriptif et commentaire inclus.</source>
+            </trans-unit>
+            <trans-unit id="272" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="273" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="274" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="275" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="276" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="277" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="278" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="279" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="280" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="281" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="282" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="283" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="284" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="285" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="286" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="287" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="288" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="289" resname="DK Suivant" translate="no">
+               <source>DK Suivant</source>
+            </trans-unit>
+            <trans-unit id="290" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="291" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="292" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="293" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="294" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="295" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="296" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="297" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="298" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="299" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="300" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="301" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="302" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="303" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="304" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="305" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="306" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="307" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="308" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="309" resname="" translate="no">
+               <source></source>
+            </trans-unit>
+            <trans-unit id="310" resname="DK Vin sur Vin 7" translate="no">
+               <source>DK Vin sur Vin 7</source>
+            </trans-unit>
+            <trans-unit id="311" resname="DK Type :" translate="no">
+               <source>DK Type :</source>
+            </trans-unit>
+            <trans-unit id="312" resname="DK Région :" translate="no">
+               <source>DK Région :</source>
+            </trans-unit>
+            <trans-unit id="313" resname="DK Appellation :" translate="no">
+               <source>DK Appellation :</source>
+            </trans-unit>
+            <trans-unit id="314" resname="DK Millésimes :" translate="no">
+               <source>DK Millésimes :</source>
+            </trans-unit>
+            <trans-unit id="315" resname="DK Dénomination" translate="no">
+               <source>DK Dénomination</source>
+            </trans-unit>
+            <trans-unit id="316" resname="DK Mentions" translate="no">
+               <source>DK Mentions</source>
+            </trans-unit>
+            <trans-unit id="317" resname="DK Etagère" translate="no">
+               <source>DK Etagère</source>
+            </trans-unit>
+            <trans-unit id="318" resname="DK Rang" translate="no">
+               <source>DK Rang</source>
+            </trans-unit>
+            <trans-unit id="319" resname="DK Sélectionnez votre cave" translate="no">
+               <source>DK Sélectionnez votre cave</source>
+            </trans-unit>
+            <trans-unit id="320" resname="DK Indications de production" translate="no">
+               <source>DK Indications de production</source>
+            </trans-unit>
+            <trans-unit id="321" resname="DK Odeurs et Arômes" translate="no">
+               <source>DK Odeurs et Arômes</source>
+            </trans-unit>
+            <trans-unit id="322" resname="DK Secteurs" translate="no">
+               <source>DK Secteurs</source>
+            </trans-unit>
+            <trans-unit id="323" resname="DK Colonnes" translate="no">
+               <source>DK Colonnes</source>
+            </trans-unit>
+            <trans-unit id="324" resname="DK Courbes" translate="no">
+               <source>DK Courbes</source>
+            </trans-unit>
+            <trans-unit id="325" resname="DK Aires" translate="no">
+               <source>DK Aires</source>
+            </trans-unit>
+            <trans-unit id="326" resname="DK Présentation par pays" translate="no">
+               <source>DK Présentation par pays</source>
+            </trans-unit>
+            <trans-unit id="327" resname="DK Tout" translate="no">
+               <source>DK Tout</source>
+            </trans-unit>
+            <trans-unit id="328" resname="DK Sélection" translate="no">
+               <source>DK Sélection</source>
+            </trans-unit>
+            <trans-unit id="329" resname="DK Séléction par Pays" translate="no">
+               <source>DK Séléction par Pays</source>
+            </trans-unit>
+            <trans-unit id="330" resname="DK Sélection par Régions" translate="no">
+               <source>DK Sélection par Régions</source>
+            </trans-unit>
+            <trans-unit id="331" resname="DK Sélection par Type" translate="no">
+               <source>DK Sélection par Type</source>
+            </trans-unit>
+            <trans-unit id="332" resname="DK Reste en cave" translate="no">
+               <source>DK Reste en cave</source>
+            </trans-unit>
+            <trans-unit id="333" resname="DK Afficher" translate="no">
+               <source>DK Afficher</source>
+            </trans-unit>
+            <trans-unit id="334" resname="DK Séléction par Type" translate="no">
+               <source>DK Séléction par Type</source>
+            </trans-unit>
+            <trans-unit id="335" resname="DK Liste des caves" translate="no">
+               <source>DK Liste des caves</source>
+            </trans-unit>
+            <trans-unit id="336" resname="DK N° Enregistrement :" translate="no">
+               <source>DK N° Enregistrement :</source>
+            </trans-unit>
+            <trans-unit id="337" resname="DK Acheter" translate="no">
+               <source>DK Acheter</source>
+            </trans-unit>
+            <trans-unit id="338" resname="-DK A variety of sites related to wine is presented to you. List given as an indication for which Kletel Multimedia can neither control nor guarantee the content, description and commentary included" translate="no">
+               <source>-DK A variety of sites related to wine is presented to you. List given as an indication for which Kletel Multimedia can neither control nor guarantee the content, description and commentary included</source>
+            </trans-unit>
+            <trans-unit id="339" resname="DK Voulez-vous importer une cave de démonstration ?" translate="no">
+               <source>DK Voulez-vous importer une cave de démonstration ?</source>
+            </trans-unit>
+            <trans-unit id="340" resname="DK La base de données va être installée dans documents, l&apos;application va redémarrer." translate="no">
+               <source>DK La base de données va être installée dans documents, l'application va redémarrer.</source>
+            </trans-unit>
+            <trans-unit id="341" resname="DK la configuration utilisateur est incorrecte, le fichier de configuration utilisateur va etre supprimé" translate="no">
+               <source>DK la configuration utilisateur est incorrecte, le fichier de configuration utilisateur va etre supprimé</source>
+            </trans-unit>
+            <trans-unit id="342" resname="DK Cave par défaut" translate="no">
+               <source>DK Cave par défaut</source>
+            </trans-unit>
+            <trans-unit id="343" resname="DK Renommer la cave" translate="no">
+               <source>DK Renommer la cave</source>
+            </trans-unit>
+            <trans-unit id="344" resname="DK nom de la cave" translate="no">
+               <source>DK nom de la cave</source>
+            </trans-unit>
+         </group>
+         <group id="24000" resname="STR# 24000">
+            <trans-unit id="1" resname="Cellar management" translate="no">
+               <source>Cellar management</source>
+            </trans-unit>
+            <trans-unit id="2" resname="Your cellar book" translate="no">
+               <source>Your cellar book</source>
+            </trans-unit>
+            <trans-unit id="3" resname="Your tastings" translate="no">
+               <source>Your tastings</source>
+            </trans-unit>
+            <trans-unit id="4" resname="Tips" translate="no">
+               <source>Tips</source>
+            </trans-unit>
+            <trans-unit id="5" resname="Food and wine" translate="no">
+               <source>Food and wine</source>
+            </trans-unit>
+            <trans-unit id="6" resname="Master your cellar" translate="no">
+               <source>Master your cellar</source>
+            </trans-unit>
+            <trans-unit id="7" resname="Tasting and drinking tips" translate="no">
+               <source>Tasting and drinking tips</source>
+            </trans-unit>
+            <trans-unit id="8" resname="Variety of vine" translate="no">
+               <source>Variety of vine</source>
+            </trans-unit>
+            <trans-unit id="9" resname="Glossary" translate="no">
+               <source>Glossary</source>
+            </trans-unit>
+            <trans-unit id="10" resname="Vintages" translate="no">
+               <source>Vintages</source>
+            </trans-unit>
+            <trans-unit id="11" resname="Administration" translate="no">
+               <source>Administration</source>
+            </trans-unit>
+            <trans-unit id="12" resname="Producers" translate="no">
+               <source>Producers</source>
+            </trans-unit>
+            <trans-unit id="13" resname="Quit" translate="no">
+               <source>Quit</source>
+            </trans-unit>
+            <trans-unit id="14" resname="Dictionnaries" translate="no">
+               <source>Dictionnaries</source>
+            </trans-unit>
+            <trans-unit id="15" resname="White wine" translate="no">
+               <source>White wine</source>
+            </trans-unit>
+            <trans-unit id="16" resname="Red wine" translate="no">
+               <source>Red wine</source>
+            </trans-unit>
+            <trans-unit id="17" resname="Find" translate="no">
+               <source>Find</source>
+            </trans-unit>
+            <trans-unit id="18" resname="About..." translate="no">
+               <source>About...</source>
+            </trans-unit>
+            <trans-unit id="19" resname="What variety do you want ?" translate="no">
+               <source>What variety do you want ?</source>
+            </trans-unit>
+            <trans-unit id="20" resname="Appellations" translate="no">
+               <source>Appellations</source>
+            </trans-unit>
+            <trans-unit id="21" resname="Cancel" translate="no">
+               <source>Cancel</source>
+            </trans-unit>
+            <trans-unit id="22" resname="Choose" translate="no">
+               <source>Choose</source>
+            </trans-unit>
+            <trans-unit id="23" resname="Cellar distribution" translate="no">
+               <source>Cellar distribution</source>
+            </trans-unit>
+            <trans-unit id="24" resname="Cellar management" translate="no">
+               <source>Cellar management</source>
+            </trans-unit>
+            <trans-unit id="25" resname="New   wine" translate="no">
+               <source>New   wine</source>
+            </trans-unit>
+            <trans-unit id="26" resname="Distribution by country" translate="no">
+               <source>Distribution by country</source>
+            </trans-unit>
+            <trans-unit id="27" resname="Vintages" translate="no">
+               <source>Vintages</source>
+            </trans-unit>
+            <trans-unit id="28" resname="Print list" translate="no">
+               <source>Print list</source>
+            </trans-unit>
+            <trans-unit id="29" resname="Search in cellar" translate="no">
+               <source>Search in cellar</source>
+            </trans-unit>
+            <trans-unit id="30" resname="All" translate="no">
+               <source>All</source>
+            </trans-unit>
+            <trans-unit id="31" resname="Drink now" translate="no">
+               <source>Drink now</source>
+            </trans-unit>
+            <trans-unit id="32" resname="In cellar" translate="no">
+               <source>In cellar</source>
+            </trans-unit>
+            <trans-unit id="33" resname="For ageing" translate="no">
+               <source>For ageing</source>
+            </trans-unit>
+            <trans-unit id="34" resname="Currency" translate="no">
+               <source>Currency</source>
+            </trans-unit>
+            <trans-unit id="35" resname="Amount of bottles" translate="no">
+               <source>Amount of bottles</source>
+            </trans-unit>
+            <trans-unit id="36" resname="Cost price" translate="no">
+               <source>Cost price</source>
+            </trans-unit>
+            <trans-unit id="37" resname="Estimated value" translate="no">
+               <source>Estimated value</source>
+            </trans-unit>
+            <trans-unit id="38" resname="Add" translate="no">
+               <source>Add</source>
+            </trans-unit>
+            <trans-unit id="39" resname="Your cellar" translate="no">
+               <source>Your cellar</source>
+            </trans-unit>
+            <trans-unit id="40" resname="Name" translate="no">
+               <source>Name</source>
+            </trans-unit>
+            <trans-unit id="41" resname="Type" translate="no">
+               <source>Type</source>
+            </trans-unit>
+            <trans-unit id="42" resname="Appellation" translate="no">
+               <source>Appellation</source>
+            </trans-unit>
+            <trans-unit id="43" resname="Country" translate="no">
+               <source>Country</source>
+            </trans-unit>
+            <trans-unit id="44" resname="Year" translate="no">
+               <source>Year</source>
+            </trans-unit>
+            <trans-unit id="45" resname="Year" translate="no">
+               <source>Year</source>
+            </trans-unit>
+            <trans-unit id="46" resname="Peak" translate="no">
+               <source>Peak</source>
+            </trans-unit>
+            <trans-unit id="47" resname="Peak" translate="no">
+               <source>Peak</source>
+            </trans-unit>
+            <trans-unit id="48" resname="Qty" translate="no">
+               <source>Qty</source>
+            </trans-unit>
+            <trans-unit id="49" resname="Quantity" translate="no">
+               <source>Quantity</source>
+            </trans-unit>
+            <trans-unit id="50" resname="Add a country" translate="no">
+               <source>Add a country</source>
+            </trans-unit>
+            <trans-unit id="51" resname="Region" translate="no">
+               <source>Region</source>
+            </trans-unit>
+            <trans-unit id="52" resname="Name of the new country :" translate="no">
+               <source>Name of the new country :</source>
+            </trans-unit>
+            <trans-unit id="53" resname="All" translate="no">
+               <source>All</source>
+            </trans-unit>
+            <trans-unit id="54" resname="Name of the new region" translate="no">
+               <source>Name of the new region</source>
+            </trans-unit>
+            <trans-unit id="55" resname="add a region" translate="no">
+               <source>add a region</source>
+            </trans-unit>
+            <trans-unit id="56" resname="The producers" translate="no">
+               <source>The producers</source>
+            </trans-unit>
+            <trans-unit id="57" resname="Date" translate="no">
+               <source>Date</source>
+            </trans-unit>
+            <trans-unit id="58" resname="Search by event" translate="no">
+               <source>Search by event</source>
+            </trans-unit>
+            <trans-unit id="59" resname="Search by guest" translate="no">
+               <source>Search by guest</source>
+            </trans-unit>
+            <trans-unit id="60" resname="Search by dish" translate="no">
+               <source>Search by dish</source>
+            </trans-unit>
+            <trans-unit id="61" resname="Event to find :" translate="no">
+               <source>Event to find :</source>
+            </trans-unit>
+            <trans-unit id="62" resname="Guest to find :" translate="no">
+               <source>Guest to find :</source>
+            </trans-unit>
+            <trans-unit id="63" resname="Dish to find :" translate="no">
+               <source>Dish to find :</source>
+            </trans-unit>
+            <trans-unit id="64" resname="Multicriteria search" translate="no">
+               <source>Multicriteria search</source>
+            </trans-unit>
+            <trans-unit id="65" resname="Events / Guests / Dishes" translate="no">
+               <source>Events / Guests / Dishes</source>
+            </trans-unit>
+            <trans-unit id="66" resname="Close" translate="no">
+               <source>Close</source>
+            </trans-unit>
+            <trans-unit id="67" resname="The producers" translate="no">
+               <source>The producers</source>
+            </trans-unit>
+            <trans-unit id="68" resname="New producer" translate="no">
+               <source>New producer</source>
+            </trans-unit>
+            <trans-unit id="69" resname="Find a producer" translate="no">
+               <source>Find a producer</source>
+            </trans-unit>
+            <trans-unit id="70" resname="Society" translate="no">
+               <source>Society</source>
+            </trans-unit>
+            <trans-unit id="71" resname="City" translate="no">
+               <source>City</source>
+            </trans-unit>
+            <trans-unit id="72" resname="Tel." translate="no">
+               <source>Tel.</source>
+            </trans-unit>
+            <trans-unit id="73" resname="E-mail" translate="no">
+               <source>E-mail</source>
+            </trans-unit>
+            <trans-unit id="74" resname="All" translate="no">
+               <source>All</source>
+            </trans-unit>
+            <trans-unit id="75" resname="Update" translate="no">
+               <source>Update</source>
+            </trans-unit>
+            <trans-unit id="76" resname="Created by :" translate="no">
+               <source>Created by :</source>
+            </trans-unit>
+            <trans-unit id="77" resname="Note" translate="no">
+               <source>Note</source>
+            </trans-unit>
+            <trans-unit id="78" resname="Save" translate="no">
+               <source>Save</source>
+            </trans-unit>
+            <trans-unit id="79" resname="Close" translate="no">
+               <source>Close</source>
+            </trans-unit>
+            <trans-unit id="80" resname="New bottle" translate="no">
+               <source>New bottle</source>
+            </trans-unit>
+            <trans-unit id="81" resname="Delete" translate="no">
+               <source>Delete</source>
+            </trans-unit>
+            <trans-unit id="82" resname="Find" translate="no">
+               <source>Find</source>
+            </trans-unit>
+            <trans-unit id="83" resname="Print" translate="no">
+               <source>Print</source>
+            </trans-unit>
+            <trans-unit id="84" resname="Years" translate="no">
+               <source>Years</source>
+            </trans-unit>
+            <trans-unit id="85" resname="New   designation" translate="no">
+               <source>New   designation</source>
+            </trans-unit>
+            <trans-unit id="86" resname="Duplicate" translate="no">
+               <source>Duplicate</source>
+            </trans-unit>
+            <trans-unit id="87" resname="Label" translate="no">
+               <source>Label</source>
+            </trans-unit>
+            <trans-unit id="88" resname="CELLAR" translate="no">
+               <source>CELLAR</source>
+            </trans-unit>
+            <trans-unit id="89" resname="Variety of vine" translate="no">
+               <source>Variety of vine</source>
+            </trans-unit>
+            <trans-unit id="90" resname="Amount of bottles" translate="no">
+               <source>Amount of bottles</source>
+            </trans-unit>
+            <trans-unit id="91" resname="of which drunk" translate="no">
+               <source>of which drunk</source>
+            </trans-unit>
+            <trans-unit id="92" resname="Remnant" translate="no">
+               <source>Remnant</source>
+            </trans-unit>
+            <trans-unit id="93" resname="Peak  from" translate="no">
+               <source>Peak  from</source>
+            </trans-unit>
+            <trans-unit id="94" resname="to" translate="no">
+               <source>to</source>
+            </trans-unit>
+            <trans-unit id="95" resname="Notes" translate="no">
+               <source>Notes</source>
+            </trans-unit>
+            <trans-unit id="96" resname="Date of purchase" translate="no">
+               <source>Date of purchase</source>
+            </trans-unit>
+            <trans-unit id="97" resname="Temperature" translate="no">
+               <source>Temperature</source>
+            </trans-unit>
+            <trans-unit id="98" resname="Alcohol" translate="no">
+               <source>Alcohol</source>
+            </trans-unit>
+            <trans-unit id="99" resname="Purchase price" translate="no">
+               <source>Purchase price</source>
+            </trans-unit>
+            <trans-unit id="100" resname="Estimated value" translate="no">
+               <source>Estimated value</source>
+            </trans-unit>
+            <trans-unit id="101" resname="Wine rack" translate="no">
+               <source>Wine rack</source>
+            </trans-unit>
+            <trans-unit id="102" resname="Variety of vine" translate="no">
+               <source>Variety of vine</source>
+            </trans-unit>
+            <trans-unit id="103" resname="Tasting grade" translate="no">
+               <source>Tasting grade</source>
+            </trans-unit>
+            <trans-unit id="104" resname="Personal notes" translate="no">
+               <source>Personal notes</source>
+            </trans-unit>
+            <trans-unit id="105" resname="Cellar" translate="no">
+               <source>Cellar</source>
+            </trans-unit>
+            <trans-unit id="106" resname="Tasting" translate="no">
+               <source>Tasting</source>
+            </trans-unit>
+            <trans-unit id="107" resname="Producer" translate="no">
+               <source>Producer</source>
+            </trans-unit>
+            <trans-unit id="108" resname="INFORMATIONS" translate="no">
+               <source>INFORMATIONS</source>
+            </trans-unit>
+            <trans-unit id="109" resname="INTERNET" translate="no">
+               <source>INTERNET</source>
+            </trans-unit>
+            <trans-unit id="110" resname="Society" translate="no">
+               <source>Society</source>
+            </trans-unit>
+            <trans-unit id="111" resname="Name" translate="no">
+               <source>Name</source>
+            </trans-unit>
+            <trans-unit id="112" resname="First name" translate="no">
+               <source>First name</source>
+            </trans-unit>
+            <trans-unit id="113" resname="Address" translate="no">
+               <source>Address</source>
+            </trans-unit>
+            <trans-unit id="114" resname="Zip code" translate="no">
+               <source>Zip code</source>
+            </trans-unit>
+            <trans-unit id="115" resname="City" translate="no">
+               <source>City</source>
+            </trans-unit>
+            <trans-unit id="116" resname="Country" translate="no">
+               <source>Country</source>
+            </trans-unit>
+            <trans-unit id="117" resname="Tel" translate="no">
+               <source>Tel</source>
+            </trans-unit>
+            <trans-unit id="118" resname="Fax" translate="no">
+               <source>Fax</source>
+            </trans-unit>
+            <trans-unit id="119" resname="Cell phone" translate="no">
+               <source>Cell phone</source>
+            </trans-unit>
+            <trans-unit id="120" resname="E-Mail" translate="no">
+               <source>E-Mail</source>
+            </trans-unit>
+            <trans-unit id="121" resname="Web" translate="no">
+               <source>Web</source>
+            </trans-unit>
+            <trans-unit id="122" resname="Personal notes" translate="no">
+               <source>Personal notes</source>
+            </trans-unit>
+            <trans-unit id="123" resname="Place of purchase" translate="no">
+               <source>Place of purchase</source>
+            </trans-unit>
+            <trans-unit id="124" resname="Previous" translate="no">
+               <source>Previous</source>
+            </trans-unit>
+            <trans-unit id="125" resname="New   Vintage" translate="no">
+               <source>New   Vintage</source>
+            </trans-unit>
+            <trans-unit id="126" resname="Show   all" translate="no">
+               <source>Show   all</source>
+            </trans-unit>
+            <trans-unit id="127" resname="Choose a country" translate="no">
+               <source>Choose a country</source>
+            </trans-unit>
+            <trans-unit id="128" resname="Choose a region" translate="no">
+               <source>Choose a region</source>
+            </trans-unit>
+            <trans-unit id="129" resname="Designation" translate="no">
+               <source>Designation</source>
+            </trans-unit>
+            <trans-unit id="130" resname="Do you really wish to delete this record?" translate="no">
+               <source>Do you really wish to delete this record?</source>
+            </trans-unit>
+            <trans-unit id="131" resname="Find a term" translate="no">
+               <source>Find a term</source>
+            </trans-unit>
+            <trans-unit id="132" resname="One wine - One dish" translate="no">
+               <source>One wine - One dish</source>
+            </trans-unit>
+            <trans-unit id="133" resname="Designation to find" translate="no">
+               <source>Designation to find</source>
+            </trans-unit>
+            <trans-unit id="134" resname="No record found" translate="no">
+               <source>No record found</source>
+            </trans-unit>
+            <trans-unit id="135" resname="Choose a dish to find the matching wines" translate="no">
+               <source>Choose a dish to find the matching wines</source>
+            </trans-unit>
+            <trans-unit id="136" resname="Name of wine" translate="no">
+               <source>Name of wine</source>
+            </trans-unit>
+            <trans-unit id="137" resname="Name of appellation" translate="no">
+               <source>Name of appellation</source>
+            </trans-unit>
+            <trans-unit id="138" resname="Name of region" translate="no">
+               <source>Name of region</source>
+            </trans-unit>
+            <trans-unit id="139" resname="Year to delete" translate="no">
+               <source>Year to delete</source>
+            </trans-unit>
+            <trans-unit id="140" resname="Do you really wish to delete this record?" translate="no">
+               <source>Do you really wish to delete this record?</source>
+            </trans-unit>
+            <trans-unit id="141" resname="Do you really wish to duplicate this record?" translate="no">
+               <source>Do you really wish to duplicate this record?</source>
+            </trans-unit>
+            <trans-unit id="142" resname="Type of wine" translate="no">
+               <source>Type of wine</source>
+            </trans-unit>
+            <trans-unit id="143" resname="Event" translate="no">
+               <source>Event</source>
+            </trans-unit>
+            <trans-unit id="144" resname="Guests" translate="no">
+               <source>Guests</source>
+            </trans-unit>
+            <trans-unit id="145" resname="Dishes" translate="no">
+               <source>Dishes</source>
+            </trans-unit>
+            <trans-unit id="146" resname="Wine tasted" translate="no">
+               <source>Wine tasted</source>
+            </trans-unit>
+            <trans-unit id="147" resname="Designation" translate="no">
+               <source>Designation</source>
+            </trans-unit>
+            <trans-unit id="148" resname="Advice" translate="no">
+               <source>Advice</source>
+            </trans-unit>
+            <trans-unit id="149" resname="Food matching" translate="no">
+               <source>Food matching</source>
+            </trans-unit>
+            <trans-unit id="150" resname="Updates" translate="no">
+               <source>Updates</source>
+            </trans-unit>
+            <trans-unit id="151" resname="Import" translate="no">
+               <source>Import</source>
+            </trans-unit>
+            <trans-unit id="152" resname="File" translate="no">
+               <source>File</source>
+            </trans-unit>
+            <trans-unit id="153" resname="Sérialisation" translate="no">
+               <source>Sérialisation</source>
+            </trans-unit>
+            <trans-unit id="154" resname="To import of an old version" translate="no">
+               <source>To import of an old version</source>
+            </trans-unit>
+            <trans-unit id="155" resname="Selected cellar :" translate="no">
+               <source>Selected cellar :</source>
+            </trans-unit>
+            <trans-unit id="156" resname="Principal Cellar" translate="no">
+               <source>Principal Cellar</source>
+            </trans-unit>
+            <trans-unit id="157" resname="Name of the cellar to be added" translate="no">
+               <source>Name of the cellar to be added</source>
+            </trans-unit>
+            <trans-unit id="158" resname="Sudden impulse" translate="no">
+               <source>Sudden impulse</source>
+            </trans-unit>
+            <trans-unit id="159" resname="Card" translate="no">
+               <source>Card</source>
+            </trans-unit>
+            <trans-unit id="160" resname="Graph" translate="no">
+               <source>Graph</source>
+            </trans-unit>
+            <trans-unit id="161" resname="Name of type of vine" translate="no">
+               <source>Name of type of vine</source>
+            </trans-unit>
+            <trans-unit id="162" resname="Description" translate="no">
+               <source>Description</source>
+            </trans-unit>
+            <trans-unit id="163" resname="Export" translate="no">
+               <source>Export</source>
+            </trans-unit>
+            <trans-unit id="164" resname="Surplus value" translate="no">
+               <source>Surplus value</source>
+            </trans-unit>
+            <trans-unit id="165" resname="Modify" translate="no">
+               <source>Modify</source>
+            </trans-unit>
+            <trans-unit id="166" resname="Choose the mode of management of your cellar :" translate="no">
+               <source>Choose the mode of management of your cellar :</source>
+            </trans-unit>
+            <trans-unit id="167" resname="Amateur" translate="no">
+               <source>Amateur</source>
+            </trans-unit>
+            <trans-unit id="168" resname="Expert" translate="no">
+               <source>Expert</source>
+            </trans-unit>
+            <trans-unit id="169" resname="Websites" translate="no">
+               <source>Websites</source>
+            </trans-unit>
+            <trans-unit id="170" resname="Mode" translate="no">
+               <source>Mode</source>
+            </trans-unit>
+            <trans-unit id="171" resname="Has to be ordered" translate="no">
+               <source>Has to be ordered</source>
+            </trans-unit>
+            <trans-unit id="172" resname="Wine file" translate="no">
+               <source>Wine file</source>
+            </trans-unit>
+            <trans-unit id="173" resname="Wine World - © 2005 Innomatix" translate="no">
+               <source>Wine World - © 2005 Innomatix</source>
+            </trans-unit>
+            <trans-unit id="174" resname="State" translate="no">
+               <source>State</source>
+            </trans-unit>
+            <trans-unit id="175" resname="Please, complete the licence number below :" translate="no">
+               <source>Please, complete the licence number below :</source>
+            </trans-unit>
+            <trans-unit id="176" resname="Registration" translate="no">
+               <source>Registration</source>
+            </trans-unit>
+            <trans-unit id="177" resname="Demo" translate="no">
+               <source>Demo</source>
+            </trans-unit>
+            <trans-unit id="178" resname="Register" translate="no">
+               <source>Register</source>
+            </trans-unit>
+            <trans-unit id="179" resname="No record selected" translate="no">
+               <source>No record selected</source>
+            </trans-unit>
+            <trans-unit id="180" resname="Do you really want to delete this record ?" translate="no">
+               <source>Do you really want to delete this record ?</source>
+            </trans-unit>
+            <trans-unit id="181" resname="Do you really want to delete these" translate="no">
+               <source>Do you really want to delete these</source>
+            </trans-unit>
+            <trans-unit id="182" resname="records ?" translate="no">
+               <source>records ?</source>
+            </trans-unit>
+            <trans-unit id="183" resname="This verion is limited to 15 forms per module" translate="no">
+               <source>This verion is limited to 15 forms per module</source>
+            </trans-unit>
+            <trans-unit id="184" resname="Invalid licence number !" translate="no">
+               <source>Invalid licence number !</source>
+            </trans-unit>
+            <trans-unit id="185" resname="Registration successfull" translate="no">
+               <source>Registration successfull</source>
+            </trans-unit>
+            <trans-unit id="186" resname="No association to recommend" translate="no">
+               <source>No association to recommend</source>
+            </trans-unit>
+            <trans-unit id="187" resname="This product is not registrered. The functionality save is unavailable." translate="no">
+               <source>This product is not registrered. The functionality save is unavailable.</source>
+            </trans-unit>
+            <trans-unit id="188" resname="The name, the first name of the user and the licence number are required." translate="no">
+               <source>The name, the first name of the user and the licence number are required.</source>
+            </trans-unit>
+            <trans-unit id="189" resname="The licence number is incorrect !" translate="no">
+               <source>The licence number is incorrect !</source>
+            </trans-unit>
+            <trans-unit id="190" resname="The base is locked" translate="no">
+               <source>The base is locked</source>
+            </trans-unit>
+            <trans-unit id="191" resname="Copy it on your hard disk" translate="no">
+               <source>Copy it on your hard disk</source>
+            </trans-unit>
+            <trans-unit id="192" resname="Expiration of Vin sur Vin" translate="no">
+               <source>Expiration of Vin sur Vin</source>
+            </trans-unit>
+            <trans-unit id="193" resname="Select a wine" translate="no">
+               <source>Select a wine</source>
+            </trans-unit>
+            <trans-unit id="194" resname="Do tou want to delete this cellar ?" translate="no">
+               <source>Do tou want to delete this cellar ?</source>
+            </trans-unit>
+            <trans-unit id="195" resname="Do you really want to delete" translate="no">
+               <source>Do you really want to delete</source>
+            </trans-unit>
+            <trans-unit id="196" resname="In amateur mode, it&apos;s impossible to enter a tasting." translate="no">
+               <source>In amateur mode, it's impossible to enter a tasting.</source>
+            </trans-unit>
+            <trans-unit id="197" resname="Do you want to switch in Expert mode  ?" translate="no">
+               <source>Do you want to switch in Expert mode  ?</source>
+            </trans-unit>
+            <trans-unit id="198" resname="Do you want to delete :" translate="no">
+               <source>Do you want to delete :</source>
+            </trans-unit>
+            <trans-unit id="199" resname="Number of labels to print" translate="no">
+               <source>Number of labels to print</source>
+            </trans-unit>
+            <trans-unit id="200" resname="List of producers" translate="no">
+               <source>List of producers</source>
+            </trans-unit>
+            <trans-unit id="201" resname="Amount of bottles :" translate="no">
+               <source>Amount of bottles :</source>
+            </trans-unit>
+            <trans-unit id="202" resname="Peak from :" translate="no">
+               <source>Peak from :</source>
+            </trans-unit>
+            <trans-unit id="203" resname="Date of purchase :" translate="no">
+               <source>Date of purchase :</source>
+            </trans-unit>
+            <trans-unit id="204" resname="Purchase price :" translate="no">
+               <source>Purchase price :</source>
+            </trans-unit>
+            <trans-unit id="205" resname="Wine rack :" translate="no">
+               <source>Wine rack :</source>
+            </trans-unit>
+            <trans-unit id="206" resname="Flask :" translate="no">
+               <source>Flask :</source>
+            </trans-unit>
+            <trans-unit id="207" resname="Date of bottling :" translate="no">
+               <source>Date of bottling :</source>
+            </trans-unit>
+            <trans-unit id="208" resname="Tasting notes :" translate="no">
+               <source>Tasting notes :</source>
+            </trans-unit>
+            <trans-unit id="209" resname="of which drunk :" translate="no">
+               <source>of which drunk :</source>
+            </trans-unit>
+            <trans-unit id="210" resname="Remnant :" translate="no">
+               <source>Remnant :</source>
+            </trans-unit>
+            <trans-unit id="211" resname="Notes :" translate="no">
+               <source>Notes :</source>
+            </trans-unit>
+            <trans-unit id="212" resname="Temperature :" translate="no">
+               <source>Temperature :</source>
+            </trans-unit>
+            <trans-unit id="213" resname="Alcohol :" translate="no">
+               <source>Alcohol :</source>
+            </trans-unit>
+            <trans-unit id="214" resname="Value :" translate="no">
+               <source>Value :</source>
+            </trans-unit>
+            <trans-unit id="215" resname="to :" translate="no">
+               <source>to :</source>
+            </trans-unit>
+            <trans-unit id="216" resname="Form of cellar" translate="no">
+               <source>Form of cellar</source>
+            </trans-unit>
+            <trans-unit id="217" resname="Breeding :" translate="no">
+               <source>Breeding :</source>
+            </trans-unit>
+            <trans-unit id="218" resname="Information" translate="no">
+               <source>Information</source>
+            </trans-unit>
+            <trans-unit id="219" resname="Producer" translate="no">
+               <source>Producer</source>
+            </trans-unit>
+            <trans-unit id="220" resname="Society :" translate="no">
+               <source>Society :</source>
+            </trans-unit>
+            <trans-unit id="221" resname="Name :" translate="no">
+               <source>Name :</source>
+            </trans-unit>
+            <trans-unit id="222" resname="Address :" translate="no">
+               <source>Address :</source>
+            </trans-unit>
+            <trans-unit id="223" resname="First name :" translate="no">
+               <source>First name :</source>
+            </trans-unit>
+            <trans-unit id="224" resname="Zip code :" translate="no">
+               <source>Zip code :</source>
+            </trans-unit>
+            <trans-unit id="225" resname="City :" translate="no">
+               <source>City :</source>
+            </trans-unit>
+            <trans-unit id="226" resname="Country :" translate="no">
+               <source>Country :</source>
+            </trans-unit>
+            <trans-unit id="227" resname="Tel. :" translate="no">
+               <source>Tel. :</source>
+            </trans-unit>
+            <trans-unit id="228" resname="Fax :" translate="no">
+               <source>Fax :</source>
+            </trans-unit>
+            <trans-unit id="229" resname="Cellular phone :" translate="no">
+               <source>Cellular phone :</source>
+            </trans-unit>
+            <trans-unit id="230" resname="E-Mail :" translate="no">
+               <source>E-Mail :</source>
+            </trans-unit>
+            <trans-unit id="231" resname="Web :" translate="no">
+               <source>Web :</source>
+            </trans-unit>
+            <trans-unit id="232" resname="Your tastings :" translate="no">
+               <source>Your tastings :</source>
+            </trans-unit>
+            <trans-unit id="233" resname="Remarks :" translate="no">
+               <source>Remarks :</source>
+            </trans-unit>
+            <trans-unit id="234" resname="Place of the purchase :" translate="no">
+               <source>Place of the purchase :</source>
+            </trans-unit>
+            <trans-unit id="235" resname="Wine form;Empty form;Label for wine rack" translate="no">
+               <source>Wine form;Empty form;Label for wine rack</source>
+            </trans-unit>
+            <trans-unit id="236" resname="Your wines in a list;Your wines in forms;Personalized printing;Print labels" translate="no">
+               <source>Your wines in a list;Your wines in forms;Personalized printing;Print labels</source>
+            </trans-unit>
+            <trans-unit id="237" resname="Category :" translate="no">
+               <source>Category :</source>
+            </trans-unit>
+            <trans-unit id="238" resname="Subcategory :" translate="no">
+               <source>Subcategory :</source>
+            </trans-unit>
+            <trans-unit id="239" resname="Name of the dish:" translate="no">
+               <source>Name of the dish:</source>
+            </trans-unit>
+            <trans-unit id="240" resname="Name of the wine :" translate="no">
+               <source>Name of the wine :</source>
+            </trans-unit>
+            <trans-unit id="241" resname="Websites" translate="no">
+               <source>Websites</source>
+            </trans-unit>
+            <trans-unit id="242" resname="Consult" translate="no">
+               <source>Consult</source>
+            </trans-unit>
+            <trans-unit id="243" resname="Be careful ! Abusing of alcohol could harm at your health" translate="no">
+               <source>Be careful ! Abusing of alcohol could harm at your health</source>
+            </trans-unit>
+            <trans-unit id="244" resname="Vintages" translate="no">
+               <source>Vintages</source>
+            </trans-unit>
+            <trans-unit id="245" resname="The producers" translate="no">
+               <source>The producers</source>
+            </trans-unit>
+            <trans-unit id="246" resname="Description :" translate="no">
+               <source>Description :</source>
+            </trans-unit>
+            <trans-unit id="247" resname="Website :" translate="no">
+               <source>Website :</source>
+            </trans-unit>
+            <trans-unit id="248" resname="Rubric" translate="no">
+               <source>Rubric</source>
+            </trans-unit>
+            <trans-unit id="249" resname="State :" translate="no">
+               <source>State :</source>
+            </trans-unit>
+            <trans-unit id="250" resname="Product :" translate="no">
+               <source>Product :</source>
+            </trans-unit>
+            <trans-unit id="251" resname="Document to send via mail or fax to :" translate="no">
+               <source>Document to send via mail or fax to :</source>
+            </trans-unit>
+            <trans-unit id="252" resname="Retailer :" translate="no">
+               <source>Retailer :</source>
+            </trans-unit>
+            <trans-unit id="253" resname="Equipment :" translate="no">
+               <source>Equipment :</source>
+            </trans-unit>
+            <trans-unit id="254" resname="Size of the screen :" translate="no">
+               <source>Size of the screen :</source>
+            </trans-unit>
+            <trans-unit id="255" resname="System / OS :" translate="no">
+               <source>System / OS :</source>
+            </trans-unit>
+            <trans-unit id="256" resname="Registration of Wine World :" translate="no">
+               <source>Registration of Wine World :</source>
+            </trans-unit>
+            <trans-unit id="257" resname="Do you want to create your registration card ?" translate="no">
+               <source>Do you want to create your registration card ?</source>
+            </trans-unit>
+            <trans-unit id="258" resname="To benefit the technical support during 30 days and be informed of updates of you + r software, since the purchase date of the software at Innomatix, it&apos;s advised to +  send back the registration card." translate="no">
+               <source>To benefit the technical support during 30 days and be informed of updates of you + r software, since the purchase date of the software at Innomatix, it's advised to +  send back the registration card.</source>
+            </trans-unit>
+            <trans-unit id="259" resname="Later" translate="no">
+               <source>Later</source>
+            </trans-unit>
+            <trans-unit id="260" resname="Already registred" translate="no">
+               <source>Already registred</source>
+            </trans-unit>
+            <trans-unit id="261" resname="Now" translate="no">
+               <source>Now</source>
+            </trans-unit>
+            <trans-unit id="262" resname="Word :" translate="no">
+               <source>Word :</source>
+            </trans-unit>
+            <trans-unit id="263" resname="Definition :" translate="no">
+               <source>Definition :</source>
+            </trans-unit>
+            <trans-unit id="264" resname="Sight :" translate="no">
+               <source>Sight :</source>
+            </trans-unit>
+            <trans-unit id="265" resname="Nose / Smell :" translate="no">
+               <source>Nose / Smell :</source>
+            </trans-unit>
+            <trans-unit id="266" resname="Taste :" translate="no">
+               <source>Taste :</source>
+            </trans-unit>
+            <trans-unit id="267" resname="Global :" translate="no">
+               <source>Global :</source>
+            </trans-unit>
+            <trans-unit id="268" resname="Converter :" translate="no">
+               <source>Converter :</source>
+            </trans-unit>
+            <trans-unit id="269" resname="Expert Wine Cellar 7.0.0" translate="no">
+               <source>Expert Wine Cellar 7.0.0</source>
+            </trans-unit>
+            <trans-unit id="270" resname="List of wines available in your cellar" translate="no">
+               <source>List of wines available in your cellar</source>
+            </trans-unit>
+            <trans-unit id="271" resname="You are presented a variety of websites concerning the wine. This list is given as an exemple. Kletel Multimedia can&apos;t master, guarantee the content of websites including descriptions and commentaries." translate="no">
+               <source>You are presented a variety of websites concerning the wine. This list is given as an exemple. Kletel Multimedia can't master, guarantee the content of websites including descriptions and commentaries.</source>
+            </trans-unit>
+            <trans-unit id="272" resname="Year" translate="no">
+               <source>Year</source>
+            </trans-unit>
+            <trans-unit id="273" resname="Red Bordeaux" translate="no">
+               <source>Red Bordeaux</source>
+            </trans-unit>
+            <trans-unit id="274" resname="Sweet and strong white Bordeaux" translate="no">
+               <source>Sweet and strong white Bordeaux</source>
+            </trans-unit>
+            <trans-unit id="275" resname="Red Burgundy" translate="no">
+               <source>Red Burgundy</source>
+            </trans-unit>
+            <trans-unit id="276" resname="White Burgundy" translate="no">
+               <source>White Burgundy</source>
+            </trans-unit>
+            <trans-unit id="277" resname="Rhone" translate="no">
+               <source>Rhone</source>
+            </trans-unit>
+            <trans-unit id="278" resname="New wine cellar" translate="no">
+               <source>New wine cellar</source>
+            </trans-unit>
+            <trans-unit id="279" resname="Delete this wine cellar" translate="no">
+               <source>Delete this wine cellar</source>
+            </trans-unit>
+            <trans-unit id="280" resname="Registration card" translate="no">
+               <source>Registration card</source>
+            </trans-unit>
+            <trans-unit id="281" resname="Learn to discover you ..." translate="no">
+               <source>Learn to discover you ...</source>
+            </trans-unit>
+            <trans-unit id="282" resname="Import" translate="no">
+               <source>Import</source>
+            </trans-unit>
+            <trans-unit id="283" resname="Export" translate="no">
+               <source>Export</source>
+            </trans-unit>
+            <trans-unit id="284" resname="Import from an old version" translate="no">
+               <source>Import from an old version</source>
+            </trans-unit>
+            <trans-unit id="285" resname="Registration card" translate="no">
+               <source>Registration card</source>
+            </trans-unit>
+            <trans-unit id="286" resname="Quit" translate="no">
+               <source>Quit</source>
+            </trans-unit>
+            <trans-unit id="287" resname="Amateur" translate="no">
+               <source>Amateur</source>
+            </trans-unit>
+            <trans-unit id="288" resname="Expert" translate="no">
+               <source>Expert</source>
+            </trans-unit>
+            <trans-unit id="289" resname="Next" translate="no">
+               <source>Next</source>
+            </trans-unit>
+            <trans-unit id="290" resname="Cancel" translate="no">
+               <source>Cancel</source>
+            </trans-unit>
+            <trans-unit id="291" resname="Cut" translate="no">
+               <source>Cut</source>
+            </trans-unit>
+            <trans-unit id="292" resname="Copy" translate="no">
+               <source>Copy</source>
+            </trans-unit>
+            <trans-unit id="293" resname="Paste" translate="no">
+               <source>Paste</source>
+            </trans-unit>
+            <trans-unit id="294" resname="Clear" translate="no">
+               <source>Clear</source>
+            </trans-unit>
+            <trans-unit id="295" resname="Select all" translate="no">
+               <source>Select all</source>
+            </trans-unit>
+            <trans-unit id="296" resname="Show clipboard" translate="no">
+               <source>Show clipboard</source>
+            </trans-unit>
+            <trans-unit id="297" resname="File" translate="no">
+               <source>File</source>
+            </trans-unit>
+            <trans-unit id="298" resname="Mode" translate="no">
+               <source>Mode</source>
+            </trans-unit>
+            <trans-unit id="299" resname="Edit" translate="no">
+               <source>Edit</source>
+            </trans-unit>
+            <trans-unit id="300" resname="Varieties of vine;Glossary;Vintages" translate="no">
+               <source>Varieties of vine;Glossary;Vintages</source>
+            </trans-unit>
+            <trans-unit id="301" resname="Price" translate="no">
+               <source>Price</source>
+            </trans-unit>
+            <trans-unit id="302" resname="Rubric" translate="no">
+               <source>Rubric</source>
+            </trans-unit>
+            <trans-unit id="303" resname="Do you want to print the registration card ?" translate="no">
+               <source>Do you want to print the registration card ?</source>
+            </trans-unit>
+            <trans-unit id="304" resname="Backup the database" translate="no">
+               <source>Backup the database</source>
+            </trans-unit>
+            <trans-unit id="305" resname="Restore the database" translate="no">
+               <source>Restore the database</source>
+            </trans-unit>
+            <trans-unit id="306" resname="Do you really want to quit ExpertWineCellar ?" translate="no">
+               <source>Do you really want to quit ExpertWineCellar ?</source>
+            </trans-unit>
+            <trans-unit id="307" resname="Votre compte" translate="no">
+               <source>Votre compte</source>
+            </trans-unit>
+            <trans-unit id="308" resname="Store" translate="no">
+               <source>Store</source>
+            </trans-unit>
+            <trans-unit id="309" resname="Favorites" translate="no">
+               <source>Favorites</source>
+            </trans-unit>
+            <trans-unit id="310" resname="Expert Wine Cellar 7" translate="no">
+               <source>Expert Wine Cellar 7</source>
+            </trans-unit>
+            <trans-unit id="311" resname="Type :" translate="no">
+               <source>Type :</source>
+            </trans-unit>
+            <trans-unit id="312" resname="Area :" translate="no">
+               <source>Area :</source>
+            </trans-unit>
+            <trans-unit id="313" resname="Designation :" translate="no">
+               <source>Designation :</source>
+            </trans-unit>
+            <trans-unit id="314" resname="Years :" translate="no">
+               <source>Years :</source>
+            </trans-unit>
+            <trans-unit id="315" resname="Name" translate="no">
+               <source>Name</source>
+            </trans-unit>
+            <trans-unit id="316" resname="Endorsements" translate="no">
+               <source>Endorsements</source>
+            </trans-unit>
+            <trans-unit id="317" resname="Shelves" translate="no">
+               <source>Shelves</source>
+            </trans-unit>
+            <trans-unit id="318" resname="Place" translate="no">
+               <source>Place</source>
+            </trans-unit>
+            <trans-unit id="319" resname="Select your cellar" translate="no">
+               <source>Select your cellar</source>
+            </trans-unit>
+            <trans-unit id="320" resname="Production Notes" translate="no">
+               <source>Production Notes</source>
+            </trans-unit>
+            <trans-unit id="321" resname="Odors and Flavors" translate="no">
+               <source>Odors and Flavors</source>
+            </trans-unit>
+            <trans-unit id="322" resname="Areas" translate="no">
+               <source>Areas</source>
+            </trans-unit>
+            <trans-unit id="323" resname="Columns" translate="no">
+               <source>Columns</source>
+            </trans-unit>
+            <trans-unit id="324" resname="Curves" translate="no">
+               <source>Curves</source>
+            </trans-unit>
+            <trans-unit id="325" resname="Areas" translate="no">
+               <source>Areas</source>
+            </trans-unit>
+            <trans-unit id="326" resname="Selection by Country" translate="no">
+               <source>Selection by Country</source>
+            </trans-unit>
+            <trans-unit id="327" resname="All" translate="no">
+               <source>All</source>
+            </trans-unit>
+            <trans-unit id="328" resname="Selection" translate="no">
+               <source>Selection</source>
+            </trans-unit>
+            <trans-unit id="329" resname="Selection by Country" translate="no">
+               <source>Selection by Country</source>
+            </trans-unit>
+            <trans-unit id="330" resname="Selection by Area" translate="no">
+               <source>Selection by Area</source>
+            </trans-unit>
+            <trans-unit id="331" resname="Selection by Type" translate="no">
+               <source>Selection by Type</source>
+            </trans-unit>
+            <trans-unit id="332" resname="Remains in the cellar" translate="no">
+               <source>Remains in the cellar</source>
+            </trans-unit>
+            <trans-unit id="333" resname="View" translate="no">
+               <source>View</source>
+            </trans-unit>
+            <trans-unit id="334" resname="Selection by Type" translate="no">
+               <source>Selection by Type</source>
+            </trans-unit>
+            <trans-unit id="335" resname="list of cellars" translate="no">
+               <source>list of cellars</source>
+            </trans-unit>
+            <trans-unit id="336" resname="Registration No. :" translate="no">
+               <source>Registration No. :</source>
+            </trans-unit>
+            <trans-unit id="337" resname="Buy" translate="no">
+               <source>Buy</source>
+            </trans-unit>
+            <trans-unit id="338" resname="- A variety of sites related to wine is presented to you. List given as an indication for which Kletel Multimedia can neither control nor guarantee the content, description and commentary included" translate="no">
+               <source>- A variety of sites related to wine is presented to you. List given as an indication for which Kletel Multimedia can neither control nor guarantee the content, description and commentary included</source>
+            </trans-unit>
+            <trans-unit id="339" resname="Would you import a demonstration winery?" translate="no">
+               <source>Would you import a demonstration winery?</source>
+            </trans-unit>
+            <trans-unit id="340" resname="The database will be installed in Documents directory, Application will restart." translate="no">
+               <source>The database will be installed in Documents directory, Application will restart.</source>
+            </trans-unit>
+            <trans-unit id="341" resname="the user configuration is incorrect, the user configuration file will be deleted" translate="no">
+               <source>the user configuration is incorrect, the user configuration file will be deleted</source>
+            </trans-unit>
+            <trans-unit id="342" resname="Default cellar" translate="no">
+               <source>Default cellar</source>
+            </trans-unit>
+            <trans-unit id="343" resname="Rename cellar" translate="no">
+               <source>Rename cellar</source>
+            </trans-unit>
+            <trans-unit id="344" resname="cellar name" translate="no">
+               <source>cellar name</source>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

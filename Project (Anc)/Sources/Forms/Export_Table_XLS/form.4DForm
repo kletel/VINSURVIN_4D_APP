@@ -1,0 +1,82 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Formulaire OSX Fenetre",
+	"inheritedFormTable": 1,
+	"rightMargin": 0,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Z_XLS": {
+					"type": "view",
+					"top": 78,
+					"left": 0,
+					"width": 996,
+					"height": 442,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Z_XLS",
+					"dataSourceTypeHint": "object",
+					"method": "ObjectMethods/Z_XLS.4dm",
+					"userInterface": "ribbon",
+					"withFormulaBar": true,
+					"events": [
+						"onVPReady"
+					]
+				},
+				"Bouton": {
+					"type": "button",
+					"top": 532,
+					"left": 12,
+					"width": 137,
+					"height": 29,
+					"sizingY": "move",
+					"text": "Importer",
+					"focusable": false,
+					"method": "ObjectMethods/Bouton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Image2": {
+					"type": "picture",
+					"top": 10,
+					"left": 17,
+					"width": 64,
+					"height": 64,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Icons/Application/icon_02c3.png"
+				}
+			}
+		}
+	]
+}

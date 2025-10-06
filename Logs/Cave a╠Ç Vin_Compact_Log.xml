@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<verifylog operation="Compact" name="Cave à Vin" structure="snowleopard:Users:datareaver:Desktop:VIN SUR VIN 6.0.2:sources:appstorefr:Vin sur Vin V12 appstore test receipt 6.0.2:Cave à Vin.4DB" data="" os="Mac OS X (10.6.8)">
+<start_timer time="2011-09-09T14:56:00+02:00"/>
+<step title="Ouverture de la base en mode maintenance">
+</step>
+<step title="Compactage">
+	<step title="Compactage des définitions de la numérotation automatique">
+	</step>
+	<step title="Chargement des tables de données">
+		<step title="Compactage des entêtes de la table des données">
+		</step>
+	</step>
+	<step title="Compactage des BLOBs dans la table Resources">
+	</step>
+	<step title="Compactage des enregistrements dans la table Resources">
+	</step>
+	<step title="Compactage des BLOBs dans la table [Table#2]">
+	</step>
+	<step title="Compactage des enregistrements dans la table [Table#2]">
+	</step>
+	<step title="Compactage des définitions d’index">
+		<step title="Compactage de l&apos;index sur Index B-tree 0 sur kind (TYPE only)">
+			<step title="Compactage des adresses des pages d’index de l&apos;Index B-tree 0 sur kind (TYPE only)">
+			</step>
+			<step title="Compactage des pages d’index de l&apos;Index B-tree 0 sur kind (TYPE only)">
+			</step>
+		</step>
+		<step title="Compactage de l&apos;index sur Index B-tree 1 sur stamp (stamp)">
+			<step title="Compactage des adresses des pages d’index de l&apos;Index B-tree 1 sur stamp (stamp)">
+			</step>
+			<step title="Compactage des pages d’index de l&apos;Index B-tree 1 sur stamp (stamp)">
+			</step>
+		</step>
+		<step title="Compactage de l&apos;index sur Index B-tree 2 sur kind , id (TYPE and ID)">
+			<step title="Compactage des adresses des pages d’index de l&apos;Index B-tree 2 sur kind , id (TYPE and ID)">
+			</step>
+			<step title="Compactage des pages d’index de l&apos;Index B-tree 2 sur kind , id (TYPE and ID)">
+			</step>
+		</step>
+	</step>
+	<step title="Compactage des définitions de tables des données">
+	</step>
+	<step title="Compactage des définitions de liens">
+	</step>
+	<step title="Compactage des définitions d’index de sauvegarde">
+	</step>
+	<step title="Déplacement de l&apos;original">
+<move from="snowleopard:Users:datareaver:Desktop:VIN SUR VIN 6.0.2:sources:appstorefr:Vin sur Vin V12 appstore test receipt 6.0.2:Cave à Vin.4DB" to="snowleopard:Users:datareaver:Desktop:VIN SUR VIN 6.0.2:sources:appstorefr:Vin sur Vin V12 appstore test receipt 6.0.2:Replaced Files (Compacting) 2011-09-09 14-56-00:Cave à Vin.4DB">
+</move>	</step>
+	<step title="Déplacement du nouveau fichier vers son emplacement d&apos;origine">
+<move from="snowleopard:Users:datareaver:Desktop:VIN SUR VIN 6.0.2:sources:appstorefr:Vin sur Vin V12 appstore test receipt 6.0.2:Replaced Files (Compacting) 2011-09-09 14-56-00:_Cave à Vin_compacted.4DB" to="snowleopard:Users:datareaver:Desktop:VIN SUR VIN 6.0.2:sources:appstorefr:Vin sur Vin V12 appstore test receipt 6.0.2:Cave à Vin.4DB">
+</move>	</step>
+	<step title="Déplacement du fichier d&apos;index d&apos;origine">
+<move from="snowleopard:Users:datareaver:Desktop:VIN SUR VIN 6.0.2:sources:appstorefr:Vin sur Vin V12 appstore test receipt 6.0.2:Cave à Vin.4DIndy" to="snowleopard:Users:datareaver:Desktop:VIN SUR VIN 6.0.2:sources:appstorefr:Vin sur Vin V12 appstore test receipt 6.0.2:Replaced Files (Compacting) 2011-09-09 14-56-00:Cave à Vin.4DIndy">
+</move>	</step>
+	<step title="Déplacement du nouvel index vers son emplacement d&apos;origine">
+<move from="snowleopard:Users:datareaver:Desktop:VIN SUR VIN 6.0.2:sources:appstorefr:Vin sur Vin V12 appstore test receipt 6.0.2:Replaced Files (Compacting) 2011-09-09 14-56-00:_Cave à Vin_compacted.4DIndy" to="snowleopard:Users:datareaver:Desktop:VIN SUR VIN 6.0.2:sources:appstorefr:Vin sur Vin V12 appstore test receipt 6.0.2:Cave à Vin.4DIndy">
+</move>	</step>
+</step>
+<stop_timer time="2011-09-09T14:56:01+02:00" success="true" user_canceled="false"/>
+</verifylog>

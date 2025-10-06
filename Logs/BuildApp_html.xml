@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="LogStyleSheet.xsl"?>
+<verifylog operation="Build" name="Vin sur Vin" structure="Z:\Developpement\VIN SUR VIN 8.0.0 V15\V_15\Vin sur Vin V15 boutik 7.0.0 fr\Cave à Vin.4DB" data="" os="Windows 7 SP1, 64-bit">
+<start_timer time="2016-06-06T17:21:31+02:00"/>
+<stop_timer time="2016-06-06T17:22:02+02:00" success="true" user_canceled="false"/>
+<step title="Building compiled database">
+<step title="Début de compilation [2016-06-06T17:21:31]"></step>
+<step title="Début de copie des fichiers : Z:\Developpement\VIN SUR VIN 8.0.0 V15\Compiled Database\Vin sur Vin.4DC"></step>
+<step title="Fin de copie des fichiers : Z:\Developpement\VIN SUR VIN 8.0.0 V15\Compiled Database\Vin sur Vin.4DC"></step>
+<step title="Fin de compilation [2016-06-06T17:21:35]"></step>
+</step>
+<step title="Building stand alone application">
+<step title="Début de construction de la cible &apos;Application&apos; [2016-06-06T17:21:35]"></step>
+<step title="Copie du plug-in de Z:\Developpement\VIN SUR VIN 8.0.0 V15\V_15\Vin sur Vin V15 boutik 7.0.0 fr\Plugins\4D InternetCommands.bundle\ vers Z:\Developpement\VIN SUR VIN 8.0.0 V15\Final Application\Vin sur Vin\Plugins\."></step>
+<step title="Copie du plug-in de Z:\Developpement\VIN SUR VIN 8.0.0 V15\V_15\Vin sur Vin V15 boutik 7.0.0 fr\Plugins\4D Pack.bundle\ vers Z:\Developpement\VIN SUR VIN 8.0.0 V15\Final Application\Vin sur Vin\Plugins\."></step>
+<step title="Copie du composant de Z:\Developpement\VIN SUR VIN 8.0.0 V15\V_15\Vin sur Vin V15 boutik 7.0.0 fr\Components\KLETEL.4dbase\ vers Z:\Developpement\VIN SUR VIN 8.0.0 V15\Final Application\Vin sur Vin\Components\."></step>
+<step title="Copie du composant de Z:\Developpement\VIN SUR VIN 8.0.0 V15\V_15\Vin sur Vin V15 boutik 7.0.0 fr\Components\SVG Area.4dbase\ vers Z:\Developpement\VIN SUR VIN 8.0.0 V15\Final Application\Vin sur Vin\Components\."></step>
+<step title="Copie du composant de C:\Program Files\4D\4D v15 R4\4D Preview\Components\4D Progress.4dbase\ vers Z:\Developpement\VIN SUR VIN 8.0.0 V15\Final Application\Vin sur Vin\Components\."></step>
+<step title="Copie du composant de C:\Program Files\4D\4D v15 R4\4D Preview\Components\4D SVG.4dbase\ vers Z:\Developpement\VIN SUR VIN 8.0.0 V15\Final Application\Vin sur Vin\Components\."></step>
+<step title="Copie du composant de C:\Program Files\4D\4D v15 R4\4D Preview\Components\4D Widgets.4dbase\ vers Z:\Developpement\VIN SUR VIN 8.0.0 V15\Final Application\Vin sur Vin\Components\."></step>
+<step title="Copie du composant de C:\Program Files\4D\4D v15 R4\4D Preview\Components\4D WritePro Interface.4dbase\ vers Z:\Developpement\VIN SUR VIN 8.0.0 V15\Final Application\Vin sur Vin\Components\."></step>
+<step title="Début de copie des fichiers : Z:\Developpement\VIN SUR VIN 8.0.0 V15\Final Application\Vin sur Vin\Database\Vin sur Vin.4DC"></step>
+<step title="Fin de copie des fichiers : Z:\Developpement\VIN SUR VIN 8.0.0 V15\Final Application\Vin sur Vin\Database\Vin sur Vin.4DC"></step>
+<step title="Copie du fichier de licence de C:\ProgramData\4D\Licenses\R-PNUD150UUC001BC50Z0C677.license4D vers Z:\Developpement\VIN SUR VIN 8.0.0 V15\Final Application\Vin sur Vin\Licenses\1.license4D."></step>
+<step title="Fin de construction de la cible &apos;Application&apos; [2016-06-06T17:22:02]"></step>
+</step>
+</verifylog>

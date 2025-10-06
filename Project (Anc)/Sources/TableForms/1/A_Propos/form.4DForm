@@ -1,0 +1,166 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Barre n°1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onUnload"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Image11": {
+					"type": "picture",
+					"top": 0,
+					"left": 0,
+					"width": 488,
+					"height": 368,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Menu/Fond_Palette.png"
+				},
+				"Ligne": {
+					"type": "line",
+					"top": 52,
+					"left": 0,
+					"width": 488,
+					"height": 1
+				}
+			}
+		},
+		{
+			"objects": {
+				"Texte3": {
+					"type": "text",
+					"top": 2,
+					"left": 3,
+					"width": 486,
+					"height": 50,
+					"stroke": "#FFFFFF",
+					"class": "Titre",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": ":<>strLang,310"
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 1,
+					"left": 3,
+					"width": 484,
+					"height": 50,
+					"stroke": "#740000",
+					"class": "Titre",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": ":<>strLang,310"
+				},
+				"Texte": {
+					"type": "text",
+					"top": 79,
+					"left": 228,
+					"width": 238,
+					"height": 136,
+					"stroke": "#740000",
+					"class": "Bouttons",
+					"text": "© KLETEL Multimédia\rDéveloppé par : BENYAMIN Serge,  GABRIELE Isabelle, QUERALT Stéphane, Xavier TEBOUL, Sébastien DROUIN\r\rEdition : KLETEL MULTIMEDIA\nTous droits réservés.\n"
+				},
+				"Bouton image1": {
+					"type": "button",
+					"top": 316,
+					"left": 351,
+					"width": 110,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "Bt_Ann",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"class": "Bouttons",
+					"stroke": "#404040",
+					"focusable": false,
+					"text": ":<>strLang,79",
+					"textPlacement": "center",
+					"style": "texturedBevel",
+					"events": [
+						"onClick"
+					]
+				},
+				"Texte2": {
+					"type": "text",
+					"top": 213,
+					"left": 228,
+					"width": 238,
+					"height": 17,
+					"stroke": "#740000",
+					"class": "Bouttons",
+					"textDecoration": "underline"
+				},
+				"Texte4": {
+					"type": "text",
+					"top": 294,
+					"left": 11,
+					"width": 245,
+					"height": 15,
+					"text": ":<>strLang,269"
+				},
+				"Image14": {
+					"type": "picture",
+					"top": 36,
+					"left": 0,
+					"width": 260,
+					"height": 264,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Logo/vinsurvin.png"
+				},
+				"Bouton image2": {
+					"type": "button",
+					"top": 316,
+					"left": 27,
+					"width": 110,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "Bt_Ann",
+					"class": "Bouttons",
+					"stroke": "#404040",
+					"focusable": false,
+					"text": ":<>strLang,75",
+					"textPlacement": "center",
+					"style": "texturedBevel",
+					"method": "ObjectMethods/Bouton image2.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		null
+	],
+	"editor": {
+		"activeView": "Vue 1",
+		"defaultView": "Vue 1",
+		"views": {
+			"Vue 1": {},
+			"Vue 2": {},
+			"Vue 3": {},
+			"Vue 4": {},
+			"Vue 5": {},
+			"Vue 6": {},
+			"Vue 7": {},
+			"Vue 8": {},
+			"Vue 9": {}
+		}
+	}
+}

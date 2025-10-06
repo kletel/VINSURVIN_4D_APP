@@ -1,0 +1,266 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Image1": {
+					"type": "picture",
+					"top": 0,
+					"left": 0,
+					"width": 550,
+					"height": 400,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Menu/Association_Fond.png"
+				},
+				"Image2": {
+					"type": "picture",
+					"top": 0,
+					"left": 0,
+					"width": 125,
+					"height": 125,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Menu/Association.png"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Texte2": {
+					"type": "text",
+					"top": 35,
+					"left": 81,
+					"width": 456,
+					"height": 57,
+					"sizingX": "grow",
+					"stroke": "#FFFFFF",
+					"class": "Titre",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": ":<>strLang,149"
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 33,
+					"left": 79,
+					"width": 456,
+					"height": 57,
+					"sizingX": "grow",
+					"stroke": "#600000",
+					"class": "Titre",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": ":<>strLang,149"
+				},
+				"Zone de défilement1": {
+					"type": "listbox",
+					"top": 125,
+					"left": 18,
+					"width": 219,
+					"height": 219,
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"focusable": false,
+					"movableRows": false,
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"scrollbarVertical": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"class": "Barre_de_Menu",
+					"fontWeight": "bold",
+					"borderStyle": "none",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Zone de défilement1_Column1",
+							"dataSource": "V_T_Met",
+							"width": 219,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"class": "Barre_de_Menu",
+							"fontWeight": "bold",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête1",
+								"text": "Entête1",
+								"dataSource": "Entête1",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"class": "Barre_de_Menu",
+								"fontWeight": "bold"
+							},
+							"footer": {
+								"name": "Pied1",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"class": "Barre_de_Menu",
+								"fontWeight": "bold"
+							}
+						}
+					]
+				},
+				"Zone de défilement2": {
+					"type": "listbox",
+					"top": 125,
+					"left": 237,
+					"width": 290,
+					"height": 219,
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"focusable": false,
+					"movableRows": false,
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"class": "Barre_de_Menu",
+					"fontWeight": "bold",
+					"borderStyle": "none",
+					"events": [
+						"onClick",
+						"onDisplayDetail",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Zone de défilement2_Column1",
+							"dataSource": "V_T_Vin",
+							"width": 275,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"class": "Barre_de_Menu",
+							"fontWeight": "bold",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête2",
+								"text": "Entête2",
+								"dataSource": "Entête2",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"class": "Barre_de_Menu",
+								"fontWeight": "bold"
+							},
+							"footer": {
+								"name": "Pied2",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"class": "Barre_de_Menu",
+								"fontWeight": "bold"
+							}
+						}
+					]
+				},
+				"Bouton image1": {
+					"type": "button",
+					"top": 350,
+					"left": 417,
+					"width": 110,
+					"height": 32,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "Bt_Ann",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"class": "Bouttons",
+					"stroke": "#555555",
+					"focusable": false,
+					"text": ":<>strLang,79",
+					"textPlacement": "center",
+					"style": "texturedBevel",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "Vue 1",
+		"defaultView": "Vue 1",
+		"views": {
+			"Vue 1": {},
+			"Vue 2": {},
+			"Vue 3": {},
+			"Vue 4": {},
+			"Vue 5": {},
+			"Vue 6": {},
+			"Vue 7": {},
+			"Vue 8": {},
+			"Vue 9": {}
+		}
+	}
+}

@@ -1,0 +1,68 @@
+{
+	"Enum_Onglet_Cave": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "Enum1",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Enum2",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Enum3",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Enum4",
+				"ref": 4,
+				"editable": true
+			}
+		]
+	},
+	"Onglet_Carte_Fr": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "Carte",
+				"ref": 0,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Graphiques",
+				"ref": 0,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"Test": {
+		"lineHeight": 18,
+		"editable": true
+	},
+	"Onglet_Carte_En": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "Map",
+				"ref": 0,
+				"editable": true,
+				"collapsed": true
+			},
+			{
+				"text": "Graphics",
+				"ref": 0,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	}
+}

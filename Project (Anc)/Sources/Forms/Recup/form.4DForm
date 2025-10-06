@@ -1,0 +1,81 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"zWeb": {
+					"type": "webArea",
+					"top": 57,
+					"left": 21,
+					"width": 556,
+					"height": 482,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "zWeb",
+					"urlSource": "Zone Web_url",
+					"progressSource": "Zone Web_progress",
+					"contextMenu": "none",
+					"borderStyle": "none"
+				},
+				"Bouton": {
+					"type": "button",
+					"top": 7,
+					"left": 22,
+					"width": 212,
+					"height": 40,
+					"dataSource": "Bouton",
+					"text": "Bouton",
+					"method": "ObjectMethods/Bouton.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "Vue 1",
+		"defaultView": "Vue 1",
+		"views": {
+			"Vue 1": {},
+			"Vue 2": {},
+			"Vue 3": {},
+			"Vue 4": {},
+			"Vue 5": {},
+			"Vue 6": {},
+			"Vue 7": {},
+			"Vue 8": {},
+			"Vue 9": {}
+		}
+	}
+}

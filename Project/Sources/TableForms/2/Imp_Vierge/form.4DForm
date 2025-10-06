@@ -1,0 +1,497 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerBody": 526,
+	"markerBreak": 526,
+	"markerFooter": 549,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Zone de groupe3": {
+					"type": "groupBox",
+					"top": 2,
+					"left": 75,
+					"width": 448,
+					"height": 152,
+					"fontFamily": "Helvetica Bold Oblique",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": ":<>strLang,216"
+				},
+				"Image statique1": {
+					"type": "picture",
+					"top": 2,
+					"left": 2,
+					"width": 70,
+					"height": 70,
+					"pictureFormat": "scaled",
+					"picture": "Images/Image statique1.pict"
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 20,
+					"left": 80,
+					"width": 101,
+					"height": 17,
+					"class": "Liste",
+					"text": ":<>strLang,221"
+				},
+				"Texte2": {
+					"type": "text",
+					"top": 42,
+					"left": 80,
+					"width": 101,
+					"height": 17,
+					"class": "Liste",
+					"text": ":<>strLang,311"
+				},
+				"Texte3": {
+					"type": "text",
+					"top": 64,
+					"left": 80,
+					"width": 101,
+					"height": 17,
+					"class": "Liste",
+					"text": ":<>strLang,226"
+				},
+				"Texte4": {
+					"type": "text",
+					"top": 86,
+					"left": 80,
+					"width": 101,
+					"height": 17,
+					"class": "Liste",
+					"text": ":<>strLang,312"
+				},
+				"Texte5": {
+					"type": "text",
+					"top": 108,
+					"left": 80,
+					"width": 101,
+					"height": 17,
+					"class": "Liste",
+					"text": ":<>strLang,313"
+				},
+				"Texte6": {
+					"type": "text",
+					"top": 130,
+					"left": 80,
+					"width": 101,
+					"height": 17,
+					"class": "Liste",
+					"text": ":<>strLang,314"
+				},
+				"Texte7": {
+					"type": "text",
+					"top": 529,
+					"left": 6,
+					"width": 364,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,173"
+				},
+				"Zone de groupe4": {
+					"type": "groupBox",
+					"top": 150,
+					"left": 4,
+					"width": 519,
+					"height": 163,
+					"fontFamily": "Helvetica Bold Oblique",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": ":<>strLang,218"
+				},
+				"Texte11": {
+					"type": "text",
+					"top": 171,
+					"left": 12,
+					"width": 139,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,201"
+				},
+				"Texte12": {
+					"type": "text",
+					"top": 171,
+					"left": 216,
+					"width": 102,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,209"
+				},
+				"Texte13": {
+					"type": "text",
+					"top": 188,
+					"left": 12,
+					"width": 75,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,202"
+				},
+				"Texte15": {
+					"type": "text",
+					"top": 206,
+					"left": 12,
+					"width": 121,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,203"
+				},
+				"Texte16": {
+					"type": "text",
+					"top": 224,
+					"left": 223,
+					"width": 61,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,214"
+				},
+				"Texte18": {
+					"type": "text",
+					"top": 188,
+					"left": 374,
+					"width": 74,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,211"
+				},
+				"Texte36": {
+					"type": "text",
+					"top": 295,
+					"left": 12,
+					"width": 186,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,208"
+				},
+				"Texte14": {
+					"type": "text",
+					"top": 171,
+					"left": 395,
+					"width": 66,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,210"
+				},
+				"Texte19": {
+					"type": "text",
+					"top": 188,
+					"left": 225,
+					"width": 30,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,215"
+				},
+				"Texte20": {
+					"type": "text",
+					"top": 206,
+					"left": 239,
+					"width": 90,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,212"
+				},
+				"Texte21": {
+					"type": "text",
+					"top": 206,
+					"left": 383,
+					"width": 67,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,213"
+				},
+				"Texte22": {
+					"type": "text",
+					"top": 241,
+					"left": 12,
+					"width": 73,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,205"
+				},
+				"Texte23": {
+					"type": "text",
+					"top": 259,
+					"left": 12,
+					"width": 57,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,206"
+				},
+				"Texte24": {
+					"type": "text",
+					"top": 277,
+					"left": 12,
+					"width": 135,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,207"
+				},
+				"Texte25": {
+					"type": "text",
+					"top": 258,
+					"left": 279,
+					"width": 76,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,217"
+				},
+				"Texte17": {
+					"type": "text",
+					"top": 224,
+					"left": 12,
+					"width": 103,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,204"
+				},
+				"Zone de groupe1": {
+					"type": "groupBox",
+					"top": 312,
+					"left": 4,
+					"width": 522,
+					"height": 215,
+					"fontFamily": "Helvetica Bold Oblique",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"text": ":<>strLang,219"
+				},
+				"Texte8": {
+					"type": "text",
+					"top": 334,
+					"left": 10,
+					"width": 100,
+					"height": 17,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,220"
+				},
+				"Texte10": {
+					"type": "text",
+					"top": 351,
+					"left": 10,
+					"width": 58,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,221"
+				},
+				"Texte26": {
+					"type": "text",
+					"top": 351,
+					"left": 283,
+					"width": 78,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,223"
+				},
+				"Texte27": {
+					"type": "text",
+					"top": 369,
+					"left": 10,
+					"width": 63,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,222"
+				},
+				"Texte28": {
+					"type": "text",
+					"top": 402,
+					"left": 9,
+					"width": 60,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,224"
+				},
+				"Texte29": {
+					"type": "text",
+					"top": 402,
+					"left": 128,
+					"width": 35,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,225"
+				},
+				"Texte30": {
+					"type": "text",
+					"top": 402,
+					"left": 287,
+					"width": 61,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,226"
+				},
+				"Texte31": {
+					"type": "text",
+					"top": 419,
+					"left": 9,
+					"width": 59,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,227"
+				},
+				"Texte32": {
+					"type": "text",
+					"top": 419,
+					"left": 284,
+					"width": 62,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,228"
+				},
+				"Texte33": {
+					"type": "text",
+					"top": 439,
+					"left": 9,
+					"width": 100,
+					"height": 17,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,229"
+				},
+				"Texte34": {
+					"type": "text",
+					"top": 457,
+					"left": 9,
+					"width": 60,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,230"
+				},
+				"Texte35": {
+					"type": "text",
+					"top": 475,
+					"left": 9,
+					"width": 60,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,231"
+				},
+				"Texte9": {
+					"type": "text",
+					"top": 493,
+					"left": 9,
+					"width": 100,
+					"height": 17,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,233"
+				},
+				"Texte37": {
+					"type": "text",
+					"top": 511,
+					"left": 9,
+					"width": 150,
+					"height": 16,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": ":<>strLang,234"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "Vue 1",
+		"defaultView": "Vue 1",
+		"views": {
+			"Vue 1": {},
+			"Vue 2": {},
+			"Vue 3": {},
+			"Vue 4": {},
+			"Vue 5": {},
+			"Vue 6": {},
+			"Vue 7": {},
+			"Vue 8": {},
+			"Vue 9": {}
+		}
+	}
+}

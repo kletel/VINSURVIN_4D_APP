@@ -1,0 +1,59 @@
+.Barre_de_Menu {
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.Bouttons {
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.BtnPalette {
+	font-family: Segoe UI;
+	font-size: 12px;
+}
+
+.Detail_Gros {
+	font-family: MS Sans Serif;
+	font-size: 16px;
+}
+
+.Ficha_saisie {
+	font-family: Verdana;
+	font-size: 13px;
+}
+
+.Imp_Liste {
+	font-family: Arial;
+	font-size: 10px;
+}
+
+.Liste {
+	font-family: MS Sans Serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.Liste_Simple {
+	font-family: MS Sans Serif;
+	font-size: 13px;
+}
+
+.Par_défaut {
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.Sous-titre {
+	font-family: Tahoma;
+	font-size: 12px;
+}
+
+.Titre {
+	font-family: Verdana;
+	font-size: 42px;
+	font-weight: bold;
+}
+

@@ -1,0 +1,184 @@
+{
+	"destination": "detailScreen",
+	"windowTitle": "Sérialisation",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Barre n°1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Image6": {
+					"type": "picture",
+					"top": 0,
+					"left": 0,
+					"width": 532,
+					"height": 207,
+					"pictureFormat": "scaled",
+					"picture": "Images/Image6.pict"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 81,
+					"left": 143,
+					"width": 358,
+					"height": 19,
+					"dataSource": "<>Serialisation",
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontFamily": "Helvetica",
+					"fontSize": 14,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 110,
+					"left": 149,
+					"width": 347,
+					"height": 19,
+					"dataSource": "B_Serie",
+					"fontFamily": "Helvetica",
+					"fontSize": 14,
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 113,
+					"left": 19,
+					"width": 126,
+					"height": 17,
+					"stroke": "#FFFFFF",
+					"fontFamily": "Helvetica",
+					"fontSize": 12,
+					"text": "Numéro de série"
+				},
+				"Image3": {
+					"type": "picture",
+					"top": 155,
+					"left": 421,
+					"width": 89,
+					"height": 35,
+					"pictureFormat": "scaled",
+					"picture": "Images/Image3.pict"
+				},
+				"Image4": {
+					"type": "picture",
+					"top": 155,
+					"left": 26,
+					"width": 89,
+					"height": 35,
+					"pictureFormat": "scaled",
+					"picture": "Images/Image4.pict"
+				},
+				"Bouton 3D1": {
+					"type": "button",
+					"top": 155,
+					"left": 26,
+					"width": 87,
+					"height": 32,
+					"dataSource": "Bouton 3D1",
+					"action": "cancel",
+					"class": "Par_défaut",
+					"focusable": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Bouton 3D2": {
+					"type": "button",
+					"top": 156,
+					"left": 422,
+					"width": 87,
+					"height": 32,
+					"dataSource": "Bouton 3D1",
+					"action": "cancel",
+					"class": "Par_défaut",
+					"focusable": false,
+					"method": "ObjectMethods/Bouton 3D2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "Vue 1",
+		"defaultView": "Vue 1",
+		"views": {
+			"Vue 1": {},
+			"Vue 2": {},
+			"Vue 3": {},
+			"Vue 4": {},
+			"Vue 5": {},
+			"Vue 6": {},
+			"Vue 7": {},
+			"Vue 8": {},
+			"Vue 9": {}
+		}
+	}
+}

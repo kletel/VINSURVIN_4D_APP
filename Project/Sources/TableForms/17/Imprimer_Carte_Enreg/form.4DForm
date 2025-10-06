@@ -1,0 +1,188 @@
+{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"width": 431,
+	"height": 172,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Image8": {
+					"type": "picture",
+					"top": 1,
+					"left": 1,
+					"width": 430,
+					"height": 171,
+					"pictureFormat": "tiled",
+					"picture": "/RESOURCES/Images/library/Image1.pict"
+				},
+				"Variable2": {
+					"type": "button",
+					"top": 143,
+					"left": -251,
+					"width": 94,
+					"height": 18,
+					"dataSource": "bPlusTard",
+					"shortcutKey": "[Enter]",
+					"text": "Plus tard",
+					"fontFamily": "Geneva",
+					"fontSize": 10,
+					"fontWeight": "bold",
+					"stroke": "#000000",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable84": {
+					"type": "button",
+					"top": 144,
+					"left": 5,
+					"width": 94,
+					"height": 18,
+					"dataSource": "bPlusTard",
+					"action": "cancel",
+					"text": ":<>strLang,259",
+					"fontFamily": "Geneva",
+					"fontSize": 10,
+					"stroke": "#000000",
+					"focusable": false,
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Variable85": {
+					"type": "button",
+					"top": 144,
+					"left": 168,
+					"width": 114,
+					"height": 18,
+					"dataSource": "bDéjàFait",
+					"text": ":<>strLang,260",
+					"fontFamily": "Geneva",
+					"fontSize": 10,
+					"stroke": "#000000",
+					"focusable": false,
+					"method": "ObjectMethods/Variable85.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable86": {
+					"type": "button",
+					"top": 144,
+					"left": 331,
+					"width": 94,
+					"height": 18,
+					"dataSource": "bMaintenant",
+					"shortcutKey": "[Enter]",
+					"text": ":<>strLang,261",
+					"fontFamily": "Geneva",
+					"fontSize": 10,
+					"stroke": "#000000",
+					"defaultButton": true,
+					"method": "ObjectMethods/Variable86.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Texte2": {
+					"type": "text",
+					"top": 10,
+					"left": 12,
+					"width": 403,
+					"height": 21,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica Bold",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"text": ":<>strLang,257"
+				},
+				"Texte3": {
+					"type": "text",
+					"top": 52,
+					"left": 13,
+					"width": 405,
+					"height": 64,
+					"stroke": "#FFFFFF",
+					"fontFamily": "Helvetica Bold",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": ":<>strLang,258"
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 13,
+					"left": 15,
+					"width": 403,
+					"height": 21,
+					"stroke": "#FFFFFF",
+					"fontFamily": "Helvetica Bold",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"text": ":<>strLang,257"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "Vue 1",
+		"defaultView": "Vue 1",
+		"views": {
+			"Vue 1": {},
+			"Vue 2": {},
+			"Vue 3": {},
+			"Vue 4": {},
+			"Vue 5": {},
+			"Vue 6": {},
+			"Vue 7": {},
+			"Vue 8": {},
+			"Vue 9": {}
+		}
+	}
+}

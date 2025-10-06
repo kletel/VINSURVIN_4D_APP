@@ -1,0 +1,369 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Fond",
+	"inheritedFormTable": 1,
+	"windowMinWidth": 900,
+	"windowMinHeight": 750,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Barre n°1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 125,
+					"left": 400,
+					"width": 500,
+					"height": 574,
+					"sizingX": "grow",
+					"sizingY": "grow"
+				},
+				"Séparateur2": {
+					"type": "splitter",
+					"top": 98,
+					"left": 400,
+					"width": 4,
+					"height": 601,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Séparateur1",
+					"borderStyle": "sunken",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Onglet1": {
+					"type": "tab",
+					"top": 131,
+					"left": 407,
+					"width": 486,
+					"height": 566,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Onglet1",
+					"dataSourceTypeHint": "arrayText",
+					"labels": [
+						"Carte",
+						"Graphiques"
+					],
+					"class": "Barre_de_Menu",
+					"action": "gotoPage",
+					"method": "ObjectMethods/Onglet1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Zone de défilement": {
+					"type": "list",
+					"top": 125,
+					"left": 202,
+					"width": 194,
+					"height": 573,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Lst_Pays_H",
+					"enterable": false,
+					"hideFocusRing": true,
+					"scrollbarVertical": "visible",
+					"scrollbarHorizontal": "hidden",
+					"stroke": "#000000",
+					"class": "Liste_Simple",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/Zone de défilement.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Image13": {
+					"type": "picture",
+					"top": 0,
+					"left": 1,
+					"width": 899,
+					"height": 125,
+					"sizingX": "grow",
+					"pictureFormat": "tiled",
+					"picture": "/RESOURCES/Menu/Carte_Fond.png"
+				},
+				"Image1": {
+					"type": "picture",
+					"top": 699,
+					"left": 1,
+					"width": 899,
+					"height": 71,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"pictureFormat": "tiled",
+					"picture": "/RESOURCES/Menu/Carte_Fond.png"
+				},
+				"Image14": {
+					"type": "picture",
+					"top": 0,
+					"left": 1,
+					"width": 125,
+					"height": 125,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Menu/Carte.png"
+				},
+				"Texte3": {
+					"type": "text",
+					"top": 5,
+					"left": 208,
+					"width": 682,
+					"height": 53,
+					"sizingX": "grow",
+					"stroke": "#DDDDDD",
+					"class": "Titre",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "<V_Aff_Titre>"
+				},
+				"Texte5": {
+					"type": "text",
+					"top": 3,
+					"left": 207,
+					"width": 682,
+					"height": 53,
+					"sizingX": "grow",
+					"stroke": "#666666",
+					"class": "Titre",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "<V_Aff_Titre>"
+				}
+			}
+		},
+		{
+			"objects": {
+				"V_Img_Carte": {
+					"type": "input",
+					"top": 162,
+					"left": 418,
+					"width": 465,
+					"height": 526,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "V_Img_Carte",
+					"dataSourceTypeHint": "picture",
+					"pictureFormat": "proportionalCenter",
+					"dragging": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Bouton 3D1": {
+					"type": "button",
+					"top": 136,
+					"left": 417,
+					"width": 60,
+					"height": 67,
+					"dataSource": "Bouton 3D1",
+					"class": "BtnPalette",
+					"focusable": false,
+					"text": ":<>strLang,322",
+					"icon": "/RESOURCES/Liste/Gr_Graphe.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"customOffset": 2,
+					"method": "ObjectMethods/Bouton 3D1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Bouton 3D2": {
+					"type": "button",
+					"top": 136,
+					"left": 487,
+					"width": 60,
+					"height": 67,
+					"dataSource": "Bouton 3D1",
+					"class": "BtnPalette",
+					"focusable": false,
+					"text": ":<>strLang,323",
+					"icon": "/RESOURCES/Liste/Gr_Histo.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"customOffset": 2,
+					"method": "ObjectMethods/Bouton 3D2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Bouton 3D3": {
+					"type": "button",
+					"top": 136,
+					"left": 558,
+					"width": 60,
+					"height": 67,
+					"dataSource": "Bouton 3D1",
+					"class": "BtnPalette",
+					"focusable": false,
+					"text": ":<>strLang,324",
+					"icon": "/RESOURCES/Liste/Gr_Courbe.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"customOffset": 2,
+					"method": "ObjectMethods/Bouton 3D3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Bouton 3D4": {
+					"type": "button",
+					"top": 136,
+					"left": 629,
+					"width": 60,
+					"height": 67,
+					"dataSource": "Bouton 3D1",
+					"class": "BtnPalette",
+					"focusable": false,
+					"text": ":<>strLang,325",
+					"icon": "/RESOURCES/Liste/GR_Aire.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"customOffset": 2,
+					"method": "ObjectMethods/Bouton 3D4.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Case à cocher1": {
+					"type": "checkbox",
+					"top": 159,
+					"left": 715,
+					"width": 131,
+					"height": 20,
+					"dataSource": "V_Tout_Pays",
+					"text": " ",
+					"class": "Par_défaut",
+					"stroke": "#FFFFFF",
+					"method": "ObjectMethods/Case à cocher1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Texte4": {
+					"type": "text",
+					"top": 159,
+					"left": 737,
+					"width": 143,
+					"height": 16,
+					"stroke": "#000000",
+					"class": "Liste_Simple",
+					"text": ":<>strLang,326"
+				},
+				"V_Img_Carte1": {
+					"type": "input",
+					"top": 210,
+					"left": 418,
+					"width": 465,
+					"height": 464,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "V_Img_Carte",
+					"dataSourceTypeHint": "picture",
+					"pictureFormat": "proportionalCenter",
+					"dragging": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		},
+		null
+	],
+	"editor": {
+		"activeView": "Vue 1",
+		"defaultView": "Vue 1",
+		"views": {
+			"Vue 1": {},
+			"Vue 2": {},
+			"Vue 3": {},
+			"Vue 4": {},
+			"Vue 5": {},
+			"Vue 6": {},
+			"Vue 7": {},
+			"Vue 8": {},
+			"Vue 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

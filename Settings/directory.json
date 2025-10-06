@@ -1,0 +1,56 @@
+{
+	"users": {
+		"designer": {
+			"password": "0Md+JC9NC7wK+ZhBy9bQyg==",
+			"alias": "Super_Utilisateur"
+		},
+		"administrator": {
+			"alias": "Administrateur"
+		},
+		"Utilisateur": {},
+		"Dev": {
+			"password": "KFBDHf59DdEGWpTmKqP0aQ=="
+		}
+	},
+	"groups": {
+		"Developpement": {
+			"users": [
+				"Super_Utilisateur",
+				"Administrateur",
+				"Dev"
+			]
+		},
+		"Tous": {
+			"users": [
+				"Super_Utilisateur",
+				"Administrateur",
+				"Utilisateur",
+				"Dev"
+			],
+			"groups": [
+				"Developpement"
+			]
+		}
+	},
+	"sqlSchemaGranters": {
+		"DEFAULT_SCHEMA": {
+			"readOnlyAccessGroup": "*",
+			"readWriteAccessGroup": "*",
+			"allAccessGroup": ""
+		}
+	},
+	"remoteGranters": {
+		"web": "Tous",
+		"soap": "Tous",
+		"oci": "*",
+		"write": "Tous",
+		"view": "*",
+		"odbcPro": "*"
+	},
+	"settings": {
+		"localGenericWebUser": "Administrateur",
+		"designAccessGroup": "Developpement",
+		"remoteGenericWebUser": "Super_Utilisateur",
+		"remoteDefaultUser": "Utilisateur"
+	}
+}

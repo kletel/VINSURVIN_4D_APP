@@ -1,0 +1,283 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Fond",
+	"inheritedFormTable": 1,
+	"windowMinWidth": 900,
+	"windowMinHeight": 750,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Barre n°1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Image13": {
+					"type": "picture",
+					"top": 0,
+					"left": 1,
+					"width": 899,
+					"height": 125,
+					"sizingX": "grow",
+					"pictureFormat": "tiled",
+					"picture": "/RESOURCES/Menu/Degustation_Fond.png"
+				},
+				"Image1": {
+					"type": "picture",
+					"top": 699,
+					"left": 1,
+					"width": 899,
+					"height": 71,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"pictureFormat": "tiled",
+					"picture": "/RESOURCES/Menu/Degustation_Fond.png"
+				},
+				"Image14": {
+					"type": "picture",
+					"top": 0,
+					"left": 1,
+					"width": 125,
+					"height": 125,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Menu/Degustation.png"
+				},
+				"Texte3": {
+					"type": "text",
+					"top": 5,
+					"left": 208,
+					"width": 682,
+					"height": 53,
+					"sizingX": "grow",
+					"stroke": "#DDDDDD",
+					"class": "Titre",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "<V_Aff_Titre>"
+				},
+				"Texte5": {
+					"type": "text",
+					"top": 3,
+					"left": 207,
+					"width": 682,
+					"height": 53,
+					"sizingX": "grow",
+					"stroke": "#666666",
+					"class": "Titre",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "<V_Aff_Titre>"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Bouton image7": {
+					"type": "button",
+					"top": 707,
+					"left": 205,
+					"width": 110,
+					"height": 32,
+					"sizingY": "move",
+					"dataSource": "Bouton8",
+					"class": "Bouttons",
+					"stroke": "#FFFFFF",
+					"focusable": false,
+					"text": ":<>strLang,30",
+					"icon": "/RESOURCES/Pictos/4boutons.jpg",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"method": "ObjectMethods/Bouton image7.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"VD_Bouton image3": {
+					"type": "button",
+					"top": 707,
+					"left": 390,
+					"width": 110,
+					"height": 32,
+					"sizingY": "move",
+					"dataSource": "VD_Bouton3",
+					"class": "Bouttons",
+					"stroke": "#FFFFFF",
+					"focusable": false,
+					"text": ":<>strLang,60",
+					"icon": "/RESOURCES/Pictos/4boutons.jpg",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"method": "ObjectMethods/VD_Bouton image3.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"VD_Bouton image2": {
+					"type": "button",
+					"top": 707,
+					"left": 575,
+					"width": 110,
+					"height": 32,
+					"sizingY": "move",
+					"dataSource": "VD_Bouton2",
+					"class": "Bouttons",
+					"stroke": "#FFFFFF",
+					"focusable": false,
+					"text": ":<>strLang,59",
+					"icon": "/RESOURCES/Pictos/4boutons.jpg",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"method": "ObjectMethods/VD_Bouton image2.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"VD_Bouton image1": {
+					"type": "button",
+					"top": 707,
+					"left": 760,
+					"width": 110,
+					"height": 32,
+					"sizingY": "move",
+					"dataSource": "VD_Bouton1",
+					"class": "Bouttons",
+					"stroke": "#FFFFFF",
+					"focusable": false,
+					"text": ":<>strLang,58",
+					"icon": "/RESOURCES/Pictos/4boutons.jpg",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"method": "ObjectMethods/VD_Bouton image1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Sous-formulaire1": {
+					"type": "subform",
+					"top": 148,
+					"left": 287,
+					"width": 516,
+					"height": 510,
+					"sizingY": "grow",
+					"dataSourceTypeHint": "text",
+					"table": 12,
+					"listForm": "Formulaire2",
+					"scrollbarVertical": "visible",
+					"doubleClickInRowAction": "editSubrecord",
+					"selectionMode": "single",
+					"printFrame": "variable",
+					"borderStyle": "sunken"
+				},
+				"Image statique1": {
+					"type": "picture",
+					"top": 129,
+					"left": 286,
+					"width": 108,
+					"height": 16,
+					"pictureFormat": "scaled",
+					"picture": "Images/Image statique1.pict"
+				},
+				"Texte7": {
+					"type": "text",
+					"top": 129,
+					"left": 288,
+					"width": 103,
+					"height": 16,
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": ":<>strLang,57"
+				},
+				"Image statique2": {
+					"type": "picture",
+					"top": 129,
+					"left": 394,
+					"width": 426,
+					"height": 16,
+					"pictureFormat": "scaled",
+					"picture": "Images/Image statique2.pict"
+				},
+				"Texte9": {
+					"type": "text",
+					"top": 129,
+					"left": 396,
+					"width": 423,
+					"height": 14,
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"text": ":<>strLang,65"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "Vue 1",
+		"defaultView": "Vue 1",
+		"views": {
+			"Vue 1": {},
+			"Vue 2": {},
+			"Vue 3": {},
+			"Vue 4": {},
+			"Vue 5": {},
+			"Vue 6": {},
+			"Vue 7": {},
+			"Vue 8": {},
+			"Vue 9": {}
+		}
+	}
+}

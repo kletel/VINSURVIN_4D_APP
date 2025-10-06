@@ -1,0 +1,59 @@
+.Barre_de_Menu {
+	font-family: Avenir Light;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.Bouttons {
+	font-family: Optima;
+	font-size: 14px;
+}
+
+.BtnPalette {
+	font-family: Myriad Pro;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.Detail_Gros {
+	font-family: Lucida Grande;
+	font-size: 16px;
+}
+
+.Ficha_saisie {
+	font-family: Avenir Light;
+	font-size: 13px;
+}
+
+.Imp_Liste {
+	font-family: Arial;
+	font-size: 10px;
+}
+
+.Liste {
+	font-family: Lucida Grande;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.Liste_Simple {
+	font-family: Lucida Grande;
+	font-size: 13px;
+}
+
+.Par_défaut {
+	font-family: Geneva;
+	font-size: 10px;
+}
+
+.Sous-titre {
+	font-family: Lucida Grande;
+	font-size: 13px;
+}
+
+.Titre {
+	font-family: Avenir Light;
+	font-size: 42px;
+	font-weight: bold;
+}
+

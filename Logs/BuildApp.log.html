@@ -1,0 +1,303 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Compte-rendu du Centre de S&eacute;curit&eacute; et de Maintenance de 4D</title>
+<style type="text/css">
+                    html
+                    {
+                        text-align: center;
+                    }
+                    body  
+                    { 
+                        background: #fff; 
+                        color: #333;
+                        text-align: left;
+                        font-size: 11pt;
+                        font-family: Verdana, Helvetica, sans-serif; 
+                        margin: 0px; 
+                        padding: 0px; 
+                    }
+                    a, a:visited 
+                    {
+                        color: #036;
+                    }
+                    h1 
+                    {
+                        color: #036;
+                        margin: 5px auto;
+                    }
+                    h2
+                    {
+                        font-size: small;
+                        font-weight: bold;
+                        color: #036;
+                        padding: 2px 10px;
+                        border: 1px solid #036;
+                        background-color: #eee;
+                    }
+                    h3
+                    {
+                        display: list-item;
+                        list-style-type: square;
+                        list-style-position: inside;
+                        margin: 0;
+                        padding-bottom: 3px;
+                        font-size: small;
+                        font-weight: normal;
+                    }
+                    table
+                    {
+                        text-align: left;
+                        border: 1px solid #036;
+                        width: 100%;
+                    }
+                    td, th
+                    {
+                        padding: 2px 10px;
+                        font-size: x-small;
+                    }
+                    #header
+                    {
+                        margin: 0 10px;
+                        text-align: center;
+                    }
+                    #header ul#menu
+                    {
+                        font-size: x-small;
+                        list-style-type: none;
+                    }
+                    #header ul#menu li
+                    {
+                        display: inline;
+                        padding: 5px 10px;
+                    }
+                    #contents
+                    {
+                        margin: 0 10px;
+                    }
+                    table#summary, table.move
+                    {
+                        color: #036;
+                    }
+                    table#summary tr td, table.move tr td
+                    {
+                        background-color: #eee;
+                    }
+                    table#summary tr td:first-child, table.move tr td:first-child 
+                    {
+                        font-weight: bold;
+                        width: 200px;
+                        background-color: #036;
+                        color: #fff;
+                        text-align: right;
+                    }
+					b.canceled
+					{
+						font-weight: bold;
+						color: forestgreen;
+					}
+                    .operations
+                    {
+                        display: block;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    .hidden
+                    {
+                        display: none;
+                    }
+                    .operation
+                    {
+                        display: block;
+                        margin: 0;
+                        margin-left: 20px;
+                    }
+                    a.ok, a.ok:visited, .ok
+                    {
+                        color: forestgreen;
+                    }
+                    a.error, a.error:visited 
+                    {
+                        color: #f00;
+                    }
+                    a.warning, a.warning:visited
+                    {
+                        color: #f4ae36; 
+                    }
+                    h3 b.ok
+                    {
+                        font-weight: normal;
+                    }	
+                    ul.errorsAndWarnings
+                    {
+                        list-style-type: none;
+                        border: 1px dotted #036;
+                        margin: 0;
+                        padding: 2px 10px;
+                        font-size: x-small;
+                    }
+                    li.error
+                    {
+                        margin: 2px 0;
+                        border-left: 5px solid #f00;
+                        padding-left: 5px;
+                    }
+                    li.warning
+                    {
+                        margin: 2px 0;
+                        padding-left: 5px;
+                        border-left: 5px solid #f4ae36;
+                    }
+                </style>
+<script type="text/javascript">
+<!--
+                        
+                            function display(calque)
+                            { 
+                                if(document.getElementById(calque).className == "operations hidden")
+                                    document.getElementById(calque).className = "operations";
+                                else 
+                                    document.getElementById(calque).style.display = document.getElementById(calque).style.display == "none" ? "block" : "none";
+                            }
+                            
+                            function showAll()
+                            {
+                                var x = document.getElementsByTagName('div');
+                                for (i = 0 ; i < x.length ; i++)
+                                {
+                                    if(x[i].className == "operations hidden")
+                                       x[i].className = "operations";
+                                       
+                                    else if(x[i].className == "operation hidden")
+                                       x[i].className = "operation"; 
+                                    
+                                    if(x[i].className == "operations" || x[i].className == "operations" )
+                                        x[i].style.display = "block"; 
+                                }
+                                showErrorsOrWarnings('error');
+                                showErrorsOrWarnings('warning');
+                            }
+                            
+                            function hideAll()
+                            {
+                                var x = document.getElementsByTagName('div');
+                                for (i = 0 ; i < x.length ; i++)
+                                    if(x[i].className == "operations" || x[i].className == "operations")
+                                        x[i].style.display = "none"; 
+                                hideErrorsOrWarnings('error');
+                                hideErrorsOrWarnings('warning');
+                            }
+                            
+                            function showErrorsOrWarnings(errorsOrWarnings)
+                            {
+                                var x = document.getElementsByTagName('li');
+                                var y = '';
+                                for (i = 0 ; i < x.length ; i++)
+                                    if(x[i].className == errorsOrWarnings)
+                                    {
+                                        y = x[i].parentNode;
+                                        while(y.className == "errorsAndWarnings" || y.className == "operation" || y.className == "operations")
+                                        {
+                                            y.style.display = "block";
+                                            y = y.parentNode;
+                                        }
+                                    }
+                            }
+                            
+                            function hideErrorsOrWarnings(errorsOrWarnings)
+                            {
+                                var x = document.getElementsByTagName('li');
+                                for (i = 0 ; i < x.length ; i++)
+                                {
+                                    if(x[i].className == errorsOrWarnings)
+                                    {
+                                        x[i].parentNode.style.display = "none"; 
+                                    }
+                                }
+                            }
+                         
+                    --></script>
+</head>
+<body>
+<div id="header">
+<h1>Vin sur Vin</h1>
+<table id="summary">
+<tr>
+<td>Op&eacute;ration :</td><td>Build</td>
+</tr>
+<tr>
+<td>Fichier de structure :</td><td>Z:\Developpement\VIN SUR VIN 7.0.0 V15\V_15\Vin sur Vin V15 boutik 7.0.0 fr\Cave &agrave; Vin.4DB</td>
+</tr>
+<tr>
+<td>Fichier de donn&eacute;es :</td><td></td>
+</tr>
+<tr>
+<td>Syst&egrave;me d'exploitation : </td><td>Windows 7 SP1, 64-bit</td>
+</tr>
+<tr>
+<td>Commenc&eacute; le :</td><td>2016-02-29T18:19:48+01:00</td>
+</tr>
+<tr>
+<td>Fini le : </td><td>2016-02-29T18:22:22+01:00</td>
+</tr>
+</table>
+<ul id="menu">
+<li>
+<a href="#" onclick="showAll();">Tout montrer</a> / <a href="#" onclick="hideAll();">Tout cacher</a>
+</li>
+<li>
+<a href="#" onclick="showErrorsOrWarnings('error');">Montrer les erreurs</a> / <a href="#" onclick="hideErrorsOrWarnings('error');">Cacher les erreurs</a>
+</li>
+<li>
+<a href="#" onclick="showErrorsOrWarnings('warning');">Montrer les avertissements</a> / <a href="#" onclick="hideErrorsOrWarnings('warning');">Cacher les avertissements</a>
+</li>
+</ul>
+</div>
+<div id="contents">
+<!--Verify-->
+<h2>1. Building stand alone application [<a href="#N1C38E278N1C48E2F8" onclick="display('N1C38E278N1C48E2F8');" class="ok">OK</a>]</h2>
+<div id="N1C38E278N1C48E2F8" class="operations hidden">
+<div class="operation">
+<h3>D&eacute;but de construction de la cible 'Application' [2016-02-29T18:20:27] [<b class="ok">OK</b>]</h3>
+</div>
+<div class="operation">
+<h3>Copie du plug-in de Z:\Developpement\VIN SUR VIN 7.0.0 V15\V_15\Vin sur Vin V15 boutik 7.0.0 fr\Plugins\4D InternetCommands.bundle\ vers Z:\Developpement\VIN SUR VIN 7.0.0 V15\Final Application\Vin sur Vin\Plugins\. [<b class="ok">OK</b>]</h3>
+</div>
+<div class="operation">
+<h3>Copie du plug-in de Z:\Developpement\VIN SUR VIN 7.0.0 V15\V_15\Vin sur Vin V15 boutik 7.0.0 fr\Plugins\4D Pack.bundle\ vers Z:\Developpement\VIN SUR VIN 7.0.0 V15\Final Application\Vin sur Vin\Plugins\. [<b class="ok">OK</b>]</h3>
+</div>
+<div class="operation">
+<h3>Copie du plug-in de Z:\Developpement\VIN SUR VIN 7.0.0 V15\V_15\Vin sur Vin V15 boutik 7.0.0 fr\Plugins\4D Write.bundle\ vers Z:\Developpement\VIN SUR VIN 7.0.0 V15\Final Application\Vin sur Vin\Plugins\. [<b class="ok">OK</b>]</h3>
+</div>
+<div class="operation">
+<h3>Copie du composant de Z:\Developpement\VIN SUR VIN 7.0.0 V15\V_15\Vin sur Vin V15 boutik 7.0.0 fr\Components\KLETEL.4dbase\ vers Z:\Developpement\VIN SUR VIN 7.0.0 V15\Final Application\Vin sur Vin\Components\. [<b class="ok">OK</b>]</h3>
+</div>
+<div class="operation">
+<h3>Copie du composant de Z:\Developpement\VIN SUR VIN 7.0.0 V15\V_15\Vin sur Vin V15 boutik 7.0.0 fr\Components\SVG Area.4dbase\ vers Z:\Developpement\VIN SUR VIN 7.0.0 V15\Final Application\Vin sur Vin\Components\. [<b class="ok">OK</b>]</h3>
+</div>
+<div class="operation">
+<h3>Copie du composant de C:\Program Files (x86)\4D\4D v15.1\4D\Components\4D Progress.4dbase\ vers Z:\Developpement\VIN SUR VIN 7.0.0 V15\Final Application\Vin sur Vin\Components\. [<b class="ok">OK</b>]</h3>
+</div>
+<div class="operation">
+<h3>Copie du composant de C:\Program Files (x86)\4D\4D v15.1\4D\Components\4D SVG.4dbase\ vers Z:\Developpement\VIN SUR VIN 7.0.0 V15\Final Application\Vin sur Vin\Components\. [<b class="ok">OK</b>]</h3>
+</div>
+<div class="operation">
+<h3>Copie du composant de C:\Program Files (x86)\4D\4D v15.1\4D\Components\4D Widgets.4dbase\ vers Z:\Developpement\VIN SUR VIN 7.0.0 V15\Final Application\Vin sur Vin\Components\. [<b class="ok">OK</b>]</h3>
+</div>
+<div class="operation">
+<h3>D&eacute;but de copie des fichiers : Z:\Developpement\VIN SUR VIN 7.0.0 V15\Final Application\Vin sur Vin\Database\Vin sur Vin.4DC [<b class="ok">OK</b>]</h3>
+</div>
+<div class="operation">
+<h3>Fin de copie des fichiers : Z:\Developpement\VIN SUR VIN 7.0.0 V15\Final Application\Vin sur Vin\Database\Vin sur Vin.4DC [<b class="ok">OK</b>]</h3>
+</div>
+<div class="operation">
+<h3>Copie du fichier de licence de C:\ProgramData\4D\Licenses\PNUD150UUC001BC50Z0C677.license4D vers Z:\Developpement\VIN SUR VIN 7.0.0 V15\Final Application\Vin sur Vin\Licenses\2.license4D. [<b class="ok">OK</b>]</h3>
+</div>
+<div class="operation">
+<h3>Fin de construction de la cible 'Application' [2016-02-29T18:22:22] [<b class="ok">OK</b>]</h3>
+</div>
+</div>
+</div>
+</body>
+</html>

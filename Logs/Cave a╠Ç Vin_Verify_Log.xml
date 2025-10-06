@@ -1,0 +1,1798 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<verifylog operation="Verify" name="Cave à Vin" structure="snowleopard:Users:datareaver:Desktop:VIN SUR VIN 6.0.2:sources:appstorefr:Vin sur Vin V12 appstore test receipt 6.0.2:Cave à Vin.4DB" data="" os="Mac OS X (10.6.8)">
+<start_timer time="2011-09-09T14:55:38+02:00"/>
+<step title="Ouverture de la base en mode maintenance">
+</step>
+<step title="Vérification de l&apos;intégrité de la structure">
+	<step title="Vérification de la table des bits du segment 1">
+	</step>
+	<step title="Vérification de la table des bits du segment 65">
+	</step>
+	<step title="Vérification des définitions de la numérotation automatique">
+	</step>
+	<step title="Vérification de la chaîne de définition de numérotation automatique supprimée">
+	</step>
+	<step title="Vérification des définitions de tables des données">
+	</step>
+	<step title="Vérification de la chaîne de définitions de tables supprimées">
+	</step>
+	<step title="Vérification des définitions de liens">
+	</step>
+	<step title="Vérification des listes de définitions de liens supprimées">
+	</step>
+	<step title="Vérification des définitions d’index">
+	</step>
+	<step title="Vérification de la chaîne de définitions d’index supprimés">
+	</step>
+	<step title="Vérification des définitions d’index de sauvegarde">
+	</step>
+	<step title="Vérification de la chaîne de définition d’index de sauvegarde supprimés">
+	</step>
+	<step title="Chargement des tables de données">
+		<step title="Vérification des entêtes de la table des données">
+		</step>
+		<step title="Vérification de la chaîne des entêtes de la table des données supprimées">
+		</step>
+	</step>
+	<step title="Vérification des BLOBs dans la table Resources">
+	</step>
+	<step title="Vérification de la liste des BLOBs supprimés dans la table Resources">
+	</step>
+	<step title="Vérification des enregistrements dans la table Resources">
+	</step>
+	<step title="Vérification de la liste des enregistrements supprimés dans la table Resources">
+	</step>
+	<step title="Vérification des BLOBs dans la table [Table#2]">
+	</step>
+	<step title="Vérification de la liste des BLOBs supprimés dans la table [Table#2]">
+	</step>
+	<step title="Vérification des enregistrements dans la table [Table#2]">
+	</step>
+	<step title="Vérification de la liste des enregistrements supprimés dans la table [Table#2]">
+	</step>
+	<step title="Vérification de l&apos;index sur Index B-tree 0 sur kind (TYPE only)">
+		<step title="Vérification des adresses des pages d’index de l&apos;Index B-tree 0 sur kind (TYPE only)">
+		</step>
+		<step title="Vérification des pages d’index de l&apos;Index B-tree 0 sur kind (TYPE only)">
+		</step>
+	</step>
+	<step title="Vérification de l&apos;index sur Index B-tree 1 sur stamp (stamp)">
+		<step title="Vérification des adresses des pages d’index de l&apos;Index B-tree 1 sur stamp (stamp)">
+		</step>
+		<step title="Vérification des pages d’index de l&apos;Index B-tree 1 sur stamp (stamp)">
+		</step>
+	</step>
+	<step title="Vérification de l&apos;index sur Index B-tree 2 sur kind , id (TYPE and ID)">
+		<step title="Vérification des adresses des pages d’index de l&apos;Index B-tree 2 sur kind , id (TYPE and ID)">
+		</step>
+		<step title="Vérification des pages d’index de l&apos;Index B-tree 2 sur kind , id (TYPE and ID)">
+		</step>
+	</step>
+</step>
+<step title="Initialisation des ressources pour l&apos;opération de vérification">
+</step>
+<step title="Vérification des méthodes base">
+	<step title="Sur ouverture">
+		<info>Sur ouverture : 155 lines</info>
+	</step>
+	<step title="Sur démarrage serveur">
+		<info>Sur démarrage serveur : 4 lines</info>
+	</step>
+	<step title="Sur arrêt serveur">
+		<info>Sur arrêt serveur : 3 lines</info>
+	</step>
+	<step title="Sur ouverture connexion serveur">
+		<info>Sur ouverture connexion serveur : 3 lines</info>
+	</step>
+	<step title="Sur connexion Web">
+		<info>Sur connexion Web : 4 lines</info>
+	</step>
+	<step title="Sur fermeture connexion serveur">
+		<info>Sur fermeture connexion serveur : 0 lines</info>
+	</step>
+</step>
+<step title="Vérification des méthodes triggers">
+	<step title="Cave">
+		<info>Cave : 28 lines</info>
+	</step>
+	<step title="Cépages">
+		<info>Cépages : 1 lines</info>
+	</step>
+	<step title="Pays">
+		<info>Pays : 3 lines</info>
+	</step>
+	<step title="Region">
+		<info>Region : 3 lines</info>
+	</step>
+	<step title="Producteur">
+		<info>Producteur : 4 lines</info>
+	</step>
+	<step title="Utilisateur">
+		<info>Utilisateur : 4 lines</info>
+	</step>
+</step>
+<step title="Vérification des méthodes projet">
+	<step title="Correctifs">
+		<info>Correctifs : 113 lines</info>
+	</step>
+	<step title="Vérifier_Enregistrement2">
+		<info>Vérifier_Enregistrement2 : 78 lines</info>
+	</step>
+	<step title="Macro_Exp_Structure">
+		<info>Macro_Exp_Structure : 93 lines</info>
+	</step>
+	<step title="Kle_Crea_Ref">
+		<info>Kle_Crea_Ref : 24 lines</info>
+	</step>
+	<step title="Export_Infos">
+		<info>Export_Infos : 13 lines</info>
+	</step>
+	<step title="Proc_Millesimes">
+		<info>Proc_Millesimes : 29 lines</info>
+	</step>
+	<step title="LstB_Modifie_Colonne">
+		<info>LstB_Modifie_Colonne : 81 lines</info>
+	</step>
+	<step title="Fermer_Cave">
+		<info>Fermer_Cave : 2 lines</info>
+	</step>
+	<step title="888_Fenêtre">
+		<info>888_Fenêtre : 51 lines</info>
+	</step>
+	<step title="Kle_Demander">
+		<info>Kle_Demander : 11 lines</info>
+	</step>
+	<step title="Mode_Expert">
+		<info>Mode_Expert : 7 lines</info>
+	</step>
+	<step title="Mode_Normal">
+		<info>Mode_Normal : 8 lines</info>
+	</step>
+	<step title="Modif_Image">
+		<info>Modif_Image : 14 lines</info>
+	</step>
+	<step title="Kle_Export_All">
+		<info>Kle_Export_All : 8 lines</info>
+	</step>
+	<step title="Restructuration_Tableau_Traduc">
+		<info>Restructuration_Tableau_Traduc : 7 lines</info>
+	</step>
+	<step title="Proc_Producteur">
+		<info>Proc_Producteur : 30 lines</info>
+	</step>
+	<step title="Kle_export_Table">
+		<info>Kle_export_Table : 31 lines</info>
+	</step>
+	<step title="Init_Zone_Draw">
+		<info>Init_Zone_Draw : 15 lines</info>
+	</step>
+	<step title="111_Numéro_Enregistrement">
+		<info>111_Numéro_Enregistrement : 15 lines</info>
+	</step>
+	<step title="Verif_Code">
+		<info>Verif_Code : 59 lines</info>
+	</step>
+	<step title="Exporter">
+		<info>Exporter : 2 lines</info>
+	</step>
+	<step title="Proc_Cave">
+		<info>Proc_Cave : 30 lines</info>
+	</step>
+	<step title="Fermer">
+		<info>Fermer : 6 lines</info>
+	</step>
+	<step title="RegeneCle">
+		<info>RegeneCle : 17 lines</info>
+	</step>
+	<step title="Fermer2">
+		<info>Fermer2 : 7 lines</info>
+	</step>
+	<step title="LstB_Affiche_Selection">
+		<info>LstB_Affiche_Selection : 35 lines</info>
+	</step>
+	<step title="p_Apropos">
+		<info>p_Apropos : 1 lines</info>
+	</step>
+	<step title="p_Bien">
+		<info>p_Bien : 9 lines</info>
+	</step>
+	<step title="Fermer_Vocab">
+		<info>Fermer_Vocab : 2 lines</info>
+	</step>
+	<step title="p_Cave">
+		<info>p_Cave : 8 lines</info>
+	</step>
+	<step title="Proc_Cepage">
+		<info>Proc_Cepage : 29 lines</info>
+	</step>
+	<step title="p_Cepage">
+		<info>p_Cepage : 8 lines</info>
+	</step>
+	<step title="Verif_Lien_App_Mets">
+		<info>Verif_Lien_App_Mets : 12 lines</info>
+	</step>
+	<step title="p_Degust">
+		<info>p_Degust : 9 lines</info>
+	</step>
+	<step title="Serialisation">
+		<info>Serialisation : 2 lines</info>
+	</step>
+	<step title="Démarrage">
+		<info>Démarrage : 302 lines</info>
+	</step>
+	<step title="Kle_Import_All">
+		<info>Kle_Import_All : 8 lines</info>
+	</step>
+	<step title="Palette">
+		<info>Palette : 10 lines</info>
+	</step>
+	<step title="Sup_Spc">
+		<info>Sup_Spc : 14 lines</info>
+	</step>
+	<step title="Kle_Import_Table">
+		<info>Kle_Import_Table : 37 lines</info>
+	</step>
+	<step title="Position2">
+		<info>Position2 : 7 lines</info>
+	</step>
+	<step title="p_Producteur">
+		<info>p_Producteur : 9 lines</info>
+	</step>
+	<step title="Kle_Langue">
+		<info>Kle_Langue : 71 lines</info>
+	</step>
+	<step title="p_Vocab">
+		<info>p_Vocab : 8 lines</info>
+	</step>
+	<step title="Traduc_Table_DK">
+		<info>Traduc_Table_DK : 1 lines</info>
+	</step>
+	<step title="Traduc_Table_Fr">
+		<info>Traduc_Table_Fr : 651 lines</info>
+	</step>
+	<step title="Proc_Bien_Gerer">
+		<info>Proc_Bien_Gerer : 26 lines</info>
+	</step>
+	<step title="Vérifier_Enregistrement">
+		<info>Vérifier_Enregistrement : 56 lines</info>
+	</step>
+	<step title="Traduc_Table_US">
+		<info>Traduc_Table_US : 650 lines</info>
+	</step>
+	<step title="Init_Pop_Pays">
+		<info>Init_Pop_Pays : 14 lines</info>
+	</step>
+	<step title="Calcul_Qu_Region">
+		<info>Calcul_Qu_Region : 27 lines</info>
+	</step>
+	<step title="Calcul_Région">
+		<info>Calcul_Région : 53 lines</info>
+	</step>
+	<step title="Proc_Vos_Degust">
+		<info>Proc_Vos_Degust : 33 lines</info>
+	</step>
+	<step title="Changer_Langue">
+		<info>Changer_Langue : 15 lines</info>
+	</step>
+	<step title="calcul_Valeure">
+		<info>calcul_Valeure : 39 lines</info>
+	</step>
+	<step title="Kle_Confirmer">
+		<info>Kle_Confirmer : 5 lines</info>
+	</step>
+	<step title="p_Millesimes">
+		<info>p_Millesimes : 9 lines</info>
+	</step>
+	<step title="Sup_Serie">
+		<info>Sup_Serie : 5 lines</info>
+	</step>
+	<step title="Grapher">
+		<info>Grapher : 164 lines</info>
+	</step>
+	<step title="Proc_Degustation">
+		<info>Proc_Degustation : 29 lines</info>
+	</step>
+	<step title="Vidage Base">
+		<info>Vidage Base : 1 lines</info>
+	</step>
+	<step title="Fermer_Cepage">
+		<info>Fermer_Cepage : 2 lines</info>
+	</step>
+	<step title="Maj_Libelle_Région">
+		<info>Maj_Libelle_Région : 11 lines</info>
+	</step>
+	<step title="Fermer_Mets">
+		<info>Fermer_Mets : 2 lines</info>
+	</step>
+	<step title="Qui">
+		<info>Qui : 6 lines</info>
+	</step>
+	<step title="Conv_App">
+		<info>Conv_App : 7 lines</info>
+	</step>
+	<step title="Numéro_Série">
+		<info>Numéro_Série : 46 lines</info>
+	</step>
+	<step title="Rech_Valeur_PopUp">
+		<info>Rech_Valeur_PopUp : 13 lines</info>
+	</step>
+	<step title="LstB_Supprimer_Selection">
+		<info>LstB_Supprimer_Selection : 17 lines</info>
+	</step>
+	<step title="p_Mets">
+		<info>p_Mets : 8 lines</info>
+	</step>
+	<step title="Sup_0_Millesimes">
+		<info>Sup_0_Millesimes : 34 lines</info>
+	</step>
+	<step title="Supp_Asso">
+		<info>Supp_Asso : 2 lines</info>
+	</step>
+	<step title="Import_AncVers">
+		<info>Import_AncVers : 72 lines</info>
+	</step>
+	<step title="p_Present">
+		<info>p_Present : 7 lines</info>
+	</step>
+	<step title="p_Vos_Degust">
+		<info>p_Vos_Degust : 9 lines</info>
+	</step>
+	<step title="A_Propos">
+		<info>A_Propos : 7 lines</info>
+	</step>
+	<step title="Init_Pop_Region">
+		<info>Init_Pop_Region : 18 lines</info>
+	</step>
+	<step title="Traduc_Table">
+		<info>Traduc_Table : 20 lines</info>
+	</step>
+	<step title="Proc_Mets">
+		<info>Proc_Mets : 30 lines</info>
+	</step>
+	<step title="Init_Var_Interface">
+		<info>Init_Var_Interface : 15 lines</info>
+	</step>
+	<step title="Init_Langue">
+		<info>Init_Langue : 903 lines</info>
+	</step>
+	<step title="Rech_asso">
+		<info>Rech_asso : 30 lines</info>
+	</step>
+	<step title="Importer">
+		<info>Importer : 2 lines</info>
+	</step>
+	<step title="Fermer_Vos_Degust">
+		<info>Fermer_Vos_Degust : 1 lines</info>
+	</step>
+	<step title="Kle_Alerte">
+		<info>Kle_Alerte : 5 lines</info>
+	</step>
+	<step title="init data">
+		<info>init data : 12 lines</info>
+	</step>
+	<step title="Fermer_Degustation">
+		<info>Fermer_Degustation : 1 lines</info>
+	</step>
+	<step title="Proc_Vocab">
+		<info>Proc_Vocab : 28 lines</info>
+	</step>
+	<step title="init_User">
+		<info>init_User : 4 lines</info>
+	</step>
+	<step title="Reactu_Tableau_cave">
+		<info>Reactu_Tableau_cave : 155 lines</info>
+	</step>
+	<step title="Lst_Box_Sauve_Interface">
+		<info>Lst_Box_Sauve_Interface : 13 lines</info>
+	</step>
+	<step title="Lst_Box_Restaure_Interface">
+		<info>Lst_Box_Restaure_Interface : 153 lines</info>
+	</step>
+	<step title="Aff_Btn_Fiche_Cave">
+		<info>Aff_Btn_Fiche_Cave : 19 lines</info>
+	</step>
+	<step title="Import_Chateau_on_Line">
+		<info>Import_Chateau_on_Line : 7 lines</info>
+	</step>
+	<step title="Kle_Repup_Url">
+		<info>Kle_Repup_Url : 57 lines</info>
+	</step>
+	<step title="Import_Recup_Image">
+		<info>Import_Recup_Image : 50 lines</info>
+	</step>
+	<step title="Importation_ChateauOnline_Recup">
+		<info>Importation_ChateauOnline_Recup : 57 lines</info>
+	</step>
+	<step title="Compiler_Web">
+		<info>Compiler_Web : 2 lines</info>
+	</step>
+	<step title="Chateau_Analyse">
+		<info>Chateau_Analyse : 32 lines</info>
+	</step>
+	<step title="Chat_Recup">
+		<info>Chat_Recup : 8 lines</info>
+	</step>
+	<step title="MAJ DATA">
+		<info>MAJ DATA : 4 lines</info>
+	</step>
+	<step title="Dev">
+		<info>Dev : 10 lines</info>
+	</step>
+	<step title="Redeplace Btn">
+		<info>Redeplace Btn : 8 lines</info>
+	</step>
+	<step title="Lst_Cave_Redim_Interface">
+		<info>Lst_Cave_Redim_Interface : 54 lines</info>
+	</step>
+	<step title="Cave_Init_enum">
+		<info>Cave_Init_enum : 71 lines</info>
+	</step>
+	<step title="Cave_Graphe_liste">
+		<info>Cave_Graphe_liste : 112 lines</info>
+	</step>
+	<step title="Import_OD_AR">
+		<info>Import_OD_AR : 1 lines</info>
+	</step>
+	<step title="Supp_acc">
+		<info>Supp_acc : 8 lines</info>
+	</step>
+	<step title="ErrSVG">
+		<info>ErrSVG : 1 lines</info>
+	</step>
+	<step title="WebServ_Inscription">
+		<info>WebServ_Inscription : 40 lines</info>
+	</step>
+	<step title="p_Erreur">
+		<info>p_Erreur : 1 lines</info>
+	</step>
+	<step title="import_Donnees">
+		<info>import_Donnees : 60 lines</info>
+	</step>
+	<step title="Init_DataBase">
+		<info>Init_DataBase : 86 lines</info>
+	</step>
+	<step title="attente">
+		<info>attente : 123 lines</info>
+	</step>
+	<step title="init_Carte_cave">
+		<info>init_Carte_cave : 11 lines</info>
+	</step>
+	<step title="Compiler_Variables_Inter">
+		<info>Compiler_Variables_Inter : 48 lines</info>
+	</step>
+	<step title="Compiler_Arrays_Inter">
+		<info>Compiler_Arrays_Inter : 3 lines</info>
+	</step>
+	<step title="Compiler_Variables">
+		<info>Compiler_Variables : 247 lines</info>
+	</step>
+	<step title="Compiler_Arrays">
+		<info>Compiler_Arrays : 70 lines</info>
+	</step>
+	<step title="Compiler_Methods">
+		<info>Compiler_Methods : 129 lines</info>
+	</step>
+	<step title="Kle_Maintenance">
+		<info>Kle_Maintenance : 1 lines</info>
+	</step>
+	<step title="Gen_GetTerme_Id">
+		<info>Gen_GetTerme_Id : 42 lines</info>
+	</step>
+	<step title="Gen_GetTermeAuto">
+		<info>Gen_GetTermeAuto : 36 lines</info>
+	</step>
+	<step title="Gen_MakeNumerotation">
+		<info>Gen_MakeNumerotation : 46 lines</info>
+	</step>
+	<step title="Gen_NumerAuto">
+		<info>Gen_NumerAuto : 41 lines</info>
+	</step>
+	<step title="GEN_PreparerChemin">
+		<info>GEN_PreparerChemin : 53 lines</info>
+	</step>
+	<step title="Gen_StampFiche">
+		<info>Gen_StampFiche : 1 lines</info>
+	</step>
+	<step title="GEN_SupprimerSelection">
+		<info>GEN_SupprimerSelection : 50 lines</info>
+	</step>
+	<step title="GEN_tCheminDossier">
+		<info>GEN_tCheminDossier : 39 lines</info>
+	</step>
+	<step title="GEN_tFormatChemin">
+		<info>GEN_tFormatChemin : 36 lines</info>
+	</step>
+	<step title="GEN_Wait">
+		<info>GEN_Wait : 22 lines</info>
+	</step>
+	<step title="GEN_WaitVerrou">
+		<info>GEN_WaitVerrou : 56 lines</info>
+	</step>
+	<step title="STL_Export_X1">
+		<info>STL_Export_X1 : 59 lines</info>
+	</step>
+	<step title="STL_Exporte">
+		<info>STL_Exporte : 67 lines</info>
+	</step>
+	<step title="STL_Importe">
+		<info>STL_Importe : 74 lines</info>
+	</step>
+	<step title="GestPrefs">
+		<info>GestPrefs : 94 lines</info>
+	</step>
+	<step title="P_CheckConfig">
+		<info>P_CheckConfig : 340 lines</info>
+	</step>
+	<step title="P_RunAppStorePlugin">
+		<info>P_RunAppStorePlugin : 95 lines</info>
+	</step>
+	<step title="Tool_Adresse_Mac">
+		<info>Tool_Adresse_Mac : 54 lines</info>
+	</step>
+	<step title="Nomlongverscheminacces">
+		<info>Nomlongverscheminacces : 28 lines</info>
+	</step>
+	<step title="Nomlongversnomde fichier">
+		<info>Nomlongversnomde fichier : 26 lines</info>
+	</step>
+	<step title="Symbole_separateur">
+		<info>Symbole_separateur : 15 lines</info>
+	</step>
+	<step title="Util_XML_texte_Encode">
+		<info>Util_XML_texte_Encode : 8 lines</info>
+	</step>
+	<step title="WIN_fIsWindows">
+		<info>WIN_fIsWindows : 53 lines</info>
+	</step>
+	<step title="Kle_Creer_Ref">
+		<info>Kle_Creer_Ref : 1 lines</info>
+	</step>
+	<step title="Proxy_Check_Registration">
+		<info>Proxy_Check_Registration : 24 lines</info>
+	</step>
+	<step title="P_enlevespace">
+		<info>P_enlevespace : 64 lines</info>
+	</step>
+	<step title="___Orphan___102">
+		<info>___Orphan___102 : 9 lines</info>
+	</step>
+	<step title="___Orphan___99">
+		<info>___Orphan___99 : 9 lines</info>
+	</step>
+	<info>149 project methods</info>
+</step>
+<step title="Vérification des formulaires projet">
+	<step title="Recup">
+		<step title="Recup.Page1.Bouton (Bouton)">
+			<info>Recup.Page1.Bouton (Bouton) : 28 lines</info>
+		</step>
+		<warning warning_type="0" warning_num="0">Feuille de style référencée non trouvé pour cet objet : Recup.Page1.Bouton (Bouton)</warning>
+	</step>
+	<info>1 project forms</info>
+</step>
+<step title="Vérification des formulaires table">
+	<step title="[Interface].Producteurs">
+		<step title="[Interface].Producteurs">
+			<info>[Interface].Producteurs : 10 lines</info>
+		</step>
+		<step title="[Interface].Producteurs.Page1.Variable17 (vSearchValue2)">
+			<info>[Interface].Producteurs.Page1.Variable17 (vSearchValue2) : 52 lines</info>
+		</step>
+		<warning warning_type="0" warning_num="0">Feuille de style référencée non trouvé pour cet objet : [Interface].Producteurs.Page1.Variable17 (vSearchValue2)</warning>
+		<step title="[Interface].Producteurs.Page1.SearchCriteria3 (vSearchCriteria2)">
+			<info>[Interface].Producteurs.Page1.SearchCriteria3 (vSearchCriteria2) : 2 lines</info>
+		</step>
+		<step title="[Interface].Producteurs.Page1.Bouton image13 (Bouton1)">
+			<info>[Interface].Producteurs.Page1.Bouton image13 (Bouton1) : 3 lines</info>
+		</step>
+		<step title="[Interface].Producteurs.Page1.Bouton image2 (Bouton1)">
+			<info>[Interface].Producteurs.Page1.Bouton image2 (Bouton1) : 15 lines</info>
+		</step>
+		<step title="[Interface].Producteurs.Page1.Bouton image6 (Bouton1)">
+			<info>[Interface].Producteurs.Page1.Bouton image6 (Bouton1) : 6 lines</info>
+		</step>
+	</step>
+	<step title="[Interface].Recherche">
+		<step title="[Interface].Recherche">
+			<info>[Interface].Recherche : 53 lines</info>
+		</step>
+		<step title="[Interface].Recherche.Page1.Zone de défilement1 (Z_Rech_1)">
+			<info>[Interface].Recherche.Page1.Zone de défilement1 (Z_Rech_1) : 7 lines</info>
+		</step>
+		<step title="[Interface].Recherche.Page1.Zone de défilement2 (Z_Rech_2)">
+			<info>[Interface].Recherche.Page1.Zone de défilement2 (Z_Rech_2) : 7 lines</info>
+		</step>
+		<step title="[Interface].Recherche.Page1.Zone de défilement3 (Z_Rech_3)">
+			<info>[Interface].Recherche.Page1.Zone de défilement3 (Z_Rech_3) : 7 lines</info>
+		</step>
+		<step title="[Interface].Recherche.Page1.Zone de défilement4 (Z_Zones)">
+			<info>[Interface].Recherche.Page1.Zone de défilement4 (Z_Zones) : 4 lines</info>
+		</step>
+		<step title="[Interface].Recherche.Page1.Zone de défilement5 (Z_Compar)">
+			<info>[Interface].Recherche.Page1.Zone de défilement5 (Z_Compar) : 4 lines</info>
+		</step>
+		<step title="[Interface].Recherche.Page1.Bouton1 (Bouton1)">
+			<info>[Interface].Recherche.Page1.Bouton1 (Bouton1) : 1 lines</info>
+		</step>
+		<step title="[Interface].Recherche.Page1.Bouton3 (Bouton2)">
+			<info>[Interface].Recherche.Page1.Bouton3 (Bouton2) : 11 lines</info>
+		</step>
+		<step title="[Interface].Recherche.Page1.Bouton4 (Bouton2)">
+			<info>[Interface].Recherche.Page1.Bouton4 (Bouton2) : 16 lines</info>
+		</step>
+		<step title="[Interface].Recherche.Page1.Bouton5 (Bouton2)">
+			<info>[Interface].Recherche.Page1.Bouton5 (Bouton2) : 80 lines</info>
+		</step>
+	</step>
+	<step title="[Interface].Serialisation">
+		<step title="[Interface].Serialisation.Page1.Bouton 3D2 (Bouton 3D1)">
+			<info>[Interface].Serialisation.Page1.Bouton 3D2 (Bouton 3D1) : 18 lines</info>
+		</step>
+	</step>
+	<step title="[Interface].Vos_degustation">
+		<step title="[Interface].Vos_degustation">
+			<info>[Interface].Vos_degustation : 9 lines</info>
+		</step>
+		<step title="[Interface].Vos_degustation.Page1.Bouton image7 (Bouton8)">
+			<info>[Interface].Vos_degustation.Page1.Bouton image7 (Bouton8) : 3 lines</info>
+		</step>
+		<step title="[Interface].Vos_degustation.Page1.VD_Bouton image3 (VD_Bouton3)">
+			<info>[Interface].Vos_degustation.Page1.VD_Bouton image3 (VD_Bouton3) : 7 lines</info>
+		</step>
+		<step title="[Interface].Vos_degustation.Page1.VD_Bouton image2 (VD_Bouton2)">
+			<info>[Interface].Vos_degustation.Page1.VD_Bouton image2 (VD_Bouton2) : 7 lines</info>
+		</step>
+		<step title="[Interface].Vos_degustation.Page1.VD_Bouton image1 (VD_Bouton1)">
+			<info>[Interface].Vos_degustation.Page1.VD_Bouton image1 (VD_Bouton1) : 7 lines</info>
+		</step>
+	</step>
+	<step title="[Interface].Web">
+		<step title="[Interface].Web">
+			<info>[Interface].Web : 21 lines</info>
+		</step>
+		<step title="[Interface].Web.Page1.Ong_Site (Ong_Site)">
+			<info>[Interface].Web.Page1.Ong_Site (Ong_Site) : 6 lines</info>
+		</step>
+		<step title="[Interface].Web.Page1.Zone de défilement1 (V_Sites)">
+			<info>[Interface].Web.Page1.Zone de défilement1 (V_Sites) : 17 lines</info>
+		</step>
+		<step title="[Interface].Web.Page1.Bouton inversé6 (Bt_cave)">
+			<info>[Interface].Web.Page1.Bouton inversé6 (Bt_cave) : 25 lines</info>
+		</step>
+		<step title="[Interface].Web.Page1.Bouton inversé7 (Bt_cave)">
+			<info>[Interface].Web.Page1.Bouton inversé7 (Bt_cave) : 28 lines</info>
+		</step>
+		<step title="[Interface].Web.Page1.Bouton inversé8 (Bt_cave)">
+			<info>[Interface].Web.Page1.Bouton inversé8 (Bt_cave) : 4 lines</info>
+		</step>
+		<step title="[Interface].Web.Page1.Bouton inversé9 (Bt_cave)">
+			<info>[Interface].Web.Page1.Bouton inversé9 (Bt_cave) : 6 lines</info>
+		</step>
+	</step>
+	<step title="[Interface].Degustation">
+		<step title="[Interface].Degustation">
+			<info>[Interface].Degustation : 75 lines</info>
+		</step>
+		<step title="[Interface].Degustation.Page0.Onglet1 (Lst_Infos)">
+			<info>[Interface].Degustation.Page0.Onglet1 (Lst_Infos) : 4 lines</info>
+		</step>
+		<step title="[Interface].Degustation.Page0.Zone de défilement1 (Lst_Nom_Info)">
+			<info>[Interface].Degustation.Page0.Zone de défilement1 (Lst_Nom_Info) : 42 lines</info>
+		</step>
+		<step title="[Interface].Degustation.Page0.Bouton inversé1 (Bt_Pred)">
+			<info>[Interface].Degustation.Page0.Bouton inversé1 (Bt_Pred) : 5 lines</info>
+		</step>
+		<step title="[Interface].Degustation.Page0.Bouton inversé2 (Bt_Sui)">
+			<info>[Interface].Degustation.Page0.Bouton inversé2 (Bt_Sui) : 2 lines</info>
+		</step>
+		<step title="[Interface].Degustation.Page0.Bouton image3 (Bt_Ann)">
+			<info>[Interface].Degustation.Page0.Bouton image3 (Bt_Ann) : 14 lines</info>
+		</step>
+	</step>
+	<step title="[Interface].Dictionnaire">
+		<step title="[Interface].Dictionnaire">
+			<info>[Interface].Dictionnaire : 11 lines</info>
+		</step>
+		<step title="[Interface].Dictionnaire.Page1.Zone de défilement1 (Lst)">
+			<info>[Interface].Dictionnaire.Page1.Zone de défilement1 (Lst) : 8 lines</info>
+		</step>
+		<step title="[Interface].Dictionnaire.Page1.Bouton image1 (Bouton1)">
+			<info>[Interface].Dictionnaire.Page1.Bouton image1 (Bouton1) : 11 lines</info>
+		</step>
+		<step title="[Interface].Dictionnaire.Page1.Bouton image2 (Bouton1)">
+			<info>[Interface].Dictionnaire.Page1.Bouton image2 (Bouton1) : 4 lines</info>
+		</step>
+		<step title="[Interface].Dictionnaire.Page1.Bouton image3 (Bouton1)">
+			<info>[Interface].Dictionnaire.Page1.Bouton image3 (Bouton1) : 11 lines</info>
+		</step>
+		<step title="[Interface].Dictionnaire.Page1.Bouton image4 (Bouton1)">
+			<info>[Interface].Dictionnaire.Page1.Bouton image4 (Bouton1) : 7 lines</info>
+		</step>
+		<step title="[Interface].Dictionnaire.Page1.Bouton image5 (Bouton1)">
+			<info>[Interface].Dictionnaire.Page1.Bouton image5 (Bouton1) : 8 lines</info>
+		</step>
+	</step>
+	<step title="[Interface].Appellations">
+		<step title="[Interface].Appellations">
+			<info>[Interface].Appellations : 85 lines</info>
+		</step>
+		<step title="[Interface].Appellations.Page0.Bouton1 (Bouton1)">
+			<info>[Interface].Appellations.Page0.Bouton1 (Bouton1) : 17 lines</info>
+		</step>
+		<step title="[Interface].Appellations.Page0.Bouton image1 (Bt_Ann)">
+			<info>[Interface].Appellations.Page0.Bouton image1 (Bt_Ann) : 32 lines</info>
+		</step>
+		<step title="[Interface].Appellations.Page0.Bouton2 (Bouton1)">
+			<info>[Interface].Appellations.Page0.Bouton2 (Bouton1) : 14 lines</info>
+		</step>
+		<step title="[Interface].Appellations.Page1.List Box">
+			<info>[Interface].Appellations.Page1.List Box : 5 lines</info>
+		</step>
+		<step title="[Interface].Appellations.Page1.Liste hiérarchique1 (Lst_Pays_H)">
+			<info>[Interface].Appellations.Page1.Liste hiérarchique1 (Lst_Pays_H) : 30 lines</info>
+		</step>
+		<step title="[Interface].Appellations.Page1.Variable17 (vSearchValue2)">
+			<info>[Interface].Appellations.Page1.Variable17 (vSearchValue2) : 54 lines</info>
+		</step>
+		<warning warning_type="0" warning_num="0">Feuille de style référencée non trouvé pour cet objet : [Interface].Appellations.Page1.Variable17 (vSearchValue2)</warning>
+		<step title="[Interface].Appellations.Page1.SearchCriteria3 (vSearchCriteria2)">
+			<info>[Interface].Appellations.Page1.SearchCriteria3 (vSearchCriteria2) : 2 lines</info>
+		</step>
+		<step title="[Interface].Appellations.Page2.Onglet1 (LST_APP)">
+			<info>[Interface].Appellations.Page2.Onglet1 (LST_APP) : 32 lines</info>
+		</step>
+		<step title="[Interface].Appellations.Page2.Zone de défilement1 (ZL3)">
+			<info>[Interface].Appellations.Page2.Zone de défilement1 (ZL3) : 13 lines</info>
+		</step>
+		<step title="[Interface].Appellations.Page2.Zone de défilement2 (ZL2)">
+			<info>[Interface].Appellations.Page2.Zone de défilement2 (ZL2) : 14 lines</info>
+		</step>
+		<step title="[Interface].Appellations.Page2.Zone de défilement3 (ZL1)">
+			<info>[Interface].Appellations.Page2.Zone de défilement3 (ZL1) : 13 lines</info>
+		</step>
+		<step title="[Interface].Appellations.Page2.Bouton3 (Bouton3)">
+			<info>[Interface].Appellations.Page2.Bouton3 (Bouton3) : 6 lines</info>
+		</step>
+		<step title="[Interface].Appellations.Page2.Bouton4 (Bouton3)">
+			<info>[Interface].Appellations.Page2.Bouton4 (Bouton3) : 6 lines</info>
+		</step>
+		<step title="[Interface].Appellations.Page2.Bouton5 (Bouton3)">
+			<info>[Interface].Appellations.Page2.Bouton5 (Bouton3) : 6 lines</info>
+		</step>
+	</step>
+	<step title="[Interface].Associations">
+	</step>
+	<step title="[Interface].A_Propos">
+		<step title="[Interface].A_Propos">
+			<info>[Interface].A_Propos : 0 lines</info>
+		</step>
+		<warning warning_type="0" warning_num="0">Feuille de style référencée non trouvé pour cet objet : [Interface].A_Propos.Page1.Texte4</warning>
+		<step title="[Interface].A_Propos.Page2.Bouton image2 (Bt_Ann)">
+			<info>[Interface].A_Propos.Page2.Bouton image2 (Bt_Ann) : 9 lines</info>
+		</step>
+	</step>
+	<step title="[Interface].Imp_Mets">
+	</step>
+	<step title="[Interface].Bien_Gerer">
+		<step title="[Interface].Bien_Gerer">
+			<info>[Interface].Bien_Gerer : 76 lines</info>
+		</step>
+		<step title="[Interface].Bien_Gerer.Page0.Onglet1 (Lst_Infos)">
+			<info>[Interface].Bien_Gerer.Page0.Onglet1 (Lst_Infos) : 4 lines</info>
+		</step>
+		<step title="[Interface].Bien_Gerer.Page0.Zone de défilement1 (Lst_Nom_Info)">
+			<info>[Interface].Bien_Gerer.Page0.Zone de défilement1 (Lst_Nom_Info) : 43 lines</info>
+		</step>
+		<step title="[Interface].Bien_Gerer.Page0.Bouton inversé1 (Bt_Pred)">
+			<info>[Interface].Bien_Gerer.Page0.Bouton inversé1 (Bt_Pred) : 5 lines</info>
+		</step>
+		<step title="[Interface].Bien_Gerer.Page0.Bouton inversé2 (Bt_Sui)">
+			<info>[Interface].Bien_Gerer.Page0.Bouton inversé2 (Bt_Sui) : 2 lines</info>
+		</step>
+		<step title="[Interface].Bien_Gerer.Page0.Bouton image3 (Bt_Ann)">
+			<info>[Interface].Bien_Gerer.Page0.Bouton image3 (Bt_Ann) : 15 lines</info>
+		</step>
+	</step>
+	<step title="[Interface].Carte">
+		<step title="[Interface].Carte">
+			<info>[Interface].Carte : 78 lines</info>
+		</step>
+		<step title="[Interface].Carte.Page0.Onglet1 (Onglet1)">
+			<info>[Interface].Carte.Page0.Onglet1 (Onglet1) : 9 lines</info>
+		</step>
+		<step title="[Interface].Carte.Page0.Zone de défilement (Lst_Pays_H)">
+			<info>[Interface].Carte.Page0.Zone de défilement (Lst_Pays_H) : 15 lines</info>
+		</step>
+		<step title="[Interface].Carte.Page2.Bouton 3D1 (Bouton 3D1)">
+			<info>[Interface].Carte.Page2.Bouton 3D1 (Bouton 3D1) : 2 lines</info>
+		</step>
+		<step title="[Interface].Carte.Page2.Bouton 3D2 (Bouton 3D1)">
+			<info>[Interface].Carte.Page2.Bouton 3D2 (Bouton 3D1) : 2 lines</info>
+		</step>
+		<step title="[Interface].Carte.Page2.Bouton 3D3 (Bouton 3D1)">
+			<info>[Interface].Carte.Page2.Bouton 3D3 (Bouton 3D1) : 2 lines</info>
+		</step>
+		<step title="[Interface].Carte.Page2.Bouton 3D4 (Bouton 3D1)">
+			<info>[Interface].Carte.Page2.Bouton 3D4 (Bouton 3D1) : 2 lines</info>
+		</step>
+		<step title="[Interface].Carte.Page2.Case à cocher1 (V_Tout_Pays)">
+			<info>[Interface].Carte.Page2.Case à cocher1 (V_Tout_Pays) : 1 lines</info>
+		</step>
+	</step>
+	<step title="[Interface].Cépages">
+		<step title="[Interface].Cépages">
+			<info>[Interface].Cépages : 52 lines</info>
+		</step>
+		<step title="[Interface].Cépages.Page0.Onglet1 (Lst_Cepages)">
+			<info>[Interface].Cépages.Page0.Onglet1 (Lst_Cepages) : 21 lines</info>
+		</step>
+		<step title="[Interface].Cépages.Page0.Zone de défilement1 (Lst_Nom_Cepage)">
+			<info>[Interface].Cépages.Page0.Zone de défilement1 (Lst_Nom_Cepage) : 34 lines</info>
+		</step>
+	</step>
+	<step title="[Interface].kle_proexpert">
+		<step title="[Interface].kle_proexpert">
+			<info>[Interface].kle_proexpert : 0 lines</info>
+		</step>
+		<step title="[Interface].kle_proexpert.Page1.Bouton 3D1 (Bouton 3D1)">
+			<info>[Interface].kle_proexpert.Page1.Bouton 3D1 (Bouton 3D1) : 3 lines</info>
+		</step>
+		<step title="[Interface].kle_proexpert.Page1.Bouton 3D2 (Bouton 3D1)">
+			<info>[Interface].kle_proexpert.Page1.Bouton 3D2 (Bouton 3D1) : 4 lines</info>
+		</step>
+	</step>
+	<step title="[Interface].Liste Cave">
+		<step title="[Interface].Liste Cave">
+			<info>[Interface].Liste Cave : 175 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page0.Variable17 (vSearchValue2)">
+			<info>[Interface].Liste Cave.Page0.Variable17 (vSearchValue2) : 57 lines</info>
+		</step>
+		<warning warning_type="0" warning_num="0">Feuille de style référencée non trouvé pour cet objet : [Interface].Liste Cave.Page0.Variable17 (vSearchValue2)</warning>
+		<step title="[Interface].Liste Cave.Page0.SearchCriteria3 (vSearchCriteria2)">
+			<info>[Interface].Liste Cave.Page0.SearchCriteria3 (vSearchCriteria2) : 2 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page0.Pop-up/Liste déroulante1 (Pop_Cave)">
+			<info>[Interface].Liste Cave.Page0.Pop-up/Liste déroulante1 (Pop_Cave) : 99 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page0.cochecavedefautn (cochecavedefaut)">
+			<info>[Interface].Liste Cave.Page0.cochecavedefautn (cochecavedefaut) : 38 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page0.Lst_Pays">
+			<info>[Interface].Liste Cave.Page0.Lst_Pays : 16 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page0.Lst_Region">
+			<info>[Interface].Liste Cave.Page0.Lst_Region : 16 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page0.Lst_Type">
+			<info>[Interface].Liste Cave.Page0.Lst_Type : 14 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page0.Bouton image13 (Bouton1)">
+			<info>[Interface].Liste Cave.Page0.Bouton image13 (Bouton1) : 38 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page0.Bouton image5 (Bouton5)">
+			<info>[Interface].Liste Cave.Page0.Bouton image5 (Bouton5) : 18 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page0.Btn_Select5 (Btn_Select5)">
+			<info>[Interface].Liste Cave.Page0.Btn_Select5 (Btn_Select5) : 8 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page0.Btn_Select4 (Btn_Select4)">
+			<info>[Interface].Liste Cave.Page0.Btn_Select4 (Btn_Select4) : 8 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page0.Btn_Select2 (Btn_Select2)">
+			<info>[Interface].Liste Cave.Page0.Btn_Select2 (Btn_Select2) : 8 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page0.Btn_Select1 (Btn_Select1)">
+			<info>[Interface].Liste Cave.Page0.Btn_Select1 (Btn_Select1) : 7 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page0.Btn_Select3 (Btn_Select3)">
+			<info>[Interface].Liste Cave.Page0.Btn_Select3 (Btn_Select3) : 9 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page0.Btn_Select6 (Btn_Select6)">
+			<info>[Interface].Liste Cave.Page0.Btn_Select6 (Btn_Select6) : 9 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page0.Bouton image1 (Bouton1)">
+			<info>[Interface].Liste Cave.Page0.Bouton image1 (Bouton1) : 2 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page0.Bouton image6 (Bouton1)">
+			<info>[Interface].Liste Cave.Page0.Bouton image6 (Bouton1) : 16 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page0.Bt_Lst2 (Bt_Lst2)">
+			<info>[Interface].Liste Cave.Page0.Bt_Lst2 (Bt_Lst2) : 29 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page0.Bt_Lst1 (Bouton image4)">
+			<info>[Interface].Liste Cave.Page0.Bt_Lst1 (Bouton image4) : 30 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page0.Bouton image4 (Bouton1)">
+			<info>[Interface].Liste Cave.Page0.Bouton image4 (Bouton1) : 44 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page1.Img_Lst_Svg1 (Img_Lst_Svg)">
+			<info>[Interface].Liste Cave.Page1.Img_Lst_Svg1 (Img_Lst_Svg) : 44 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page1.Lst_Cave">
+			<info>[Interface].Liste Cave.Page1.Lst_Cave : 32 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page1.Lst_Cave5 ()">
+			<info>[Interface].Liste Cave.Page1.Lst_Cave5 () : 0 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page1.Lst_Cave2 ()">
+			<info>[Interface].Liste Cave.Page1.Lst_Cave2 () : 0 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page2.Lst_Type__">
+			<info>[Interface].Liste Cave.Page2.Lst_Type__ : 14 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page3.Bouton inversé10 (Bt_Mode)">
+			<info>[Interface].Liste Cave.Page3.Bouton inversé10 (Bt_Mode) : 7 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page3.Bouton inversé9 (Bt_Mil)">
+			<info>[Interface].Liste Cave.Page3.Bouton inversé9 (Bt_Mil) : 2 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page3.Bouton image2 (Bouton2)">
+			<info>[Interface].Liste Cave.Page3.Bouton image2 (Bouton2) : 2 lines</info>
+		</step>
+		<step title="[Interface].Liste Cave.Page3.Bouton image3 (Bouton3)">
+			<info>[Interface].Liste Cave.Page3.Bouton image3 (Bouton3) : 4 lines</info>
+		</step>
+	</step>
+	<step title="[Interface].Fond">
+		<step title="[Interface].Fond">
+			<info>[Interface].Fond : 1 lines</info>
+		</step>
+		<step title="[Interface].Fond.Page1.Bouton inversé2 (Cave)">
+			<info>[Interface].Fond.Page1.Bouton inversé2 (Cave) : 8 lines</info>
+		</step>
+		<step title="[Interface].Fond.Page1.Bouton 3D10 (Cave)">
+			<info>[Interface].Fond.Page1.Bouton 3D10 (Cave) : 8 lines</info>
+		</step>
+		<step title="[Interface].Fond.Page1.Bouton 3D11 (Cave)">
+			<info>[Interface].Fond.Page1.Bouton 3D11 (Cave) : 7 lines</info>
+		</step>
+		<step title="[Interface].Fond.Page1.Bouton 3D12 (Cave)">
+			<info>[Interface].Fond.Page1.Bouton 3D12 (Cave) : 17 lines</info>
+		</step>
+		<step title="[Interface].Fond.Page1.Bouton 3D14 (Cave)">
+			<info>[Interface].Fond.Page1.Bouton 3D14 (Cave) : 8 lines</info>
+		</step>
+		<step title="[Interface].Fond.Page1.Bouton 3D15 (Cave)">
+			<info>[Interface].Fond.Page1.Bouton 3D15 (Cave) : 8 lines</info>
+		</step>
+		<step title="[Interface].Fond.Page1.Bouton 3D13 (Cave)">
+			<info>[Interface].Fond.Page1.Bouton 3D13 (Cave) : 9 lines</info>
+		</step>
+		<step title="[Interface].Fond.Page1.Bouton 3D2 (Cave)">
+			<info>[Interface].Fond.Page1.Bouton 3D2 (Cave) : 9 lines</info>
+		</step>
+		<step title="[Interface].Fond.Page1.Bouton 3D4 (Cave)">
+			<info>[Interface].Fond.Page1.Bouton 3D4 (Cave) : 8 lines</info>
+		</step>
+		<step title="[Interface].Fond.Page1.Bouton 3D5 (Cave)">
+			<info>[Interface].Fond.Page1.Bouton 3D5 (Cave) : 7 lines</info>
+		</step>
+		<step title="[Interface].Fond.Page1.Bouton invisible (Bouton invisible)">
+			<info>[Interface].Fond.Page1.Bouton invisible (Bouton invisible) : 7 lines</info>
+		</step>
+		<step title="[Interface].Fond.Page1.Bouton 3D6 (Cave)">
+			<info>[Interface].Fond.Page1.Bouton 3D6 (Cave) : 8 lines</info>
+		</step>
+		<step title="[Interface].Fond.Page2.Bouton1 (Bouton1)">
+			<info>[Interface].Fond.Page2.Bouton1 (Bouton1) : 16 lines</info>
+		</step>
+		<step title="[Interface].Fond.Page2.Bouton 3D1 (Cave)">
+			<info>[Interface].Fond.Page2.Bouton 3D1 (Cave) : 27 lines</info>
+		</step>
+		<step title="[Interface].Fond.Page2.Bouton 3D3 (Cave)">
+			<info>[Interface].Fond.Page2.Bouton 3D3 (Cave) : 27 lines</info>
+		</step>
+		<step title="[Interface].Fond.Page3.Bouton inversé3 (Cave)">
+			<info>[Interface].Fond.Page3.Bouton inversé3 (Cave) : 3 lines</info>
+		</step>
+		<step title="[Interface].Fond.Page3.Bouton 3D17 (Cave)">
+			<info>[Interface].Fond.Page3.Bouton 3D17 (Cave) : 2 lines</info>
+		</step>
+		<step title="[Interface].Fond.Page3.Bouton 3D18 (Cave)">
+			<info>[Interface].Fond.Page3.Bouton 3D18 (Cave) : 10 lines</info>
+		</step>
+		<step title="[Interface].Fond.Page3.Bouton 3D19 (Cave)">
+			<info>[Interface].Fond.Page3.Bouton 3D19 (Cave) : 12 lines</info>
+		</step>
+		<step title="[Interface].Fond.Page3.Bouton 3D20 (Cave)">
+			<info>[Interface].Fond.Page3.Bouton 3D20 (Cave) : 15 lines</info>
+		</step>
+		<step title="[Interface].Fond.Page3.Bouton 3D21 (Cave)">
+			<info>[Interface].Fond.Page3.Bouton 3D21 (Cave) : 2 lines</info>
+		</step>
+		<step title="[Interface].Fond.Page3.Bouton 3D22 (Cave)">
+			<info>[Interface].Fond.Page3.Bouton 3D22 (Cave) : 1 lines</info>
+		</step>
+		<step title="[Interface].Fond.Page3.Bouton 3D23 (Cave)">
+			<info>[Interface].Fond.Page3.Bouton 3D23 (Cave) : 1 lines</info>
+		</step>
+	</step>
+	<step title="[Interface].Fond_Feuille">
+	</step>
+	<step title="[Interface].Millésimes_Feuille">
+		<step title="[Interface].Millésimes_Feuille">
+			<info>[Interface].Millésimes_Feuille : 38 lines</info>
+		</step>
+		<step title="[Interface].Millésimes_Feuille.Page1.Pop-up/Liste déroulante1 (Pop_Pays)">
+			<info>[Interface].Millésimes_Feuille.Page1.Pop-up/Liste déroulante1 (Pop_Pays) : 4 lines</info>
+		</step>
+		<step title="[Interface].Millésimes_Feuille.Page1.Bouton image6 (Bouton1)">
+			<info>[Interface].Millésimes_Feuille.Page1.Bouton image6 (Bouton1) : 5 lines</info>
+		</step>
+		<step title="[Interface].Millésimes_Feuille.Page1.Bouton image3 (Bouton1)">
+			<info>[Interface].Millésimes_Feuille.Page1.Bouton image3 (Bouton1) : 28 lines</info>
+		</step>
+		<step title="[Interface].Millésimes_Feuille.Page1.Bouton image4 (Bouton1)">
+			<info>[Interface].Millésimes_Feuille.Page1.Bouton image4 (Bouton1) : 14 lines</info>
+		</step>
+		<step title="[Interface].Millésimes_Feuille.Page1.Bouton image5 (Bouton1)">
+			<info>[Interface].Millésimes_Feuille.Page1.Bouton image5 (Bouton1) : 2 lines</info>
+		</step>
+	</step>
+	<step title="[Interface].Kle_Alerte">
+	</step>
+	<step title="[Interface].Kle_Confirmer">
+		<step title="[Interface].Kle_Confirmer.Page1.Bouton image1 (Bt_Ann)">
+			<info>[Interface].Kle_Confirmer.Page1.Bouton image1 (Bt_Ann) : 0 lines</info>
+		</step>
+	</step>
+	<step title="[Interface].Kle_Demander">
+		<step title="[Interface].Kle_Demander">
+			<info>[Interface].Kle_Demander : 0 lines</info>
+		</step>
+	</step>
+	<step title="[Interface].Mets">
+		<step title="[Interface].Mets">
+			<info>[Interface].Mets : 44 lines</info>
+		</step>
+		<step title="[Interface].Mets.Page1.Zone de défilement1 (Lst)">
+			<info>[Interface].Mets.Page1.Zone de défilement1 (Lst) : 43 lines</info>
+		</step>
+		<step title="[Interface].Mets.Page1.Zone de défilement2 (Lst1)">
+			<info>[Interface].Mets.Page1.Zone de défilement2 (Lst1) : 15 lines</info>
+		</step>
+		<step title="[Interface].Mets.Page1.Zone de défilement3 (Lst_Cat)">
+			<info>[Interface].Mets.Page1.Zone de défilement3 (Lst_Cat) : 50 lines</info>
+		</step>
+		<step title="[Interface].Mets.Page1.Bouton image1 (Bt_Ann)">
+			<info>[Interface].Mets.Page1.Bouton image1 (Bt_Ann) : 42 lines</info>
+		</step>
+		<step title="[Interface].Mets.Page1.Bouton image2 (Bt_Ann)">
+			<info>[Interface].Mets.Page1.Bouton image2 (Bt_Ann) : 47 lines</info>
+		</step>
+		<step title="[Interface].Mets.Page1.Bouton image3 (Bt_Ann)">
+			<info>[Interface].Mets.Page1.Bouton image3 (Bt_Ann) : 10 lines</info>
+		</step>
+	</step>
+	<step title="[Interface].Millésimes">
+		<step title="[Interface].Millésimes">
+			<info>[Interface].Millésimes : 38 lines</info>
+		</step>
+		<step title="[Interface].Millésimes.Page1.Pop-up/Liste déroulante1 (Pop_Pays)">
+			<info>[Interface].Millésimes.Page1.Pop-up/Liste déroulante1 (Pop_Pays) : 4 lines</info>
+		</step>
+		<step title="[Interface].Millésimes.Page1.Bouton image6 (Bouton1)">
+			<info>[Interface].Millésimes.Page1.Bouton image6 (Bouton1) : 5 lines</info>
+		</step>
+		<step title="[Interface].Millésimes.Page1.Bouton image3 (Bouton1)">
+			<info>[Interface].Millésimes.Page1.Bouton image3 (Bouton1) : 28 lines</info>
+		</step>
+		<step title="[Interface].Millésimes.Page1.Bouton image4 (Bouton1)">
+			<info>[Interface].Millésimes.Page1.Bouton image4 (Bouton1) : 14 lines</info>
+		</step>
+		<step title="[Interface].Millésimes.Page1.Bouton image5 (Bouton1)">
+			<info>[Interface].Millésimes.Page1.Bouton image5 (Bouton1) : 2 lines</info>
+		</step>
+	</step>
+	<step title="[Cave].Liste">
+		<step title="[Cave].Liste">
+			<info>[Cave].Liste : 1 lines</info>
+		</step>
+	</step>
+	<step title="[Cave].Imp">
+		<step title="[Cave].Imp">
+			<info>[Cave].Imp : 6 lines</info>
+		</step>
+	</step>
+	<step title="[Cave].Impression">
+		<step title="[Cave].Impression">
+			<info>[Cave].Impression : 6 lines</info>
+		</step>
+		<step title="[Cave].Impression.Page1.vDate (vDate)">
+			<info>[Cave].Impression.Page1.vDate (vDate) : 1 lines</info>
+		</step>
+	</step>
+	<step title="[Cave].Impression2">
+		<step title="[Cave].Impression2">
+			<info>[Cave].Impression2 : 6 lines</info>
+		</step>
+		<step title="[Cave].Impression2.Page1.vDate (vDate)">
+			<info>[Cave].Impression2.Page1.vDate (vDate) : 1 lines</info>
+		</step>
+	</step>
+	<step title="[Cave].Imp_Simple">
+		<step title="[Cave].Imp_Simple">
+			<info>[Cave].Imp_Simple : 7 lines</info>
+		</step>
+	</step>
+	<step title="[Cave].Imp_Vierge">
+		<step title="[Cave].Imp_Vierge">
+			<info>[Cave].Imp_Vierge : 0 lines</info>
+		</step>
+	</step>
+	<step title="[Cave].Saisie">
+		<step title="[Cave].Saisie">
+			<info>[Cave].Saisie : 204 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page0.Onglet1 (Ong_Cave)">
+			<info>[Cave].Saisie.Page0.Onglet1 (Ong_Cave) : 26 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page0.Pop-up/Liste déroulante7 (pop_Type)">
+			<info>[Cave].Saisie.Page0.Pop-up/Liste déroulante7 (pop_Type) : 4 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page0.Pop-up/Liste déroulante1 (&lt;&gt;Pop_Pays)">
+			<info>[Cave].Saisie.Page0.Pop-up/Liste déroulante1 (&lt;&gt;Pop_Pays) : 25 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page0.Pop-up/Liste déroulante8 (pop_Region)">
+			<info>[Cave].Saisie.Page0.Pop-up/Liste déroulante8 (pop_Region) : 27 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page0.Champ25">
+			<info>[Cave].Saisie.Page0.Champ25 : 0 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page0.Bouton inversé3 (Bt_cave)">
+			<info>[Cave].Saisie.Page0.Bouton inversé3 (Bt_cave) : 1 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page0.Bouton inversé8 (Bt_Imp)">
+			<info>[Cave].Saisie.Page0.Bouton inversé8 (Bt_Imp) : 58 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page0.Bouton inversé1 (Bt_Eff)">
+			<info>[Cave].Saisie.Page0.Bouton inversé1 (Bt_Eff) : 6 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page0.Bouton inversé4 (Bt_Pred)">
+			<info>[Cave].Saisie.Page0.Bouton inversé4 (Bt_Pred) : 41 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page0.Bouton inversé5 (Bt_Sui)">
+			<info>[Cave].Saisie.Page0.Bouton inversé5 (Bt_Sui) : 25 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page0.Bouton 3D4 (Bouton 3D1)">
+			<info>[Cave].Saisie.Page0.Bouton 3D4 (Bouton 3D1) : 3 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page0.Champ23">
+			<info>[Cave].Saisie.Page0.Champ23 : 4 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page0.Bouton image1 (Bt_Eff)">
+			<info>[Cave].Saisie.Page0.Bouton image1 (Bt_Eff) : 8 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page0.Bouton inversé6 (Bt_Mil)">
+			<info>[Cave].Saisie.Page0.Bouton inversé6 (Bt_Mil) : 13 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page1.Champ34">
+			<info>[Cave].Saisie.Page1.Champ34 : 0 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page1.Champ38">
+			<info>[Cave].Saisie.Page1.Champ38 : 0 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page1.Pop-up/Liste déroulante2 (Pop_Cave)">
+			<info>[Cave].Saisie.Page1.Pop-up/Liste déroulante2 (Pop_Cave) : 78 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page1.Pop-up/Liste déroulante4 (pop_Flacon)">
+			<info>[Cave].Saisie.Page1.Pop-up/Liste déroulante4 (pop_Flacon) : 4 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page1.Pop-up/Liste déroulante5 (pop_Elevage)">
+			<info>[Cave].Saisie.Page1.Pop-up/Liste déroulante5 (pop_Elevage) : 4 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page1.Pop-up/Liste déroulante3 (pop_Bouteille)">
+			<info>[Cave].Saisie.Page1.Pop-up/Liste déroulante3 (pop_Bouteille) : 4 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page2.x_Btn1 (x_Btn1)">
+			<info>[Cave].Saisie.Page2.x_Btn1 (x_Btn1) : 21 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page2.x_Btn2 (x_Btn2)">
+			<info>[Cave].Saisie.Page2.x_Btn2 (x_Btn2) : 23 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page2.Bouton inversé7 (Bt_Mil)">
+			<info>[Cave].Saisie.Page2.Bouton inversé7 (Bt_Mil) : 6 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page3.Pr_Bouton 3D5 (Bouton 3D5)">
+			<info>[Cave].Saisie.Page3.Pr_Bouton 3D5 (Bouton 3D5) : 1 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page3.Pr_Bouton 3D6 (Bouton 3D5)">
+			<info>[Cave].Saisie.Page3.Pr_Bouton 3D6 (Bouton 3D5) : 1 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page3.Zone de défilement1 (Lst_Product)">
+			<info>[Cave].Saisie.Page3.Zone de défilement1 (Lst_Product) : 7 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page3.Bouton3 (Bouton3)">
+			<info>[Cave].Saisie.Page3.Bouton3 (Bouton3) : 13 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page3.Bouton4 (Bouton3)">
+			<info>[Cave].Saisie.Page3.Bouton4 (Bouton3) : 6 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page4.Champ12">
+			<info>[Cave].Saisie.Page4.Champ12 : 0 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page5.Popup Liste déroulante1 (Popup_Cave)">
+			<info>[Cave].Saisie.Page5.Popup Liste déroulante1 (Popup_Cave) : 22 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page5.Bouton dess_1 (Bouton inversé8)">
+			<info>[Cave].Saisie.Page5.Bouton dess_1 (Bouton inversé8) : 6 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page5.Bouton des_2 (Bouton inversé8)">
+			<info>[Cave].Saisie.Page5.Bouton des_2 (Bouton inversé8) : 5 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page7.Bouton inversé9 (Bt_Mil)">
+			<info>[Cave].Saisie.Page7.Bouton inversé9 (Bt_Mil) : 4 lines</info>
+		</step>
+		<step title="[Cave].Saisie.Page7.Bouton (Bouton)">
+			<info>[Cave].Saisie.Page7.Bouton (Bouton) : 37 lines</info>
+		</step>
+		<warning warning_type="0" warning_num="0">Feuille de style référencée non trouvé pour cet objet : [Cave].Saisie.Page7.Bouton (Bouton)</warning>
+	</step>
+	<step title="[Cave].Saisie_Light">
+		<step title="[Cave].Saisie_Light">
+			<info>[Cave].Saisie_Light : 164 lines</info>
+		</step>
+		<step title="[Cave].Saisie_Light.Page0.Bouton inversé3 (Bt_cave)">
+			<info>[Cave].Saisie_Light.Page0.Bouton inversé3 (Bt_cave) : 1 lines</info>
+		</step>
+		<step title="[Cave].Saisie_Light.Page0.Bouton inversé8 (Bt_Imp)">
+			<info>[Cave].Saisie_Light.Page0.Bouton inversé8 (Bt_Imp) : 58 lines</info>
+		</step>
+		<step title="[Cave].Saisie_Light.Page0.Bouton inversé1 (Bt_Eff)">
+			<info>[Cave].Saisie_Light.Page0.Bouton inversé1 (Bt_Eff) : 6 lines</info>
+		</step>
+		<step title="[Cave].Saisie_Light.Page0.Bouton inversé4 (Bt_Pred)">
+			<info>[Cave].Saisie_Light.Page0.Bouton inversé4 (Bt_Pred) : 41 lines</info>
+		</step>
+		<step title="[Cave].Saisie_Light.Page0.Bouton inversé5 (Bt_Sui)">
+			<info>[Cave].Saisie_Light.Page0.Bouton inversé5 (Bt_Sui) : 25 lines</info>
+		</step>
+		<step title="[Cave].Saisie_Light.Page0.Bouton image1 (Bt_Eff)">
+			<info>[Cave].Saisie_Light.Page0.Bouton image1 (Bt_Eff) : 8 lines</info>
+		</step>
+		<step title="[Cave].Saisie_Light.Page0.Bouton inversé6 (Bt_Mil)">
+			<info>[Cave].Saisie_Light.Page0.Bouton inversé6 (Bt_Mil) : 13 lines</info>
+		</step>
+		<step title="[Cave].Saisie_Light.Page1.Pop-up/Liste déroulante1 (&lt;&gt;Pop_Pays)">
+			<info>[Cave].Saisie_Light.Page1.Pop-up/Liste déroulante1 (&lt;&gt;Pop_Pays) : 25 lines</info>
+		</step>
+		<step title="[Cave].Saisie_Light.Page1.Pop-up/Liste déroulante8 (pop_Region)">
+			<info>[Cave].Saisie_Light.Page1.Pop-up/Liste déroulante8 (pop_Region) : 27 lines</info>
+		</step>
+		<step title="[Cave].Saisie_Light.Page1.Champ25">
+			<info>[Cave].Saisie_Light.Page1.Champ25 : 0 lines</info>
+		</step>
+		<step title="[Cave].Saisie_Light.Page1.Pop-up/Liste déroulante7 (pop_Type)">
+			<info>[Cave].Saisie_Light.Page1.Pop-up/Liste déroulante7 (pop_Type) : 4 lines</info>
+		</step>
+		<step title="[Cave].Saisie_Light.Page1.Bouton 3D4 (Bouton 3D1)">
+			<info>[Cave].Saisie_Light.Page1.Bouton 3D4 (Bouton 3D1) : 3 lines</info>
+		</step>
+		<step title="[Cave].Saisie_Light.Page1.Pop-up/Liste déroulante11 (pop_Bouteille)">
+			<info>[Cave].Saisie_Light.Page1.Pop-up/Liste déroulante11 (pop_Bouteille) : 4 lines</info>
+		</step>
+		<step title="[Cave].Saisie_Light.Page1.Pop-up/Liste déroulante10 (pop_Elevage)">
+			<info>[Cave].Saisie_Light.Page1.Pop-up/Liste déroulante10 (pop_Elevage) : 4 lines</info>
+		</step>
+		<step title="[Cave].Saisie_Light.Page1.Pop-up/Liste déroulante9 (pop_Flacon)">
+			<info>[Cave].Saisie_Light.Page1.Pop-up/Liste déroulante9 (pop_Flacon) : 4 lines</info>
+		</step>
+		<step title="[Cave].Saisie_Light.Page1.Pop-up/Liste déroulante6 (Pop_Cave)">
+			<info>[Cave].Saisie_Light.Page1.Pop-up/Liste déroulante6 (Pop_Cave) : 79 lines</info>
+		</step>
+		<step title="[Cave].Saisie_Light.Page1.Champ38">
+			<info>[Cave].Saisie_Light.Page1.Champ38 : 0 lines</info>
+		</step>
+		<step title="[Cave].Saisie_Light.Page1.Champ23">
+			<info>[Cave].Saisie_Light.Page1.Champ23 : 4 lines</info>
+		</step>
+		<step title="[Cave].Saisie_Light.Page2.Bouton1 (Bouton1)">
+			<info>[Cave].Saisie_Light.Page2.Bouton1 (Bouton1) : 6 lines</info>
+		</step>
+		<step title="[Cave].Saisie_Light.Page2.Bouton2 (Bouton1)">
+			<info>[Cave].Saisie_Light.Page2.Bouton2 (Bouton1) : 6 lines</info>
+		</step>
+		<step title="[Cave].Saisie_Light.Page3.Zone de défilement1 (Lst_Product)">
+			<info>[Cave].Saisie_Light.Page3.Zone de défilement1 (Lst_Product) : 7 lines</info>
+		</step>
+		<step title="[Cave].Saisie_Light.Page3.Pr_Bouton 3D5 (Bouton 3D5)">
+			<info>[Cave].Saisie_Light.Page3.Pr_Bouton 3D5 (Bouton 3D5) : 1 lines</info>
+		</step>
+		<step title="[Cave].Saisie_Light.Page3.Pr_Bouton 3D6 (Bouton 3D5)">
+			<info>[Cave].Saisie_Light.Page3.Pr_Bouton 3D6 (Bouton 3D5) : 1 lines</info>
+		</step>
+		<step title="[Cave].Saisie_Light.Page3.Bouton3 (Bouton3)">
+			<info>[Cave].Saisie_Light.Page3.Bouton3 (Bouton3) : 13 lines</info>
+		</step>
+		<step title="[Cave].Saisie_Light.Page3.Bouton4 (Bouton3)">
+			<info>[Cave].Saisie_Light.Page3.Bouton4 (Bouton3) : 6 lines</info>
+		</step>
+		<step title="[Cave].Saisie_Light.Page4.Champ12">
+			<info>[Cave].Saisie_Light.Page4.Champ12 : 0 lines</info>
+		</step>
+	</step>
+	<step title="[Cave].Formulaire1">
+	</step>
+	<step title="[Appellation].Formulaire1">
+		<step title="[Appellation].Formulaire1.Page1.vRecNum (vRecNum)">
+			<info>[Appellation].Formulaire1.Page1.vRecNum (vRecNum) : 5 lines</info>
+		</step>
+	</step>
+	<step title="[Appellation].Formulaire2">
+	</step>
+	<step title="[Appellation].Formulaire3">
+		<step title="[Appellation].Formulaire3.Page1.bAdd (bAdd)">
+			<info>[Appellation].Formulaire3.Page1.bAdd (bAdd) : 1 lines</info>
+		</step>
+		<step title="[Appellation].Formulaire3.Page1.bDelete (bDelete)">
+			<info>[Appellation].Formulaire3.Page1.bDelete (bDelete) : 20 lines</info>
+		</step>
+		<step title="[Appellation].Formulaire3.Page1.bShowAll (bShowAll)">
+			<info>[Appellation].Formulaire3.Page1.bShowAll (bShowAll) : 1 lines</info>
+		</step>
+		<step title="[Appellation].Formulaire3.Page1.bShowSubset (bShowSubset)">
+			<info>[Appellation].Formulaire3.Page1.bShowSubset (bShowSubset) : 1 lines</info>
+		</step>
+		<step title="[Appellation].Formulaire3.Page1.bQuery (bQuery)">
+			<info>[Appellation].Formulaire3.Page1.bQuery (bQuery) : 1 lines</info>
+		</step>
+		<step title="[Appellation].Formulaire3.Page1.bOrderBy (bOrderBy)">
+			<info>[Appellation].Formulaire3.Page1.bOrderBy (bOrderBy) : 1 lines</info>
+		</step>
+		<step title="[Appellation].Formulaire3.Page1.bReport (bReport)">
+			<info>[Appellation].Formulaire3.Page1.bReport (bReport) : 1 lines</info>
+		</step>
+		<step title="[Appellation].Formulaire3.Page1.bLabels (bLabels)">
+			<info>[Appellation].Formulaire3.Page1.bLabels (bLabels) : 1 lines</info>
+		</step>
+		<step title="[Appellation].Formulaire3.Page1.bPrint (bPrint)">
+			<info>[Appellation].Formulaire3.Page1.bPrint (bPrint) : 1 lines</info>
+		</step>
+		<step title="[Appellation].Formulaire3.Page1.bGraph (bGraph)">
+			<info>[Appellation].Formulaire3.Page1.bGraph (bGraph) : 1 lines</info>
+		</step>
+	</step>
+	<step title="[Appellation].Liste">
+	</step>
+	<step title="[Millésimes].Entrée">
+		<step title="[Millésimes].Entrée.Page1.vRecNum (vRecNum)">
+			<info>[Millésimes].Entrée.Page1.vRecNum (vRecNum) : 5 lines</info>
+		</step>
+	</step>
+	<step title="[Millésimes].Formulaire1">
+		<step title="[Millésimes].Formulaire1.Page0.vRecNum (vRecNum)">
+			<info>[Millésimes].Formulaire1.Page0.vRecNum (vRecNum) : 5 lines</info>
+		</step>
+	</step>
+	<step title="[Millésimes].Imp">
+		<step title="[Millésimes].Imp.Page1.vPageNum (vPageNum)">
+			<info>[Millésimes].Imp.Page1.vPageNum (vPageNum) : 1 lines</info>
+		</step>
+		<step title="[Millésimes].Imp.Page1.vDate (vDate)">
+			<info>[Millésimes].Imp.Page1.vDate (vDate) : 1 lines</info>
+		</step>
+	</step>
+	<step title="[Millésimes].Sortie">
+		<step title="[Millésimes].Sortie">
+			<info>[Millésimes].Sortie : 1 lines</info>
+		</step>
+	</step>
+	<step title="[Vocabulaire].Ajout">
+		<step title="[Vocabulaire].Ajout">
+			<info>[Vocabulaire].Ajout : 6 lines</info>
+		</step>
+	</step>
+	<step title="[Vocabulaire].Entrée">
+		<step title="[Vocabulaire].Entrée.Page1.vRecNum (vRecNum)">
+			<info>[Vocabulaire].Entrée.Page1.vRecNum (vRecNum) : 5 lines</info>
+		</step>
+	</step>
+	<step title="[Vocabulaire].Sortie">
+	</step>
+	<step title="[Cépages].Entrée">
+		<step title="[Cépages].Entrée">
+			<info>[Cépages].Entrée : 38 lines</info>
+		</step>
+		<step title="[Cépages].Entrée.Page1.vRecNum (vRecNum)">
+			<info>[Cépages].Entrée.Page1.vRecNum (vRecNum) : 5 lines</info>
+		</step>
+		<step title="[Cépages].Entrée.Page1.Bouton1 (Bouton1)">
+			<info>[Cépages].Entrée.Page1.Bouton1 (Bouton1) : 22 lines</info>
+		</step>
+	</step>
+	<step title="[Cépages].Formulaire1">
+	</step>
+	<step title="[Cépages].Sortie">
+	</step>
+	<step title="[Association].Entrée">
+		<step title="[Association].Entrée.Page1.vRecNum (vRecNum)">
+			<info>[Association].Entrée.Page1.vRecNum (vRecNum) : 5 lines</info>
+		</step>
+	</step>
+	<step title="[Association].Saisie">
+		<step title="[Association].Saisie">
+			<info>[Association].Saisie : 11 lines</info>
+		</step>
+		<step title="[Association].Saisie.Page1.Bouton1 (Bouton1)">
+			<info>[Association].Saisie.Page1.Bouton1 (Bouton1) : 0 lines</info>
+		</step>
+		<step title="[Association].Saisie.Page1.Bouton2 (Bouton1)">
+			<info>[Association].Saisie.Page1.Bouton2 (Bouton1) : 0 lines</info>
+		</step>
+		<step title="[Association].Saisie.Page1.Bouton inversé1 (Bt_Eff)">
+			<info>[Association].Saisie.Page1.Bouton inversé1 (Bt_Eff) : 5 lines</info>
+		</step>
+	</step>
+	<step title="[Association].Sortie">
+	</step>
+	<step title="[Pays].Entrée">
+		<step title="[Pays].Entrée">
+			<info>[Pays].Entrée : 0 lines</info>
+		</step>
+		<step title="[Pays].Entrée.Page0.bValidate (bValidate)">
+			<info>[Pays].Entrée.Page0.bValidate (bValidate) : 0 lines</info>
+		</step>
+		<step title="[Pays].Entrée.Page0.vRecNum (vRecNum)">
+			<info>[Pays].Entrée.Page0.vRecNum (vRecNum) : 5 lines</info>
+		</step>
+	</step>
+	<step title="[Pays].Sortie">
+		<step title="[Pays].Sortie">
+			<info>[Pays].Sortie : 0 lines</info>
+		</step>
+	</step>
+	<step title="[Region].Entrée">
+		<step title="[Region].Entrée.Page1.vRecNum (vRecNum)">
+			<info>[Region].Entrée.Page1.vRecNum (vRecNum) : 5 lines</info>
+		</step>
+	</step>
+	<step title="[Region].Sortie">
+	</step>
+	<step title="[Informations].Entrée">
+		<step title="[Informations].Entrée">
+			<info>[Informations].Entrée : 31 lines</info>
+		</step>
+		<step title="[Informations].Entrée.Page0.Onglet1 (Onglet1)">
+			<info>[Informations].Entrée.Page0.Onglet1 (Onglet1) : 0 lines</info>
+		</step>
+		<step title="[Informations].Entrée.Page0.vRecNum (vRecNum)">
+			<info>[Informations].Entrée.Page0.vRecNum (vRecNum) : 5 lines</info>
+		</step>
+		<step title="[Informations].Entrée.Page1.Bouton1 (Bouton1)">
+			<info>[Informations].Entrée.Page1.Bouton1 (Bouton1) : 27 lines</info>
+		</step>
+		<step title="[Informations].Entrée.Page2.Bouton2 (Bouton1)">
+			<info>[Informations].Entrée.Page2.Bouton2 (Bouton1) : 27 lines</info>
+		</step>
+		<step title="[Informations].Entrée.Page3.Bouton3 (Bouton1)">
+			<info>[Informations].Entrée.Page3.Bouton3 (Bouton1) : 27 lines</info>
+		</step>
+		<step title="[Informations].Entrée.Page4.Bouton4 (Bouton1)">
+			<info>[Informations].Entrée.Page4.Bouton4 (Bouton1) : 27 lines</info>
+		</step>
+		<step title="[Informations].Entrée.Page5.Bouton5 (Bouton1)">
+			<info>[Informations].Entrée.Page5.Bouton5 (Bouton1) : 27 lines</info>
+		</step>
+	</step>
+	<step title="[Informations].Sortie">
+	</step>
+	<step title="[Textes].Entrée">
+		<step title="[Textes].Entrée.Page1.vRecNum (vRecNum)">
+			<info>[Textes].Entrée.Page1.vRecNum (vRecNum) : 5 lines</info>
+		</step>
+	</step>
+	<step title="[Textes].Sortie">
+		<step title="[Textes].Sortie">
+			<info>[Textes].Sortie : 0 lines</info>
+		</step>
+	</step>
+	<step title="[Degustation].Entrée">
+		<step title="[Degustation].Entrée.Page1.vRecNum (vRecNum)">
+			<info>[Degustation].Entrée.Page1.vRecNum (vRecNum) : 5 lines</info>
+		</step>
+	</step>
+	<step title="[Degustation].Formulaire1">
+		<step title="[Degustation].Formulaire1">
+			<info>[Degustation].Formulaire1 : 6 lines</info>
+		</step>
+		<step title="[Degustation].Formulaire1.Page1.Variable1 (V_Conv)">
+			<info>[Degustation].Formulaire1.Page1.Variable1 (V_Conv) : 1 lines</info>
+		</step>
+		<step title="[Degustation].Formulaire1.Page1.Variable2 (V_Plat)">
+			<info>[Degustation].Formulaire1.Page1.Variable2 (V_Plat) : 1 lines</info>
+		</step>
+	</step>
+	<step title="[Degustation].Formulaire2">
+		<step title="[Degustation].Formulaire2">
+			<info>[Degustation].Formulaire2 : 6 lines</info>
+		</step>
+		<step title="[Degustation].Formulaire2.Page1.Variable1 (V_Conv)">
+			<info>[Degustation].Formulaire2.Page1.Variable1 (V_Conv) : 1 lines</info>
+		</step>
+		<step title="[Degustation].Formulaire2.Page1.Variable2 (V_Plat)">
+			<info>[Degustation].Formulaire2.Page1.Variable2 (V_Plat) : 1 lines</info>
+		</step>
+	</step>
+	<step title="[Degustation].Saisie_Cave">
+		<step title="[Degustation].Saisie_Cave">
+			<info>[Degustation].Saisie_Cave : 29 lines</info>
+		</step>
+		<step title="[Degustation].Saisie_Cave.Page1.Bouton image2 (Bt_Eff)">
+			<info>[Degustation].Saisie_Cave.Page1.Bouton image2 (Bt_Eff) : 6 lines</info>
+		</step>
+	</step>
+	<step title="[Degustation].Saisie_Degust">
+		<step title="[Degustation].Saisie_Degust">
+			<info>[Degustation].Saisie_Degust : 36 lines</info>
+		</step>
+		<step title="[Degustation].Saisie_Degust.Page1.Bouton image5 (Bt_Eff)">
+			<info>[Degustation].Saisie_Degust.Page1.Bouton image5 (Bt_Eff) : 6 lines</info>
+		</step>
+	</step>
+	<step title="[Degustation].Sortie">
+	</step>
+	<step title="[Producteur].Entrée">
+		<step title="[Producteur].Entrée">
+			<info>[Producteur].Entrée : 5 lines</info>
+		</step>
+		<step title="[Producteur].Entrée.Page1.Bouton 3D1 (Bouton 3D5)">
+			<info>[Producteur].Entrée.Page1.Bouton 3D1 (Bouton 3D5) : 1 lines</info>
+		</step>
+		<step title="[Producteur].Entrée.Page1.Bouton 3D2 (Bouton 3D5)">
+			<info>[Producteur].Entrée.Page1.Bouton 3D2 (Bouton 3D5) : 2 lines</info>
+		</step>
+		<step title="[Producteur].Entrée.Page1.Bouton 3D3 (Bouton 3D5)">
+			<info>[Producteur].Entrée.Page1.Bouton 3D3 (Bouton 3D5) : 17 lines</info>
+		</step>
+		<step title="[Producteur].Entrée.Page1.Bouton inversé3 (Bt_cave)">
+			<info>[Producteur].Entrée.Page1.Bouton inversé3 (Bt_cave) : 1 lines</info>
+		</step>
+		<step title="[Producteur].Entrée.Page1.Bouton inversé8 (Bt_Imp)">
+			<info>[Producteur].Entrée.Page1.Bouton inversé8 (Bt_Imp) : 3 lines</info>
+		</step>
+		<step title="[Producteur].Entrée.Page1.Bouton inversé4 (Bt_Pred)">
+			<info>[Producteur].Entrée.Page1.Bouton inversé4 (Bt_Pred) : 1 lines</info>
+		</step>
+		<step title="[Producteur].Entrée.Page1.Bouton inversé5 (Bt_Sui)">
+			<info>[Producteur].Entrée.Page1.Bouton inversé5 (Bt_Sui) : 1 lines</info>
+		</step>
+	</step>
+	<step title="[Producteur].Entrée2">
+		<step title="[Producteur].Entrée2">
+			<info>[Producteur].Entrée2 : 5 lines</info>
+		</step>
+		<step title="[Producteur].Entrée2.Page1.Bouton 3D1 (Bouton 3D5)">
+			<info>[Producteur].Entrée2.Page1.Bouton 3D1 (Bouton 3D5) : 3 lines</info>
+		</step>
+		<step title="[Producteur].Entrée2.Page1.Bouton 3D2 (Bouton 3D5)">
+			<info>[Producteur].Entrée2.Page1.Bouton 3D2 (Bouton 3D5) : 8 lines</info>
+		</step>
+		<step title="[Producteur].Entrée2.Page1.Bouton 3D3 (Bouton 3D5)">
+			<info>[Producteur].Entrée2.Page1.Bouton 3D3 (Bouton 3D5) : 17 lines</info>
+		</step>
+		<step title="[Producteur].Entrée2.Page1.Bouton inversé3 (Bt_cave)">
+			<info>[Producteur].Entrée2.Page1.Bouton inversé3 (Bt_cave) : 1 lines</info>
+		</step>
+		<step title="[Producteur].Entrée2.Page1.Bouton inversé8 (Bt_Imp)">
+			<info>[Producteur].Entrée2.Page1.Bouton inversé8 (Bt_Imp) : 3 lines</info>
+		</step>
+		<step title="[Producteur].Entrée2.Page1.Bouton inversé4 (Bt_Pred)">
+			<info>[Producteur].Entrée2.Page1.Bouton inversé4 (Bt_Pred) : 1 lines</info>
+		</step>
+		<step title="[Producteur].Entrée2.Page1.Bouton inversé5 (Bt_Sui)">
+			<info>[Producteur].Entrée2.Page1.Bouton inversé5 (Bt_Sui) : 25 lines</info>
+		</step>
+	</step>
+	<step title="[Producteur].Imp">
+	</step>
+	<step title="[Producteur].Impression">
+		<step title="[Producteur].Impression.Page1.vPageNum (vPageNum)">
+			<info>[Producteur].Impression.Page1.vPageNum (vPageNum) : 1 lines</info>
+		</step>
+		<step title="[Producteur].Impression.Page1.vDate (vDate)">
+			<info>[Producteur].Impression.Page1.vDate (vDate) : 1 lines</info>
+		</step>
+	</step>
+	<step title="[Producteur].Liste_Ecran">
+	</step>
+	<step title="[Producteur].Sortie">
+	</step>
+	<step title="[Titre_Millesime].Entrée">
+		<step title="[Titre_Millesime].Entrée.Page1.vRecNum (vRecNum)">
+			<info>[Titre_Millesime].Entrée.Page1.vRecNum (vRecNum) : 5 lines</info>
+		</step>
+	</step>
+	<step title="[Titre_Millesime].Sortie">
+	</step>
+	<step title="[Sites].Entrée">
+		<step title="[Sites].Entrée">
+			<info>[Sites].Entrée : 6 lines</info>
+		</step>
+		<step title="[Sites].Entrée.Page1.Combo Box1 (Pop_Rub)">
+			<info>[Sites].Entrée.Page1.Combo Box1 (Pop_Rub) : 4 lines</info>
+		</step>
+		<step title="[Sites].Entrée.Page1.Bouton image1 (Bt_Ann)">
+			<info>[Sites].Entrée.Page1.Bouton image1 (Bt_Ann) : 0 lines</info>
+		</step>
+	</step>
+	<step title="[Sites].Sortie">
+	</step>
+	<step title="[Sites].(Formulaire1)">
+	</step>
+	<step title="[Etiquettes].Formulaire1">
+	</step>
+	<step title="[Utilisateur].Carte_Enregistrement">
+	</step>
+	<step title="[Utilisateur].Imprimer_Carte_Enreg">
+		<step title="[Utilisateur].Imprimer_Carte_Enreg">
+			<info>[Utilisateur].Imprimer_Carte_Enreg : 0 lines</info>
+		</step>
+		<step title="[Utilisateur].Imprimer_Carte_Enreg.Page0.Variable85 (bDéjàFait)">
+			<info>[Utilisateur].Imprimer_Carte_Enreg.Page0.Variable85 (bDéjàFait) : 2 lines</info>
+		</step>
+		<step title="[Utilisateur].Imprimer_Carte_Enreg.Page0.Variable86 (bMaintenant)">
+			<info>[Utilisateur].Imprimer_Carte_Enreg.Page0.Variable86 (bMaintenant) : 19 lines</info>
+		</step>
+	</step>
+	<step title="[Utilisateur].Saisie">
+		<step title="[Utilisateur].Saisie">
+			<info>[Utilisateur].Saisie : 5 lines</info>
+		</step>
+		<step title="[Utilisateur].Saisie.Page1.Champ23">
+			<info>[Utilisateur].Saisie.Page1.Champ23 : 0 lines</info>
+		</step>
+		<step title="[Utilisateur].Saisie.Page1.Bouton invisible1 (Bouton invisible1)">
+			<info>[Utilisateur].Saisie.Page1.Bouton invisible1 (Bouton invisible1) : 11 lines</info>
+		</step>
+		<step title="[Utilisateur].Saisie.Page1.Bouton image6 (Bouton1)">
+			<info>[Utilisateur].Saisie.Page1.Bouton image6 (Bouton1) : 10 lines</info>
+		</step>
+		<step title="[Utilisateur].Saisie.Page1.Bouton image1 (Bouton1)">
+			<info>[Utilisateur].Saisie.Page1.Bouton image1 (Bouton1) : 28 lines</info>
+		</step>
+		<step title="[Utilisateur].Saisie.Page1.Bouton image2 (Bouton1)">
+			<info>[Utilisateur].Saisie.Page1.Bouton image2 (Bouton1) : 6 lines</info>
+		</step>
+	</step>
+	<step title="[Modele_Carte].Entrée">
+		<step title="[Modele_Carte].Entrée.Page1.vRecNum (vRecNum)">
+			<info>[Modele_Carte].Entrée.Page1.vRecNum (vRecNum) : 5 lines</info>
+		</step>
+	</step>
+	<step title="[Modele_Carte].Sortie">
+	</step>
+	<step title="[Localisation_Carte].Carte">
+		<step title="[Localisation_Carte].Carte">
+			<info>[Localisation_Carte].Carte : 40 lines</info>
+		</step>
+		<step title="[Localisation_Carte].Carte.Page1.Bouton9 (Bouton9)">
+			<info>[Localisation_Carte].Carte.Page1.Bouton9 (Bouton9) : 3 lines</info>
+		</step>
+		<step title="[Localisation_Carte].Carte.Page1.Bouton10 (Bouton9)">
+			<info>[Localisation_Carte].Carte.Page1.Bouton10 (Bouton9) : 1 lines</info>
+		</step>
+		<step title="[Localisation_Carte].Carte.Page1.List Box1">
+			<info>[Localisation_Carte].Carte.Page1.List Box1 : 21 lines</info>
+		</step>
+		<warning warning_type="0" warning_num="0">Feuille de style référencée non trouvé pour cet objet : [Localisation_Carte].Carte.Page1.Colonne1 (Lst_Local1)</warning>
+		<step title="[Localisation_Carte].Carte.Page1.Info_1 (Bouton invisible1)">
+			<info>[Localisation_Carte].Carte.Page1.Info_1 (Bouton invisible1) : 4 lines</info>
+		</step>
+		<step title="[Localisation_Carte].Carte.Page1.Info_8 (Bouton invisible1)">
+			<info>[Localisation_Carte].Carte.Page1.Info_8 (Bouton invisible1) : 4 lines</info>
+		</step>
+	</step>
+	<step title="[Localisation_Carte].Entrée">
+		<step title="[Localisation_Carte].Entrée.Page1.vRecNum (vRecNum)">
+			<info>[Localisation_Carte].Entrée.Page1.vRecNum (vRecNum) : 5 lines</info>
+		</step>
+	</step>
+	<step title="[Localisation_Carte].Sortie">
+	</step>
+	<step title="[Import].Entrée">
+		<step title="[Import].Entrée">
+			<info>[Import].Entrée : 6 lines</info>
+		</step>
+		<step title="[Import].Entrée.Page1.vRecNum (vRecNum)">
+			<info>[Import].Entrée.Page1.vRecNum (vRecNum) : 5 lines</info>
+		</step>
+		<step title="[Import].Entrée.Page1.Bouton (Bouton)">
+			<info>[Import].Entrée.Page1.Bouton (Bouton) : 3 lines</info>
+		</step>
+		<warning warning_type="0" warning_num="0">Feuille de style référencée non trouvé pour cet objet : [Import].Entrée.Page1.Bouton (Bouton)</warning>
+	</step>
+	<step title="[Import].Sortie">
+	</step>
+	<step title="[Odeur_Aromes].Entrée">
+		<step title="[Odeur_Aromes].Entrée.Page1.vRecNum (vRecNum)">
+			<info>[Odeur_Aromes].Entrée.Page1.vRecNum (vRecNum) : 5 lines</info>
+		</step>
+	</step>
+	<step title="[Odeur_Aromes].Sortie">
+	</step>
+	<step title="[Termes].UD_Saisie">
+		<step title="[Termes].UD_Saisie">
+			<info>[Termes].UD_Saisie : 35 lines</info>
+		</step>
+		<step title="[Termes].UD_Saisie.Page1.bValidate (bValidate)">
+			<info>[Termes].UD_Saisie.Page1.bValidate (bValidate) : 4 lines</info>
+		</step>
+		<step title="[Termes].UD_Saisie.Page1.Popup Liste déroulante (&lt;&gt;t_Termes_Categorie)">
+			<info>[Termes].UD_Saisie.Page1.Popup Liste déroulante (&lt;&gt;t_Termes_Categorie) : 1 lines</info>
+		</step>
+		<step title="[Termes].UD_Saisie.Page1.Champ2">
+			<info>[Termes].UD_Saisie.Page1.Champ2 : 9 lines</info>
+		</step>
+		<step title="[Termes].UD_Saisie.Page1.Bouton 3D (bt_Next)">
+			<info>[Termes].UD_Saisie.Page1.Bouton 3D (bt_Next) : 37 lines</info>
+		</step>
+	</step>
+	<step title="[Termes].Sortie">
+		<step title="[Termes].Sortie">
+			<info>[Termes].Sortie : 5 lines</info>
+		</step>
+		<step title="[Termes].Sortie.Page1.bAdd (bAdd)">
+			<info>[Termes].Sortie.Page1.bAdd (bAdd) : 8 lines</info>
+		</step>
+		<step title="[Termes].Sortie.Page1.bShowAll (bShowAll)">
+			<info>[Termes].Sortie.Page1.bShowAll (bShowAll) : 1 lines</info>
+		</step>
+		<step title="[Termes].Sortie.Page1.bShowSubset (bShowSubset)">
+			<info>[Termes].Sortie.Page1.bShowSubset (bShowSubset) : 1 lines</info>
+		</step>
+		<step title="[Termes].Sortie.Page1.bQuery (bQuery)">
+			<info>[Termes].Sortie.Page1.bQuery (bQuery) : 1 lines</info>
+		</step>
+		<step title="[Termes].Sortie.Page1.bOrderBy (bOrderBy)">
+			<info>[Termes].Sortie.Page1.bOrderBy (bOrderBy) : 1 lines</info>
+		</step>
+		<step title="[Termes].Sortie.Page1.bReport (bReport)">
+			<info>[Termes].Sortie.Page1.bReport (bReport) : 1 lines</info>
+		</step>
+		<step title="[Termes].Sortie.Page1.bLabels (bLabels)">
+			<info>[Termes].Sortie.Page1.bLabels (bLabels) : 1 lines</info>
+		</step>
+		<step title="[Termes].Sortie.Page1.bPrint (bPrint)">
+			<info>[Termes].Sortie.Page1.bPrint (bPrint) : 1 lines</info>
+		</step>
+		<step title="[Termes].Sortie.Page1.bGraph (bGraph)">
+			<info>[Termes].Sortie.Page1.bGraph (bGraph) : 1 lines</info>
+		</step>
+		<step title="[Termes].Sortie.Page1.bOrderBy1 (bOrderBy)">
+			<info>[Termes].Sortie.Page1.bOrderBy1 (bOrderBy) : 5 lines</info>
+		</step>
+	</step>
+	<step title="[Numerotation].Entrée">
+		<step title="[Numerotation].Entrée.Page1.vRecNum (vRecNum)">
+			<info>[Numerotation].Entrée.Page1.vRecNum (vRecNum) : 5 lines</info>
+		</step>
+	</step>
+	<step title="[Numerotation].Sortie">
+	</step>
+	<info>92 table forms</info>
+</step>
+<step title="Vérification de l&apos;information utilisateurs et groupes">
+</step>
+<step title="Vérification des Infobulles">
+</step>
+<step title="Vérification des dossiers de l&apos;explorateur">
+	<step title="Formulaires par défaut">
+	</step>
+	<step title="Tables par défaut">
+	</step>
+	<step title="Méthodes projet par défaut">
+	</step>
+	<step title="Dossier par défaut">
+	</step>
+	<step title="Corbeille">
+	</step>
+</step>
+<step title="Vérification des barres de menus et des menus">
+</step>
+<step title="Vérification des listes">
+</step>
+<step title="Vérification des méthodes orphelines">
+</step>
+<stop_timer time="2011-09-09T14:55:39+02:00" success="true" user_canceled="false"/>
+</verifylog>

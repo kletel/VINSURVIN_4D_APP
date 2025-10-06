@@ -1,0 +1,16 @@
+//%attributes = {}
+VInterface_1:=0
+VInterface_2:=0
+VInterface_3:=0
+VInterface_4:=0
+VInterface_5:=0
+VInterface_6:=0
+VInterface_7:=0
+VInterface_8:=0
+VInterface_9:=0
+VInterface_10:=0
+VInterface_11:=0
+VInterface_12:=0
+VInterface_13:=0
+VInterface_14:=0
+VInterface_15:=0

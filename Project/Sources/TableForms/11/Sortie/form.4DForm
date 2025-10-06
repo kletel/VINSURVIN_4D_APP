@@ -1,0 +1,390 @@
+{
+	"destination": "listScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 10,
+	"markerHeader": 23,
+	"markerBody": 102,
+	"markerBreak": 102,
+	"markerFooter": 102,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 21,
+					"left": 2,
+					"width": 637,
+					"height": 19,
+					"sizingX": "grow",
+					"stroke": "transparent"
+				},
+				"Séparateur1": {
+					"type": "splitter",
+					"top": -2,
+					"left": 117,
+					"width": 1,
+					"height": 42,
+					"dataSource": "Séparateur1",
+					"borderStyle": "none",
+					"events": [
+						"onClick"
+					]
+				},
+				"Séparateur2": {
+					"type": "splitter",
+					"top": -2,
+					"left": 186,
+					"width": 1,
+					"height": 42,
+					"dataSource": "Séparateur2",
+					"borderStyle": "none",
+					"events": [
+						"onClick"
+					]
+				},
+				"Ligne5": {
+					"type": "line",
+					"top": 19,
+					"left": -2,
+					"width": 644,
+					"sizingX": "grow"
+				},
+				"Séparateur1_Ligne2": {
+					"type": "line",
+					"top": 22,
+					"left": 117,
+					"height": 18,
+					"stroke": "#AAAAAA"
+				},
+				"Séparateur2_Ligne2": {
+					"type": "line",
+					"top": 22,
+					"left": 186,
+					"height": 18,
+					"stroke": "#AAAAAA"
+				},
+				"Rectangle8": {
+					"type": "rectangle",
+					"top": -4,
+					"left": -2,
+					"width": 644,
+					"height": 47,
+					"sizingX": "grow",
+					"fill": "transparent"
+				},
+				"Ligne9": {
+					"type": "line",
+					"top": 39,
+					"left": 0,
+					"width": 639,
+					"sizingX": "grow",
+					"stroke": "#AAAAAA"
+				},
+				"S1_Texte": {
+					"type": "text",
+					"top": 3,
+					"left": 3,
+					"width": 112,
+					"height": 12,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"borderStyle": "raised",
+					"text": "Type_Enumération"
+				},
+				"S2_Texte": {
+					"type": "text",
+					"top": 3,
+					"left": 121,
+					"width": 63,
+					"height": 12,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"borderStyle": "raised",
+					"text": "Positions"
+				},
+				"S3_Texte": {
+					"type": "text",
+					"top": 3,
+					"left": 190,
+					"width": 448,
+					"height": 12,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"borderStyle": "raised",
+					"text": "Texte_Fr"
+				},
+				"S1_Champ": {
+					"type": "input",
+					"top": 25,
+					"left": 3,
+					"width": 112,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[Textes:11]Type_Enumération:1",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S2_Champ": {
+					"type": "input",
+					"top": 25,
+					"left": 121,
+					"width": 63,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[Textes:11]Positions:2",
+					"dataSourceTypeHint": "number",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S3_Champ": {
+					"type": "input",
+					"top": 25,
+					"left": 228,
+					"width": 407,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[Textes:11]Texte_Fr:3",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S3_Champ1": {
+					"type": "input",
+					"top": 40,
+					"left": 228,
+					"width": 407,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[Textes:11]Texte_Danois:4",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S3_Champ2": {
+					"type": "input",
+					"top": 55,
+					"left": 228,
+					"width": 407,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[Textes:11]Texte_Ang:5",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S3_Champ3": {
+					"type": "input",
+					"top": 70,
+					"left": 228,
+					"width": 407,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[Textes:11]Texte_Espagnol:6",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S3_Champ4": {
+					"type": "input",
+					"top": 85,
+					"left": 228,
+					"width": 407,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[Textes:11]Texte_Allemand:7",
+					"stroke": "#000000",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 26,
+					"left": 188,
+					"width": 44,
+					"height": 13,
+					"class": "Par_défaut",
+					"text": "FR"
+				},
+				"Texte2": {
+					"type": "text",
+					"top": 41,
+					"left": 188,
+					"width": 44,
+					"height": 13,
+					"class": "Par_défaut",
+					"text": "DA"
+				},
+				"Texte3": {
+					"type": "text",
+					"top": 56,
+					"left": 188,
+					"width": 44,
+					"height": 13,
+					"class": "Par_défaut",
+					"text": "ANG"
+				},
+				"Texte4": {
+					"type": "text",
+					"top": 71,
+					"left": 188,
+					"width": 44,
+					"height": 13,
+					"class": "Par_défaut",
+					"text": "ESP"
+				},
+				"Texte5": {
+					"type": "text",
+					"top": 86,
+					"left": 188,
+					"width": 44,
+					"height": 13,
+					"class": "Par_défaut",
+					"text": "ALL"
+				}
+			}
+		}
+	]
+}

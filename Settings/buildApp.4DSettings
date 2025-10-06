@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Preferences4D>
+
+  <BuildApp>
+    <BuildCompiled>True</BuildCompiled>
+    <IncludeAssociatedFolders>False</IncludeAssociatedFolders>
+    <BuildComponent>False</BuildComponent>
+    <BuildApplicationSerialized>True</BuildApplicationSerialized>
+    <BuildApplicationLight>False</BuildApplicationLight>
+    <SourcesFiles>
+      <RuntimeVL>
+        <RuntimeVLIncludeIt>True</RuntimeVLIncludeIt>
+        <RuntimeVLMacFolder>Macintosh HD:Applications:4D 20 R5:4D Volume Desktop.app:</RuntimeVLMacFolder>
+        <RuntimeVLWinFolder>C:\Program Files (x86)\4D\4D 20 R5\4D Volume Desktop\</RuntimeVLWinFolder>
+      </RuntimeVL>
+      <CS>
+        <ServerIncludeIt>False</ServerIncludeIt>
+        <ClientMacIncludeIt>False</ClientMacIncludeIt>
+        <ClientWinIncludeIt>False</ClientWinIncludeIt>
+      </CS>
+    </SourcesFiles>
+    <BuildApplicationName>Vin sur Vin</BuildApplicationName>
+    <BuildMacDestFolder>::Vitissia:</BuildMacDestFolder>
+    <CS>
+      <BuildServerApplication>False</BuildServerApplication>
+      <BuildCSUpgradeable>False</BuildCSUpgradeable>
+      <CurrentVers>1</CurrentVers>
+      <HardLink></HardLink>
+      <BuildV13ClientUpgrades>False</BuildV13ClientUpgrades>
+      <LastDataPathLookup>ByAppName</LastDataPathLookup>
+      <MacCompiledDatabaseToWinIncludeIt>False</MacCompiledDatabaseToWinIncludeIt>
+      <MacCompiledDatabaseToWin></MacCompiledDatabaseToWin>
+      <ServerEmbedsProjectDirectoryFile>False</ServerEmbedsProjectDirectoryFile>
+    </CS>
+    <ArrayExcludedPluginName>
+      <ItemsCount>1</ItemsCount>
+      <Item1>4D View</Item1>
+    </ArrayExcludedPluginName>
+    <ArrayExcludedPluginID>
+      <ItemsCount>1</ItemsCount>
+      <Item1>13000</Item1>
+    </ArrayExcludedPluginID>
+    <ArrayExcludedComponentName>
+      <ItemsCount>17</ItemsCount>
+      <Item1>4DPop AppMaker</Item1>
+      <Item2>4DPop Bookmarks</Item2>
+      <Item3>4DPop Color Chart</Item3>
+      <Item4>4DPop Commands</Item4>
+      <Item5>4DPop Constants Editor</Item5>
+      <Item6>4DPop Image Buddy</Item6>
+      <Item7>4DPop KeepIt</Item7>
+      <Item8>4DPop Macros</Item8>
+      <Item9>4DPop Pasteboard</Item9>
+      <Item10>4DPop Rulers</Item10>
+      <Item11>4DPop sqlSchemas</Item11>
+      <Item12>4DPop Window</Item12>
+      <Item13>4DPop XLIFF</Item13>
+      <Item14>4DPop</Item14>
+      <Item15>4D ViewPro</Item15>
+      <Item16>4D NetKit</Item16>
+      <Item17>4D WritePro Interface</Item17>
+    </ArrayExcludedComponentName>
+    <Licenses>
+      <ArrayLicenseMac>
+        <ItemsCount>2</ItemsCount>
+        <Item1>Macintosh HD:Users:sergebenyamin:Library:Application Support:4D:Licenses:R-PNDP200UUC001BCLCN11193.license4D</Item1>
+        <Item2>Macintosh HD:Users:sergebenyamin:Library:Application Support:4D:Licenses:R-PNUD200UUC0019D1T00496E.license4D</Item2>
+      </ArrayLicenseMac>
+      <ArrayLicenseWin>
+        <ItemsCount>4</ItemsCount>
+        <Item1>C:\ProgramData\4D\Licenses\R-PNDP150UUC001A0H9411502.license4D</Item1>
+        <Item2>C:\ProgramData\4D\Licenses\R-PNUD150UUC001BC50Z0C677.license4D</Item2>
+        <Item3>C:\ProgramData\4D\Licenses\R-PNUD200UUC0019D1T102A2D.license4D</Item3>
+        <Item4>C:\ProgramData\4D\Licenses\R-PNDP200UUC001CP8Q31E4E4.license4D</Item4>
+      </ArrayLicenseWin>
+    </Licenses>
+    <SignApplication>
+      <MacSignature>False</MacSignature>
+      <MacCertificate></MacCertificate>
+      <AdHocSign>True</AdHocSign></SignApplication>
+    <DataFilePath>:::Desktop:Vin sur Vin.4dd</DataFilePath>
+    <BuildWinDestFolder>\\192.168.1.27\DevEnCours\Vitissia\Final Application\</BuildWinDestFolder>
+    <RuntimeVL>
+      <LastDataPathLookup>ByAppName</LastDataPathLookup>
+    </RuntimeVL>
+    <ArrayExcludedModuleName>
+      <ItemsCount>4</ItemsCount>
+      <Item1>CEF</Item1>
+      <Item2>MeCab</Item2>
+      <Item3>SpellChecker</Item3>
+      <Item4>4D Updater</Item4>
+    </ArrayExcludedModuleName>
+  </BuildApp>
+
+
+
+
+</Preferences4D>

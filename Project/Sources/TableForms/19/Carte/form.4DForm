@@ -1,0 +1,288 @@
+{
+	"destination": "detailScreen",
+	"inheritedForm": "Fond_Feuille",
+	"inheritedFormTable": 1,
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Bouton9": {
+					"type": "button",
+					"top": 531,
+					"left": 662,
+					"width": 129,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "Bouton9",
+					"action": "accept",
+					"text": ":<>strLang,78",
+					"class": "Bouttons",
+					"method": "ObjectMethods/Bouton9.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Bouton10": {
+					"type": "button",
+					"top": 531,
+					"left": 194,
+					"width": 129,
+					"height": 22,
+					"sizingY": "move",
+					"dataSource": "Bouton9",
+					"action": "cancel",
+					"text": ":<>strLang,21",
+					"fontFamily": "Helvetica",
+					"fontSize": 13,
+					"events": [
+						"onClick"
+					]
+				},
+				"Zone du plug-in1": {
+					"type": "plugin",
+					"top": 116,
+					"left": 191,
+					"width": 600,
+					"height": 403,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Carte",
+					"pluginAreaKind": "_4D Chart",
+					"dragging": "automatic",
+					"dropping": "automatic",
+					"borderStyle": "sunken",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPluginArea",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Champ24": {
+					"type": "input",
+					"top": 85,
+					"left": 279,
+					"width": 512,
+					"height": 24,
+					"dataSource": "[Localisation_Carte:19]Localisation:2",
+					"stroke": "#000000",
+					"textAlign": "left",
+					"fontFamily": "Helvetica",
+					"fontSize": 18,
+					"fill": "#FFFFC0",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Texte17": {
+					"type": "text",
+					"top": 87,
+					"left": 189,
+					"width": 85,
+					"height": 18,
+					"stroke": "#000000",
+					"fontFamily": "Helvetica Bold",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"text": ":<>strLang,40"
+				},
+				"Texte28": {
+					"type": "text",
+					"top": 11,
+					"left": 18,
+					"width": 765,
+					"height": 43,
+					"sizingX": "grow",
+					"stroke": "#FFFFFF",
+					"class": "Titre",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Localisation"
+				},
+				"Texte29": {
+					"type": "text",
+					"top": 9,
+					"left": 16,
+					"width": 765,
+					"height": 43,
+					"sizingX": "grow",
+					"stroke": "#600000",
+					"class": "Titre",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Localisation"
+				},
+				"List Box1": {
+					"type": "listbox",
+					"top": 87,
+					"left": 14,
+					"width": 164,
+					"height": 434,
+					"resizingMode": "legacy",
+					"dataSource": "List_cave1",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"selectionMode": "single",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"method": "ObjectMethods/List Box1.4dm",
+					"events": [
+						"onClick"
+					],
+					"columns": [
+						{
+							"name": "Colonne1",
+							"dataSource": "Lst_Local1",
+							"width": 149,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"alternateFill": "#C0CAFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "System Font Regular",
+							"fontSize": 12,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête1",
+								"text": ":<>strLang,335",
+								"dataSource": "Entête1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Geneva",
+								"fontSize": 11
+							},
+							"footer": {
+								"name": "Pied1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
+							}
+						}
+					]
+				},
+				"Info_17": {
+					"type": "picture",
+					"top": 531,
+					"left": 15,
+					"width": 22,
+					"height": 23,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/Moins.pict"
+				},
+				"Info_18": {
+					"type": "picture",
+					"top": 531,
+					"left": 47,
+					"width": 22,
+					"height": 23,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/Plus.pict"
+				},
+				"Info_1": {
+					"type": "button",
+					"top": 531,
+					"left": 47,
+					"width": 22,
+					"height": 23,
+					"dataSource": "Bouton invisible1",
+					"display": false,
+					"method": "ObjectMethods/Info_1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Info_8": {
+					"type": "button",
+					"top": 531,
+					"left": 16,
+					"width": 22,
+					"height": 23,
+					"dataSource": "Bouton invisible1",
+					"display": false,
+					"method": "ObjectMethods/Info_8.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "Vue 1",
+		"defaultView": "Vue 1",
+		"views": {
+			"Vue 1": {},
+			"Vue 2": {},
+			"Vue 3": {},
+			"Vue 4": {},
+			"Vue 5": {},
+			"Vue 6": {},
+			"Vue 7": {},
+			"Vue 8": {},
+			"Vue 9": {}
+		}
+	}
+}
