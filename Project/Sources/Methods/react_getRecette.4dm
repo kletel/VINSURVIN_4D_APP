@@ -8,12 +8,7 @@ $met:=KST_web_Lire_param(->$tVnom; ->$tVal; "met")
 
 
 //Tant que (Non(Sémaphore("Recette : "+$met; 10)))  //attendre 1.5 secondes
-While (Semaphore:C143("Recette : "+$met; 10))
-	IDLE:C311
-	If (False:C215)  //debug
-		CLEAR SEMAPHORE:C144("Recette : "+$met)
-	End if 
-End while 
+
 $recetteEntity:=ds:C1482.Recette.query("nomMet =:1"; $met)
 
 
@@ -29,8 +24,21 @@ Else
 	$recette:=$recetteEntity.toCollection().first()
 End if 
 
+// Vérifie si le process "BackgroundRecettes" existe déjà
+C_TEXT:C284($processName)
+C_LONGINT:C283($processNum)
 
-If (($recette.imageUrl="") || ($recette.imageUrl=Null:C1517) || Undefined:C82($recette.imageUrl))
+//$processName:="react_BackgroundRecettes"
+
+//// Renvoie le numéro du process (0 s’il n’existe pas)
+//$processNum:=Process number($processName)
+
+//// Si le process n'existe pas encore (numéro = 0)
+//If ($processNum=0)
+//New process("react_Recette_BackgroundCheck"; 128*64; $processName)
+//End if 
+
+If (($recette.imageUrl="") | ($recette.imageUrl=Null:C1517) | Undefined:C82($recette.imageUrl) | ($recette.imageBase64="") | ($recette.imageBase64=Null:C1517) | Undefined:C82($recette.imageBase64))
 	$recetteEntity:=ds:C1482.Recette.query("UUID_ =:1"; $recette.UUID_).first()
 	
 	var $client:=cs:C1710.AIKit.OpenAI.new("sk-proj-Ewo9zxKuLZMJndYONIXVT3BlbkFJwwDmvA3HFW7Stk96w83h")
@@ -62,5 +70,5 @@ End if
 
 $chaineJSON:=JSON Stringify:C1217($recette; *)
 CONVERT FROM TEXT:C1011($chaineJSON; "utf-8"; $chaineJSON)
-$chaineJSON:=BLOB to text:C555($chaineJSON; UTF8 texte sans longueur:K22:17)
+$chaineJSON:=BLOB to text:C555($chaineJSON; UTF8 text without length:K22:17)
 WEB SEND TEXT:C677($chaineJSON; "application/json")

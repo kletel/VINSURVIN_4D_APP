@@ -23,6 +23,6 @@ $lstRecette_col:=$lstRecette.toCollection("UUID_,nomMet,imageBase64")
 $chaineJSON:=JSON Stringify:C1217($lstRecette_col; *)
 CONVERT FROM TEXT:C1011($chaineJSON; "utf-8"; $chaineJSON)
 
-$chaineJSON:=BLOB to text:C555($chaineJSON; UTF8 texte sans longueur:K22:17)
+$chaineJSON:=BLOB to text:C555($chaineJSON; UTF8 text without length:K22:17)
 WEB SEND TEXT:C677($chaineJSON; "application/json")
 

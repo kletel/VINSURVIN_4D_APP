@@ -54,7 +54,7 @@ Case of
 			: ($adaptePlat="false")
 				$requete:="Analyse chaque vin ce qui est dans cette liste "+$lstVins+". Donne moi 1 seul vin qui est le plus intéressant pour chaque catégorie de prix(Moins Cher, Meillure Qualité prix(moyen prix), le meilleur sans limite de prix (Le Top)). Retourne moi le résultat en tableau JSON ["+"] sans"+" les champs vid"+"es avec tous ces critères dans ce for"+"mat (suit strictem"+"ent le f"+"ormat e"+"t tou"+"tes les clés d"+"ans"+" l"+"e json): [catégorie (Moins Cher"+",Meilleure Qualité prix,Le T"+"op):{nom, coul"+"e"+"ur, prix,appellation,région,caractéristique}] ."
 			Else 
-				$requete:="Je vais manger "+$platsChoisi+", analyse chaque vin ce qui est dans cette liste "+$lstVins+".Analyse si c'est un vrai plat. Donne moi 1 seul vin pour chaque catégorie de prix par rapport à mon plat (Moin"+"sC"+"her, Meillure Qualité p"+"rix"+"(moyen p"+"rix), le meilleur sa"+"ns limite "+"de prix (Le Top)) suivan"+"t la contenance que j'ai donné. Retourne moi le résultat en tableau JSON ["+"] sans"+" les champs vid"+"es avec tous ces critères dans ce for"+"mat (suit strictem"+"ent le f"+"ormat e"+"t tou"+"tes les clés d"+"ans"+" l"+"e json): [catégorie (Moins Cher"+",Meilleure Qualité prix,Le T"+"op):{nom, coul"+"e"+"ur, prix(lister tous les prix par contenance),appellation,région,caractéristique},(dans un autre objet){vraiplat(met à false si plat n'est pas vrai)}] ."
+				$requete:="Je vais manger "+$platsChoisi+", analyse chaque vin ce qui est dans cette liste "+$lstVins+".Corrige d'abord automatiquement les fautes d'orthographe ou les erreurs de frappe dans le nom du plat, puis analyse si c'est un vrai plat . Donne moi 1 seul vin pour chaque catégorie de prix par rapport à mon plat (Moin"+"sC"+"her, Meillure Qualité p"+"rix"+"(moyen p"+"rix), le meilleur sa"+"ns limite "+"de prix (Le Top)) suivan"+"t la contenance que j'ai donné. Retourne moi le résultat en tableau JSON ["+"] sans"+" les champs vid"+"es avec tous ces critères dans ce for"+"mat (suit strictem"+"ent le f"+"ormat e"+"t tou"+"tes les clés d"+"ans"+" l"+"e json): [catégorie (Moins Cher"+",Meilleure Qualité prix,Le T"+"op):{nom, coul"+"e"+"ur, prix(lister tous les prix par contenance),appellation,région,caractéristique},(dans un autre objet){vraiplat(met à false si plat n'est pas vrai)}] ."
 		End case 
 		
 	: ($typeCase="conseilCave")
@@ -68,16 +68,15 @@ Case of
 			: ($choice="acheter")  //Acheter un nouveau vin
 				
 				$budget:=KST_web_Lire_param(->$tVnom; ->$tVal; "budget")
-				$requete:="Vous êtes un caviste expert (30 ans d’expérience). Je vais manger "+$platsChoisi+".Analyse si c'est un vrai plat. À partir de mes choix des plats, conseil moi un vin par plat et le meillure qua"+"lit"+"é prix selon ce budget to"+"tal"+" maximum"+" de "+$budget+" €. Pas d'explication. Retourne moi le résultat en un tableau de JSON [] avec :plat(plat que j'ai donné), nom, couleur, prix,appellation,region,vraiplat(met à false si plat n'est pas vrai) ."
+				$requete:="Vous êtes un caviste expert (30 ans d’expérience). Je vais manger "+$platsChoisi+".Corrige d'abord automatiquement les fautes d'orthographe ou les erreurs de frappe dans le nom du plat, puis analyse si c'est un vrai plat . À partir de mes choix des plats, conseil moi un vin par plat et le meillure qua"+"lit"+"é prix selon ce budget to"+"tal"+" maximum"+" de "+$budget+" €. Pas d'explication. Retourne moi le résultat en un tableau de JSON [] avec :plat(plat que j'ai donné), nom, couleur, prix,appellation,region,vraiplat(met à false si plat n'est pas vrai) ."
 				
 				
 			: ($choice="cave")  //Prendre dans la cave
 				
-				$lstCaves:=ds:C1482.Cave.query("UUID_User=:1"; $uuidUser).orderBy("Nom asc").toCollection("Nom,Appellation,Région,Reste_en_Cave")
+				$lstVin:=ds:C1482.Cave.all().toCollection("Nom,Appellation,Région,Reste_en_Cave")
+				$jsonVin:=JSON Stringify:C1217($lstVin)
 				
-				$jsonVin:=JSON Stringify:C1217($lstCaves)
-				
-				$requete:="Vous êtes un caviste expert (30 ans d’expérience). Je vais manger "+$platsChoisi+".Analyse si c'est un vrai plat. À partir de mes choix des plats et cette liste des vins et nombre de bouteille "+"qui"+" reste dans la cave (si 0"+" ne"+" le pren"+"d pas) "+$jsonVin+" , conseil moi un vin par plat qui est le plus adapté à mes plats.Pas d'explication. Retourne moi le résultat en un tableau de JSON []  avec :plat(plat que j'ai donné), nom, couleur,appellation,region,vraiplat(met à false si plat n'est pas v"+"rai)."
+				$requete:="Vous êtes un caviste expert (30 ans d’expérience). Je vais manger "+$platsChoisi+".Corrige d'abord automatiquement les fautes d'orthographe ou les erreurs de frappe dans le nom du plat, puis analyse si c'est un vrai plat . À partir de mes choix des plats et cette liste des vins et nombre de bouteille "+"qui"+" reste dans la cave (si 0"+" ne"+" le pren"+"d pas) "+$jsonVin+" , conseil moi un vin par plat qui est le plus adapté à mes plats.Pas d'explication. Retourne moi le résultat en un tableau de JSON []  avec :plat(plat que j'ai donné), nom, couleur,appellation,region,vraiplat(met à false si plat n'est pas v"+"rai)."
 				
 			: ($choice="mix")  //Mixer les choix
 				
@@ -86,7 +85,7 @@ Case of
 				$budget:=KST_web_Lire_param(->$tVnom; ->$tVal; "budget")
 				
 				
-				$requete:="Vous êtes un caviste expert (30 ans d’expérience). Je vais manger "+$platsChoisi+".Analyse si c'est un vrai plat.Analyse mes choix des plats. J'ai cette liste des vins et nombre de bouteille qu"+"i r"+"este dans la cave (si 0 n"+"e l"+"e prend "+"pas) "+$jsonVin+".À partir de cette liste ou autre vins qui ne sont pas dans la liste selon ce budget total maximum de "+$budget+" €, conseil moi un vin par plat qui est le plus adapté à mes plats.  Retourne moi le résultat en un tableau de JSON []  avec :plat(plat que j'ai donné), nom, couleur,appellation,re"+"gion,,vraiplat(met à false si plat n'est pas vrai)."
+				$requete:="Vous êtes un caviste expert (30 ans d’expérience). Je vais manger "+$platsChoisi+".Corrige d'abord automatiquement les fautes d'orthographe ou les erreurs de frappe dans le nom du plat, puis analyse si c'est un vrai plat .Analyse mes choix des plats. J'ai cette liste des vins et nombre de bouteille qu"+"i r"+"este dans la cave (si 0 n"+"e l"+"e prend "+"pas) "+$jsonVin+".À partir de cette liste ou autre vins qui ne sont pas dans la liste selon ce budget total maximum de "+$budget+" €, conseil moi un vin par plat qui est le plus adapté à mes plats.  Retourne moi le résultat en un tableau de JSON []  avec :plat(plat que j'ai donné), nom, couleur,appellation,re"+"gion,,vraiplat(met à false si plat n'est pas vrai)."
 				
 		End case 
 	Else 
@@ -195,32 +194,14 @@ $json:=Replace string:C233($json; "\n"; ""; 99999)
 
 $result:=JSON Parse:C1218($json)
 
-/*$vraiplat:=$result[0].vraiplat
-If (Undefined($vraiplat))
-$vraiplat:=$result[3].vraiplat
-End if */
-
-C_OBJECT:C1216($responseObject)
-$responseObject:=New object:C1471("conseil"; $result; "uuid"; $uuidTable)
-
-/*If ($typeCase#"conseilCave")
-$vraiplat:=$result[0].vraiplat
-
-
-If ($vraiplat)
-
-$resultText:=JSON Stringify array($result)
-$table.Conseil:=$resultText
-$table.Temps_Analyse:=$tempsTotal
-Else 
-$responseObject:=New object("error"; $result[0].message)
+$vraiplat:=True:C214
+If (OB Is defined:C1231($result[0]; "vraiplat"))
+	$vraiplat:=$result[0].vraiplat
 End if 
-Else 
-$responseObject:=New object("conseil"; $result; "uuid"; $uuidTable)
 
-End if */
-
-
+// --- Construction de la réponse JSON envoyée au frontend
+C_OBJECT:C1216($responseObject)
+$responseObject:=New object:C1471("conseil"; $result; "uuid"; $uuidTable; "vraiPlat"; $vraiplat)
 $jsonSend:=JSON Stringify:C1217($responseObject)
 WEB SEND TEXT:C677($jsonSend; "application/json")
 

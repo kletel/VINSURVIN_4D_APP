@@ -6,10 +6,10 @@ WEB GET VARIABLES:C683($tVnom; $tVal)
 $lstAssos:=ds:C1482.Association.query("Langue=:1"; "fr").orderBy("Categorie asc")
 //[Association]Categorie
 
-$lstAssos_col:=$lstAssos.toCollection("Categorie,Sous_Categorie,Met,Vin,UUID_")
+$lstAssos_col:=$lstAssos.toCollection()
 $chaineJSON:=JSON Stringify:C1217($lstAssos_col; *)
 //collection v
 CONVERT FROM TEXT:C1011($chaineJSON; "utf-8"; $chaineJSON)
 
-$chaineJSON:=BLOB to text:C555($chaineJSON; UTF8 text without length:K22:17)
+$chaineJSON:=BLOB to text:C555($chaineJSON; UTF8 texte sans longueur:K22:17)
 WEB SEND TEXT:C677($chaineJSON; "application/json")
