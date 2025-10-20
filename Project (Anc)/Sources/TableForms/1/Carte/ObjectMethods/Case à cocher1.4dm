@@ -1,1 +1,0 @@
-Grapher(V_Pays_A_Grapher; V_Type_Graphe)

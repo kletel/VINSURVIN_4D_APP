@@ -1,2 +1,0 @@
-//%attributes = {}
-OPEN SECURITY CENTER:C1018

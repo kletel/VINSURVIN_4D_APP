@@ -1,4 +1,0 @@
-//%attributes = {"invisible":true}
-ARRAY TEXT:C222(<>LANGUETXT; 0; 0)
-ARRAY TEXT:C222(<>POP_PAYS; 0)
-ARRAY TEXT:C222(<>T_TERMES_CATEGORIE; 0)

@@ -14,12 +14,7 @@
 		<field name="vuedefaut" uuid="A983B53D28EF4050862F03ACC9C10F8B" type="3" never_null="true" id="9"/>
 		<field name="UUID_" uuid="76CB335D3CB642C789FDF87C64DB9B6F" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="11"/>
 		<primary_key field_name="UUID_" field_uuid="76CB335D3CB642C789FDF87C64DB9B6F"/>
-		<table_extra input_form="Kle_Alerte" output_form="Producteurs">
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="40" top="40" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
+		<table_extra input_form="Kle_Alerte" output_form="Producteurs"/>
 	</table>
 	<table name="Cave" uuid="6F4F15D31EDA4134970B4E5B820EED30" id="2">
 		<field name="Nom" uuid="88A611C4B8A7420C801F0D75D7AD93E7" type="10" limiting_length="254" never_null="true" id="1">
@@ -108,12 +103,7 @@
 		<field name="TypeAlcool" uuid="1FCB0D9972474A35805A273F23A170B4" type="10" limiting_length="255" id="72"/>
 		<field name="base64_etiquette" uuid="AFBAE89B30414476AACF77CC9938163D" type="14" id="73" outside_blob="true"/>
 		<primary_key field_name="UUID_" field_uuid="C5FCFCF66B9548139B8899472A572C33"/>
-		<table_extra trigger_insert="true" trigger_update="true" input_form="Saisie" output_form="Impression2">
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="240" top="40" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
+		<table_extra trigger_insert="true" trigger_update="true" input_form="Saisie" output_form="Impression2"/>
 	</table>
 	<table name="Appellation" uuid="5E6E797B183B488F9B51C3ABFF9B8632" id="3">
 		<field name="Appellation" uuid="4527B0FBFFDB42959B8346C9DE216AF5" type="10" limiting_length="80" unique="true" never_null="true" id="1"/>
@@ -127,12 +117,7 @@
 		<field name="Nb" uuid="956AD39E59A945B9A7FF091D87E23284" type="4" never_null="true" id="9"/>
 		<field name="UUID_" uuid="0406BE116999469BB22A2A2B3959D25A" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="10"/>
 		<primary_key field_name="UUID_" field_uuid="0406BE116999469BB22A2A2B3959D25A"/>
-		<table_extra trigger_insert="true" trigger_update="true" trigger_delete="true" trigger_load="true" input_form="Formulaire1" output_form="Formulaire3">
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="440" top="40" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
+		<table_extra trigger_insert="true" trigger_update="true" trigger_delete="true" trigger_load="true" input_form="Formulaire1" output_form="Formulaire3"/>
 	</table>
 	<table name="Millésimes" uuid="121E219AE8A74059B9CCB97052DFC803" id="4">
 		<field name="Annee" uuid="56886819BB5047F38EC9756180C559D9" type="3" never_null="true" id="1"/>
@@ -149,12 +134,7 @@
 		<field name="Ref_Pays" uuid="77758ED65C21469094B4979BBB2F2391" type="4" never_null="true" id="12"/>
 		<field name="UUID_" uuid="139FF1814C1A4D4481CF94740DFEBA1F" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="13"/>
 		<primary_key field_name="UUID_" field_uuid="139FF1814C1A4D4481CF94740DFEBA1F"/>
-		<table_extra input_form="Formulaire1" output_form="Sortie">
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="640" top="40" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
+		<table_extra input_form="Formulaire1" output_form="Sortie"/>
 	</table>
 	<table name="Vocabulaire" uuid="98FCF796B6C54851AAF1A7B2652F4AC0" id="5">
 		<field name="Nom" uuid="F0844740B5B24B9584CF52FFF1A1858D" type="10" limiting_length="40" never_null="true" id="1"/>
@@ -170,12 +150,7 @@
 		<field name="Nom_All" uuid="31F1A713818948E1809128BFB8D79266" type="10" limiting_length="80" never_null="true" id="11"/>
 		<field name="UUID_" uuid="2E03B8D2F63641DD83306544D2485CDC" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="12"/>
 		<primary_key field_name="UUID_" field_uuid="2E03B8D2F63641DD83306544D2485CDC"/>
-		<table_extra input_form="Entrée" output_form="Sortie">
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="40" top="287" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
+		<table_extra input_form="Entrée" output_form="Sortie"/>
 	</table>
 	<table name="Cépages" uuid="96CC5EC2961B45E2950320C3ECEC5491" id="6">
 		<field name="Vin" uuid="45BB5191E0E0426EB7C60726334D53CF" type="10" limiting_length="20" never_null="true" id="1"/>
@@ -189,12 +164,7 @@
 		<field name="Langue" uuid="E090E66BA34343CF94573942FC7BDA03" type="6" never_null="true" id="9"/>
 		<field name="UUID_" uuid="9C54530F93594DCC80BF027923C9C6AA" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="10"/>
 		<primary_key field_name="UUID_" field_uuid="9C54530F93594DCC80BF027923C9C6AA"/>
-		<table_extra input_form="Entrée" output_form="Sortie">
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="240" top="287" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
+		<table_extra input_form="Entrée" output_form="Sortie"/>
 	</table>
 	<table name="Association" uuid="35B14092A1A149E19F293869B179B749" id="7">
 		<field name="Categorie" uuid="F5010AB762A6453EB15B217A1E222E24" type="10" limiting_length="80" never_null="true" id="1"/>
@@ -204,12 +174,7 @@
 		<field name="Langue" uuid="9AFF02194DC344E294A74A2A5D629FF0" type="10" limiting_length="20" never_null="true" id="5"/>
 		<field name="UUID_" uuid="99E9439478274A669BD2B4EB5704C9A1" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="6"/>
 		<primary_key field_name="UUID_" field_uuid="99E9439478274A669BD2B4EB5704C9A1"/>
-		<table_extra input_form="Saisie" output_form="Sortie">
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="440" top="287" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
+		<table_extra input_form="Saisie" output_form="Sortie"/>
 	</table>
 	<table name="Pays" uuid="9C022BADAD024F6A8D8BB2321A961215" id="8">
 		<field name="Ref_Pays" uuid="437BD807A7004F72921D1D403DC69718" type="4" never_null="true" id="1"/>
@@ -238,12 +203,7 @@
 		</field>
 		<field name="UUID_" uuid="D1A91AF9A0CB4C27BB4B4970B115D97D" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="15"/>
 		<primary_key field_name="UUID_" field_uuid="D1A91AF9A0CB4C27BB4B4970B115D97D"/>
-		<table_extra trigger_insert="true" trigger_update="true" trigger_delete="true" trigger_load="true" input_form="Entrée" output_form="Sortie">
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="640" top="287" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
+		<table_extra trigger_insert="true" trigger_update="true" trigger_delete="true" trigger_load="true" input_form="Entrée" output_form="Sortie"/>
 	</table>
 	<table name="Region" uuid="95C71106E5A94364B6D5171C608409D2" id="9">
 		<field name="Ref_Region" uuid="FB5A2654C44E4E49B86CED11F24402EC" type="4" never_null="true" id="1"/>
@@ -261,12 +221,7 @@
 		<field name="Latitude" uuid="87E3C8F0C3874FB285B26AAC47514A4B" type="6" id="13"/>
 		<field name="Lieu_geo" uuid="A504400596814514845A399E1F82A52E" type="10" limiting_length="255" id="14"/>
 		<primary_key field_name="UUID_" field_uuid="89F36C45AE9C444B871EB732C3AA3896"/>
-		<table_extra trigger_insert="true" trigger_update="true" trigger_delete="true" trigger_load="true" input_form="Entrée" output_form="Sortie">
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="40" top="534" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
+		<table_extra trigger_insert="true" trigger_update="true" trigger_delete="true" trigger_load="true" input_form="Entrée" output_form="Sortie"/>
 	</table>
 	<table name="Informations" uuid="B8D144F392BD4B759799367CFDD78C30" id="10">
 		<field name="Rubrique" uuid="2B6F7D178E74487CA521F7F106422E12" type="10" limiting_length="40" never_null="true" id="1"/>
@@ -303,12 +258,7 @@
 		<field name="Texte_WP_ES" uuid="A7340A5252F0424F8AF35C1B2E0BCAA2" type="21" never_null="true" id="32"/>
 		<field name="Texte_WP_AL" uuid="A15D990870B547D3964809A87FBDC0C9" type="21" never_null="true" id="33"/>
 		<primary_key field_name="UUID_" field_uuid="77401EFFD036435888A03D1F7358EF27"/>
-		<table_extra trigger_insert="true" trigger_update="true" trigger_delete="true" trigger_load="true" input_form="Entrée" output_form="Sortie">
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="240" top="534" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
+		<table_extra trigger_insert="true" trigger_update="true" trigger_delete="true" trigger_load="true" input_form="Entrée" output_form="Sortie"/>
 	</table>
 	<table name="Textes" uuid="FDED7801BF3449E4ADD8A41CBAF99B36" id="11">
 		<field name="Type_Enumération" uuid="5A0D00D3888A49349AC1A8D8C8BBFD4E" type="10" limiting_length="20" never_null="true" id="1"/>
@@ -320,12 +270,7 @@
 		<field name="Texte_Allemand" uuid="1D3E9D8AA19347E5B70F292387CADB38" type="10" limiting_length="80" never_null="true" id="7"/>
 		<field name="UUID_" uuid="5DE54B6B598242648E4125849B5150A2" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="8"/>
 		<primary_key field_name="UUID_" field_uuid="5DE54B6B598242648E4125849B5150A2"/>
-		<table_extra input_form="Entrée" output_form="Sortie">
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="440" top="534" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
+		<table_extra input_form="Entrée" output_form="Sortie"/>
 	</table>
 	<table name="Degustation" uuid="15F2843BDE5F45389DDE3F15F3F5FA7E" id="12">
 		<field name="Ref_Degust" uuid="01444AD36C4F4D0DB11ABC1204E85B1B" type="4" never_null="true" id="1"/>
@@ -340,12 +285,7 @@
 		<field name="Nb_Bouteille" uuid="0520A5C02623486785DFC31DA7012592" type="6" never_null="true" id="8"/>
 		<field name="UUID_" uuid="6F0E612DDB194552B731A90F7C9CEDC7" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="9"/>
 		<primary_key field_name="UUID_" field_uuid="6F0E612DDB194552B731A90F7C9CEDC7"/>
-		<table_extra trigger_insert="true" trigger_update="true" trigger_delete="true" input_form="Saisie_Cave" output_form="Sortie">
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="640" top="534" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
+		<table_extra trigger_insert="true" trigger_update="true" trigger_delete="true" input_form="Saisie_Cave" output_form="Sortie"/>
 	</table>
 	<table name="Producteur" uuid="FF59341C8C60479292805A7BF65624B6" id="13">
 		<field name="Ref_Producteur" uuid="03DE8764C10C4908AE25BD094B63A3E9" type="4" never_null="true" id="1"/>
@@ -366,12 +306,7 @@
 		<field name="Remarques" uuid="16C22728571646868E48D0E8464BB394" type="10" never_null="true" id="14"/>
 		<field name="UUID_" uuid="8E8710E1285B4C35B40838CB51FC2081" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="15"/>
 		<primary_key field_name="UUID_" field_uuid="8E8710E1285B4C35B40838CB51FC2081"/>
-		<table_extra trigger_insert="true" trigger_update="true" trigger_delete="true" trigger_load="true" input_form="Entrée" output_form="Sortie">
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="40" top="781" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
+		<table_extra trigger_insert="true" trigger_update="true" trigger_delete="true" trigger_load="true" input_form="Entrée" output_form="Sortie"/>
 	</table>
 	<table name="Titre_Millesime" uuid="E0707D915DD14DA0BDFF96B6DB62B6EF" id="14">
 		<field name="Pays" uuid="058A7D86D55146A288502867D49439EF" type="10" limiting_length="40" never_null="true" id="1"/>
@@ -389,12 +324,7 @@
 		<field name="Titre10" uuid="AC6F256A3D68497C913ACBA967E2A4AC" type="10" limiting_length="20" never_null="true" id="13"/>
 		<field name="UUID_" uuid="86BDFD833B794DC38B84D79C83221334" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="14"/>
 		<primary_key field_name="UUID_" field_uuid="86BDFD833B794DC38B84D79C83221334"/>
-		<table_extra input_form="Entrée" output_form="Sortie">
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="240" top="781" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
+		<table_extra input_form="Entrée" output_form="Sortie"/>
 	</table>
 	<table name="Sites" uuid="A17086F634A14486B978E371CA872450" id="15">
 		<field name="Rubrique" uuid="A6D1DC52C77A420C9BE9E94FD85F4A11" type="10" limiting_length="30" never_null="true" id="1"/>
@@ -404,12 +334,7 @@
 		<field name="Langue" uuid="C6849884610F46D9847807494B177A13" type="10" limiting_length="20" never_null="true" id="5"/>
 		<field name="UUID_" uuid="410A4704AA984A33BD28FAFFDFEE01A0" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="6"/>
 		<primary_key field_name="UUID_" field_uuid="410A4704AA984A33BD28FAFFDFEE01A0"/>
-		<table_extra input_form="Entrée" output_form="Sortie">
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="440" top="781" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
+		<table_extra input_form="Entrée" output_form="Sortie"/>
 	</table>
 	<table name="Etiquettes" uuid="90049195A19E45EBB786FA2D2D2E46DF" id="16">
 		<field name="Nom" uuid="F7E4C95BFE47438F8AC2494B768492BE" type="10" limiting_length="80" never_null="true" id="1"/>
@@ -424,12 +349,7 @@
 		<field name="Casier" uuid="996A35C8120D4D4DAB041EB8EE82045E" type="10" limiting_length="30" never_null="true" id="10"/>
 		<field name="UUID_" uuid="4A01B5D1474A4A42B99657525F4C604F" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="11"/>
 		<primary_key field_name="UUID_" field_uuid="4A01B5D1474A4A42B99657525F4C604F"/>
-		<table_extra input_form="Formulaire1" output_form="Formulaire1">
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="640" top="781" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
+		<table_extra input_form="Formulaire1" output_form="Formulaire1"/>
 	</table>
 	<table name="Utilisateur" uuid="D171A7B3CAC542B3AA15B97108BF94D9" id="17">
 		<field name="Nom" uuid="35BBF51D161045B08082EC24BD712DCC" type="10" limiting_length="80" never_null="true" id="1"/>
@@ -453,12 +373,7 @@
 		<field name="DateExpiration" uuid="CCD0859ADCD347A88F016A8AE1B94F14" type="8" id="19"/>
 		<field name="HeureExpiration" uuid="4770CF5C69094D718D4E3C0740E9B683" type="9" id="20"/>
 		<primary_key field_name="UUID_" field_uuid="4D8D01A4ACB54F05B3ED620C26ED0FB6"/>
-		<table_extra trigger_insert="true" trigger_update="true" input_form="Saisie" output_form="Saisie">
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="40" top="1028" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
+		<table_extra trigger_insert="true" trigger_update="true" input_form="Saisie" output_form="Saisie"/>
 	</table>
 	<table name="Modele_Carte" uuid="7B9ADC42D0604139987B1FAAD53AF6AE" id="18">
 		<field name="_Ref" uuid="A190B7F7AE5F46F9BFECBF0DC24F56AA" type="4" never_null="true" id="1"/>
@@ -466,12 +381,7 @@
 		<field name="Carte_" uuid="5FE615EF9FD743E2BFA3C3F1D1280684" type="18" never_null="true" id="3"/>
 		<field name="UUID_" uuid="DCA9F524E50A428DBE5FC059F3FDB389" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="4"/>
 		<primary_key field_name="UUID_" field_uuid="DCA9F524E50A428DBE5FC059F3FDB389"/>
-		<table_extra input_form="Entrée" output_form="Sortie">
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="240" top="1028" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
+		<table_extra input_form="Entrée" output_form="Sortie"/>
 	</table>
 	<table name="Localisation_Carte" uuid="4150A5FAC35D49EF95B3030F716A2BB3" id="19">
 		<field name="_Ref" uuid="B32FC8F88C774D91B27ED5F979919268" type="4" never_null="true" id="1">
@@ -482,12 +392,7 @@
 		<field name="_ref_Origine_Carte" uuid="97529479E4BD436390FA2FDA0A2F17FB" type="4" never_null="true" id="4"/>
 		<field name="UUID_" uuid="4A7EAB16BBB649AEBB29A011881BC535" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="5"/>
 		<primary_key field_name="UUID_" field_uuid="4A7EAB16BBB649AEBB29A011881BC535"/>
-		<table_extra input_form="Entrée" output_form="Sortie">
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="440" top="1028" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
+		<table_extra input_form="Entrée" output_form="Sortie"/>
 	</table>
 	<table name="Import" uuid="D9A31FBC29144AE2AF6CA72BA69B1DBA" id="20">
 		<field name="URL" uuid="651C5DB718D641DFB36B45978EB820B7" type="10" never_null="true" id="1"/>
@@ -512,12 +417,7 @@
 		<field name="Accord" uuid="28E2DDCA3C5F460DB1822DCFDCC10175" type="10" never_null="true" id="20"/>
 		<field name="UUID_" uuid="F9F177D941E44CECA271D9AC37ABFCB0" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="21"/>
 		<primary_key field_name="UUID_" field_uuid="F9F177D941E44CECA271D9AC37ABFCB0"/>
-		<table_extra input_form="Entrée" output_form="Sortie">
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="640" top="1028" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
+		<table_extra input_form="Entrée" output_form="Sortie"/>
 	</table>
 	<table name="Odeur_Aromes" uuid="74DE43BE3A6140AAA1E11B6525627528" id="21">
 		<field name="Nom" uuid="EB7BE88AC6C144938181836A1C21A18E" type="10" limiting_length="80" id="1"/>
@@ -525,12 +425,7 @@
 		<field name="_Ref" uuid="A4043119B3C946C498F70E75BAF910F9" type="5" autosequence="true" id="3"/>
 		<field name="UUID_" uuid="DF2542A6CCC54423876B45740FDFDAA2" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="4"/>
 		<primary_key field_name="UUID_" field_uuid="DF2542A6CCC54423876B45740FDFDAA2"/>
-		<table_extra trigger_insert="true" trigger_update="true" trigger_delete="true" input_form="Entrée" output_form="Sortie">
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="40" top="1275" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
+		<table_extra trigger_insert="true" trigger_update="true" trigger_delete="true" input_form="Entrée" output_form="Sortie"/>
 	</table>
 	<table name="Termes" uuid="E04CE6CEF5BF4412A5499B2A8736FD19" id="22">
 		<field name="ID_Termes" uuid="C5715CA52CB54D69B5FF7A3C495CECC6" type="4" never_null="true" id="1"/>
@@ -555,12 +450,7 @@
 		<field name="Commentaires" uuid="7F0A5DBF6DFD459496BA2FE9846603D6" type="10" never_null="true" id="20"/>
 		<field name="UUID_" uuid="2B553D921A154B69965A9B30B99C2F4A" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="21"/>
 		<primary_key field_name="UUID_" field_uuid="2B553D921A154B69965A9B30B99C2F4A"/>
-		<table_extra input_form="UD_Saisie" output_form="Sortie">
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="240" top="1275" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
+		<table_extra input_form="UD_Saisie" output_form="Sortie"/>
 	</table>
 	<table name="Numerotation" uuid="A439569DC7244B2196204B60278CE3E3" id="23">
 		<field name="CompteurCourant" uuid="614BE93E3B49454D868231F27572275F" type="4" never_null="true" id="1"/>
@@ -569,12 +459,7 @@
 		<field name="NrTable" uuid="B633332A7E834292B4BEC7C4BBE7B1E4" type="4" never_null="true" id="4"/>
 		<field name="UUID_" uuid="F8008014FE0E48D2BB11756DB4D1E606" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="5"/>
 		<primary_key field_name="UUID_" field_uuid="F8008014FE0E48D2BB11756DB4D1E606"/>
-		<table_extra input_form="Entrée" output_form="Sortie">
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="440" top="1275" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
+		<table_extra input_form="Entrée" output_form="Sortie"/>
 	</table>
 	<table name="KSF_CRYPTO_KEYS" uuid="7049C6EE48D24F9EBB676DC20E221398" id="24" prevent_journaling="true">
 		<field name="privatekey" uuid="D8629725532B468F8E20867A02AA6E57" type="10" id="1"/>
@@ -582,12 +467,6 @@
 		<field name="publickey" uuid="D3C1C341E13A4459836ACAFAE19F93E2" type="10" id="3"/>
 		<field name="nom" uuid="622DB7366F2545848B7F3ADFC6425083" type="10" limiting_length="255" id="4"/>
 		<primary_key field_name="UUID" field_uuid="B3E5C6254AE14AEFA0A9657CB103D93F"/>
-		<table_extra>
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="640" top="1275" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
 	</table>
 	<table name="Analyse_IA" uuid="A7D1FA1BE5D74935AB46AD11D5651C64" id="25" prevent_journaling="true">
 		<field name="b64" uuid="97BFDCA065824B5CB175F3CFEC00B351" type="10" id="1"/>
@@ -610,12 +489,6 @@
 		</field>
 		<field name="UUID_Recette" uuid="066839B5231B4D2EBF1DA6AAE3A2189E" type="10" store_as_UUID="true" id="17"/>
 		<primary_key field_name="UUID_" field_uuid="5531497C59E2496A9FE3463E886FECE9"/>
-		<table_extra>
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="40" top="1522" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
 	</table>
 	<table name="(ResetPassToken)" uuid="17A75F0DE0E8445D8E4853A68C98F099" id="26" hide_in_REST="true" prevent_journaling="true">
 		<field name="token" uuid="EB010354B78240479C4266563C8C9117" type="10" id="1"/>
@@ -627,12 +500,7 @@
 		<field name="dateExpiration" uuid="CC624B189FBA432D996725497D251799" type="8" id="5"/>
 		<field name="used" uuid="48E423C8CDDF48D98978C95F3F4B306D" type="1" id="6"/>
 		<primary_key field_name="UUID" field_uuid="BD27FDA74DDF4D9B9859ED574B4375D3"/>
-		<table_extra trashed="true">
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="240" top="1522" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
+		<table_extra trashed="true"/>
 	</table>
 	<table name="Enum" uuid="BD89CF4E677A434B877FFEB4A1505073" id="27" prevent_journaling="true">
 		<field name="Valeur_Enum" uuid="7DD3CD029A0149DCAE1F10E0FD4AC51E" type="21" blob_switch_size="2147483647" id="1">
@@ -644,12 +512,6 @@
 		<field name="titre" uuid="D89B6771E1684EBA864C9A940C58403D" type="10" limiting_length="255" id="3"/>
 		<field name="langue" uuid="E8CB6A6A367C4B12A7F268357BDB2030" type="10" limiting_length="255" id="4"/>
 		<primary_key field_name="UUID_" field_uuid="370F9BAAAD5D44D8B2FF662B1770164D"/>
-		<table_extra>
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="440" top="1522" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
 	</table>
 	<table name="Recette" uuid="8EF9956EB91147BEB1E1702FB15B55A1" id="28" prevent_journaling="true">
 		<field name="requete" uuid="F997169F6274439A86A873898CDF0B18" type="10" limiting_length="255" id="1"/>
@@ -679,12 +541,6 @@
 		<field name="nomFichier" uuid="8CFEE9B5B0214F4B9F7F64914E557277" type="10" limiting_length="255" id="19"/>
 		<field name="instructionDetail" uuid="6B5B798A76F54D24BBB5332B2D47CD19" type="10" id="20"/>
 		<primary_key field_name="UUID_" field_uuid="6C49AB6E6C0B4628A8585CB08DB642CE"/>
-		<table_extra>
-			<editor_table_info fields_ordering="1" displayable_fields_count="41">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="891.57263183594" top="1233.630859375" width="255.44567871094" height="905.599609375"/>
-			</editor_table_info>
-		</table_extra>
 	</table>
 	<table name="Vin_Association" uuid="34BE07ED9AF44F839D886283077642D3" id="29" prevent_journaling="true">
 		<field name="UUID_Cave" uuid="ACE20851D6394A22AD9BAE2F96958DA7" type="10" limiting_length="255" id="1"/>
@@ -696,12 +552,6 @@
 			<field_extra multi_line="false"/>
 		</field>
 		<primary_key field_name="UUID_" field_uuid="0A1D37AB7EF94ED5B75BE5D75750D6AF"/>
-		<table_extra>
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="40" top="1769" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
 	</table>
 	<table name="Recette_Utilisateur" uuid="D094368DEF8C4F188BA3FEECAE18B646" id="30" prevent_journaling="true">
 		<field name="Enregistrer" uuid="E5F6BE3DE180477BAA4892B0E2F2FF72" type="1" id="1"/>
@@ -711,12 +561,6 @@
 		<field name="Favori" uuid="D1B1030E53B64F588524F866F221A5A2" type="1" id="5"/>
 		<field name="imageBase64" uuid="0EA59A8CC40C4DBDBCDCB89BFC26F0A3" type="10" id="6"/>
 		<primary_key field_name="UUID_" field_uuid="8BEC99215CC34645B26B2B6ABE0985EA"/>
-		<table_extra>
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="240" top="1769" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
 	</table>
 	<table name="Mon_Oenologue" uuid="0DEE00510F6B4F55A04F0BBC0573DD05" id="31" prevent_journaling="true">
 		<field name="UUID" uuid="1E36D9EF08A44C6E94475941D9F9874B" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1">
@@ -733,12 +577,7 @@
 		<field name="Prompt" uuid="3F710745626B4F2BBF39DC02EE556D3F" type="10" id="8"/>
 		<field name="Temps_Analyse" uuid="CF552F36779949B9ACCC585B8731520B" type="4" id="9"/>
 		<primary_key field_name="UUID" field_uuid="1E36D9EF08A44C6E94475941D9F9874B"/>
-		<table_extra output_form="Liste" input_form="Saisie">
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="440" top="1769" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
+		<table_extra output_form="Liste" input_form="Saisie"/>
 	</table>
 	<table name="Prompt" uuid="D70EC09EA58A44AF953248F4AE42A7B2" id="32">
 		<field name="UUID" uuid="BD75D2B8CC5C4AA6BDE5162D81A61FE4" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
@@ -748,12 +587,6 @@
 		<field name="Langue" uuid="CB2035D00590434EABB03A395704F938" type="10" limiting_length="255" id="3"/>
 		<field name="Prompt" uuid="8CFAB1DFA99F475B81CA1C0EEF811409" type="10" id="4"/>
 		<primary_key field_name="UUID" field_uuid="BD75D2B8CC5C4AA6BDE5162D81A61FE4"/>
-		<table_extra>
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="640" top="1769" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
 	</table>
 	<table name="Token" uuid="D7B5342F71D34604AE1CAE1B861ACF6A" id="33">
 		<field name="UUID" uuid="631A5BB9FB014A338DB26D219F3DF325" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
@@ -762,12 +595,6 @@
 		<field name="Iat" uuid="026F21C427624596B2E25B6D00870B72" type="4" id="4"/>
 		<field name="Exp" uuid="0F8446CDF0B9465C9479199118BD536A" type="4" id="5"/>
 		<primary_key field_name="UUID" field_uuid="631A5BB9FB014A338DB26D219F3DF325"/>
-		<table_extra>
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="40" top="2016" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
 	</table>
 	<table name="Images_Traitees" uuid="5B43A8DC3CC24BF5BF6180ABE7862E16" id="34">
 		<field name="UUID" uuid="0B9249453ED347369ED2BB54AD35DC9B" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
@@ -782,12 +609,7 @@
 		</field>
 		<field name="ModelIA" uuid="A70D82594A3347338D432F9512E1BA6B" type="10" id="7"/>
 		<primary_key field_name="UUID" field_uuid="0B9249453ED347369ED2BB54AD35DC9B"/>
-		<table_extra output_form="Liste" input_form="Saisie">
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="240" top="2016" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
+		<table_extra output_form="Liste" input_form="Saisie"/>
 	</table>
 	<table name="Image_Traitees2" uuid="881891266749411496C8A6256EE3C9E7" id="35">
 		<field name="UUID" uuid="5BE100B1DA334C509FDE236152A21AB1" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
@@ -810,14 +632,8 @@
 		<field name="typeData" uuid="7DDA662031C943B8A24E5C6FA391D756" type="10" id="8"/>
 		<field name="typeCategorie" uuid="4F1D2772E4A74B80977C91C4F081470D" type="10" id="9"/>
 		<primary_key field_name="UUID" field_uuid="5BE100B1DA334C509FDE236152A21AB1"/>
-		<table_extra>
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="440" top="2016" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
 	</table>
-	<relation uuid="F2EABF984E554D30A39C3FCBF27528AC" name_Nto1="Ref_Pays_1_" name_1toN="Ref_Pays_1_" auto_load_Nto1="true" auto_load_1toN="true" foreign_key="false" state="1">
+	<relation uuid="F2EABF984E554D30A39C3FCBF27528AC" name_Nto1="Ref_Pays_1_" name_1toN="Ref_Pays_1_" auto_load_Nto1="true" auto_load_1toN="true" state="1">
 		<related_field kind="source">
 			<field_ref uuid="8AAFD9E2302A46E19204B56BFFBA6943" name="Ref_Pays">
 				<table_ref uuid="95C71106E5A94364B6D5171C608409D2" name="Region"/>
@@ -830,7 +646,7 @@
 		</related_field>
 		<relation_extra entry_create="true" choice_field="1"/>
 	</relation>
-	<relation uuid="E84F4A5907A74CDD9A9E3B294E900CDC" name_Nto1="Ref_Cave_2_" name_1toN="Ref_Cave_2_" auto_load_Nto1="true" auto_load_1toN="true" foreign_key="false" state="1">
+	<relation uuid="E84F4A5907A74CDD9A9E3B294E900CDC" name_Nto1="Ref_Cave_2_" name_1toN="Ref_Cave_2_" auto_load_Nto1="true" auto_load_1toN="true" state="1">
 		<related_field kind="source">
 			<field_ref uuid="872A788DECA14FC3AB43A985444B4FDD" name="Ref_Cave">
 				<table_ref uuid="15F2843BDE5F45389DDE3F15F3F5FA7E" name="Degustation"/>
@@ -843,7 +659,7 @@
 		</related_field>
 		<relation_extra entry_create="true" choice_field="1"/>
 	</relation>
-	<relation uuid="D67370F033A24BE2BBD2FF4363DD2125" name_Nto1="Lien_3" name_1toN="Lien_3_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+	<relation uuid="D67370F033A24BE2BBD2FF4363DD2125" name_Nto1="Lien_3" name_1toN="Lien_3_retour" state="1">
 		<related_field kind="source">
 			<field_ref uuid="4D8D01A4ACB54F05B3ED620C26ED0FB6" name="UUID_">
 				<table_ref uuid="D171A7B3CAC542B3AA15B97108BF94D9" name="Utilisateur"/>
@@ -855,7 +671,7 @@
 			</field_ref>
 		</related_field>
 	</relation>
-	<relation uuid="9E9557BDBC524D80823A2B76CBC69C7F" name_Nto1="Lien_4" name_1toN="Lien_4_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+	<relation uuid="9E9557BDBC524D80823A2B76CBC69C7F" name_Nto1="Lien_4" name_1toN="Lien_4_retour" state="1">
 		<related_field kind="source">
 			<field_ref uuid="3A4A2D0A441A47AB9FCF7C9565F8C6CE" name="UUID_Utilisateur">
 				<table_ref uuid="D7B5342F71D34604AE1CAE1B861ACF6A" name="Token"/>
@@ -867,7 +683,7 @@
 			</field_ref>
 		</related_field>
 	</relation>
-	<relation uuid="DE56D201FDBC476EB21D037AAB34017C" name_Nto1="Lien_5" name_1toN="Lien_5_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+	<relation uuid="DE56D201FDBC476EB21D037AAB34017C" name_Nto1="Lien_5" name_1toN="Lien_5_retour" state="1">
 		<related_field kind="source">
 			<field_ref uuid="12A7FCDA504B47BEAAE585C90198FBAB" name="UUID_Oenologue">
 				<table_ref uuid="5B43A8DC3CC24BF5BF6180ABE7862E16" name="Images_Traitees"/>
@@ -879,7 +695,7 @@
 			</field_ref>
 		</related_field>
 	</relation>
-	<relation uuid="BD398001883048608EDF2188DE748A48" name_Nto1="Lien_6" name_1toN="Lien_6_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+	<relation uuid="BD398001883048608EDF2188DE748A48" name_Nto1="Lien_6" name_1toN="Lien_6_retour" state="1">
 		<related_field kind="source">
 			<field_ref uuid="513D50061D11407AAD72EABFF1A37EE3" name="UUID_Oenologue">
 				<table_ref uuid="881891266749411496C8A6256EE3C9E7" name="Image_Traitees2"/>

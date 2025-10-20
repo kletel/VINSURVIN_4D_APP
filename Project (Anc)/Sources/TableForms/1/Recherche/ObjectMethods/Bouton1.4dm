@@ -1,1 +1,0 @@
-Z_Rech_3{po}:=V_Val

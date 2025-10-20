@@ -13,7 +13,8 @@
 				"width": 120,
 				"height": 225.65234375
 			},
-			"displayable_fields_count": 8
+			"displayable_fields_count": 8,
+			"fields_ordering": 1
 		},
 		"Images_Traitees": {
 			"color": {
@@ -28,7 +29,8 @@
 				"width": 147,
 				"height": 188.33203125
 			},
-			"displayable_fields_count": 7
+			"displayable_fields_count": 7,
+			"fields_ordering": 1
 		},
 		"Token": {
 			"color": {
@@ -43,7 +45,8 @@
 				"width": 142,
 				"height": 146.33203125
 			},
-			"displayable_fields_count": 5
+			"displayable_fields_count": 5,
+			"fields_ordering": 1
 		},
 		"Prompt": {
 			"color": {
@@ -58,7 +61,8 @@
 				"width": 120,
 				"height": 167.33203125
 			},
-			"displayable_fields_count": 6
+			"displayable_fields_count": 6,
+			"fields_ordering": 1
 		},
 		"Mon_Oenologue": {
 			"color": {
@@ -73,7 +77,8 @@
 				"width": 208.61328125,
 				"height": 253.015625
 			},
-			"displayable_fields_count": 10
+			"displayable_fields_count": 10,
+			"fields_ordering": 1
 		},
 		"Recette_Utilisateur": {
 			"color": {
@@ -88,7 +93,8 @@
 				"width": 150.27734375,
 				"height": 205.5546875
 			},
-			"displayable_fields_count": 7
+			"displayable_fields_count": 7,
+			"fields_ordering": 1
 		},
 		"Vin_Association": {
 			"color": {
@@ -104,6 +110,7 @@
 				"height": 199.80078125
 			},
 			"displayable_fields_count": 7,
+			"fields_ordering": 1,
 			"fields": {
 				"UUID_": {
 					"color": {
@@ -129,6 +136,7 @@
 				"height": 531.5390625
 			},
 			"displayable_fields_count": 23,
+			"fields_ordering": 1,
 			"fields": {
 				"imageBlob": {
 					"color": {
@@ -162,6 +170,7 @@
 				"height": 167.33203125
 			},
 			"displayable_fields_count": 6,
+			"fields_ordering": 1,
 			"fields": {
 				"UUID_": {
 					"color": {
@@ -187,6 +196,7 @@
 				"height": 176.66015625
 			},
 			"displayable_fields_count": 6,
+			"fields_ordering": 1,
 			"fields": {
 				"UUID": {
 					"color": {
@@ -211,7 +221,8 @@
 				"width": 189.9765625,
 				"height": 402.8046875
 			},
-			"displayable_fields_count": 17
+			"displayable_fields_count": 17,
+			"fields_ordering": 1
 		},
 		"KSF_CRYPTO_KEYS": {
 			"color": {
@@ -226,7 +237,8 @@
 				"width": 180.765625,
 				"height": 182.16796875
 			},
-			"displayable_fields_count": 6
+			"displayable_fields_count": 6,
+			"fields_ordering": 1
 		},
 		"Numerotation": {
 			"color": {
@@ -258,6 +270,7 @@
 				"height": 488
 			},
 			"displayable_fields_count": 21,
+			"fields_ordering": 1,
 			"fields": {
 				"N_Update2": {
 					"color": {
@@ -314,7 +327,8 @@
 				"width": "120",
 				"height": "168"
 			},
-			"displayable_fields_count": 6
+			"displayable_fields_count": 6,
+			"fields_ordering": 1
 		},
 		"Import": {
 			"color": {
@@ -329,7 +343,8 @@
 				"width": "225.109375",
 				"height": "515.4453125"
 			},
-			"displayable_fields_count": 22
+			"displayable_fields_count": 22,
+			"fields_ordering": 1
 		},
 		"Localisation_Carte": {
 			"color": {
@@ -344,7 +359,8 @@
 				"width": 155,
 				"height": 194
 			},
-			"displayable_fields_count": 7
+			"displayable_fields_count": 7,
+			"fields_ordering": 1
 		},
 		"Modele_Carte": {
 			"color": {
@@ -359,7 +375,8 @@
 				"width": "117",
 				"height": "102"
 			},
-			"displayable_fields_count": 2
+			"displayable_fields_count": 2,
+			"fields_ordering": 1
 		},
 		"Utilisateur": {
 			"color": {
@@ -374,7 +391,8 @@
 				"width": 165.15625,
 				"height": 562.8359375
 			},
-			"displayable_fields_count": 24
+			"displayable_fields_count": 24,
+			"fields_ordering": 1
 		},
 		"Etiquettes": {
 			"color": {
@@ -389,7 +407,8 @@
 				"width": "118",
 				"height": "265"
 			},
-			"displayable_fields_count": 10
+			"displayable_fields_count": 10,
+			"fields_ordering": 1
 		},
 		"Sites": {
 			"color": {
@@ -404,7 +423,8 @@
 				"width": "104",
 				"height": "171"
 			},
-			"displayable_fields_count": 6
+			"displayable_fields_count": 6,
+			"fields_ordering": 1
 		},
 		"Titre_Millesime": {
 			"color": {
@@ -419,7 +439,8 @@
 				"width": "107",
 				"height": "334"
 			},
-			"displayable_fields_count": 13
+			"displayable_fields_count": 13,
+			"fields_ordering": 1
 		},
 		"Producteur": {
 			"color": {
@@ -434,7 +455,8 @@
 				"width": 139,
 				"height": 355
 			},
-			"displayable_fields_count": 14
+			"displayable_fields_count": 14,
+			"fields_ordering": 1
 		},
 		"Degustation": {
 			"color": {
@@ -449,7 +471,8 @@
 				"width": 132.44921875,
 				"height": 254.7109375
 			},
-			"displayable_fields_count": 10
+			"displayable_fields_count": 10,
+			"fields_ordering": 1
 		},
 		"Textes": {
 			"color": {
@@ -464,7 +487,8 @@
 				"width": "168",
 				"height": "242"
 			},
-			"displayable_fields_count": 9
+			"displayable_fields_count": 9,
+			"fields_ordering": 1
 		},
 		"Informations": {
 			"color": {
@@ -479,7 +503,8 @@
 				"width": "164",
 				"height": "702"
 			},
-			"displayable_fields_count": 31
+			"displayable_fields_count": 31,
+			"fields_ordering": 1
 		},
 		"Region": {
 			"color": {
@@ -494,7 +519,8 @@
 				"width": 125,
 				"height": 361.6484375
 			},
-			"displayable_fields_count": 15
+			"displayable_fields_count": 15,
+			"fields_ordering": 1
 		},
 		"Pays": {
 			"color": {
@@ -509,7 +535,8 @@
 				"width": "130",
 				"height": "380"
 			},
-			"displayable_fields_count": 16
+			"displayable_fields_count": 16,
+			"fields_ordering": 1
 		},
 		"Association": {
 			"color": {
@@ -524,7 +551,8 @@
 				"width": "136",
 				"height": "171"
 			},
-			"displayable_fields_count": 6
+			"displayable_fields_count": 6,
+			"fields_ordering": 1
 		},
 		"Cépages": {
 			"color": {
@@ -539,7 +567,8 @@
 				"width": 111,
 				"height": 263
 			},
-			"displayable_fields_count": 10
+			"displayable_fields_count": 10,
+			"fields_ordering": 1
 		},
 		"Vocabulaire": {
 			"color": {
@@ -554,7 +583,8 @@
 				"width": "106",
 				"height": "309"
 			},
-			"displayable_fields_count": 12
+			"displayable_fields_count": 12,
+			"fields_ordering": 1
 		},
 		"Millésimes": {
 			"color": {
@@ -569,7 +599,8 @@
 				"width": 186,
 				"height": 332
 			},
-			"displayable_fields_count": 13
+			"displayable_fields_count": 13,
+			"fields_ordering": 1
 		},
 		"Appellation": {
 			"color": {
@@ -584,7 +615,8 @@
 				"width": "145",
 				"height": "265"
 			},
-			"displayable_fields_count": 10
+			"displayable_fields_count": 10,
+			"fields_ordering": 1
 		},
 		"Cave": {
 			"color": {
@@ -599,7 +631,8 @@
 				"width": 266.953125,
 				"height": 1594.62890625
 			},
-			"displayable_fields_count": 73
+			"displayable_fields_count": 73,
+			"fields_ordering": 1
 		},
 		"Interface": {
 			"color": {
@@ -614,7 +647,8 @@
 				"width": 147,
 				"height": 273
 			},
-			"displayable_fields_count": 11
+			"displayable_fields_count": 11,
+			"fields_ordering": 1
 		}
 	},
 	"relations": {

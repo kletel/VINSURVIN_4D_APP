@@ -1,1 +1,0 @@
-Self:C308->:=Replace string:C233([Degustation:12]Convives:3; Char:C90(13); "/"; 99)
