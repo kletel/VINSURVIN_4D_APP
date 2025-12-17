@@ -26,7 +26,7 @@ End if
 C_COLLECTION:C1488($headers)
 C_TEXT:C284($api_key)
 
-$api_key:="sk-proj-Ewo9zxKuLZMJndYONIXVT3BlbkFJwwDmvA3HFW7Stk96w83h"
+$api_key:=API_OPENAI("OPENAI")  //
 $auth:="Bearer "+$api_key
 
 $headers:=New collection:C1472("Content-Type"; "application/json"; "Authorization"; $auth)

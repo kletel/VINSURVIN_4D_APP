@@ -96,7 +96,7 @@ While (Not:C34(End selection:C36([Image_Traitees2:35])))
 			
 			
 			
-			$api_key:="sk-proj-Ewo9zxKuLZMJndYONIXVT3BlbkFJwwDmvA3HFW7Stk96w83h"
+			$api_key:=API_OPENAI("OPENAI")
 			$auth:="Bearer "+$api_key
 			$headers:=New collection:C1472("Content-Type"; "application/json"; "Authorization"; $auth)
 			

@@ -51,7 +51,7 @@ End if
 
 // ⚠️ Idéalement : clé dans une table de paramètre, pas en dur
 var $client : cs:C1710.AIKit.OpenAI
-$client:=cs:C1710.AIKit.OpenAI.new("sk-proj-Ewo9zxKuLZMJndYONIXVT3BlbkFJwwDmvA3HFW7Stk96w83h")
+$client:=cs:C1710.AIKit.OpenAI.new(API_OPENAI("OPENAI"))
 
 C_TEXT:C284($imagePrompt; $imageUrl)
 $imagePrompt:="Photographie culinaire de haute qualité représentant le plat \""+$met+\

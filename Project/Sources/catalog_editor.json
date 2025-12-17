@@ -1,5 +1,20 @@
 {
 	"tables": {
+		"Param": {
+			"color": {
+				"red": 255,
+				"green": 255,
+				"blue": 255,
+				"alpha": 0
+			},
+			"coordinates": {
+				"left": 1440,
+				"top": 287,
+				"width": 120,
+				"height": 167.33203125
+			},
+			"displayable_fields_count": 6
+		},
 		"LOG_IA": {
 			"color": {
 				"red": 255,

@@ -13,7 +13,7 @@ For each ($region; $lstRegion)
 End for each 
 
 // Étape 2 - Préparation de la requête pour GPT-4o
-$api_key:="sk-proj-Ewo9zxKuLZMJndYONIXVT3BlbkFJwwDmvA3HFW7Stk96w83h"
+$api_key:=API_OPENAI("OPENAI")
 $auth:="Bearer "+$api_key
 $headers:=New collection:C1472("Content-Type"; "application/json"; "Authorization"; $auth)
 

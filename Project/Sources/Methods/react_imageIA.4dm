@@ -3,7 +3,7 @@ ARRAY TEXT:C222($tVnom; 0)
 ARRAY TEXT:C222($tVal; 0)
 WEB GET VARIABLES:C683($tVnom; $tVal)
 
-//var$client:=cs.AIKit.OpenAI.new("sk-proj-Ewo9zxKuLZMJndYONIXVT3BlbkFJwwDmvA3HFW7Stk96w83h")
+
 $b64:="data:image/png;base64,"+KST_web_Lire_param(->$tVnom; ->$tVal; "b64")
 $uuidUser:=KST_web_Lire_param(->$tVnom; ->$tVal; "uuidUser")
 $caseId:=KST_web_Lire_param(->$tVnom; ->$tVal; "caseId")
@@ -69,7 +69,7 @@ End case
 //vrai
 //$jsonBrut:=$client.chat.vision.create($b64; {model: "gpt-5"}).prompt($requete).choice.message.content
 
-$api_key:="sk-proj-Ewo9zxKuLZMJndYONIXVT3BlbkFJwwDmvA3HFW7Stk96w83h"
+$api_key:=API_OPENAI("OPENAI")
 $auth:="Bearer "+$api_key
 $headers:=New collection:C1472("Content-Type"; "application/json"; "Authorization"; $auth)
 
@@ -99,8 +99,8 @@ If (False:C215)
 	$models:=New collection:C1472("gpt-4o"; "gpt-4o-mini"; "gpt-4-turbo"; "gpt-5")
 	
 	// Ouvrir le fichier log
-	$refdoc:=Create document:C266(System folder:C487(Desktop:K41:16)+"Analyse_IA3.txt")
-	$file:=Folder:C1567(fk desktop folder:K87:19).file("Analyse_IA3.txt")
+	$refdoc:=Create document:C266(System folder:C487(Bureau:K41:16)+"Analyse_IA3.txt")
+	$file:=Folder:C1567(fk dossier bureau:K87:19).file("Analyse_IA3.txt")
 	SEND PACKET:C103($refdoc; "Création document "+$file.fullName+Char:C90(13))
 	SEND PACKET:C103($refdoc; "Prompt envoyé avec même image en 0.256 MB :"+Char:C90(13)+Char:C90(13))
 	

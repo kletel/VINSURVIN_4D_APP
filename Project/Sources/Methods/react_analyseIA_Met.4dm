@@ -19,7 +19,7 @@ $recette:=ds:C1482.Recette.query("nomMet =:1 "; $met).toCollection().first()
 
 If (($recette=Null:C1517) || Undefined:C82($recette))
 	
-	var $client:=cs:C1710.AIKit.OpenAI.new("sk-proj-Ewo9zxKuLZMJndYONIXVT3BlbkFJwwDmvA3HFW7Stk96w83h")
+	var $client:=cs:C1710.AIKit.OpenAI.new(API_OPENAI("OPENAI"))
 	$imagePrompt:="Photographie culinaire de haute qualité représentant le plat \""+$met+". Le plat est présenté sur une table en bois rustique, avec une lumière naturelle douce et une mise au point sur les textures. Aucun humain visible. Style : photographie gastronomique professionnelle, ambiance chaleureuse et appétissante."
 	var $image:=$client.images.generate($imagePrompt; {size: "1024x1024"}).image.url
 	$filename:="plat_"+Replace string:C233($met; " "; "_")+".png"
@@ -108,7 +108,7 @@ If (($recette=Null:C1517) || Undefined:C82($recette))
 Else 
 	$chaineJSON:=JSON Stringify:C1217($recette; *)
 	CONVERT FROM TEXT:C1011($chaineJSON; "utf-8"; $chaineJSON)
-	$chaineJSON:=BLOB to text:C555($chaineJSON; UTF8 text without length:K22:17)
+	$chaineJSON:=BLOB to text:C555($chaineJSON; UTF8 texte sans longueur:K22:17)
 	WEB SEND TEXT:C677($chaineJSON; "application/json")
 End if 
 

@@ -3,7 +3,7 @@ ARRAY TEXT:C222($tVnom; 0)
 ARRAY TEXT:C222($tVal; 0)
 WEB GET VARIABLES:C683($tVnom; $tVal)
 
-//var$client:=cs.AIKit.OpenAI.new("sk-proj-Ewo9zxKuLZMJndYONIXVT3BlbkFJwwDmvA3HFW7Stk96w83h")
+
 $b64:="data:image/png;base64,"+KST_web_Lire_param(->$tVnom; ->$tVal; "b64")
 $uuidUser:=KST_web_Lire_param(->$tVnom; ->$tVal; "uuidUser")
 $uuidVin:=KST_web_Lire_param(->$tVnom; ->$tVal; "uuidVin")
@@ -17,7 +17,7 @@ $uuidVin:=KST_web_Lire_param(->$tVnom; ->$tVal; "uuidVin")
 //$jsonBrut:=$client.chat.vision.create($b64; {model: "gpt-5"}).prompt($requete).choice.message.content
 $requete:="Vous êtes un caviste expert (30 ans d’expérience). À partir de l’image, décrivez l’étiquette du vin en JSON avec : type_alcool une chaine (vin, bierre ...),nom, région, la sous région, le pays, l'appellation, millésime, type(Tranquille,V"+"DN/VDL"+" (vins mutés/fortifiés), Efferves"+"cent), apogée ('APOGEE'), alcool, contenance, conservation, site, producteur (nom, adresse), prix moyen, couleur (Rouge,Blanc,Rosé), cépages, domaine, conseils mets et vins ('CONSEIL'), douceur à choisir parmi ces valeurs : ('Sec','pas tout à fai"+"t sec', 'demi-sec', 'moelleux', 'doux', 'brut nature', 'extra-brut', 'brut', 'extra-dry'), degustation qui est une chaine d'une liste de plats qui se marient au mieux avec lui séparé par des virgules. Si des infos manquent, complétez-les se"+"lon vos connaissances œnologiques sans r"+"etourner de champs vides."
 
-$api_key:="sk-proj-Ewo9zxKuLZMJndYONIXVT3BlbkFJwwDmvA3HFW7Stk96w83h"
+$api_key:=API_OPENAI("OPENAI")
 $auth:="Bearer "+$api_key
 $headers:=New collection:C1472("Content-Type"; "application/json"; "Authorization"; $auth)
 

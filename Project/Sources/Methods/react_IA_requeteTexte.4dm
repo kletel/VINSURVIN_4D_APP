@@ -7,7 +7,7 @@ $modele:=$1.modele
 If (($modele="") || (Undefined:C82($modele)) || ($modele#Null:C1517))
 	$modele:="gpt-4o-mini"
 End if 
-$api_key:="sk-proj-Ewo9zxKuLZMJndYONIXVT3BlbkFJwwDmvA3HFW7Stk96w83h"
+$api_key:=API_OPENAI("OPENAI")
 $auth:="Bearer "+$api_key
 
 $headers:=New collection:C1472("Content-Type"; "application/json"; "Authorization"; $auth)

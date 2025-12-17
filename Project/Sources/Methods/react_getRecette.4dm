@@ -41,7 +41,7 @@ C_LONGINT:C283($processNum)
 If (($recette.imageUrl="") | ($recette.imageUrl=Null:C1517) | Undefined:C82($recette.imageUrl) | ($recette.imageBase64="") | ($recette.imageBase64=Null:C1517) | Undefined:C82($recette.imageBase64))
 	$recetteEntity:=ds:C1482.Recette.query("UUID_ =:1"; $recette.UUID_).first()
 	
-	var $client:=cs:C1710.AIKit.OpenAI.new("sk-proj-Ewo9zxKuLZMJndYONIXVT3BlbkFJwwDmvA3HFW7Stk96w83h")
+	var $client:=cs:C1710.AIKit.OpenAI.new(API_OPENAI("OPENAI"))
 	$imagePrompt:="Photographie culinaire de haute qualité représentant le plat \""+$met+". Le plat est présenté sur une table en bois rustique, avec une lumière naturelle douce et une mise au point sur les textures. Aucun humain visible. Style : photographie gastronomique professionnelle, ambiance chaleureuse et appétissante."
 	var $image:=$client.images.generate($imagePrompt; {size: "1024x1024"}).image.url
 	// Déduire extension
@@ -70,5 +70,5 @@ End if
 
 $chaineJSON:=JSON Stringify:C1217($recette; *)
 CONVERT FROM TEXT:C1011($chaineJSON; "utf-8"; $chaineJSON)
-$chaineJSON:=BLOB to text:C555($chaineJSON; UTF8 text without length:K22:17)
+$chaineJSON:=BLOB to text:C555($chaineJSON; UTF8 texte sans longueur:K22:17)
 WEB SEND TEXT:C677($chaineJSON; "application/json")

@@ -3,7 +3,7 @@ ARRAY TEXT:C222($tVnom; 0)
 ARRAY TEXT:C222($tVal; 0)
 WEB GET VARIABLES:C683($tVnom; $tVal)
 
-//var$client:=cs.AIKit.OpenAI.new("sk-proj-Ewo9zxKuLZMJndYONIXVT3BlbkFJwwDmvA3HFW7Stk96w83h")
+
 $uuidUser:=KST_web_Lire_param(->$tVnom; ->$tVal; "uuidUser")
 $uuidTable:=KST_web_Lire_param(->$tVnom; ->$tVal; "uuidTable")
 $platsChoisi:=KST_web_Lire_param(->$tVnom; ->$tVal; "platsChoisi")
@@ -263,7 +263,7 @@ KST_IA_Log("Sommelier_Text/PROMPT_READY"; \
 //vrai
 //$jsonBrut:=$client.chat.vision.create($b64; {model: "gpt-5"}).prompt($requete).choice.message.content
 
-$api_key:="sk-proj-Ewo9zxKuLZMJndYONIXVT3BlbkFJwwDmvA3HFW7Stk96w83h"
+$api_key:=API_OPENAI("OPENAI")  //
 $auth:="Bearer "+$api_key
 $headers:=New collection:C1472("Content-Type"; "application/json"; "Authorization"; $auth)
 
@@ -286,8 +286,8 @@ If (False:C215)
 	$models:=New collection:C1472("gpt-4o"; "gpt-4o-mini"; "gpt-4-turbo"; "gpt-5")
 	
 	// Ouvrir le fichier log
-	$refdoc:=Create document:C266(System folder:C487(Desktop:K41:16)+"Analyse_IA3.txt")
-	$file:=Folder:C1567(fk desktop folder:K87:19).file("Analyse_IA3.txt")
+	$refdoc:=Create document:C266(System folder:C487(Bureau:K41:16)+"Analyse_IA3.txt")
+	$file:=Folder:C1567(fk dossier bureau:K87:19).file("Analyse_IA3.txt")
 	SEND PACKET:C103($refdoc; "Création document "+$file.fullName+Char:C90(13))
 	SEND PACKET:C103($refdoc; "Prompt envoyé avec même image en 0.256 MB :"+Char:C90(13)+Char:C90(13))
 	
@@ -379,7 +379,7 @@ End if
 If ($vraiplat=True:C214)
 	For each ($item; $result)
 		If (OB Is defined:C1231($item; "vraiplat"))
-			If (Value type:C1509($item.vraiplat)=Is object:K8:27)
+			If (Value type:C1509($item.vraiplat)=Est un objet:K8:27)
 				If (OB Is defined:C1231($item.vraiplat; "vraiplat"))
 					If ($item.vraiplat.vraiplat=False:C215)
 						$vraiplat:=False:C215
@@ -396,7 +396,7 @@ If ($vraiplat=True:C214)
 	End for each 
 End if 
 
-If (Value type:C1509($result)#Is collection:K8:32)
+If (Value type:C1509($result)#Est une collection:K8:32)
 	C_COLLECTION:C1488($wrap)
 	$wrap:=New collection:C1472($result)
 	$result:=$wrap
@@ -408,10 +408,10 @@ C_OBJECT:C1216($item; $vinObj; $vinCave)
 #DECLARE($vinObj : Object)
 
 For each ($item; $result)
-	If (Value type:C1509($item)=Is object:K8:27)
+	If (Value type:C1509($item)=Est un objet:K8:27)
 		
 		If (OB Is defined:C1231($item; "nomvin"))
-			If (Value type:C1509($item.nomvin)=Is text:K8:3)
+			If (Value type:C1509($item.nomvin)=Est un texte:K8:3)
 				$vinCave:=ds:C1482.Cave.query("UUID_User = :1 and Nom = :2"; $uuidUser; $item.nomvin).first()
 				If ($vinCave#Null:C1517)
 					OB SET:C1220($item; "base64_132etiquette"; $vinCave.base64_132etiquette)
@@ -426,25 +426,25 @@ For each ($item; $result)
 			$vinAny:=OB Get:C1224($item; "vinaperitif")
 			
 			Case of 
-				: (Value type:C1509($vinAny)=Is object:K8:27)
+				: (Value type:C1509($vinAny)=Est un objet:K8:27)
 					$vinObj:=$vinAny
 					$name:=""
 					
 					If (OB Is defined:C1231($vinObj; "Nom"))
-						If (Value type:C1509($vinObj.Nom)=Is text:K8:3)
+						If (Value type:C1509($vinObj.Nom)=Est un texte:K8:3)
 							$name:=$vinObj.Nom
 						End if 
 					End if 
 					If ($name="")
 						If (OB Is defined:C1231($vinObj; "nom"))
-							If (Value type:C1509($vinObj.nom)=Is text:K8:3)
+							If (Value type:C1509($vinObj.nom)=Est un texte:K8:3)
 								$name:=$vinObj.nom
 							End if 
 						End if 
 					End if 
 					If ($name="")
 						If (OB Is defined:C1231($vinObj; "nomvin"))
-							If (Value type:C1509($vinObj.nomvin)=Is text:K8:3)
+							If (Value type:C1509($vinObj.nomvin)=Est un texte:K8:3)
 								$name:=$vinObj.nomvin
 							End if 
 						End if 
@@ -460,7 +460,7 @@ For each ($item; $result)
 						End if 
 					End if 
 					
-				: (Value type:C1509($vinAny)=Is text:K8:3)
+				: (Value type:C1509($vinAny)=Est un texte:K8:3)
 					C_TEXT:C284($vinTxt; $raw; $firstToken)
 					C_LONGINT:C283($pos; $len)
 					C_OBJECT:C1216($obj)
@@ -509,25 +509,25 @@ For each ($item; $result)
 			$vinAny2:=OB Get:C1224($item; "vindigestif")
 			
 			Case of 
-				: (Value type:C1509($vinAny2)=Is object:K8:27)
+				: (Value type:C1509($vinAny2)=Est un objet:K8:27)
 					$vinObj:=$vinAny2
 					$name:=""
 					
 					If (OB Is defined:C1231($vinObj; "Nom"))
-						If (Value type:C1509($vinObj.Nom)=Is text:K8:3)
+						If (Value type:C1509($vinObj.Nom)=Est un texte:K8:3)
 							$name:=$vinObj.Nom
 						End if 
 					End if 
 					If ($name="")
 						If (OB Is defined:C1231($vinObj; "nom"))
-							If (Value type:C1509($vinObj.nom)=Is text:K8:3)
+							If (Value type:C1509($vinObj.nom)=Est un texte:K8:3)
 								$name:=$vinObj.nom
 							End if 
 						End if 
 					End if 
 					If ($name="")
 						If (OB Is defined:C1231($vinObj; "nomvin"))
-							If (Value type:C1509($vinObj.nomvin)=Is text:K8:3)
+							If (Value type:C1509($vinObj.nomvin)=Est un texte:K8:3)
 								$name:=$vinObj.nomvin
 							End if 
 						End if 
@@ -543,7 +543,7 @@ For each ($item; $result)
 						End if 
 					End if 
 					
-				: (Value type:C1509($vinAny2)=Is text:K8:3)
+				: (Value type:C1509($vinAny2)=Est un texte:K8:3)
 					C_TEXT:C284($vinTxt2; $raw2; $firstToken2)
 					C_LONGINT:C283($pos2; $len2)
 					C_OBJECT:C1216($obj2)
@@ -588,16 +588,16 @@ For each ($item; $result)
 		End if 
 		
 		If ($typeCase="similarFromCave")
-			If (OB Is defined:C1231($item; "match")) & (Value type:C1509($item.match)=Is object:K8:27)
+			If (OB Is defined:C1231($item; "match")) & (Value type:C1509($item.match)=Est un objet:K8:27)
 				C_OBJECT:C1216($m)
 				$m:=$item.match
 				
 				C_TEXT:C284($uuidMatch)
 				$uuidMatch:=""
-				If (OB Is defined:C1231($m; "UUID_")) & (Value type:C1509($m.UUID_)=Is text:K8:3) & ($m.UUID_#"")
+				If (OB Is defined:C1231($m; "UUID_")) & (Value type:C1509($m.UUID_)=Est un texte:K8:3) & ($m.UUID_#"")
 					$uuidMatch:=$m.UUID_
 				Else 
-					If (OB Is defined:C1231($m; "uuid")) & (Value type:C1509($m.uuid)=Is text:K8:3) & ($m.uuid#"")
+					If (OB Is defined:C1231($m; "uuid")) & (Value type:C1509($m.uuid)=Est un texte:K8:3) & ($m.uuid#"")
 						$uuidMatch:=$m.uuid
 					End if 
 				End if 
@@ -610,10 +610,10 @@ For each ($item; $result)
 				If ($vinCave=Null:C1517)
 					C_TEXT:C284($name)
 					$name:=""
-					If (OB Is defined:C1231($m; "Nom")) & (Value type:C1509($m.Nom)=Is text:K8:3)
+					If (OB Is defined:C1231($m; "Nom")) & (Value type:C1509($m.Nom)=Est un texte:K8:3)
 						$name:=$m.Nom
 					Else 
-						If (OB Is defined:C1231($m; "nom")) & (Value type:C1509($m.nom)=Is text:K8:3)
+						If (OB Is defined:C1231($m; "nom")) & (Value type:C1509($m.nom)=Est un texte:K8:3)
 							$name:=$m.nom
 						End if 
 					End if 
@@ -626,7 +626,7 @@ For each ($item; $result)
 				
 				If ($vinCave#Null:C1517)
 					C_TEXT:C284($UUID_; $B64; $Nom; $App; $Reg)
-					If (Value type:C1509($vinCave)=Is object:K8:27)
+					If (Value type:C1509($vinCave)=Est un objet:K8:27)
 						$UUID_:=String:C10($vinCave.UUID_)
 						$B64:=String:C10($vinCave.base64_132etiquette)
 						$Nom:=String:C10($vinCave.Nom)
@@ -656,20 +656,20 @@ For each ($item; $result)
 			End if 
 		End if 
 		
-		If (OB Is defined:C1231($item; "vinCave")) & (Value type:C1509($item.vinCave)=Is object:K8:27)
+		If (OB Is defined:C1231($item; "vinCave")) & (Value type:C1509($item.vinCave)=Est un objet:K8:27)
 			C_OBJECT:C1216($vc)
 			$vc:=$item.vinCave
 			
 			C_TEXT:C284($nameVC)
 			$nameVC:=""
 			
-			If (OB Is defined:C1231($vc; "Nom")) & (Value type:C1509($vc.Nom)=Is text:K8:3)
+			If (OB Is defined:C1231($vc; "Nom")) & (Value type:C1509($vc.Nom)=Est un texte:K8:3)
 				$nameVC:=$vc.Nom
 			Else 
-				If (OB Is defined:C1231($vc; "nom")) & (Value type:C1509($vc.nom)=Is text:K8:3)
+				If (OB Is defined:C1231($vc; "nom")) & (Value type:C1509($vc.nom)=Est un texte:K8:3)
 					$nameVC:=$vc.nom
 				Else 
-					If (OB Is defined:C1231($vc; "nomvin")) & (Value type:C1509($vc.nomvin)=Is text:K8:3)
+					If (OB Is defined:C1231($vc; "nomvin")) & (Value type:C1509($vc.nomvin)=Est un texte:K8:3)
 						$nameVC:=$vc.nomvin
 					End if 
 				End if 
@@ -687,23 +687,23 @@ For each ($item; $result)
 			End if 
 		End if 
 		
-		If (OB Is defined:C1231($item; "vinsCave")) & (Value type:C1509($item.vinsCave)=Is collection:K8:32)
+		If (OB Is defined:C1231($item; "vinsCave")) & (Value type:C1509($item.vinsCave)=Est une collection:K8:32)
 			C_COLLECTION:C1488($colVC)
 			$colVC:=$item.vinsCave  // tableau de vins de la cave
 			
 			For each ($vc; $colVC)
-				If (Value type:C1509($vc)=Is object:K8:27)
+				If (Value type:C1509($vc)=Est un objet:K8:27)
 					C_TEXT:C284($nameVC)
 					$nameVC:=""
 					
 					// On récupère le nom du vin tel qu'il est dans la cave
-					If (OB Is defined:C1231($vc; "Nom")) & (Value type:C1509($vc.Nom)=Is text:K8:3)
+					If (OB Is defined:C1231($vc; "Nom")) & (Value type:C1509($vc.Nom)=Est un texte:K8:3)
 						$nameVC:=$vc.Nom
 					Else 
-						If (OB Is defined:C1231($vc; "nom")) & (Value type:C1509($vc.nom)=Is text:K8:3)
+						If (OB Is defined:C1231($vc; "nom")) & (Value type:C1509($vc.nom)=Est un texte:K8:3)
 							$nameVC:=$vc.nom
 						Else 
-							If (OB Is defined:C1231($vc; "nomvin")) & (Value type:C1509($vc.nomvin)=Is text:K8:3)
+							If (OB Is defined:C1231($vc; "nomvin")) & (Value type:C1509($vc.nomvin)=Est un texte:K8:3)
 								$nameVC:=$vc.nomvin
 							End if 
 						End if 
@@ -740,7 +740,7 @@ $vraiAffin:=True:C214
 If (OB Is defined:C1231($result[0]; "affinValide"))
 	$vraiAffin:=$result[0].affinValide
 Else 
-	If (OB Is defined:C1231($result[0]; "affin")) & (Value type:C1509($result[0].affin)=Is boolean:K8:9)
+	If (OB Is defined:C1231($result[0]; "affin")) & (Value type:C1509($result[0].affin)=Est un booléen:K8:9)
 		$vraiAffin:=$result[0].affin
 	End if 
 End if 
@@ -754,7 +754,7 @@ Else
 		If (OB Is defined:C1231($result[0]; "regionValide"))
 			$vraiAffin:=$result[0].regionValide
 		Else 
-			If (OB Is defined:C1231($result[0]; "region")) & (Value type:C1509($result[0].region)=Is boolean:K8:9)
+			If (OB Is defined:C1231($result[0]; "region")) & (Value type:C1509($result[0].region)=Est un booléen:K8:9)
 				$vraiAffin:=$result[0].region
 			End if 
 		End if 
@@ -765,7 +765,7 @@ If ($vraiAffin=True:C214)
 	For each ($item; $result)
 		// a) vraiAffin (camelCase)
 		If (OB Is defined:C1231($item; "vraiAffin"))
-			If (Value type:C1509($item.vraiAffin)=Is object:K8:27)
+			If (Value type:C1509($item.vraiAffin)=Est un objet:K8:27)
 				If (OB Is defined:C1231($item.vraiAffin; "vraiAffin"))
 					If ($item.vraiAffin.vraiAffin=False:C215)
 						$vraiAffin:=False:C215
@@ -780,7 +780,7 @@ If ($vraiAffin=True:C214)
 			End if 
 			
 			If (OB Is defined:C1231($item; "vraiaffin"))
-				If (Value type:C1509($item.vraiaffin)=Is object:K8:27)
+				If (Value type:C1509($item.vraiaffin)=Est un objet:K8:27)
 					If (OB Is defined:C1231($item.vraiaffin; "vraiaffin"))
 						If ($item.vraiaffin.vraiaffin=False:C215)
 							$vraiAffin:=False:C215
@@ -797,7 +797,7 @@ If ($vraiAffin=True:C214)
 			
 		Else 
 			If (OB Is defined:C1231($item; "affinValide"))
-				If (Value type:C1509($item.affinValide)=Is object:K8:27)
+				If (Value type:C1509($item.affinValide)=Est un objet:K8:27)
 					If (OB Is defined:C1231($item.affinValide; "affinValide"))
 						If ($item.affinValide.affinValide=False:C215)
 							$vraiAffin:=False:C215
@@ -805,7 +805,7 @@ If ($vraiAffin=True:C214)
 						End if 
 					End if 
 				Else 
-					If (Value type:C1509($item.affinValide)=Is boolean:K8:9)
+					If (Value type:C1509($item.affinValide)=Est un booléen:K8:9)
 						If ($item.affinValide=False:C215)
 							$vraiAffin:=False:C215
 							break
@@ -814,7 +814,7 @@ If ($vraiAffin=True:C214)
 				End if 
 			Else 
 				If (OB Is defined:C1231($item; "affin"))
-					If (Value type:C1509($item.affin)=Is object:K8:27)
+					If (Value type:C1509($item.affin)=Est un objet:K8:27)
 						If (OB Is defined:C1231($item.affin; "affin"))
 							If ($item.affin.affin=False:C215)
 								$vraiAffin:=False:C215
@@ -822,7 +822,7 @@ If ($vraiAffin=True:C214)
 							End if 
 						End if 
 					Else 
-						If (Value type:C1509($item.affin)=Is boolean:K8:9)
+						If (Value type:C1509($item.affin)=Est un booléen:K8:9)
 							If ($item.affin=False:C215)
 								$vraiAffin:=False:C215
 								break

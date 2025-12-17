@@ -3,7 +3,7 @@ ARRAY TEXT:C222($tVnom; 0)
 ARRAY TEXT:C222($tVal; 0)
 WEB GET VARIABLES:C683($tVnom; $tVal)
 
-var $client:=cs:C1710.AIKit.OpenAI.new("sk-proj-Ewo9zxKuLZMJndYONIXVT3BlbkFJwwDmvA3HFW7Stk96w83h")
+var $client:=cs:C1710.AIKit.OpenAI.new(API_OPENAI("OPENAI"))
 $b64:=KST_web_Lire_param(->$tVnom; ->$tVal; "b64")
 $requette:="Vous êtes un caviste expert (30 ans d’expérience). À partir de l’image, décrivez l’étiquette du vin en JSON avec : nom, région, pays, appellation, millésime, type, apogée ('APOGEE'), alcool, contenance, conservation, site, pro"+"ducteur (nom, adresse), prix moyen, couleur (Rouge,Blanc,Rosé), cépages, domaine, conseils mets et vins ('CONSEIL'). Si des infos manquent, complétez-les selon vos connaissances œnologiques sans retourner de champs vides."
 
