@@ -17,6 +17,10 @@ $table.Exp:=KST_Unix_Time(Current date:C33+1; ?00:00:00?)
 $table.Payload:=$payload
 $table.UUID_Utilisateur:=$payload.UUID_
 
+If (OB Is defined:C1231($param; "UUID_Device"))
+	$table.UUID_Device:=$param.UUID_Device
+End if 
+
 $table.save()
 
 $nom:=$payload.Nom+" "+$payload.Prenom

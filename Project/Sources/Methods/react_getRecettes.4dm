@@ -14,15 +14,14 @@ Else
 		$allMets:=Split string:C1554($listeChaine; ",")
 		$lstRecette:=ds:C1482.Recette.query("UUID_ in :1"; $allMets)
 	Else 
-		$allMets:=ds:C1482.Association.all().distinct("Met")
+		$allMets:=ds:C1482.Association.query("Met#null").distinct("Met")
 		$lstRecette:=ds:C1482.Recette.query("nomMet in :1"; $allMets)
 	End if 
 End if 
 
 $lstRecette_col:=$lstRecette.toCollection("UUID_,nomMet,imageBase64")
-$chaineJSON:=JSON Stringify:C1217($lstRecette_col; *)
-CONVERT FROM TEXT:C1011($chaineJSON; "utf-8"; $chaineJSON)
+$chaineJSON:=JSON Stringify:C1217($lstRecette_col)
 
-$chaineJSON:=BLOB to text:C555($chaineJSON; UTF8 text without length:K22:17)
 WEB SEND TEXT:C677($chaineJSON; "application/json")
+
 

@@ -1,5 +1,20 @@
 {
 	"tables": {
+		"LOG_IA": {
+			"color": {
+				"red": 255,
+				"green": 255,
+				"blue": 255,
+				"alpha": 0
+			},
+			"coordinates": {
+				"left": 1431.2578125,
+				"top": 966.171875,
+				"width": 120,
+				"height": 167.33203125
+			},
+			"displayable_fields_count": 6
+		},
 		"Image_Traitees2": {
 			"color": {
 				"red": 255,
@@ -24,10 +39,10 @@
 				"alpha": 0
 			},
 			"coordinates": {
-				"left": 1394.9609375,
-				"top": 1647.2526855469,
-				"width": 147,
-				"height": 188.33203125
+				"left": 1394.22265625,
+				"top": 1648.2604980469,
+				"width": 158.5234375,
+				"height": 197.91796875
 			},
 			"displayable_fields_count": 7,
 			"fields_ordering": 1
@@ -42,11 +57,10 @@
 			"coordinates": {
 				"left": 752.12890625,
 				"top": 1171.31640625,
-				"width": 142,
-				"height": 146.33203125
+				"width": 153.3125,
+				"height": 169.9296875
 			},
-			"displayable_fields_count": 5,
-			"fields_ordering": 1
+			"displayable_fields_count": 6
 		},
 		"Prompt": {
 			"color": {
@@ -388,11 +402,10 @@
 			"coordinates": {
 				"left": 519.41015625,
 				"top": 761.65234375,
-				"width": 165.15625,
-				"height": 562.8359375
+				"width": 160,
+				"height": 587.33203125
 			},
-			"displayable_fields_count": 24,
-			"fields_ordering": 1
+			"displayable_fields_count": 26
 		},
 		"Etiquettes": {
 			"color": {
@@ -631,8 +644,7 @@
 				"width": 266.953125,
 				"height": 1594.62890625
 			},
-			"displayable_fields_count": 73,
-			"fields_ordering": 1
+			"displayable_fields_count": 73
 		},
 		"Interface": {
 			"color": {

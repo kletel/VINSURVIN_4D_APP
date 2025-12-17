@@ -11,35 +11,54 @@ $typeData:=KST_web_Lire_param(->$tVnom; ->$tVal; "typeData")
 $typeCategorie:=KST_web_Lire_param(->$tVnom; ->$tVal; "typeCategorie")
 
 
+KST_IA_Log("Sommelier_Vision/INIT"; \
+"uuidUser="+$uuidUser+\
+" ; uuidTable="+$uuidTable+\
+" ; typeData="+$typeData+\
+" ; typeCategorie="+$typeCategorie)
+
+C_COLLECTION:C1488($Prompt)
+$Prompt:=ds:C1482.Prompt.all().toCollection("Libelle,Prompt")
+var $row : Object
+
 Case of 
 	: ($typeCategorie="carte")
 		
 		Case of 
 			: ($typeData="vin")
-				//$requete:="à partir de cette carte de vin analyse tous vin ce qui est dans la carte.Je veux une liste de tous les vins ce qui sont d"+"ans la carte. Retourne m"+"oi"+" le résultat en JSON sans les champs vides avec : nom, couleur, prix,appel"+"lation,région.Fais une extraction immediate (bien si ce n'est pas parfaitement analysé).Ne pas demander une nouvelle photo"
-				//$requete:="à partir de cette carte de vin analyse tous vin ce qui est dans la carte.Je veux une liste de tous les vins ce qui sont d"+"ans la carte.Utilise le prix moyen du vin dans une grande surface s'il n'est pas visible sur l'image. Retourne m"+"oi"+" le résultat en JSON sans les champs vides avec : [result:{ nom,couleur, prix,appel"+"lation,région}].Pour le prix, donne moi les prix classé par volume (au verre, au bouteille, au magnum).Utilise les informations géneraux du vin s'ils ne sont pas affichés."
-				//$requete:="à partir de cette carte de vin analyse tous vin ce qui est dans la carte.Je veux une liste de tous les vins ce qui sont d"+"ans la carte.Utilise le prix moyen du vin dans une grande surface s'il n'est pas visible sur l'image.Classe les vins par volume en fonction de ceux prensent sur la cart( exemple : Verre,Bouteille,1/2 Bouteille, Magnum ...etc..). Retourne m"+"oi"+" le résultat en JSON sans les champs vides avec : [result:{ volume:[nom,couleur, prix,appel"+"lation,région]}].Utilise les informations géneraux du vin s'ils ne sont pas affichés."
-				//$requete:="Tu est un oeunologue de plus de 30 ans, Analyse cette carte des vins et donne moi la liste tous les vins regroupé par contenance (verre, bouteille ou autres). Retourne moi le résultat en JSON sans les champs vides avec : [result:{ contenance:[nom,co"+"uleur, prix,appellation,région, caractéristique du vin (exemple doux, fruité, sec ou autre)]}].Utilise les informations géneraux du vin s'ils ne sont pas affichés."
-				$requete:="Tu est un oeunologue de plus de 30 ans, Analyse cette carte des vins et donne moi la liste tous les vins de cette carte. Retourne moi le résultat en JSON sans les champs vides avec : [result:{[nom,co"+"uleur,appellation,région, caractéristique du vin (exemple doux, fruité, sec ou autre),format:[{contenance,prix}]]}].Utilise les informations géneraux du vin s'ils ne sont pas affichés."
+				
+				$row:=$Prompt.query("Libelle = :1"; "ANALYSE_CARTE_VINS").first()
+				If ($row#Null:C1517)
+					$requete:=$row.Prompt
+				End if 
 				
 			: ($typeData="plat")
-				//$requete:="à partir de cette carte des plats, analyse avec attention seulement chaque plat ce qui est dans la carte.Je veux une liste de tous les plats ce qui sont dans la carte. Retourne moi le résultat en JSON sans les champs vides avec : nom."
-				$requete:="à partir de cette carte des plats, analyse chaque plat ce qui est dans la carte.Je veux une liste de tous les plats qui sont separés par le type de plat(exemple:pizza,pates,steak,dessert). Retourne moi le résultat en JSON sans les champs vi"+"des avec"+" :[result:{nom,categorie}]."
 				
+				$row:=$Prompt.query("Libelle = :1"; "ANALYSE_CARTE_PLATS").first()
+				If ($row#Null:C1517)
+					$requete:=$row.Prompt
+				End if 
 				
 			Else 
 				TRACE:C157
 		End case 
 		
 	: (($typeCategorie="rayon") || ($typeCategorie="cave"))
-		$requete:="à partir de ce rayon dans une grande surface, analyse tous les vins ce qui est dans le rayon.Utilise le prix moyen du vin dans une grande surface s'il n'est pas visible sur l'image.Retourne moi le résultat en JSON sans les champs vides avec les info"+"rmations du vin dans ce format : {result:{nom, couleur, prix,appellation,région}} ."
+		
+		$row:=$Prompt.query("Libelle = :1"; "ANALYSE_RAYON_VINS").first()
+		If ($row#Null:C1517)
+			$requete:=$row.Prompt
+		End if 
 	Else 
 		TRACE:C157
 		
-		
 End case 
 
-
+KST_IA_Log("Sommelier_Vision/INIT"; \
+"uuidUser="+$uuidUser+\
+" ; uuidTable="+$uuidTable+\
+" ; typeData="+$typeData+\
+" ; typeCategorie="+$typeCategorie)
 
 //vrai
 //$jsonBrut:=$client.chat.vision.create($b64; {model: "gpt-5"}).prompt($requete).choice.message.content
@@ -53,6 +72,7 @@ C_OBJECT:C1216($content; $content2; $messagecontentobj)
 $content:=New object:C1471("type"; "text"; "text"; $requete)  // $2 = ton prompt
 
 $content2:=New object:C1471("type"; "image_url"; "image_url"; New object:C1471("url"; $b64))
+//$content2:=New object("type"; "image_url"; "image_url"; New object("url"; $imageUrl))
 
 ARRAY OBJECT:C1221($arrcontent; 0)
 APPEND TO ARRAY:C911($arrcontent; $content)
@@ -116,7 +136,7 @@ If (False:C215)
 End if 
 //$modelIA:="gpt-5-mini"
 $modelIA:="gpt-4.1-mini"
-$payload:=New object:C1471("model"; $modelIA; "max_completion_tokens"; 2800)
+$payload:=New object:C1471("model"; $modelIA; "max_completion_tokens"; 3000)
 //$payload:=New object("model"; $modelIA; "max_completion_tokens"; 5800)
 
 
@@ -129,10 +149,22 @@ CONVERT FROM TEXT:C1011($txtjson; "utf-8"; $request)
 
 $endpoint:="https://api.openai.com/v1/chat/completions"
 
+KST_IA_Log("Sommelier_Vision/INIT"; \
+"uuidUser="+$uuidUser+\
+" ; uuidTable="+$uuidTable+\
+" ; typeData="+$typeData+\
+" ; typeCategorie="+$typeCategorie)
+
 $vhStartTime:=((Current date:C33-!1980-01-01!)*86400)+Current time:C178
 $reponse:=KSF_HTTP_POST($endpoint; $headers; $request)
 $vhEndTime:=((Current date:C33-!1980-01-01!)*86400)+Current time:C178
 $tempsTotal:=$vhEndTime-$vhStartTime
+
+KST_IA_Log("Sommelier_Vision/INIT"; \
+"uuidUser="+$uuidUser+\
+" ; uuidTable="+$uuidTable+\
+" ; typeData="+$typeData+\
+" ; typeCategorie="+$typeCategorie)
 
 C_TEXT:C284($txtmessage)
 $jsonBrut:=$reponse.choices[0].message.content
@@ -144,6 +176,12 @@ $json:=Replace string:C233($json; "```json"; ""; 99999)
 $json:=Replace string:C233($json; "```"; ""; 99999)
 
 $result:=JSON Parse:C1218($json)
+
+KST_IA_Log("Sommelier_Vision/INIT"; \
+"uuidUser="+$uuidUser+\
+" ; uuidTable="+$uuidTable+\
+" ; typeData="+$typeData+\
+" ; typeCategorie="+$typeCategorie)
 
 
 // Si l'enregistrement n'existe pas encore
@@ -178,35 +216,42 @@ If ($uuidTable="")
 	//READ ONLY([Mon_Oenologue])
 Else 
 	
-	// Si l'enregistrement existe déjà
 	$table:=ds:C1482.Mon_Oenologue.query("UUID=:1"; $uuidTable).first()
 	C_OBJECT:C1216($ancienResult; $newResult; $mergedResult)
 	C_COLLECTION:C1488($ancienCollection; $newCollection; $mergedCollection)
 	
 	Case of 
 		: ($typeData="vin")
-			$ancienResult:=$table.Cave
-			
-			
-			$ancienCollection:=OB Get:C1224($ancienResult; "result")
-			$newCollection:=OB Get:C1224($result; "result")
-			
-			$mergedCollection:=New collection:C1472
-			
-			// Append items anciens
-			For each ($item; $ancienCollection)
-				$mergedCollection.push($item)
-			End for each 
-			
-			// Append nouveaux items
-			For each ($item; $newCollection)
-				$mergedCollection.push($item)
-			End for each 
-			
-			// Stocker dans mergedResult
-			$mergedResult:=New object:C1471("result"; $mergedCollection)
-			$table.Cave:=$mergedResult
-			
+			If ($table.Cave=Null:C1517)
+				$table.Cave:=$result
+			Else 
+				$ancienResult:=$table.Cave
+				
+				If (OB Is defined:C1231($ancienResult; "result"))
+					$ancienCollection:=$ancienResult.result
+				Else 
+					$ancienCollection:=New collection:C1472
+				End if 
+				
+				If (OB Is defined:C1231($result; "result"))
+					$newCollection:=$result.result
+				Else 
+					$newCollection:=New collection:C1472
+				End if 
+				
+				$mergedCollection:=New collection:C1472
+				
+				For each ($item; $ancienCollection)
+					$mergedCollection.push($item)
+				End for each 
+				
+				For each ($item; $newCollection)
+					$mergedCollection.push($item)
+				End for each 
+				
+				$mergedResult:=New object:C1471("result"; $mergedCollection)
+				$table.Cave:=$mergedResult
+			End if 
 			
 		: ($typeData="plat")
 			
@@ -242,10 +287,20 @@ Else
 	
 End if 
 
+KST_IA_Log("Sommelier_Vision/INIT"; \
+"uuidUser="+$uuidUser+\
+" ; uuidTable="+$uuidTable+\
+" ; typeData="+$typeData+\
+" ; typeCategorie="+$typeCategorie)
 
 C_OBJECT:C1216($responseObject)
 $responseObject:=New object:C1471("result"; $result; "uuid"; $uuidTable)
 
+KST_IA_Log("Sommelier_Vision/INIT"; \
+"uuidUser="+$uuidUser+\
+" ; uuidTable="+$uuidTable+\
+" ; typeData="+$typeData+\
+" ; typeCategorie="+$typeCategorie)
 
 $jsonSend:=JSON Stringify:C1217($responseObject)
 WEB SEND TEXT:C677($jsonSend; "application/json")
@@ -277,4 +332,3 @@ End while
 [Images_Traitees:34]ModelIA:7:=$modelIA
 SAVE RECORD:C53([Images_Traitees:34])
 UNLOAD RECORD:C212([Images_Traitees:34])
-

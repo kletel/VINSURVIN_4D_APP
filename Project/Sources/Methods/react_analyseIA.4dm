@@ -12,9 +12,12 @@ $uuidUser:=KST_web_Lire_param(->$tVnom; ->$tVal; "uuidUser")
 //$requete:="Vous êtes un caviste expert (30 ans d’expérience). À partir de l’image, décrivez l’étiquette du vin en JSON avec : nom, région, la sous région, le pays, l'appellation, millésime, type, apogée ('APOGEE'), alcool, contenance, conservation"+", site, producteur (nom, adresse), prix moyen, couleur (Rouge,Blanc,Rosé), cépages, domaine, conseils mets et vins ('CONSEIL'), douceur à choisir parmi ces valeurs : ('Sec','pas tout à fait sec', 'demi-sec', 'moelleux', 'doux', 'brut nature', 'ext"+"ra-brut', 'brut', 'extra-dry'). Si des infos manquent, complétez-les selon vos connaissances œnologiques sans retourner de champs vides."
 
 
+$colPrompts:=ds:C1482.Prompt.all().toCollection("Libelle,Prompt")
+$rowPrompt:=$colPrompts.query("Libelle = :1"; "ANALYSE_ETIQUETTE_VIN").first()
+
 //vrai
 //$jsonBrut:=$client.chat.vision.create($b64; {model: "gpt-5"}).prompt($requete).choice.message.content
-$requete:="Vous êtes un caviste expert (30 ans d’expérience). À partir de l’image, décrivez l’étiquette du vin en JSON avec : type_alcool une chaine (vin, bierre ...),nom, région, la sous région, le pays, l'appellation, millésime, type(Tranquille,V"+"DN/VDL"+" (vins mutés/fortifiés), Efferves"+"cent), apogée ('APOGEE'), alcool, contenance, conservation, site, producteur (nom, adresse), prix moyen, couleur (Rouge,Blanc,Rosé), cépages, domaine, conseils mets et vins ('CONSEIL'), douceur à choisir parmi ces valeurs : ('Sec','pas tout à fai"+"t sec', 'demi-sec', 'moelleux', 'doux', 'brut nature', 'extra-brut', 'brut', 'extra-dry'), degustation qui est une chaine d'une liste de plats qui se marient au mieux avec lui séparé par des virgules. Si des infos manquent, complétez-les se"+"lon vos connaissances œnologiques sans r"+"etourner de champs vides."
+$requete:=$rowPrompt.Prompt
 
 $api_key:="sk-proj-Ewo9zxKuLZMJndYONIXVT3BlbkFJwwDmvA3HFW7Stk96w83h"
 $auth:="Bearer "+$api_key
@@ -40,8 +43,8 @@ If (False:C215)
 	$models:=New collection:C1472("gpt-4o"; "gpt-4o-mini"; "gpt-4-turbo"; "gpt-5")
 	
 	// Ouvrir le fichier log
-	$refdoc:=Create document:C266(System folder:C487(Bureau:K41:16)+"Analyse_IA3.txt")
-	$file:=Folder:C1567(fk dossier bureau:K87:19).file("Analyse_IA3.txt")
+	$refdoc:=Create document:C266(System folder:C487(Desktop:K41:16)+"Analyse_IA3.txt")
+	$file:=Folder:C1567(fk desktop folder:K87:19).file("Analyse_IA3.txt")
 	SEND PACKET:C103($refdoc; "Création document "+$file.fullName+Char:C90(13))
 	SEND PACKET:C103($refdoc; "Prompt envoyé avec même image en 0.256 MB :"+Char:C90(13)+Char:C90(13))
 	

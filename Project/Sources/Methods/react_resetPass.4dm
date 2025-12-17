@@ -23,5 +23,5 @@ If ($utilisateur#Null:C1517)
 Else 
 	$obj:=New object:C1471("entete"; "echec"; "message"; "Le lien est invalide..")
 End if 
-$resp:=JSON Stringify:C1217($obj)
+$resp:=JSON Stringify:C1217($obj)XML DECODE:C1091
 WEB SEND TEXT:C677($resp; "application/json")

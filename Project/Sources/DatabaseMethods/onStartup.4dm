@@ -7,6 +7,16 @@ If (Not:C34(Is compiled mode:C492))
 End if 
 
 
+C_TEXT:C284($processName)
+C_LONGINT:C283($processNum)
+
+$processName:="react_BackgroundRecettes"
+$processNum:=Process number:C372($processName)
+
+// On ne lance qu'un seul process de fond
+If ($processNum=0)
+	New process:C317("react_Recette_BackgroundCheck"; 128*64; $processName)
+End if 
 
 If (Application type:C494=5)
 	//DAX_Dev_Initialize 

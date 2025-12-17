@@ -1,20 +1,33 @@
 //%attributes = {}
-C_COLLECTION:C1488($plats)
-C_OBJECT:C1216($plat; $recetteEntity; $param)
+// ─────────────────────────────────────────────
+// Méthode : react_Recette_BackgroundCheck
+// Processus de fond lancé au démarrage
+// ─────────────────────────────────────────────
+
+C_OBJECT:C1216($selRecettes; $recetteEntity)
 C_TEXT:C284($met)
 
-$plats:=ds:C1482.Association.all().toCollection()
+$selRecettes:=ds:C1482.Recette.all()
 
-For each ($plat; $plats)
-	$met:=$plat.Met
+C_LONGINT:C283($i; $count)
+$count:=$selRecettes.length
+
+For ($i; 0; $count-1)
+	$recetteEntity:=$selRecettes[$i]
+	$met:=$recetteEntity.nomMet
 	
-	$recetteEntity:=ds:C1482.Recette.query("nomMet = :1"; $met)
-	
-	If ($recetteEntity.length=0)
-		$param:=New object:C1471("met"; $met)
-		react_analyseIA_Met($param)
-		DELAY PROCESS:C323(Current process:C322; 2)
+	If ($met#"")
+		// Utilise la même protection que ton endpoint (sémaphore par met)
+		While (Semaphore:C143("Recette : "+$met; 10))
+			IDLE:C311  // laisse respirer les autres process
+		End while 
+		
+		// On force la génération d'image si manquante
+		react_EnsureRecetteWithImage($met)
+		
+		CLEAR SEMAPHORE:C144("Recette : "+$met)
+		
 	End if 
-End for each 
+End for 
 
-LOG EVENT:C667("Recette_BackgroundCheck terminé — toutes les recettes manquantes ont été générées.")
+// À la fin, le process se termine tout seul

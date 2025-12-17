@@ -1,4 +1,6 @@
 //%attributes = {"publishedWeb":true}
+C_OBJECT:C1216($prodObj; $adresseObj; $contactObj)
+C_TEXT:C284($adresseTexte)
 ARRAY TEXT:C222($tVnom; 0)
 ARRAY TEXT:C222($tVal; 0)
 WEB GET VARIABLES:C683($tVnom; $tVal)
@@ -38,8 +40,85 @@ If ($verifToken.validate)
 	OB REMOVE:C1226($obj_champsMod; "valeurCave")
 	OB REMOVE:C1226($obj_champsMod; "Reste_en_Cave")
 	
+	If (OB Is defined:C1231($obj_champsMod; "Producteur_Infos"))
+		If (Value type:C1509($obj_champsMod.Producteur_Infos)#Is object:K8:27)
+			$obj_champsMod.Producteur_Infos:=New object:C1471
+		End if 
+		
+		$prodObj:=$obj_champsMod.Producteur_Infos
+		
+		$nomComplet:=""
+		If (OB Is defined:C1231($prodObj; "Prenom") & ($prodObj.Prenom#""))
+			$nomComplet:=$prodObj.Prenom
+		End if 
+		
+		If (OB Is defined:C1231($prodObj; "Nom") & ($prodObj.Nom#""))
+			If ($nomComplet#"")
+				$nomComplet:=$nomComplet+" "
+			End if 
+			$nomComplet:=$nomComplet+$prodObj.Nom
+		End if 
+		
+		If (OB Is defined:C1231($prodObj; "Entreprise") & ($prodObj.Entreprise#""))
+			If ($nomComplet#"")
+				$nomComplet:=$nomComplet+" – "
+			End if 
+			$nomComplet:=$nomComplet+$prodObj.Entreprise
+		End if 
+		
+		If ($nomComplet#"")
+			$obj_champsMod.Producteur:=$nomComplet
+		End if 
+		
+		$adresseTexte:=""
+		If (OB Is defined:C1231($prodObj; "Adresse") & (Value type:C1509($prodObj.Adresse)=Is object:K8:27))
+			$adresseObj:=$prodObj.Adresse
+			C_TEXT:C284($ligne1; $ligne2; $cp; $ville; $pays)
+			
+			$ligne1:=Choose:C955(OB Is defined:C1231($adresseObj; "Ligne1"); String:C10($adresseObj.Ligne1); "")
+			$ligne2:=Choose:C955(OB Is defined:C1231($adresseObj; "Ligne2"); String:C10($adresseObj.Ligne2); "")
+			$cp:=Choose:C955(OB Is defined:C1231($adresseObj; "CodePostal"); String:C10($adresseObj.CodePostal); "")
+			$ville:=Choose:C955(OB Is defined:C1231($adresseObj; "Ville"); String:C10($adresseObj.Ville); "")
+			$pays:=Choose:C955(OB Is defined:C1231($adresseObj; "Pays"); String:C10($adresseObj.Pays); "")
+			
+			If ($ligne1#"")
+				$adresseTexte:=$ligne1
+			End if 
+			If ($ligne2#"")
+				If ($adresseTexte#"")
+					$adresseTexte:=$adresseTexte+Char:C90(Carriage return:K15:38)
+				End if 
+				$adresseTexte:=$adresseTexte+$ligne2
+			End if 
+			
+			If (($cp#"") | ($ville#""))
+				If ($adresseTexte#"")
+					$adresseTexte:=$adresseTexte+Char:C90(Carriage return:K15:38)
+				End if 
+				$adresseTexte:=$adresseTexte+Substring:C12(($cp+" "+$ville); 1; Length:C16($cp+" "+$ville))
+			End if 
+			
+			If ($pays#"")
+				If ($adresseTexte#"")
+					$adresseTexte:=$adresseTexte+Char:C90(Carriage return:K15:38)
+				End if 
+				$adresseTexte:=$adresseTexte+$pays
+			End if 
+		End if 
+		
+		If ($adresseTexte#"")
+			$obj_champsMod.Producteur_Adresse:=$adresseTexte
+		End if 
+		
+	End if 
+	
 	$cave.fromObject($obj_champsMod)
-	$cave.Douceur:=$obj_champsMod.Degustation_Palais.Douceur
+	//$cave.Douceur:=$obj_champsMod.Degustation_Palais.Douceur
+	If (OB Is defined:C1231($obj_champsMod; "Degustation_Palais"))
+		If (OB Is defined:C1231($obj_champsMod.Degustation_Palais; "Douceur"))
+			$cave.Douceur:=$obj_champsMod.Degustation_Palais.Douceur
+		End if 
+	End if 
 	If (BLOB size:C605($blobImg)>0)
 		C_PICTURE:C286($Img)
 		BLOB TO PICTURE:C682($blobImg; $Img)
